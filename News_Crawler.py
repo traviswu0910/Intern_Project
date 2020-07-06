@@ -1,88 +1,51 @@
-from MetaClass import Crawler
-import datetime
-import requests
-from html.parser import HTMLParser
-import time
+from Module_Clean import Clean
+from Module_Crawler import RSS, API
+import pandas as pd
+import glob
+from datetime import datetime
 import json
 
-class RSS_Parser(HTMLParser):
-    def __init__(self):
-        super().__init__()
-        self.cur_stag = []   # list
-        self.content = []    # dic in list [{}, {}]
+today=datetime.now().strftime('%Y-%m-%d')
 
-    def handle_starttag(self, tag, attrs):
-        self.cur_stag.append(tag)
-        if tag == 'item':
-            self.content.append({})
+def get_RSS_data():
+    rss_list = pd.read_excel('News_RSS_list.xlsx')
+    for name, url in zip(rss_list.name, rss_list.url):
+        website = RSS(name, url)
+        website.CrawlerRawData()
+        website.ParseRawData()
+        parsed_data = website.Close()
+        raw_data = website.RawData
 
-    def handle_endtag(self, tag):
-        self.cur_stag.pop()
-
-    def handle_data(self, data):
-        if len(self.cur_stag) >= 4 and \
-                 'item' in self.cur_stag:
-            self.content[-1].update({self.cur_stag[-1]:data})
-
-class RSS(Crawler):
-    def CrawlerRawData(self):
-        self.RawData = requests.get(self.Source).text
-        return (self)
-
-    def __RecordCrawlerTime(self):
-        return (datetime.datetime.strftime(datetime.datetime.now(),"%Y%m%d%H%M%S"))
-
-    def ParseRawData(self):
-        # self.ParsedData = feedparser.parse(self.RawData)
-        self.CrawlerTime['Start'] = self.__RecordCrawlerTime()
-        parser = RSS_Parser()
-        parser.feed(self.RawData)
-        self.ParsedData = parser.content
-        self.CrawlerTime['End'] = self.__RecordCrawlerTime()
-
-class API(Crawler):
-    RawData = ''
-    CrawlerTime = {'Start': 19000101000000, 'End': 21001231235959}
-    ParsedData = [{}]
-
-    def __init__(self, Name, Source):
-        self.Name = Name
-        self.Source = Source
-
-    def CrawlerRawData(self):
-        response = requests.get(self.Source)
-# <<<<<<< HEAD
-#         retry=0
-# =======
-        retry = 0
-# >>>>>>> 97ebe13b7a524f82655659569af60351937bb467
-        while response.status_code != 200 and retry < 3:
-            try:
-                response = requests.get(self.Source)
-                time.sleep(1)
-                retry = 10
-            except Exception:
-                retry = retry + 1
-                time.sleep(1)
-        self.RawData = response.text
-        return (self)
-
-    def __RecordCrawlerTime(self):
-        return (datetime.datetime.strftime(datetime.datetime.now(), "%Y%m%d%H%M%S"))
-
-    def ParseRawData(self):
-        self.CrawlerTime['Start'] = self.__RecordCrawlerTime()
-
-        jd = json.loads(self.RawData)
-        self.ParsedData = jd.get('articles')
-
-        self.CrawlerTime['End'] = self.__RecordCrawlerTime()
-
-    def Close(self):
-        return (self.ParsedData)
+        # save raw data into txt
+        with open(f'./All_Data/News_Rawdata/{today}_{name}.txt', 'w', encoding='utf-8')as f:
+            f.write(raw_data)
+        # save dictionary to json file
+        with open(f'./All_Data/News_ParsedData/{today}_{name}.json', 'w')as f:
+            json.dump(parsed_data, f)
 
 
+def get_API_data():
+    api_list = pd.read_excel('News_API_list.xlsx')
+    for name, url in zip(api_list.name, api_list.url):
+        website = API(name, url)
+        website.CrawlerRawData()
+        #某個網站錯誤時，顯示錯誤，且跳過
+        if json.loads(website.RawData)['status']!='ok':
+            print(f'error : {name}')
+            continue
+        website.ParseRawData()
+        parsed_data = website.Close()
+        raw_data = website.RawData
 
+        # save raw data into txt
+        with open(f'./All_Data/News_Rawdata/{today}_{name}.txt', 'w', encoding='utf-8')as f:
+            f.write(raw_data)
+        # save dictionary to json file
+        with open(f'./All_Data/News_ParsedData/{today}_{name}.json', 'w')as f:
+            json.dump(parsed_data, f)
 
-
-
+            
+if __name__ == '__main__':
+    get_RSS_data()
+    get_API_data()
+    
