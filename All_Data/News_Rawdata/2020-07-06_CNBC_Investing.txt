@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:metadata="http://search.cnbc.com/rss/2.0/modules/siteContentMetadata" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <atom:link rel="self" type="application/rss+xml" href="https://www.cnbc.com/id/15839069/device/rss/rss.html"/>
+    <language>en-us</language>
+    <ttl>60</ttl>
+    <title>Investing</title>
+    <feed_asset>
+      <id>15839069</id>
+      <type>franchise</type>
+      <subtype>section</subtype>
+      <seo>https://www.cnbc.com/investing/</seo>
+    </feed_asset>
+    <lastBuildDate>Mon, 06 Jul 2020 03:13 GMT</lastBuildDate>
+    <pubDate>Mon, 06 Jul 2020 03:13 GMT</pubDate>
+    <link>https://www.cnbc.com/investing/</link>
+    <description><![CDATA[Expert Analysis, Investment Tools, Stock Screeners, and Financial Strategy Information.]]></description>
+    <item>
+      <link>https://www.cnbc.com/2020/07/06/hong-kong-national-security-law-may-spook-socially-conscious-investors.html</link>
+      <guid isPermaLink="false">106602164</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106602164</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Hong Kong national security law may spook socially conscious investors, sparking outflows</title>
+      <description><![CDATA[Investors who take a sustainable approach to allocating capital may be reevaluating putting their money into Hong Kong after the city implemented a national security law, an analyst said on Friday.]]></description>
+      <pubDate>Mon, 06 Jul 2020 02:51:35 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/05/warren-buffetts-berkshire-buys-dominion-energy-natural-gas-assets-in-10-billion-deal.html</link>
+      <guid isPermaLink="false">106603449</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106603449</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Warren Buffett&apos;s Berkshire buys Dominion Energy natural gas assets in $10 billion deal</title>
+      <description><![CDATA[It's the first major purchase from Berkshire since the coronavirus pandemic and subsequent market collapse in March.]]></description>
+      <pubDate>Sun, 05 Jul 2020 21:31:29 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/05/bet-on-stocks-like-tesla-uber-gilead-sciences-in-the-third-quarter.html</link>
+      <guid isPermaLink="false">106601654</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106601654</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Top Wall Street analysts are betting on stocks like Tesla and Uber for the third quarter</title>
+      <description><![CDATA[We used TipRanks analyst ranking service to pinpoint Wall Street's best-performing analysts.]]></description>
+      <pubDate>Sun, 05 Jul 2020 18:56:08 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/02/momentus-brings-last-mile-delivery-to-satellites-launched-on-any-rocket.html</link>
+      <guid isPermaLink="false">106587332</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106587332</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Space startup Momentus provides &apos;last mile delivery&apos; for satellites launched on any rocket</title>
+      <description><![CDATA[Space startup Momentus has so far struck $40 million worth of customer contracts this year,]]></description>
+      <pubDate>Fri, 03 Jul 2020 15:31:09 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/30/amazons-aws-establishes-aerospace-and-satellite-solutions-space-unit.html</link>
+      <guid isPermaLink="false">106597554</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106597554</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Amazon&apos;s AWS establishes new aerospace cloud unit as Jeff Bezos increases bets on outer space</title>
+      <description><![CDATA[Amazon Web Services, the cloud-computing branch of the e-commerce giant, is further expanding its services in the growing space industry.]]></description>
+      <pubDate>Tue, 30 Jun 2020 15:05:13 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/29/wells-fargo-says-it-expects-to-cut-dividend-in-the-third-quarter.html</link>
+      <guid isPermaLink="false">106596442</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106596442</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Wells Fargo says it expects to cut dividend in the third quarter to comply with Fed stress test</title>
+      <description><![CDATA[The bank said it will likely announce a lower dividend on July 14 when it releases quarterly earnings.]]></description>
+      <pubDate>Mon, 29 Jun 2020 21:22:20 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/29/bank-of-america-citi-and-goldman-keep-dividends-the-same-post-stress-tests-wells-fargo-to-cut.html</link>
+      <guid isPermaLink="false">106596427</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106596427</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>JPMorgan, Bank of America, Citi and Goldman maintain dividends post-stress tests, Wells Fargo to cut</title>
+      <description><![CDATA[Goldman, Bank of America, Morgan Stanley, and Citigroup all said they will maintain their dividend. Wells Fargo, however, said it will cut.]]></description>
+      <pubDate>Mon, 29 Jun 2020 21:46:13 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/29/behind-chesapeake-bankruptcy-hidden-wine-cave-110-million-parking-bill.html</link>
+      <guid isPermaLink="false">106596172</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106596172</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Hidden wine cave, $110 million parking bill: Energy collapse wasn&apos;t only thing that sank Chesapeake</title>
+      <description><![CDATA[The fracking giant's bankruptcy filing followed an accounting mess at the company that included no budgets, a massive wine collection and a nine-figure bill for parking garages.]]></description>
+      <pubDate>Mon, 29 Jun 2020 17:59:00 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/29/blackrock-sees-risks-for-us-stocks-in-the-second-half-from-virus-and-politics.html</link>
+      <guid isPermaLink="false">106593974</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106593974</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>BlackRock sees risks for U.S. stocks in the second half from virus and politics</title>
+      <description><![CDATA[BlackRock's global chief investment strategist said stocks face second-half risks from fading fiscal stimulus and potential election volatility.]]></description>
+      <pubDate>Mon, 29 Jun 2020 18:10:31 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/28/chesapeake-energy-a-pioneer-in-the-us-shale-revolution-files-for-bankruptcy-protection.html</link>
+      <guid isPermaLink="false">106595476</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106595476</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Chesapeake Energy, a pioneer in the U.S. shale revolution, files for bankruptcy protection</title>
+      <description><![CDATA[Chesapeake Energy, the poster child of the U.S. shale revolution, filed for bankruptcy protection on Sunday.]]></description>
+      <pubDate>Mon, 29 Jun 2020 13:18:40 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/28/analysts-are-betting-on-stocks-like-nvidia-mastercard.html</link>
+      <guid isPermaLink="false">106593553</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106593553</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Top analysts are betting on stocks like Mastercard and Nvidia right now into the second half</title>
+      <description><![CDATA[We used TipRanks analyst ranking service to pinpoint Wall Street's best-performing analysts.]]></description>
+      <pubDate>Sun, 28 Jun 2020 12:36:20 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/27/credit-card-industry-reins-in-balance-transfer-offers-as-banks-from-jpmorgan-to-amex-fear-defaults.html</link>
+      <guid isPermaLink="false">106593841</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106593841</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Credit card industry reins in balance-transfer offers as banks from JPMorgan to Amex fear defaults</title>
+      <description><![CDATA[When the economy was booming, credit card issuers fell over themselves to lure borrowers and their debt, mailing hundreds of millions of no-interest solicitations.]]></description>
+      <pubDate>Sat, 27 Jun 2020 17:35:34 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/27/nikola-is-a-social-investing-home-run-for-jeff-ubben-as-he-launches-new-fund.html</link>
+      <guid isPermaLink="false">106593807</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106593807</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Nikola is a social investing home run for Jeff Ubben as he launches new fund</title>
+      <description><![CDATA[Ubben through this trade has turned $154 million of investors' money into $1.46 billion]]></description>
+      <pubDate>Sat, 27 Jun 2020 12:47:01 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/26/with-the-second-quarter-almost-over-what-companies-earned-is-anyones-guess.html</link>
+      <guid isPermaLink="false">106592685</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106592685</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>With the second quarter almost over, what companies earned is anyone&apos;s guess</title>
+      <description><![CDATA[The second quarter is nearly over, and analysts still are clueless about what earnings companies will be reporting.]]></description>
+      <pubDate>Fri, 26 Jun 2020 14:16:49 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/25/virgin-galactic-spce-completes-second-glide-test-rocket-powered-flights-next.html</link>
+      <guid isPermaLink="false">106592471</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106592471</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Virgin Galactic completes second New Mexico glide test, with rocket-powered flights expected next</title>
+      <description><![CDATA[Virgin Galactic successfully completed its second glide flight test in New Mexico on Thursday.]]></description>
+      <pubDate>Thu, 25 Jun 2020 21:06:52 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/25/as-rising-virus-cases-spook-markets-investors-watching-these-metrics-are-not-turning-bearish-yet.html</link>
+      <guid isPermaLink="false">106589039</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106589039</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>As rising virus cases spook markets, investors watching these metrics are not turning bearish yet</title>
+      <description><![CDATA[Strategists say they are now paying attention to a more refined set of disease metrics when deciding when to sell.]]></description>
+      <pubDate>Thu, 25 Jun 2020 16:14:04 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/25/cramer-worries-after-big-1999-like-stock-rally-from-coronavirus-lows.html</link>
+      <guid isPermaLink="false">106591931</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106591931</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Cramer worries about stocks after their big &apos;1999-like&apos; rally from March coronavirus lows</title>
+      <description><![CDATA["Long term I'm bullish," CNBC's Jim Cramer said Thursday. But he added, "I have to stick by, if you haven't taken a little bit off, I think you have to."]]></description>
+      <pubDate>Thu, 25 Jun 2020 16:51:20 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/25/bank-stocks-reverse-higher-as-regulators-ease-volcker-rule-jpmorgan-chase-rises-2percent.html</link>
+      <guid isPermaLink="false">106592043</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106592043</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Bank stocks surge after regulators ease Volcker Rule, JPMorgan Chase climbs 2%</title>
+      <description><![CDATA[The move is in line with the Trump administration's broad push to roll back regulations.]]></description>
+      <pubDate>Fri, 26 Jun 2020 13:04:50 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/25/mohamed-el-erian-explains-why-he-is-waiting-to-put-cash-to-work.html</link>
+      <guid isPermaLink="false">106591733</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106591733</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>El-Erian says he&apos;s waiting to put cash to work until the market finds another reason to go higher</title>
+      <description><![CDATA["The big question is, what is the next anchor for markets? And it's not clear to me where that's going to come from," Allianz's Mohamed El-Erian told CNBC on Thursday.]]></description>
+      <pubDate>Thu, 25 Jun 2020 12:56:34 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/25/brokers-will-have-to-tell-you-a-lot-more-about-what-they-are-advising-you-to-buy-starting-next-week.html</link>
+      <guid isPermaLink="false">106591035</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106591035</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Brokers will have to tell you a lot more about what they are advising you to buy starting next week</title>
+      <description><![CDATA[Regulation Best Interest takes effect June 30, requiring broker-dealers to act in the best interest of their clients.]]></description>
+      <pubDate>Thu, 25 Jun 2020 11:11:37 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/24/accurate-economic-research-group-using-math-derived-from-skull-measurements-sees-slower-recovery.html</link>
+      <guid isPermaLink="false">106590122</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106590122</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Accurate economic research group using math derived from skull measurements sees slower recovery</title>
+      <description><![CDATA[The recovery is most likely to be "U-shaped" where the economy gradually climbs out of a recession, a study at MIT and State Street said.]]></description>
+      <pubDate>Wed, 24 Jun 2020 16:33:47 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/24/maxar-ceo-140-million-buyout-of-vricon-will-supercharge-satellite-imagery.html</link>
+      <guid isPermaLink="false">106589494</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106589494</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Maxar&apos;s $140 million buyout of 3D analytics firm will &apos;supercharge&apos; satellite imagery, CEO says</title>
+      <description><![CDATA[Space company Maxar Technologies is taking full ownership of 3D analytics firm Vricon from Swedish aerospace firm Saab.]]></description>
+      <pubDate>Wed, 24 Jun 2020 20:01:57 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/24/cramer-sees-troubling-signs-for-market-says-its-ok-to-sell-winners.html</link>
+      <guid isPermaLink="false">106590333</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106590333</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Cramer sees troubling signs for the market, says it&apos;s OK to sell some winners and make money</title>
+      <description><![CDATA["I think that sometimes we forget why we own stocks. We own stocks to create wealth," CNBC's Jim Cramer said on Wednesday.]]></description>
+      <pubDate>Wed, 24 Jun 2020 15:14:36 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/24/investing-in-chinese-stocks-amid-coronavirus-and-tensions-with-the-us.html</link>
+      <guid isPermaLink="false">106587940</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106587940</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Here&apos;s how to trade Chinese stocks during rising tensions with the U.S. and a pandemic</title>
+      <description><![CDATA[There's still opportunities for investors in Chinese stocks, despite increased tensions over trade, the coronavirus and geopolitical issues.]]></description>
+      <pubDate>Wed, 24 Jun 2020 03:04:57 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/22/barstool-dave-portnoy-to-focus-on-sports-betting-when-sports-return.html</link>
+      <guid isPermaLink="false">106587757</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106587757</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Barstool&apos;s Dave Portnoy says he&apos;ll focus on sports betting when sports return</title>
+      <description><![CDATA["I'm enjoying the stock stuff ... It's been fun ... but I'm a sports guy. I'm a sports better," Barstool Sports founder Dave Portnoy said after jumping into day trading.]]></description>
+      <pubDate>Mon, 22 Jun 2020 23:06:50 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/22/bill-ackmans-new-blank-check-company-will-be-a-4-billion-bet-on-a-so-called-mature-unicorn.html</link>
+      <guid isPermaLink="false">106587446</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106587446</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Bill Ackman&apos;s new blank check company may be a $4 billion bet on a so-called Mature Unicorn</title>
+      <description><![CDATA[Bill Ackman's new investment vehicle Pershing Square Tontine Holdings plans to offer 150 million shares at $20 apiece, according to a Securities and Exchange Commission filing.]]></description>
+      <pubDate>Tue, 23 Jun 2020 22:27:22 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/22/virgin-galactic-signs-nasa-agreement-to-use-flights-to-train-astronauts.html</link>
+      <guid isPermaLink="false">106586775</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106586775</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Shares of Virgin Galactic surge after announcement that it will train astronauts for NASA</title>
+      <description><![CDATA[Virgin Galactic signed an agreement with NASA that will allow the space tourism venture to train astronauts for trips to the International Space Station.]]></description>
+      <pubDate>Tue, 23 Jun 2020 00:22:29 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/21/analysts-are-betting-on.html</link>
+      <guid isPermaLink="false">106583092</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106583092</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Wall Street&apos;s best-performing analysts like these 5 stocks right now amid the market turmoil</title>
+      <description><![CDATA[We used TipRanks analyst ranking service to identify Wall Street's best-performing analysts.]]></description>
+      <pubDate>Wed, 24 Jun 2020 09:50:39 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/19/jana-partners-pushes-for-changes-at-a-government-contractor-with-an-activist-friendly-chairman.html</link>
+      <guid isPermaLink="false">106584902</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106584902</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>JANA Partners pushes for changes at a government contractor with an activist-friendly chairman</title>
+      <description><![CDATA[JANA Partners is a very experienced activist investor with experience in this industry.]]></description>
+      <pubDate>Sat, 20 Jun 2020 12:08:32 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/19/robinhood-increases-guardrails-on-options-trading-in-the-wake-of-a-customer-suicide.html</link>
+      <guid isPermaLink="false">106585211</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106585211</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Robinhood increases guardrails on options trading in the wake of a customer suicide</title>
+      <description><![CDATA[Robinhood is making it more difficult to get access to its options offering in the wake of a customer's suicide last week.]]></description>
+      <pubDate>Fri, 19 Jun 2020 21:47:02 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

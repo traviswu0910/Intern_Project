@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:metadata="http://search.cnbc.com/rss/2.0/modules/siteContentMetadata" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <atom:link rel="self" type="application/rss+xml" href="https://www.cnbc.com/id/15839135/device/rss/rss.html"/>
+    <language>en-us</language>
+    <ttl>60</ttl>
+    <title>Earnings</title>
+    <feed_asset>
+      <id>15839135</id>
+      <type>franchise</type>
+      <subtype>section</subtype>
+      <seo>https://www.cnbc.com/earnings/</seo>
+    </feed_asset>
+    <lastBuildDate>Wed, 01 Jul 2020 13:46 GMT</lastBuildDate>
+    <pubDate>Wed, 01 Jul 2020 13:46 GMT</pubDate>
+    <link>https://www.cnbc.com/earnings/</link>
+    <description><![CDATA[Corporate Company Earnings, Find Earnings Per Share and Earnings History Online]]></description>
+    <item>
+      <link>https://www.cnbc.com/2020/07/01/macys-says-regional-coronavirus-flare-ups-will-hurt-sales.html</link>
+      <guid isPermaLink="false">106599370</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106599370</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Rocky road ahead at Macy&apos;s, potential &apos;regional flare-ups,&apos; with Covid-19 cases surging in some states</title>
+      <description><![CDATA[The road to recovery at Macy's is likely going to be a rocky one because of the coronavirus pandemic. The retailer warned Wednesday that sales are falling again in states such as Texas where Covid-19 cases are on the rise.]]></description>
+      <pubDate>Wed, 01 Jul 2020 17:47:42 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/01/michael-kors-owner-capri-estimates-70percent-plunge-in-first-quarter-revenue.html</link>
+      <guid isPermaLink="false">106599516</guid>
+      <metadata:type>wirestory</metadata:type>
+      <metadata:id>106599516</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Michael Kors owner Capri estimates 70% plunge in first-quarter revenue</title>
+      <description><![CDATA[Michael Kors owner Capri Holdings on Wednesday estimated a 70% slump in first-quarter sales after the coronavirus hammered luxury sales.]]></description>
+      <pubDate>Wed, 01 Jul 2020 13:15:24 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/01/macys-m-reports-q1-2020-loss-per-share.html</link>
+      <guid isPermaLink="false">106597561</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106597561</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Macy&apos;s reports first-quarter loss but does not expect &apos;another full shutdown&apos;</title>
+      <description><![CDATA[Macy's on Wednesday reported a first-quarter loss, in line with the retailer's previously announced estimates, as its business took a hit from the coronavirus pandemic.]]></description>
+      <pubDate>Wed, 01 Jul 2020 12:26:05 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/01/fedex-fdx-earnings-q4-2020.html</link>
+      <guid isPermaLink="false">106599233</guid>
+      <metadata:type>wirestory</metadata:type>
+      <metadata:id>106599233</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>FedEx shares jump over 9% as quarterly results top expectations</title>
+      <description><![CDATA[Shares of FedEx jumped 9.4% in extended trading on Tuesday after a surge in pandemic-fueled home deliveries helped the U.S. package carrier post better-than-expected quarterly profit and revenue.]]></description>
+      <pubDate>Wed, 01 Jul 2020 10:25:47 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/30/us-corporate-earnings-are-likely-to-disappoint-economist-says.html</link>
+      <guid isPermaLink="false">106597348</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106597348</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>U.S. market is &apos;smoking dope on earnings&apos; and investors are likely to be disappointed, economist says</title>
+      <description><![CDATA[Investors should stay bearish on U.S. stocks until the full extent of the economic damage caused by the coronavirus pandemic is known, according to TS Lombard.]]></description>
+      <pubDate>Tue, 30 Jun 2020 13:45:41 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/30/micron-technology-mu-earnings-q3-2020.html</link>
+      <guid isPermaLink="false">106597386</guid>
+      <metadata:type>wirestory</metadata:type>
+      <metadata:id>106597386</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Micron to shift some chip supply to data centers as cloud powers earnings beat</title>
+      <description><![CDATA[Micron Technology on Monday forecast current-quarter revenue above Wall Street estimates as home-bound employees and students spur demand for its chips that power notebooks and data centers, sending its shares up 6% in after-market trading.]]></description>
+      <pubDate>Tue, 30 Jun 2020 10:32:50 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/29/burger-kings-us-same-store-sales-are-flat-as-fast-food-customers-return.html</link>
+      <guid isPermaLink="false">106595884</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106595884</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Burger King&apos;s U.S. same-store sales are flat as fast-food customers return to restaurants</title>
+      <description><![CDATA[Burger King's U.S. same-store sales are trending flat as customers return to its locations for Whoppers and french fries.]]></description>
+      <pubDate>Mon, 29 Jun 2020 13:46:19 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/26/with-the-second-quarter-almost-over-what-companies-earned-is-anyones-guess.html</link>
+      <guid isPermaLink="false">106592685</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106592685</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>With the second quarter almost over, what companies earned is anyone&apos;s guess</title>
+      <description><![CDATA[The second quarter is nearly over, and analysts still are clueless about what earnings companies will be reporting.]]></description>
+      <pubDate>Fri, 26 Jun 2020 14:16:49 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/25/nike-nke-reports-q4-2020-earnings.html</link>
+      <guid isPermaLink="false">106587040</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106587040</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Nike reports unexpected loss as sales tumble 38%, shares fall</title>
+      <description><![CDATA[Even Nike, often lauded as one of the strongest global brands in the retail industry, is taking a hit from the coronavirus pandemic.]]></description>
+      <pubDate>Thu, 25 Jun 2020 22:18:47 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/25/darden-restaurants-dri-q4-2020-earnings.html</link>
+      <guid isPermaLink="false">106590487</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106590487</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Olive Garden parent swings to a loss as sales plunge 43%</title>
+      <description><![CDATA[Darden Restaurants reported that same-store sales were nearly cut in half during the fiscal fourth quarter.]]></description>
+      <pubDate>Thu, 25 Jun 2020 14:34:27 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/16/oracle-orcl-earnings-q4-2020.html</link>
+      <guid isPermaLink="false">106579923</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106579923</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Oracle slides on revenue decline</title>
+      <description><![CDATA[Sales declines returned as Oracle kept doing business through the pandemic.]]></description>
+      <pubDate>Tue, 16 Jun 2020 22:07:24 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/11/lululemon-lulu-reports-fiscal-q1-2020-earnings.html</link>
+      <guid isPermaLink="false">106572462</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106572462</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Lululemon sales fall 17% as retailer takes hit from stores being closed, shares drop</title>
+      <description><![CDATA[Lululemon reported a first-quarter sales decline of 17%, as its strong digital business wasn't enough to offset the losses from its stores being temporarily shut due to the coronavirus pandemic.]]></description>
+      <pubDate>Thu, 11 Jun 2020 22:02:24 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/10/taco-bell-same-store-sales-decline-as-chain-loses-breakfast-and-late-night-customers.html</link>
+      <guid isPermaLink="false">106572288</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106572288</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Taco Bell same-store sales decline as chain loses breakfast and late-night customers</title>
+      <description><![CDATA[Yum Brands said Tuesday that Taco Bell's U.S. same-store sales have declined by high-single digits so far in the quarter.]]></description>
+      <pubDate>Wed, 10 Jun 2020 13:53:42 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/10/starbucks-says-it-lost-3-billion-in-revenue-in-latest-quarter-due-to-coronavirus-pandemic.html</link>
+      <guid isPermaLink="false">106572143</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106572143</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Starbucks says it lost $3 billion in revenue in latest quarter due to coronavirus pandemic</title>
+      <description><![CDATA[Starbucks expects to swing to a loss in its fiscal third quarter as the company predicts it lost as much as $3.2 billion in revenue due to the pandemic.]]></description>
+      <pubDate>Wed, 10 Jun 2020 14:36:27 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/09/macys-shares-soar-company-says-reopened-stores-topping-expectations.html</link>
+      <guid isPermaLink="false">106569693</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106569693</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Macy&apos;s stock rally collapses, shares tumble after company warns &apos;gradual&apos; recovery ahead</title>
+      <description><![CDATA[During a virtual fireside chat with Cowen & Co. analyst Oliver Chen, Macy's Chief Financial Officer Felicia Williams said the company does not expect sales trends to normalize until 2021 or possibly 2022.]]></description>
+      <pubDate>Tue, 09 Jun 2020 17:31:50 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/09/tiffany-tif-1q-2020-earnings.html</link>
+      <guid isPermaLink="false">106565386</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106565386</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Tiffany says same-store sales fell 44%, LVMH deal clearing regulatory hurdles</title>
+      <description><![CDATA[The U.S. jewelry maker said Tuesday in an earnings release that its same-store sales were down about 44% in the fiscal first quarter, but said demand has picked up again in China.]]></description>
+      <pubDate>Tue, 09 Jun 2020 15:18:45 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/08/stitch-fix-sfix-reports-fiscal-q3-2020-net-loss.html</link>
+      <guid isPermaLink="false">106569348</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106569348</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Stitch Fix sales fell 9% as coronavirus delayed orders, sees sales growth ahead as backlog clears</title>
+      <description><![CDATA[Stitch Fix on Monday reported a quarterly sales decline of 9%, and a wider-than-expected net loss.]]></description>
+      <pubDate>Tue, 09 Jun 2020 10:52:07 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/05/slack-stock-down-after-q1-earnings-slower-growth-than-zoom.html</link>
+      <guid isPermaLink="false">106566721</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106566721</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Slack shares close down more than 14% after earnings show far slower growth than Zoom</title>
+      <description><![CDATA[Slack reported that it grew revenue 50% during the quarter, compared with 49% last quarter, on an annualized basis.]]></description>
+      <pubDate>Fri, 05 Jun 2020 20:02:10 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/05/barry-diller-says-expedia-and-iac-wont-be-giving-earnings-guidance-anymore.html</link>
+      <guid isPermaLink="false">106566678</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106566678</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Barry Diller calls for an end to &apos;absurd&apos; earnings guidance, says his firms won&apos;t do it anymore</title>
+      <description><![CDATA["Guidance is a bad business. We're out. We're not doing it anymore," the billionaire businessman told CNBC.]]></description>
+      <pubDate>Fri, 05 Jun 2020 14:35:43 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/04/slack-work-earnings-q1-2021.html</link>
+      <guid isPermaLink="false">106565365</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106565365</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Slack shares sink as revenue growth remains steady despite pandemic</title>
+      <description><![CDATA[Slack's revenue growth slightly picked up as coronavirus sent people home from work.]]></description>
+      <pubDate>Fri, 05 Jun 2020 00:24:11 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/04/gap-gps-reports-q1-2020-net-loss-shares-fall.html</link>
+      <guid isPermaLink="false">106565190</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106565190</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Gap&apos;s sales fall 43% as retailer takes hit from coronavirus pandemic; shares dive</title>
+      <description><![CDATA[Gap Inc.'s first-quarter sales fell 43%, the clothing maker reported Thursday, as its stores were shut for much of the period due to the coronavirus pandemic.]]></description>
+      <pubDate>Thu, 04 Jun 2020 23:10:16 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/05/broadcoms-revenue-forecast-disappoints-on-weakness-in-chip-business.html</link>
+      <guid isPermaLink="false">106566629</guid>
+      <metadata:type>wirestory</metadata:type>
+      <metadata:id>106566629</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Broadcom&apos;s revenue forecast disappoints on weakness in chip business</title>
+      <description><![CDATA[Broadcom forecast current-quarter revenue, the mid-point of which was slightly below Wall Street estimates as its chip business was weighed down by the impact of the coronavirus crisis on global supply chains.]]></description>
+      <pubDate>Fri, 05 Jun 2020 10:12:03 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/03/campbell-soup-cpb-earnings-q3-2020.html</link>
+      <guid isPermaLink="false">106563273</guid>
+      <metadata:type>wirestory</metadata:type>
+      <metadata:id>106563273</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Campbell Soup raises 2020 forecasts on strong sales in pandemic</title>
+      <description><![CDATA[The maker of Prego pasta sauce and Goldfish crackers now expects fiscal 2020 adjusted earnings per share of $2.87 to $2.92, up from its prior range of $2.55 to $2.60.]]></description>
+      <pubDate>Wed, 03 Jun 2020 13:33:25 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/03/american-eagle-aeo-earnings-q1-2020.html</link>
+      <guid isPermaLink="false">106563271</guid>
+      <metadata:type>wirestory</metadata:type>
+      <metadata:id>106563271</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>American Eagle posts bigger-than-expected loss on virus-led store closures</title>
+      <description><![CDATA[The company said its net loss stood at $257.2 million, or $1.54 per share, in the quarter ended May 2, compared with a profit of $40.8 million, or 23 cents per share, a year earlier, mainly due to an impairment charge of about $156 million.]]></description>
+      <pubDate>Wed, 03 Jun 2020 13:30:15 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/02/zoom-zm-earnings-q1-2021.html</link>
+      <guid isPermaLink="false">106561885</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106561885</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Zoom revenue grew 169% during the quarter, and the company doubled its revenue guidance for the year</title>
+      <description><![CDATA[Zoom has been a darling of the work-from-home culture brought on by coronavirus, and the company's revenue growth accelerated in its most recent quarter.]]></description>
+      <pubDate>Thu, 04 Jun 2020 20:39:31 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/02/dicks-sporting-goods-dks-reports-q1-net-loss-sales-down-30percent.html</link>
+      <guid isPermaLink="false">106561511</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106561511</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Dick&apos;s Sporting Goods&apos; same-store sales fall almost 30% during coronavirus pandemic</title>
+      <description><![CDATA[Dick's Sporting Goods reported a decline in first-quarter same-store sales of almost 30%, as its stores across the country were shut by the coronavirus crisis.]]></description>
+      <pubDate>Tue, 02 Jun 2020 12:42:05 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/05/28/popeyes-us-same-store-sales-soar-more-than-40percent.html</link>
+      <guid isPermaLink="false">106555394</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106555394</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Popeyes U.S. same-store sales soar more than 40%</title>
+      <description><![CDATA[Restaurant Brands International said Thursday that Popeyes' U.S. same-store sales have soared more than 40% as of the third full week of May.]]></description>
+      <pubDate>Thu, 28 May 2020 18:00:27 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/05/28/abercrombie-fitch-anf-reports-q1-2020-loss-shares-fall.html</link>
+      <guid isPermaLink="false">106554218</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106554218</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Abercrombie &amp; Fitch sales fall 34%, with stores forced shut during coronavirus pandemic; shares fall</title>
+      <description><![CDATA[Abercrombie & Fitch said its sales tanked 34% during the first quarter as its stores were forced shut during the coronavirus pandemic.]]></description>
+      <pubDate>Thu, 28 May 2020 14:18:29 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/05/28/box-earnings-q1-2021.html</link>
+      <guid isPermaLink="false">106555131</guid>
+      <metadata:type>wirestory</metadata:type>
+      <metadata:id>106555131</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Box forecasts full-year revenue above estimates on remote-work boost</title>
+      <description><![CDATA[Box forecast annual revenue above analysts' estimates and beat targets for quarterly sales on Wednesday, as demand rises for its online collaboration tools due to the global shift to work from home caused by the Covid-19 pandemic.]]></description>
+      <pubDate>Thu, 28 May 2020 10:44:28 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/05/28/toll-brothers-tol-earnings-q2-2020.html</link>
+      <guid isPermaLink="false">106555155</guid>
+      <metadata:type>wirestory</metadata:type>
+      <metadata:id>106555155</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Luxury homebuilder Toll Brothers scraps 2020 forecast on Covid-19 woes</title>
+      <description><![CDATA[U.S. luxury homebuilder Toll Brothers on Wednesday withdrew its full-year forecast and warned it would not provide such guidance for the foreseeable future due to uncertainty caused by the Covid-19 pandemic.]]></description>
+      <pubDate>Thu, 28 May 2020 10:54:22 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.marketwatch.com/~d/styles/itemcontent.css"?><rss version="2.0">
+<channel>
+<title>MarketWatch.com - Top Stories</title>
+<link>http://www.marketwatch.com/</link>
+<description>MarketWatch, a leading publisher of business and financial news, offers users up-to-the minute news, investment tools, and subscription products.</description>
+<language>en-us</language>
+<copyright>Copyright 2020, MarketWatch, Inc.</copyright>
+<ttl>60</ttl>
+<image>
+<title>MarketWatch.com - Top Stories</title>
+<url>https://www.marketwatch.com/rss/marketwatch.gif</url>
+<link>http://www.marketwatch.com/</link>
+</image>
+<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.marketwatch.com/marketwatch/topstories" /><feedburner:info xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" uri="marketwatch/topstories" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><feedburner:feedFlare xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" href="https://add.my.yahoo.com/rss?url=http%3A%2F%2Ffeeds.marketwatch.com%2Fmarketwatch%2Ftopstories" src="http://us.i1.yimg.com/us.yimg.com/i/us/my/addtomyyahoo4.gif">Subscribe with My Yahoo!</feedburner:feedFlare><feedburner:feedFlare xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" href="http://www.newsgator.com/ngs/subscriber/subext.aspx?url=http%3A%2F%2Ffeeds.marketwatch.com%2Fmarketwatch%2Ftopstories" src="http://www.newsgator.com/images/ngsub1.gif">Subscribe with NewsGator</feedburner:feedFlare><feedburner:feedFlare xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" href="http://feeds.my.aol.com/add.jsp?url=http%3A%2F%2Ffeeds.marketwatch.com%2Fmarketwatch%2Ftopstories" src="http://o.aolcdn.com/favorites.my.aol.com/webmaster/ffclient/webroot/locale/en-US/images/myAOLButtonSmall.gif">Subscribe with My AOL</feedburner:feedFlare><feedburner:feedFlare xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" href="http://www.bloglines.com/sub/http://feeds.marketwatch.com/marketwatch/topstories" src="http://www.bloglines.com/images/sub_modern11.gif">Subscribe with Bloglines</feedburner:feedFlare><feedburner:feedFlare xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" href="http://www.netvibes.com/subscribe.php?url=http%3A%2F%2Ffeeds.marketwatch.com%2Fmarketwatch%2Ftopstories" src="//www.netvibes.com/img/add2netvibes.gif">Subscribe with Netvibes</feedburner:feedFlare><feedburner:feedFlare xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" href="http://fusion.google.com/add?feedurl=http%3A%2F%2Ffeeds.marketwatch.com%2Fmarketwatch%2Ftopstories" src="http://buttons.googlesyndication.com/fusion/add.gif">Subscribe with Google</feedburner:feedFlare><feedburner:feedFlare xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" href="http://www.pageflakes.com/subscribe.aspx?url=http%3A%2F%2Ffeeds.marketwatch.com%2Fmarketwatch%2Ftopstories" src="http://www.pageflakes.com/ImageFile.ashx?instanceId=Static_4&amp;fileName=ATP_blu_91x17.gif">Subscribe with Pageflakes</feedburner:feedFlare><item>
+<title>‘It’s dangerous NOT to be sending a clear message to Americans’: U.S. hits 143,500 new coronavirus cases over July 4th Holiday </title>
+<link>http://www.marketwatch.com/news/story.asp?guid=%7B9606660C-BED7-11EA-8375-B127F8279466%7D&amp;siteid=rss&amp;rss=1</link>
+<description>Florida reported 10,059 new cases Sunday after reporting 11,458 new cases Saturday, which was second only to the daily peak of 11,571 in New York last April.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.marketwatch.com/~ff/marketwatch/topstories?a=BTfZKOnr0kg:4q1jc3zIxSY:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/marketwatch/topstories?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.marketwatch.com/~ff/marketwatch/topstories?a=BTfZKOnr0kg:4q1jc3zIxSY:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/marketwatch/topstories?i=BTfZKOnr0kg:4q1jc3zIxSY:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.marketwatch.com/~ff/marketwatch/topstories?a=BTfZKOnr0kg:4q1jc3zIxSY:V_sGLiPBpWU"&gt;&lt;img src="http://feeds.feedburner.com/~ff/marketwatch/topstories?i=BTfZKOnr0kg:4q1jc3zIxSY:V_sGLiPBpWU" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.marketwatch.com/~ff/marketwatch/topstories?a=BTfZKOnr0kg:4q1jc3zIxSY:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/marketwatch/topstories?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/marketwatch/topstories/~4/BTfZKOnr0kg" height="1" width="1" alt=""/&gt;</description>
+<pubDate>Mon, 06 Jul 2020 02:52:32 GMT</pubDate>
+<guid isPermaLink="false">{9606660C-BED7-11EA-8375-B127F8279466}</guid>
+</item>
+<item>
+<title>The Margin: Refusing to wear a mask? This video clip might change your mind</title>
+<link>http://www.marketwatch.com/news/story.asp?guid=%7B6712138E-BEF8-11EA-9D50-458AD1B24D79%7D&amp;siteid=rss&amp;rss=1</link>
+<description>“In every pandemic in history, it’s the actions and choices of individual people that have made a difference,” Joe Hanson said. “A mask can stop a virus, but it also sends a message: We’re all in this together.”&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.marketwatch.com/~ff/marketwatch/topstories?a=DSRQjK-FwGI:_qt7Wx5W2xs:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/marketwatch/topstories?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.marketwatch.com/~ff/marketwatch/topstories?a=DSRQjK-FwGI:_qt7Wx5W2xs:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/marketwatch/topstories?i=DSRQjK-FwGI:_qt7Wx5W2xs:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.marketwatch.com/~ff/marketwatch/topstories?a=DSRQjK-FwGI:_qt7Wx5W2xs:V_sGLiPBpWU"&gt;&lt;img src="http://feeds.feedburner.com/~ff/marketwatch/topstories?i=DSRQjK-FwGI:_qt7Wx5W2xs:V_sGLiPBpWU" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.marketwatch.com/~ff/marketwatch/topstories?a=DSRQjK-FwGI:_qt7Wx5W2xs:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/marketwatch/topstories?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/marketwatch/topstories/~4/DSRQjK-FwGI" height="1" width="1" alt=""/&gt;</description>
+<pubDate>Mon, 06 Jul 2020 02:43:57 GMT</pubDate>
+<guid isPermaLink="false">{6712138E-BEF8-11EA-9D50-458AD1B24D79}</guid>
+</item>
+<item>
+<title>The New York Post: Broadway actor Nick Cordero dies of coronavirus at 41</title>
+<link>http://www.marketwatch.com/news/story.asp?guid=%7BF5E8041E-BF2B-11EA-A5DF-06681C35537A%7D&amp;siteid=rss&amp;rss=1</link>
+<description>Nick Cordero, the Broadway actor who appeared in popular musicals such as “Waitress” and “A Bronx Tale” and inspired the world with his months-long struggle against the coronavirus, has died, his wife Amanda Kloots said on Sunday. He was 41.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.marketwatch.com/~ff/marketwatch/topstories?a=kgQPPfsSHnA:IQkEoEtASHM:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/marketwatch/topstories?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.marketwatch.com/~ff/marketwatch/topstories?a=kgQPPfsSHnA:IQkEoEtASHM:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/marketwatch/topstories?i=kgQPPfsSHnA:IQkEoEtASHM:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.marketwatch.com/~ff/marketwatch/topstories?a=kgQPPfsSHnA:IQkEoEtASHM:V_sGLiPBpWU"&gt;&lt;img src="http://feeds.feedburner.com/~ff/marketwatch/topstories?i=kgQPPfsSHnA:IQkEoEtASHM:V_sGLiPBpWU" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.marketwatch.com/~ff/marketwatch/topstories?a=kgQPPfsSHnA:IQkEoEtASHM:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/marketwatch/topstories?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/marketwatch/topstories/~4/kgQPPfsSHnA" height="1" width="1" alt=""/&gt;</description>
+<pubDate>Mon, 06 Jul 2020 02:06:18 GMT</pubDate>
+<guid isPermaLink="false">{F5E8041E-BF2B-11EA-A5DF-06681C35537A}</guid>
+</item>
+<item>
+<title>In One Chart: This ‘world-class disruptor’ is the next Netflix and will pay off in a big way for shareholders, trader says</title>
+<link>http://www.marketwatch.com/news/story.asp?guid=%7B6499F912-BF0E-11EA-9D50-458AD1B24D79%7D&amp;siteid=rss&amp;rss=1</link>
+<description>Early last week, shares of Spotify took a hit when a Guggenheim analyst cut the stock to sell on the belief that “the market is now pricing shares for blue-sky growth, which has made the risk-reward unattractive.” But one bull remains undaunted.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.marketwatch.com/~ff/marketwatch/topstories?a=5asVAh_ERds:ynMN7MQlooU:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/marketwatch/topstories?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.marketwatch.com/~ff/marketwatch/topstories?a=5asVAh_ERds:ynMN7MQlooU:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/marketwatch/topstories?i=5asVAh_ERds:ynMN7MQlooU:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.marketwatch.com/~ff/marketwatch/topstories?a=5asVAh_ERds:ynMN7MQlooU:V_sGLiPBpWU"&gt;&lt;img src="http://feeds.feedburner.com/~ff/marketwatch/topstories?i=5asVAh_ERds:ynMN7MQlooU:V_sGLiPBpWU" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.marketwatch.com/~ff/marketwatch/topstories?a=5asVAh_ERds:ynMN7MQlooU:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/marketwatch/topstories?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/marketwatch/topstories/~4/5asVAh_ERds" height="1" width="1" alt=""/&gt;</description>
+<pubDate>Sun, 05 Jul 2020 23:31:33 GMT</pubDate>
+<guid isPermaLink="false">{6499F912-BF0E-11EA-9D50-458AD1B24D79}</guid>
+</item>
+<item>
+<title>Key Words: Nationals closer says U.S. hasn’t earned the ‘reward’ of sports yet, as coronavirus deaths mount</title>
+<link>http://www.marketwatch.com/news/story.asp?guid=%7B7D034C1E-BF0F-11EA-A5DF-06681C35537A%7D&amp;siteid=rss&amp;rss=1</link>
+<description>“Sports are like the reward of a functioning society,” says Sean Doolittle.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.marketwatch.com/~ff/marketwatch/topstories?a=t4MGYOT-VOE:rkYUyUNVLrk:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/marketwatch/topstories?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.marketwatch.com/~ff/marketwatch/topstories?a=t4MGYOT-VOE:rkYUyUNVLrk:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/marketwatch/topstories?i=t4MGYOT-VOE:rkYUyUNVLrk:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.marketwatch.com/~ff/marketwatch/topstories?a=t4MGYOT-VOE:rkYUyUNVLrk:V_sGLiPBpWU"&gt;&lt;img src="http://feeds.feedburner.com/~ff/marketwatch/topstories?i=t4MGYOT-VOE:rkYUyUNVLrk:V_sGLiPBpWU" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.marketwatch.com/~ff/marketwatch/topstories?a=t4MGYOT-VOE:rkYUyUNVLrk:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/marketwatch/topstories?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/marketwatch/topstories/~4/t4MGYOT-VOE" height="1" width="1" alt=""/&gt;</description>
+<pubDate>Sun, 05 Jul 2020 23:26:47 GMT</pubDate>
+<guid isPermaLink="false">{7D034C1E-BF0F-11EA-A5DF-06681C35537A}</guid>
+</item>
+<item>
+<title>The Wall Street Journal: Duke Energy, Dominion scrap plans for Atlantic Coast Pipeline after years of delays</title>
+<link>http://www.marketwatch.com/news/story.asp?guid=%7B95A8E726-BEF9-11EA-A5DF-06681C35537A%7D&amp;siteid=rss&amp;rss=1</link>
+<description>The builders of the Atlantic Coast Pipeline are pulling the plug on the project as companies continue to meet mounting environmental opposition to new fossil fuel conduits in the U.S.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.marketwatch.com/~ff/marketwatch/topstories?a=gxbrgfpjLyY:WGvIoX2IuNA:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/marketwatch/topstories?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.marketwatch.com/~ff/marketwatch/topstories?a=gxbrgfpjLyY:WGvIoX2IuNA:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/marketwatch/topstories?i=gxbrgfpjLyY:WGvIoX2IuNA:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.marketwatch.com/~ff/marketwatch/topstories?a=gxbrgfpjLyY:WGvIoX2IuNA:V_sGLiPBpWU"&gt;&lt;img src="http://feeds.feedburner.com/~ff/marketwatch/topstories?i=gxbrgfpjLyY:WGvIoX2IuNA:V_sGLiPBpWU" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.marketwatch.com/~ff/marketwatch/topstories?a=gxbrgfpjLyY:WGvIoX2IuNA:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/marketwatch/topstories?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/marketwatch/topstories/~4/gxbrgfpjLyY" height="1" width="1" alt=""/&gt;</description>
+<pubDate>Sun, 05 Jul 2020 21:10:47 GMT</pubDate>
+<guid isPermaLink="false">{95A8E726-BEF9-11EA-A5DF-06681C35537A}</guid>
+</item>
+<item>
+<title>NewsWatch: ‘It’s dangerous NOT to be sending a clear message to Americans’: U.S. hits 120,000 coronavirus cases over July 4th Weekend — with surges in Florida, Arizona and Texas</title>
+<link>http://www.marketwatch.com/news/story.asp?guid=%7B149DE283-529F-4C5F-B9D6-1BA47B5E1A97%7D&amp;siteid=rss&amp;rss=1</link>
+<description>Florida reported 10,059 new cases Sunday after reporting 11,458 new cases Saturday, which was second only to the daily peak of 11,571 in New York last April.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.marketwatch.com/~ff/marketwatch/topstories?a=dWTkdGOy_4w:NNllvHSlY3c:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/marketwatch/topstories?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.marketwatch.com/~ff/marketwatch/topstories?a=dWTkdGOy_4w:NNllvHSlY3c:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/marketwatch/topstories?i=dWTkdGOy_4w:NNllvHSlY3c:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.marketwatch.com/~ff/marketwatch/topstories?a=dWTkdGOy_4w:NNllvHSlY3c:V_sGLiPBpWU"&gt;&lt;img src="http://feeds.feedburner.com/~ff/marketwatch/topstories?i=dWTkdGOy_4w:NNllvHSlY3c:V_sGLiPBpWU" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.marketwatch.com/~ff/marketwatch/topstories?a=dWTkdGOy_4w:NNllvHSlY3c:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/marketwatch/topstories?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/marketwatch/topstories/~4/dWTkdGOy_4w" height="1" width="1" alt=""/&gt;</description>
+<pubDate>Sun, 05 Jul 2020 21:00:11 GMT</pubDate>
+<guid isPermaLink="false">{149DE283-529F-4C5F-B9D6-1BA47B5E1A97}</guid>
+</item>
+<item>
+<title>The Margin: Elon Musk throws his ‘full support’ behind Kanye West for president</title>
+<link>http://www.marketwatch.com/news/story.asp?guid=%7BFF5B6CFC-BEDB-11EA-9D50-458AD1B24D79%7D&amp;siteid=rss&amp;rss=1</link>
+<description>Rapper icon Kanye West, as he has teased several times before, announced that he’s “running for president.”&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.marketwatch.com/~ff/marketwatch/topstories?a=4RkD3tX0h2Q:icC3VrseiJk:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/marketwatch/topstories?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.marketwatch.com/~ff/marketwatch/topstories?a=4RkD3tX0h2Q:icC3VrseiJk:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/marketwatch/topstories?i=4RkD3tX0h2Q:icC3VrseiJk:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.marketwatch.com/~ff/marketwatch/topstories?a=4RkD3tX0h2Q:icC3VrseiJk:V_sGLiPBpWU"&gt;&lt;img src="http://feeds.feedburner.com/~ff/marketwatch/topstories?i=4RkD3tX0h2Q:icC3VrseiJk:V_sGLiPBpWU" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.marketwatch.com/~ff/marketwatch/topstories?a=4RkD3tX0h2Q:icC3VrseiJk:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/marketwatch/topstories?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/marketwatch/topstories/~4/4RkD3tX0h2Q" height="1" width="1" alt=""/&gt;</description>
+<pubDate>Sun, 05 Jul 2020 20:59:44 GMT</pubDate>
+<guid isPermaLink="false">{FF5B6CFC-BEDB-11EA-9D50-458AD1B24D79}</guid>
+</item>
+<item>
+<title>Mark Hulbert: This is the simple reason you can’t believe the P/E ratio for the Russell 2000 right now</title>
+<link>http://www.marketwatch.com/news/story.asp?guid=%7BB1EEDF5E-BC87-11EA-82D2-AE0C81398445%7D&amp;siteid=rss&amp;rss=1</link>
+<description>If you want the real price-earnings ratio for a stock-market index, you need to include those companies that are losing money.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.marketwatch.com/~ff/marketwatch/topstories?a=7OCY5uuPjD8:IMDEqGKmAtY:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/marketwatch/topstories?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.marketwatch.com/~ff/marketwatch/topstories?a=7OCY5uuPjD8:IMDEqGKmAtY:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/marketwatch/topstories?i=7OCY5uuPjD8:IMDEqGKmAtY:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.marketwatch.com/~ff/marketwatch/topstories?a=7OCY5uuPjD8:IMDEqGKmAtY:V_sGLiPBpWU"&gt;&lt;img src="http://feeds.feedburner.com/~ff/marketwatch/topstories?i=7OCY5uuPjD8:IMDEqGKmAtY:V_sGLiPBpWU" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.marketwatch.com/~ff/marketwatch/topstories?a=7OCY5uuPjD8:IMDEqGKmAtY:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/marketwatch/topstories?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/marketwatch/topstories/~4/7OCY5uuPjD8" height="1" width="1" alt=""/&gt;</description>
+<pubDate>Sun, 05 Jul 2020 20:00:37 GMT</pubDate>
+<guid isPermaLink="false">{B1EEDF5E-BC87-11EA-82D2-AE0C81398445}</guid>
+</item>
+<item>
+<title>Best New Ideas in Money: Why buying and selling a house could soon be as simple as trading stocks</title>
+<link>http://www.marketwatch.com/news/story.asp?guid=%7BD1D6DF84-D3F7-11E9-901C-730C2B605FA8%7D&amp;siteid=rss&amp;rss=1</link>
+<description>Artificial intelligence in housing won’t just eliminate Realtors. It could completely change the way we buy, sell and live.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.marketwatch.com/~ff/marketwatch/topstories?a=cwFNxUIChvw:6RUmMm0v_3Q:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/marketwatch/topstories?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.marketwatch.com/~ff/marketwatch/topstories?a=cwFNxUIChvw:6RUmMm0v_3Q:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/marketwatch/topstories?i=cwFNxUIChvw:6RUmMm0v_3Q:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.marketwatch.com/~ff/marketwatch/topstories?a=cwFNxUIChvw:6RUmMm0v_3Q:V_sGLiPBpWU"&gt;&lt;img src="http://feeds.feedburner.com/~ff/marketwatch/topstories?i=cwFNxUIChvw:6RUmMm0v_3Q:V_sGLiPBpWU" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.marketwatch.com/~ff/marketwatch/topstories?a=cwFNxUIChvw:6RUmMm0v_3Q:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/marketwatch/topstories?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/marketwatch/topstories/~4/cwFNxUIChvw" height="1" width="1" alt=""/&gt;</description>
+<pubDate>Sun, 29 Dec 2019 13:23:46 GMT</pubDate>
+<guid isPermaLink="false">{D1D6DF84-D3F7-11E9-901C-730C2B605FA8}</guid>
+</item>
+</channel>
+</rss>

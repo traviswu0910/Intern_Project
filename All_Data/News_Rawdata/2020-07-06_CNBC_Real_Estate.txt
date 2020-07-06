@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:metadata="http://search.cnbc.com/rss/2.0/modules/siteContentMetadata" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <atom:link rel="self" type="application/rss+xml" href="https://www.cnbc.com/id/10000115/device/rss/rss.html"/>
+    <language>en-us</language>
+    <ttl>60</ttl>
+    <title>Real Estate</title>
+    <feed_asset>
+      <id>10000115</id>
+      <type>franchise</type>
+      <subtype>section</subtype>
+      <seo>https://www.cnbc.com/real-estate/</seo>
+    </feed_asset>
+    <lastBuildDate>Sun, 05 Jul 2020 15:04 GMT</lastBuildDate>
+    <pubDate>Sun, 05 Jul 2020 15:04 GMT</pubDate>
+    <link>https://www.cnbc.com/real-estate/</link>
+    <description><![CDATA[Find the latest news, headlines, blogs and watch video about real estate, housing, mortgages, refinancing, apr and real estate markets from CNBC.com.]]></description>
+    <item>
+      <link>https://www.cnbc.com/2020/07/05/should-you-consider-a-condo-for-your-college-kid-amid-covid-19.html</link>
+      <guid isPermaLink="false">106597599</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106597599</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Condo or on-campus? Covid-19 changes the game for the parents of college kids</title>
+      <description><![CDATA[Buying a property for your college student to live in while they're in school is suddenly a riskier investment because of the pandemic. And costs aside, there are benefits to being on campus.]]></description>
+      <pubDate>Sun, 05 Jul 2020 14:45:01 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/05/here-are-five-charts-tracking-the-us-economy-amid-the-coronavirus.html</link>
+      <guid isPermaLink="false">106601509</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106601509</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Here are five charts tracking the U.S. economy amid the coronavirus pandemic</title>
+      <description><![CDATA[The United States has reported record increases in coronavirus cases with spikes seen in states well underway in their reopening progress.]]></description>
+      <pubDate>Sun, 05 Jul 2020 18:50:49 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/03/experts-fear-a-wave-of-homelessness-once-eviction-moratoriums-end.html</link>
+      <guid isPermaLink="false">106596384</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106596384</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Experts fear the end of eviction moratoriums could plunge thousands of people into homelessness</title>
+      <description><![CDATA[Eviction moratoriums nationwide are set to expire later this month, potentially thrusting tens of thousands of people into a housing crisis.]]></description>
+      <pubDate>Fri, 03 Jul 2020 11:39:23 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/03/loans-in-coronavirus-mortgage-bailouts-see-largest-weekly-decline-yet.html</link>
+      <guid isPermaLink="false">106601855</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106601855</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Loans in coronavirus mortgage bailouts see largest weekly decline yet — but there are more red flags</title>
+      <description><![CDATA[The number of borrowers in government and private sector coronavirus-related mortgage bailouts just fell by the largest weekly volume since these plans were put in place. There are, however, warning signs that the programs could swell again.]]></description>
+      <pubDate>Fri, 03 Jul 2020 11:43:49 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/video/2020/07/03/vietnam-offers-an-attractive-long-term-positioning-for-investors.html</link>
+      <guid isPermaLink="false">106600804</guid>
+      <metadata:id>7000143660</metadata:id>
+      <metadata:type>cnbcvideo</metadata:type>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Vietnam markets are very attractive for long-term investors: Strategist</title>
+      <description><![CDATA[Bill Stoops of Dragon Capital discusses the outlook for Vietnamese markets and why he thinks it is attractive for investors in the long term.]]></description>
+      <pubDate>Fri, 03 Jul 2020 10:06:53 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/video/2020/07/02/airbnb-cracks-down-on-party-houses.html</link>
+      <guid isPermaLink="false">106601991</guid>
+      <metadata:id>7000143790</metadata:id>
+      <metadata:type>cnbcvideo</metadata:type>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Airbnb cracks down on &apos;party houses&apos;</title>
+      <description><![CDATA[Chris Lehane, Airbnb senior vice president for Global Policy and Communications, joins "Closing Bell" to talk about how the platform is reducing unauthorized party homes.]]></description>
+      <pubDate>Thu, 02 Jul 2020 21:33:06 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/02/ghislaine-maxwell-accused-jeffrey-epstein-procurer-caught-in-1-million-home.html</link>
+      <guid isPermaLink="false">106601763</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106601763</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Accused Jeffrey Epstein sex crimes accomplice Ghislaine Maxwell arrested at $1 million New Hampshire home</title>
+      <description><![CDATA[Ghislaine Maxwell, an alleged procurer for dead sex offender Jeffrey Epstein, was arrested at a 156-acre property in New Hampshire. Epstein is a former friend of Presidents Donald Trump and Bill Clinton.]]></description>
+      <pubDate>Thu, 02 Jul 2020 22:48:17 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/02/fc-barcelona-martin-braithwaite-create-black-millionaires.html</link>
+      <guid isPermaLink="false">106601152</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106601152</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>FC Barcelona star and business partner want to create 100,000 Black millionaires through real estate investing</title>
+      <description><![CDATA[FC Barcelona soccer star Martin Braithwaite and his business partner Philip Michael want to create 100,000 Black women and millennials into millionaires through real estate investing.]]></description>
+      <pubDate>Thu, 02 Jul 2020 16:01:51 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/02/manhattan-apartment-sales-worst-on-record-biggest-plunge-in-30-years.html</link>
+      <guid isPermaLink="false">106599685</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106599685</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Manhattan apartment sales worst on record, biggest plunge in 30 years</title>
+      <description><![CDATA[Manhattan apartment sales in the second quarter saw their biggest decline in 30 years and worst quarter on record as the real estate lockdown and urban flight after the Covid-19 crisis put a freeze on the market.]]></description>
+      <pubDate>Thu, 02 Jul 2020 13:58:54 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/video/2020/07/01/empire-state-building-owner-on-new-york-citys-reopening.html</link>
+      <guid isPermaLink="false">106600007</guid>
+      <metadata:id>7000143565</metadata:id>
+      <metadata:type>cnbcvideo</metadata:type>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Empire State Building owner on New York City&apos;s reopening</title>
+      <description><![CDATA[CNBC's Kelly Evans talks about the path forward for real estate in New York City with Anthony Malkin, CEO of Empire State Realty Trust.]]></description>
+      <pubDate>Wed, 01 Jul 2020 17:29:41 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/01/san-francisco-one-bedroom-rent-price-drops-11point8percent-in-june-zumper.html</link>
+      <guid isPermaLink="false">106598406</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106598406</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>San Francisco apartment rent prices are dropping fast as tech companies embrace remote work and unemployment rises</title>
+      <description><![CDATA[According to Zumper, the median rental price for a one-bedroom apartment in San Francisco fell 11.8% year over year, from $3,720 to $3,280, beating May's 9% drop]]></description>
+      <pubDate>Thu, 02 Jul 2020 13:08:18 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/01/need-money-find-cash-in-these-unexpected-places.html</link>
+      <guid isPermaLink="false">106597840</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106597840</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Need money? Find cash in these unexpected places</title>
+      <description><![CDATA[With the U.S. in a recession and the coronavirus pandemic not showing signs of letting up, many Americans may be struggling to come up with much-needed cash.]]></description>
+      <pubDate>Wed, 01 Jul 2020 13:52:10 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/video/2020/07/01/mortgage-application-demands-housing-squawk-box.html</link>
+      <guid isPermaLink="false">106599363</guid>
+      <metadata:id>7000143498</metadata:id>
+      <metadata:type>cnbcvideo</metadata:type>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Mortgage applications fall for second straight week</title>
+      <description><![CDATA[CNBC's Diana Olick reports the latest housing data amid the Covid-19 pandemic.]]></description>
+      <pubDate>Wed, 01 Jul 2020 12:03:56 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/01/mortgage-demand-falls-for-second-week-suggesting-slowdown-in-housing-recovery.html</link>
+      <guid isPermaLink="false">106598449</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106598449</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Mortgage demand falls for the second straight week, signaling a potential slowdown in the housing recovery</title>
+      <description><![CDATA[The surge in mortgage demand from homebuyers over the past two months appears to be waning, even as mortgage rates continue to drop.]]></description>
+      <pubDate>Thu, 02 Jul 2020 12:30:35 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/30/these-4-numbers-show-stark-racial-economic-inequality-in-the-us.html</link>
+      <guid isPermaLink="false">106587588</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106587588</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>These 4 numbers show the dramatic racial economic inequality in the U.S.</title>
+      <description><![CDATA[In many ways that Americans work to establish themselves financially, either through the stock market, net worth or homeownership, Black families trail White families.]]></description>
+      <pubDate>Tue, 30 Jun 2020 17:36:59 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/30/coronavirus-update-home-prices-continued-to-heat-up-in-april-sp-case-shiller-says.html</link>
+      <guid isPermaLink="false">106597492</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106597492</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Home prices heated up in April, despite brief sales drop from coronavirus, S&amp;P Case-Shiller says</title>
+      <description><![CDATA[Home prices strengthened in April, despite a national economic shutdown and a sharp drop in home sales due to the coronavirus.]]></description>
+      <pubDate>Tue, 30 Jun 2020 13:49:45 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/video/2020/06/29/pending-home-sales-surge-in-largest-month-over-month-gain-in-20-years.html</link>
+      <guid isPermaLink="false">106596394</guid>
+      <metadata:id>7000143142</metadata:id>
+      <metadata:type>cnbcvideo</metadata:type>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Pending home sales surge in largest month-over-month gain in 20 years</title>
+      <description><![CDATA[CNBC's Diana Olick breaks down the record home sales number.]]></description>
+      <pubDate>Mon, 29 Jun 2020 17:24:45 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/video/2020/06/29/pending-home-sales-jump-44-point-3-percent-month-to-month.html</link>
+      <guid isPermaLink="false">106596178</guid>
+      <metadata:id>7000143112</metadata:id>
+      <metadata:type>cnbcvideo</metadata:type>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Pending home sales jump 44.3% from April to May</title>
+      <description><![CDATA[CNBC's Diana Olick reports on the latest pending home sales data, which saw its strongest jump since record-keeping began.]]></description>
+      <pubDate>Mon, 29 Jun 2020 14:44:30 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/29/coronavirus-update-pending-home-sales-spike-a-record-44point3percent-in-may.html</link>
+      <guid isPermaLink="false">106596058</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106596058</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Pending home sales spike a record 44.3% in May, as homebuyers rush back into the market</title>
+      <description><![CDATA[Pending home sales spiked a stunning 44.3% in May compared with April, according to the National Association of Realtors. That beat expectations of a 15% rise. Sales were still 5.1% lower compared with May 2019.]]></description>
+      <pubDate>Mon, 29 Jun 2020 16:52:47 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/video/2020/06/29/hong-kongs-office-market-is-under-pressure-colliers-international.html</link>
+      <guid isPermaLink="false">106595563</guid>
+      <metadata:id>7000143055</metadata:id>
+      <metadata:type>cnbcvideo</metadata:type>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Hong Kong&apos;s office market is &apos;under some pressure&apos;: Colliers International</title>
+      <description><![CDATA[Cities like Singapore, Bangalore and Melbourne look the most promising in the Asia-Pacific's office markets, says Andrew Haskins of Colliers International. He also discusses how the Hong Kong office market is currently "under some pressure," with office rents expected to decline for the second consecutive year.]]></description>
+      <pubDate>Mon, 29 Jun 2020 06:57:52 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/28/here-are-five-charts-illustrating-the-us-economic-recovery-amid-the-coronavirus-pandemic.html</link>
+      <guid isPermaLink="false">106594293</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106594293</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Here are five charts illustrating the U.S. economic recovery amid the coronavirus pandemic</title>
+      <description><![CDATA[Though states are reporting new surges in Covid-19 cases, pausing reopening measures and even re-instituting business restrictions, specific economic sectors have continued to see improvement.]]></description>
+      <pubDate>Sun, 28 Jun 2020 12:45:01 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/video/2020/06/26/forbearance-rise-erases-roughly-half-of-improvement-seen-since-peak-expert.html</link>
+      <guid isPermaLink="false">106593982</guid>
+      <metadata:id>7000142907</metadata:id>
+      <metadata:type>cnbcvideo</metadata:type>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Forbearance rise erases roughly half of improvement seen since peak: Expert</title>
+      <description><![CDATA[CNBC's Kelly Evans discusses the reversal in forbearance declines with Andy Walden of Black Knight.]]></description>
+      <pubDate>Fri, 26 Jun 2020 18:34:05 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/video/2020/06/26/invitation-homes-ceo-on-suburban-housing-boom-protection-for-renters.html</link>
+      <guid isPermaLink="false">106593635</guid>
+      <metadata:id>7000142861</metadata:id>
+      <metadata:type>cnbcvideo</metadata:type>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Invitation Homes CEO on suburban housing boom, protection for renters</title>
+      <description><![CDATA[The flight to the suburbs is real and growing as coronavirus changes the way people live. Suburban housing is seeing an uptick and leaving the future of dense metropolitan areas in question. Dallas Tanner, CEO of Invitation Homes, joins "Squawk on the Street" to discuss the trend.]]></description>
+      <pubDate>Fri, 26 Jun 2020 14:56:11 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/26/coronavirus-mortgage-bailouts-suddenly-swell-as-homeowners-struggle.html</link>
+      <guid isPermaLink="false">106592820</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106592820</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Coronavirus mortgage bailouts suddenly swell as homeowners face new struggles</title>
+      <description><![CDATA[After declining for three weeks, the number of borrowers delaying their monthly mortgage payments due to the coronavirus rose sharply.]]></description>
+      <pubDate>Fri, 26 Jun 2020 19:49:22 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/video/2020/06/24/housing-market-recovery-remarkable-ivy-zelman.html</link>
+      <guid isPermaLink="false">106590627</guid>
+      <metadata:id>7000142487</metadata:id>
+      <metadata:type>cnbcvideo</metadata:type>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Housing market recovery remarkable: Ivy Zelman</title>
+      <description><![CDATA[CNBC's "Halftime Report" team is joined by Ivy Zelman, CEO of Zelman and Associates, to break down how she views the housing market amid the coronavirus pandemic.]]></description>
+      <pubDate>Wed, 24 Jun 2020 17:17:04 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/video/2020/06/24/how-the-pandemic-has-affected-the-commercial-real-estate-business.html</link>
+      <guid isPermaLink="false">106590528</guid>
+      <metadata:id>7000142472</metadata:id>
+      <metadata:type>cnbcvideo</metadata:type>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>How the pandemic has affected the commercial real estate business</title>
+      <description><![CDATA[Ivan Kaufman, Arbor Trust Realty CEO, joins "Squawk on the Street" to discuss how the coronavirus pandemic has changed the real estate business.]]></description>
+      <pubDate>Wed, 24 Jun 2020 19:29:47 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/video/2020/06/24/commercial-real-estate-coronavirus-pandemic-squawk-box.html</link>
+      <guid isPermaLink="false">106590178</guid>
+      <metadata:id>7000142442</metadata:id>
+      <metadata:type>cnbcvideo</metadata:type>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Cadre CEO: Covid-19 will impact certain real estate asset classes unevenly</title>
+      <description><![CDATA[Cadre is a technology platform for commercial real estate investing. Ryan Williams, co-founder and CEO of Cadre, joins "Squawk Box" to discuss how the sector is faring during the pandemic.]]></description>
+      <pubDate>Wed, 24 Jun 2020 12:02:54 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/video/2020/06/24/mortgage-application-data-housing-market-squawk-box.html</link>
+      <guid isPermaLink="false">106590162</guid>
+      <metadata:id>7000142441</metadata:id>
+      <metadata:type>cnbcvideo</metadata:type>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Mortgage demand pulls back slightly despite record-low interest rates</title>
+      <description><![CDATA[CNBC's Diana Olick reports the mortgage application data.]]></description>
+      <pubDate>Wed, 24 Jun 2020 11:43:44 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/video/2020/06/24/kevin-oleary-on-small-business-rent-negotiations-amid-the-pandemic.html</link>
+      <guid isPermaLink="false">106590119</guid>
+      <metadata:id>7000142434</metadata:id>
+      <metadata:type>cnbcvideo</metadata:type>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Kevin O&apos;Leary on small business rent negotiations amid the pandemic</title>
+      <description><![CDATA[Kevin O’Leary, chairman of O’Shares ETFs and co-host of “Shark Tank," how small businesses are handling the shuttering of the economy as businesses attempt to reopen around the country.]]></description>
+      <pubDate>Wed, 24 Jun 2020 11:25:29 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/24/homebuyer-mortgage-demand-down-but-still-18percent-higher-than-a-year-ago.html</link>
+      <guid isPermaLink="false">106589311</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106589311</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Weekly homebuyer mortgage demand ticks down but is still a remarkable 18% higher than a year ago</title>
+      <description><![CDATA[Total mortgage application volume fell 8.7% last week from the previous week, according to the Mortgage Bankers Association.]]></description>
+      <pubDate>Wed, 24 Jun 2020 11:43:36 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

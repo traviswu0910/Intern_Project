@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:metadata="http://search.cnbc.com/rss/2.0/modules/siteContentMetadata" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <atom:link rel="self" type="application/rss+xml" href="https://www.cnbc.com/id/10001054/device/rss/rss.html"/>
+    <language>en-us</language>
+    <ttl>60</ttl>
+    <title>Wealth</title>
+    <feed_asset>
+      <id>10001054</id>
+      <type>franchise</type>
+      <subtype>section</subtype>
+      <seo>https://www.cnbc.com/wealth/</seo>
+    </feed_asset>
+    <lastBuildDate>Fri, 03 Jul 2020 14:19 GMT</lastBuildDate>
+    <pubDate>Fri, 03 Jul 2020 14:19 GMT</pubDate>
+    <link>https://www.cnbc.com/wealth/</link>
+    <description><![CDATA[Get the latest information on millionaires & billionaires. Read about how they are investing, spending their time and their money on from CNBC.]]></description>
+    <item>
+      <link>https://www.cnbc.com/2020/07/03/mark-cubans-leadership-lesson-for-the-2006-dallas-mavericks.html</link>
+      <guid isPermaLink="false">106601408</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106601408</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>With a 2006 trip to Vegas, Mark Cuban showed a lesson in leadership to the Mavericks</title>
+      <description><![CDATA[Former NBA player Jason Terry recalls when Dallas Mavericks owner Mark Cuban organized a last-minute team trip to Las Vegas after a loss in the NBA Finals.]]></description>
+      <pubDate>Fri, 03 Jul 2020 14:00:01 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/03/things-a-young-elon-musk-thought-would-change-the-world.html</link>
+      <guid isPermaLink="false">106601348</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106601348</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>In college, Elon Musk thought these 5 things would change the world</title>
+      <description><![CDATA[As a college kid in the '90s, "when thinking about what would most likely change the future, there were five things that I thought would be," Tesla and SpaceX CEO Elon Musk said on the "Third Row Tesla" podcast.]]></description>
+      <pubDate>Fri, 03 Jul 2020 13:30:02 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/video/2020/07/03/us-must-look-at-wealth-to-address-racial-inequality-professor-says.html</link>
+      <guid isPermaLink="false">106602497</guid>
+      <metadata:id>7000143864</metadata:id>
+      <metadata:type>cnbcvideo</metadata:type>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>U.S. needs to look at wealth to address racial inequality, economics professor says</title>
+      <description><![CDATA[Dania V. Francis, assistant professor of economics and Afro-American studies at the University of Massachusetts, discusses racial inequality in the United States.]]></description>
+      <pubDate>Fri, 03 Jul 2020 09:07:55 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/03/where-to-book-luxury-cabins-this-autumn.html</link>
+      <guid isPermaLink="false">106598975</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106598975</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Forget summer: These luxury cabins are right for autumn getaways</title>
+      <description><![CDATA[These luxury cabins are designed for groups of families and friends who want a safe and secluded holiday that is as posh as a resort – but without all the people.]]></description>
+      <pubDate>Fri, 03 Jul 2020 06:31:33 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/02/kevin-oleary-big-money-mistake-people-make-and-what-to-do-instead.html</link>
+      <guid isPermaLink="false">106599591</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106599591</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Kevin O&apos;Leary: This is the biggest money mistake people make (and what to do instead)</title>
+      <description><![CDATA[Here's the smart thing to do with your money, according to "Shark Tank" star and entrepreneur, Kevin O'Leary.]]></description>
+      <pubDate>Thu, 02 Jul 2020 15:12:14 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/video/2020/07/02/kevin-oleary-the-biggest-money-mistake-people-of-all-ages-make.html</link>
+      <guid isPermaLink="false">106600310</guid>
+      <metadata:id>7000143602</metadata:id>
+      <metadata:type>cnbcvideo</metadata:type>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Kevin O&apos;Leary shares the biggest money mistake people make</title>
+      <description><![CDATA[Shark Tank judge and investor Kevin O'Leary shares what he thinks is the biggest mistake most people make when it comes to saving money.]]></description>
+      <pubDate>Thu, 02 Jul 2020 15:02:15 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/02/manhattan-apartment-sales-worst-on-record-biggest-plunge-in-30-years.html</link>
+      <guid isPermaLink="false">106599685</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106599685</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Manhattan apartment sales worst on record, biggest plunge in 30 years</title>
+      <description><![CDATA[Manhattan apartment sales in the second quarter saw their biggest decline in 30 years and worst quarter on record as the real estate lockdown and urban flight after the Covid-19 crisis put a freeze on the market.]]></description>
+      <pubDate>Thu, 02 Jul 2020 13:58:54 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/01/sheldon-and-miriam-adelson-top-list-of-billionaire-political-contributors.html</link>
+      <guid isPermaLink="false">106599595</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106599595</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Billionaires are spending more on political contributions, here are the three biggest spenders</title>
+      <description><![CDATA[America's billionaires are now spending 20 times more on political contributions than they did a decade ago, according to a new study.]]></description>
+      <pubDate>Wed, 01 Jul 2020 21:06:25 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/video/2020/07/01/sothebys-ceo-charles-stewart-virtual-auction-squawk-box.html</link>
+      <guid isPermaLink="false">106599333</guid>
+      <metadata:id>7000143492</metadata:id>
+      <metadata:type>cnbcvideo</metadata:type>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Sotheby&apos;s CEO Charles Stewart on the company&apos;s first virtual auction</title>
+      <description><![CDATA[Sotheby's CEO Charles Stewart joins "Squawk Box" to discuss the success of the company's first-of-its-kind virtual art auction earlier this week.]]></description>
+      <pubDate>Wed, 01 Jul 2020 12:07:43 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/video/2020/07/01/sothebys-virtual-auction-breaks-several-new-records.html</link>
+      <guid isPermaLink="false">106599332</guid>
+      <metadata:id>7000143490</metadata:id>
+      <metadata:type>cnbcvideo</metadata:type>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Sotheby&apos;s virtual auction breaks several new records</title>
+      <description><![CDATA[Sotheby's broke a number of records with the first-of-its-kind virtual art auction earlier this week. CNBC's Robert Frank reports.]]></description>
+      <pubDate>Wed, 01 Jul 2020 11:41:37 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/30/advisors-need-to-listen-more-to-keep-clients-on-board-study-says.html</link>
+      <guid isPermaLink="false">106597647</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106597647</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Advisors need to listen more to keep clients on board, study says</title>
+      <description><![CDATA[Financial advisors expect their managed assets to grow by 7.2% over one year and by annualized growth of 17.2% over the next three years, driven mostly by new and existing clients, according to a recent survey.]]></description>
+      <pubDate>Tue, 30 Jun 2020 19:25:40 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/30/billionaires-confirmed-to-have-given-money-to-covid-19-fight-wealth-x.html</link>
+      <guid isPermaLink="false">106598036</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106598036</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Here&apos;s how many billionaires confirmed giving money to Covid-19 pandemic-related causes</title>
+      <description><![CDATA[A new global wealth report from market research firm Wealth-X shows the percentage of the world's 2,825 billionaires who confirmed donations to Covid-19 related causes between January and May. Other billionaires could have given through a third party or anonymously, and "more billionaires are expected to announce pledges in the second half of 2020," according to the report. Some billionaires also gave "non-monetary contributions, such as personal protective equipment."]]></description>
+      <pubDate>Tue, 30 Jun 2020 18:40:28 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/30/these-4-numbers-show-stark-racial-economic-inequality-in-the-us.html</link>
+      <guid isPermaLink="false">106587588</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106587588</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>These 4 numbers show the dramatic racial economic inequality in the U.S.</title>
+      <description><![CDATA[In many ways that Americans work to establish themselves financially, either through the stock market, net worth or homeownership, Black families trail White families.]]></description>
+      <pubDate>Tue, 30 Jun 2020 17:36:59 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/30/gary-vaynerchuk-young-people-should-want-to-make-70000-not-millions.html</link>
+      <guid isPermaLink="false">106596100</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106596100</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Self-made millionaire: To be happy, young people should aspire to make $70,000 a year, not millions—here&apos;s why</title>
+      <description><![CDATA[Entrepreneur Gary Vaynerchuk believes that young people shouldn't aim to make millions at the start of their careers — they should try to make $70,000. He believes people would be happier if they stopped chasing wealth, here's why.]]></description>
+      <pubDate>Tue, 30 Jun 2020 16:50:24 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/30/the-wealthy-are-prepping-for-tax-increases-with-these-three-strategies.html</link>
+      <guid isPermaLink="false">106592199</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106592199</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>The wealthy are prepping for tax increases with these three strategies</title>
+      <description><![CDATA[Accountants and tax lawyers say they're seeing surge in calls and emails from wealthy clients asking about actions they can take now to avoid tax hikes in 2021 and beyond.]]></description>
+      <pubDate>Tue, 30 Jun 2020 17:51:43 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/30/why-americans-wont-be-traveling-to-europe-anytime-soon.html</link>
+      <guid isPermaLink="false">106592815</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106592815</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Why Americans shouldn&apos;t be surprised that Europe is blocking them</title>
+      <description><![CDATA[The EU unveiled a list of countries whose residents can start traveling into Europe in July. The U.S. is not one of them — and for good reason.]]></description>
+      <pubDate>Wed, 01 Jul 2020 11:30:13 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/30/why-2019-had-a-record-high-number-of-billionaires.html</link>
+      <guid isPermaLink="false">106596225</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106596225</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>2019 had a record-high number of billionaires — here&apos;s how many and why</title>
+      <description><![CDATA[There were 2,825 billionaires in 2019 with a combined net worth of $9.4 trillion, according to a new report from the market research firm WealthX.]]></description>
+      <pubDate>Tue, 30 Jun 2020 13:15:01 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/30/wealth-x-asia-china-india-singapore-create-most-new-billionaires.html</link>
+      <guid isPermaLink="false">106595564</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106595564</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>This region minted the most billionaires last year</title>
+      <description><![CDATA[Asia's billionaire population surged 12% over the year — more than any other region.]]></description>
+      <pubDate>Tue, 30 Jun 2020 13:00:01 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/video/2020/06/30/wealthy-americans-attempt-to-get-ahead-of-potential-tax-hikes.html</link>
+      <guid isPermaLink="false">106597395</guid>
+      <metadata:id>7000143272</metadata:id>
+      <metadata:type>cnbcvideo</metadata:type>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Wealthy Americans attempt to get ahead of potential tax hikes</title>
+      <description><![CDATA[Wealthy Americans are trying to get ahead of a possible increase in taxes and they're already working on a new strategy. CNBC's Robert Frank reports.]]></description>
+      <pubDate>Tue, 30 Jun 2020 10:45:32 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/29/average-american-failed-investing-quiz-find-out-your-money-score.html</link>
+      <guid isPermaLink="false">106596104</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106596104</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>The average American scored an &apos;F&apos; on this investing quiz—see how you do</title>
+      <description><![CDATA[The average person answered just 4 out of 10 questions correctly on a recent investing quiz. Test your money knowledge and see if you can get more right.]]></description>
+      <pubDate>Mon, 29 Jun 2020 13:51:00 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/video/2020/06/29/sothebys-virtual-art-auction-executive-edge.html</link>
+      <guid isPermaLink="false">106595833</guid>
+      <metadata:id>7000143079</metadata:id>
+      <metadata:type>cnbcvideo</metadata:type>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Sotheby&apos;s to hold virtual auction Monday, totaling more than $250 million</title>
+      <description><![CDATA[A test of the high-end art market happens Monday night when Sotheby's tries to sell hundreds of millions of dollars worth of masterpieces. CNBC's Robert Frank reports.]]></description>
+      <pubDate>Mon, 29 Jun 2020 10:42:53 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/29/u2-band-members-invest-in-irish-tech-fund-hoping-to-raise-112-million.html</link>
+      <guid isPermaLink="false">106595705</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106595705</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>U2 band members invest in Irish tech fund seeking to raise $112 million</title>
+      <description><![CDATA[David Howell Evans, known as the "the Edge" and Adam Clayton, from the rock band U2, are backing a new technology fund in Ireland, which is aiming to raise 100 million euros ($112 million).]]></description>
+      <pubDate>Mon, 29 Jun 2020 08:50:15 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/26/bill-gates-on-covid-19-some-people-are-ignoring-the-epidemic.html</link>
+      <guid isPermaLink="false">106593591</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106593591</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Bill Gates: Some people are &apos;ignoring the epidemic&apos;</title>
+      <description><![CDATA[The state of the Covid-19 pandemic on both a global and national scale, is "more bleak than I would have expected," Bill Gates said on CNN's "Coronavirus Town Hall" Thursday.]]></description>
+      <pubDate>Fri, 26 Jun 2020 21:12:15 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/26/why-mark-cuban-admires-tesla-and-spacex-ceo-elon-musk.html</link>
+      <guid isPermaLink="false">106588733</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106588733</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Why Mark Cuban admires Elon Musk (even though he can be &apos;full of himself&apos;)</title>
+      <description><![CDATA[Mark Cuban is a fan of fellow billionaire Elon Musk. The reason? The tech investor and Dallas Mavericks owner said he admires the Tesla CEO's ambition, and the way he pursues projects that "most people would be afraid to even try," he told the New York Post.]]></description>
+      <pubDate>Fri, 26 Jun 2020 19:32:09 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/26/this-critical-link-could-help-bridge-americas-racial-wealth-gap.html</link>
+      <guid isPermaLink="false">106590336</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106590336</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>This critical link could help bridge America&apos;s racial wealth gap</title>
+      <description><![CDATA[Blacks' and Latinx' median wealth lags significantly behind Whites, and so does job opportunity. Free training and financial education can help.Free job training and financial education can help.]]></description>
+      <pubDate>Fri, 26 Jun 2020 18:58:22 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/26/beth-cameron-helped-write-the-white-house-pandemic-playbook.html</link>
+      <guid isPermaLink="false">106587171</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106587171</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>She helped write the White House &apos;pandemic playbook.&apos; Here&apos;s what keeps her up at night and her advice for Trump</title>
+      <description><![CDATA[In interviews with CNBC Make It, Beth Cameron, who ran the White House pandemic readiness office until 2017, talks about the "pandemic playbook" she helped to create, what the current administration missed and what keep her up at night about future threats.]]></description>
+      <pubDate>Tue, 30 Jun 2020 14:12:24 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/video/2020/06/26/champagne-sales-picking-up-amid-pandemic-industry-representative-says.html</link>
+      <guid isPermaLink="false">106593304</guid>
+      <metadata:id>7000142820</metadata:id>
+      <metadata:type>cnbcvideo</metadata:type>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Champagne sales picking up after hit from pandemic, industry representative says</title>
+      <description><![CDATA[Francoise Peretti, director of Champagne Bureau U.K., discusses the impact of the coronavirus crisis on the Champagne industry.]]></description>
+      <pubDate>Fri, 26 Jun 2020 10:00:31 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/26/lamborghini-destroyed-just-20-minutes-after-leaving-the-showroom.html</link>
+      <guid isPermaLink="false">106593251</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106593251</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Lamborghini wrecked just 20 minutes after leaving the showroom</title>
+      <description><![CDATA[A Lamborghini was destroyed in a collision on a highway in West Yorkshire in the U.K., just 20 minutes after the car left the showroom.]]></description>
+      <pubDate>Fri, 26 Jun 2020 21:20:37 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/25/ketchum-first-transgender-elected-official-in-wv-on-her-success.html</link>
+      <guid isPermaLink="false">106580338</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106580338</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>&apos;I&apos;ve been so unapologetic, people had no choice but to work with me&apos;: first transgender elected official in WV</title>
+      <description><![CDATA[Rosemary Ketchum, who became West Virgina's first openly transgender elected official in June, credits her success to being unapologetically herself and having strong sense of right and wrong.]]></description>
+      <pubDate>Fri, 26 Jun 2020 18:33:19 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/25/malcolm-gladwell-why-you-cant-know-someone-through-snap-judgement.html</link>
+      <guid isPermaLink="false">106588879</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106588879</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Malcolm Gladwell: You can&apos;t know someone in 10 seconds or on social media, and it&apos;s dangerous to try</title>
+      <description><![CDATA[Best-selling author Malcolm Gladwell says that as a society, we need to get better at getting to know each other. "You can't read somebody and make sense of someone in 10 seconds. Don't even try," he says.]]></description>
+      <pubDate>Thu, 25 Jun 2020 14:19:10 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -23,7 +23,7 @@ c.drop_duplicates('Text',inplace=True)
 
 
 #取20170101到20200601的資料
-time_range = pd.date_range('20180101','20200601')
+time_range = pd.date_range('20170101','20200601')
 time_range = time_range.strftime('%Y%m%d')
 
 #建json檔

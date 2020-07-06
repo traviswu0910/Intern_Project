@@ -16,7 +16,7 @@ def clean_text(x):
     text = Clean(x)
     text.Capitalize()
     text.DeletePunctuation()
-    text.DeleteRedundant()
+    text.DeleteRedundant_Twitters()
     #print(text)
     return text.Text
 

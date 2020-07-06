@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:metadata="http://search.cnbc.com/rss/2.0/modules/siteContentMetadata" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <atom:link rel="self" type="application/rss+xml" href="https://www.cnbc.com/id/100646281/device/rss/rss.html"/>
+    <language>en-us</language>
+    <ttl>60</ttl>
+    <title>Financial Advisor</title>
+    <feed_asset>
+      <id>100646281</id>
+      <type>franchise</type>
+      <subtype>section</subtype>
+      <seo>https://www.cnbc.com/financial-advisors/</seo>
+    </feed_asset>
+    <lastBuildDate>Wed, 01 Jul 2020 17:27 GMT</lastBuildDate>
+    <pubDate>Wed, 01 Jul 2020 17:27 GMT</pubDate>
+    <link>https://www.cnbc.com/financial-advisors/</link>
+    <description><![CDATA[For individual investors and financial advisors alike, figuring out the best way to manage money can be a challenge. CNBC has put together these reports to help boost your bottom line.]]></description>
+    <item>
+      <link>https://www.cnbc.com/2020/06/30/advisors-need-to-listen-more-to-keep-clients-on-board-study-says.html</link>
+      <guid isPermaLink="false">106597647</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106597647</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Advisors need to listen more to keep clients on board, study says</title>
+      <description><![CDATA[Financial advisors expect their managed assets to grow by 7.2% over one year and by annualized growth of 17.2% over the next three years, driven mostly by new and existing clients, according to a recent survey.]]></description>
+      <pubDate>Tue, 30 Jun 2020 19:25:40 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/29/financial-professionals-must-keep-investors-safe-in-unprecedented-times.html</link>
+      <guid isPermaLink="false">106590683</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106590683</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Op-ed: Financial professionals need to keep investors safe in these unprecedented times</title>
+      <description><![CDATA[The unprecedented economic crisis caused by the Covid-19 pandemic demands that finance professionals recognize the leadership role they need to play in guiding investors through ongoing volatility to calmer shores, says Steve Horan of the CFA Institute.]]></description>
+      <pubDate>Mon, 29 Jun 2020 12:30:01 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/25/op-ed-there-is-no-such-thing-as-truly-risk-free-even-going-to-cash.html</link>
+      <guid isPermaLink="false">106588827</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106588827</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Op-ed: There is no such thing as truly risk-free — even going to cash</title>
+      <description><![CDATA[While holding or moving to cash might feel good mentally and help avoid short-term stock market volatility, it is unlikely to be wise over the long-term. Cash doesn't earn any return and does not grow in value, so inflation erodes its purchasing power over time.]]></description>
+      <pubDate>Thu, 25 Jun 2020 12:30:01 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/24/what-to-know-before-you-tap-your-401k-or-ira-under-the-cares-act.html</link>
+      <guid isPermaLink="false">106588591</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106588591</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Op-ed: The CARES Act makes it easier to tap your 401(k). Here&apos;s exactly what you need to know before you do</title>
+      <description><![CDATA[The CARES Act has made it easier for workers suffering due to the Covid-19 pandemic to tap their 401(k) plans and IRAs. Here's what to know before making a withdrawal from your retirement savings account.]]></description>
+      <pubDate>Wed, 24 Jun 2020 13:20:43 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/10/not-just-financial-health-advisors-guide-clients-through-covid-19-crisis.html</link>
+      <guid isPermaLink="false">106562085</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106562085</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Not just financial health: Advisors guide clients through coronavirus crisis</title>
+      <description><![CDATA[Record levels of unemployment. Terrifying market volatility. A pandemic that's infected more than 1.8 million Americans. Three financial advisors describe how they prepared themselves and their clients for the Covid-19 crisis]]></description>
+      <pubDate>Wed, 10 Jun 2020 12:30:01 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/09/here-are-some-money-moves-you-should-make-now-that-were-in-a-recession.html</link>
+      <guid isPermaLink="false">106570800</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106570800</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Here are some money moves you should make now that we&apos;re officially in a recession</title>
+      <description><![CDATA[It's official: The U.S. economy has come to an end of a historic expansion that lasted for almost 11 years. With the future unclear, financial experts say you can improve your personal financial outlook by taking these steps.]]></description>
+      <pubDate>Tue, 09 Jun 2020 16:26:15 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/09/how-coronavirus-put-these-financial-advisors-practices-to-the-test.html</link>
+      <guid isPermaLink="false">106556100</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106556100</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>How coronavirus put these financial advisors&apos; practices to the test</title>
+      <description><![CDATA[Entrepreneurs are in unprecedented times, contending with a pandemic that's taken a massive toll on human life and the global economy. Financial advisors are among the business owners trying to survive amid a disaster.]]></description>
+      <pubDate>Tue, 09 Jun 2020 13:16:32 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/04/a-new-rule-could-make-it-harder-to-figure-out-if-your-financial-advisor-is-on-your-side.html</link>
+      <guid isPermaLink="false">106565311</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106565311</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>A new rule could make it harder to figure out if your financial advisor is on your side</title>
+      <description><![CDATA[This month, financial advisors will be required to comply with regulation Best Interest, a rule that requires them to put clients' interests first and disclose any conflicts. Some say this doesn't go far enough.]]></description>
+      <pubDate>Thu, 04 Jun 2020 17:11:08 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/05/29/the-coronavirus-pandemic-has-transformed-the-client-advisor-experience.html</link>
+      <guid isPermaLink="false">106547940</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106547940</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>The pandemic has transformed the client-advisor experience</title>
+      <description><![CDATA[Martin Seay, president of the Financial Planning Association, thinks the changes financial advisors and his organization have made as a result of Covid-19 could stick long-term.]]></description>
+      <pubDate>Fri, 29 May 2020 12:31:00 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/05/27/here-are-key-ways-coronavirus-crisis-differs-from-the-great-recession.html</link>
+      <guid isPermaLink="false">106542550</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106542550</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Here are key ways the coronavirus crisis differs from the Great Recession</title>
+      <description><![CDATA[Today's market havoc may feel like a trip down memory lane, but there are stark contrasts between the Covid-19 downturn and the Great Recession. Here are three ways the crises differ from each other.]]></description>
+      <pubDate>Wed, 27 May 2020 13:00:01 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/05/18/financial-advisors-face-new-challenges-in-the-way-they-manage-workflow.html</link>
+      <guid isPermaLink="false">106535473</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106535473</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Financial advisors face new challenges in the way they manage workflow, communicate with co-workers and clients</title>
+      <description><![CDATA[Market havoc isn't the only worry on financial advisors' minds. The coronavirus pandemic has forced many of them to shift their client relationships online and get their employees ready to work from home. Here's how they did it.]]></description>
+      <pubDate>Mon, 18 May 2020 12:30:01 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/05/14/so-your-financial-advisor-took-a-ppp-loan-what-it-means-for-you.html</link>
+      <guid isPermaLink="false">106535749</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106535749</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>So your financial advisor took a PPP loan. Here&apos;s what that means for you</title>
+      <description><![CDATA[Many independent financial advisory shops are also small businesses with a payroll. That means they're eligible to apply for the Paycheck Protection Program. Here's what you should know.]]></description>
+      <pubDate>Tue, 26 May 2020 16:49:21 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/04/30/op-ed-its-not-time-to-panic-its-time-to-plan-finances-during-pandemic.html</link>
+      <guid isPermaLink="false">106509774</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106509774</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Op-Ed: It&apos;s not time to panic, it&apos;s time to plan your finances during coronavirus pandemic</title>
+      <description><![CDATA[Proactive planning can aid you in achieving short- and long-term financial needs and goals, especially in times of hardship like the current coronavirus pandemic.]]></description>
+      <pubDate>Thu, 30 Apr 2020 13:01:01 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/04/20/a-game-plan-to-enhance-retirement-security-for-millions-of-americans.html</link>
+      <guid isPermaLink="false">106492463</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106492463</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Op-Ed: Here&apos;s a game plan to help create retirement security for millions of Americans</title>
+      <description><![CDATA[As Congress considers ideas in the coming weeks seeking to help America recover from the Covid-19 pandemic, the Insured Retirement Institute has proposed a five-point plan to help American retirement savers enhance their ability to save for retirement today and ways to strengthen their financial security for tomorrow.]]></description>
+      <pubDate>Mon, 20 Apr 2020 13:31:21 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/04/18/lessons-from-financial-advisors-who-applied-for-the-ppp-loan.html</link>
+      <guid isPermaLink="false">106493542</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106493542</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>These financial advisors applied for the PPP loan. They share some lessons learned</title>
+      <description><![CDATA[Three financial advisors share how they have helped clients apply for emergency funding through the Paycheck Protection Program, and sought aid for their practices.]]></description>
+      <pubDate>Sat, 18 Apr 2020 14:07:00 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/04/16/op-ed-advisors-must-help-clients-get-back-to-basics-during-volatility.html</link>
+      <guid isPermaLink="false">106492167</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106492167</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Op-Ed: Advisors need to help clients get back to basics during this volatility</title>
+      <description><![CDATA[While financial advisors must continue being proactive in helping clients maintain financial well-being during the coronavirus pandemic and downturn, the most effective advisors are managing their clients' emotional well-being, as well.]]></description>
+      <pubDate>Fri, 17 Apr 2020 13:01:02 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/04/15/op-ed-coronavirus-market-swings-can-lead-to-an-amygdala-hijack.html</link>
+      <guid isPermaLink="false">106489608</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106489608</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Op-Ed: Don&apos;t let coronavirus market swings hijack your brain</title>
+      <description><![CDATA[The barrage of bad economic news surrounding the coronavirus pandemic can trigger an emotional response, or "amygdala hijack," in investors' brains that can cloud judgment. Here's how to combat the panic and ensure sound financial decision-making.]]></description>
+      <pubDate>Wed, 15 Apr 2020 15:21:07 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/04/10/what-advisors-are-doing-to-help-clients-and-themselves-amid-volatility.html</link>
+      <guid isPermaLink="false">106482645</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106482645</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Here&apos;s what advisors are doing to help clients — and themselves — amid coronavirus volatility</title>
+      <description><![CDATA[As markets careeen amid coronavirus-fueled economic volatility, financial advisors are at the eye of the storm. We asked five members of the CNBC Financial Advisor Council what they're telling clients, whether they're helping them reallocate and how the downturn is impacting their own fortunes.]]></description>
+      <pubDate>Sun, 12 Apr 2020 15:15:55 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/04/10/advisors-say-avoid-these-mistakes-with-your-401k-amid-coronavirus.html</link>
+      <guid isPermaLink="false">106482273</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106482273</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Advisors urge investors to avoid these mistakes with their 401(k) during coronavirus crisis</title>
+      <description><![CDATA[There are some key things that retirement savers should steer clear of doing with their 401(k), despite uncertainty over exactly when the stock market will recoup its losses and head higher.]]></description>
+      <pubDate>Fri, 10 Apr 2020 13:43:59 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/04/08/eight-out-of-10-financial-advisors-see-markets-diving-lower-survey.html</link>
+      <guid isPermaLink="false">106478990</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106478990</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Eight out of 10 financial advisors see markets diving lower, survey finds</title>
+      <description><![CDATA[Eighty-one percent of financial advisors say markets haven't hit bottom yet amid the coronavirus pandemic, according to a survey by Ned Davis Research. Two members of CNBC's Financial Advisor Council say whatever the future holds, they're telling clients to stay the course.]]></description>
+      <pubDate>Wed, 08 Apr 2020 13:01:12 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/03/27/op-ed-with-market-volatility-4-percent-rule-creates-risk-for-retirees.html</link>
+      <guid isPermaLink="false">106463809</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106463809</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Op-Ed: With today&apos;s market volatility, the &apos;4% rule&apos; creates risk for America&apos;s retirees</title>
+      <description><![CDATA[While some of the underlying thinking behind the so-called 4% rule was prudent, it was hatched in an era in which interest rates were much higher, capital markets less volatile and, most important, Americans had shorter lifespans. Given today's market volatility and changed retirement landscape, it's safe to assume that the 4% rule may be obsolete.]]></description>
+      <pubDate>Mon, 30 Mar 2020 12:59:34 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/03/23/op-ed-financial-advisors-help-clients-navigate-through-uncertainty.html</link>
+      <guid isPermaLink="false">106457222</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106457222</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Op-Ed: Financial advisors help clients navigate through uncertainty</title>
+      <description><![CDATA[The best financial advisors will choose to stay connected with their clients throughout the coronavirus crisis and be creative in evolving their services on a human level. Keep adding to your market volatility playbook — this isn't the first time we've encountered turbulence in the markets, and it won't be the last.]]></description>
+      <pubDate>Tue, 24 Mar 2020 12:31:01 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/03/04/cfp-board-erases-advisor-compensation-data-from-consumer-website.html</link>
+      <guid isPermaLink="false">106424689</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106424689</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>It may get harder for consumers to tell how some financial advisors get paid</title>
+      <description><![CDATA[The CFP Board, which oversees standards for 86,000 certified financial planners in the U.S., removed the ability for consumers to search for an advisor based on how they're paid.]]></description>
+      <pubDate>Wed, 04 Mar 2020 20:58:46 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/03/02/states-could-adopt-a-new-best-interest-regulation-for-annuity-sales.html</link>
+      <guid isPermaLink="false">106420022</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106420022</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>This new rule could change how annuities are sold</title>
+      <description><![CDATA[When it comes to protecting consumers' money, many in the financial industry are in one of two camps: those in favor of a 'fiduciary rule' or those who back a 'best interest' regulation. Now, some states are poised to wade into the fight by adopting a best interest standard for annuities sales.]]></description>
+      <pubDate>Tue, 03 Mar 2020 16:08:10 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/02/25/financial-advisors-must-specialize-to-survive-over-next-decade-report.html</link>
+      <guid isPermaLink="false">106406742</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106406742</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Financial advisors must find their &apos;niche&apos; to survive over next 5 to 10 years</title>
+      <description><![CDATA[Developing a niche, like working with millennial clients or widows, will become more imperative if financial advisors are to compete successfully.]]></description>
+      <pubDate>Thu, 27 Feb 2020 16:53:19 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/01/30/heres-the-right-amount-of-cryptocurrency-to-keep-in-a-portfolio.html</link>
+      <guid isPermaLink="false">106363893</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106363893</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>This is the right amount of bitcoin to keep in an investment portfolio</title>
+      <description><![CDATA[Cryptocurrency isn't a fad. That's according to experts at the TD Ameritrade LINC conference in Orlando, Florida. If investors want to dip a toe into bitcoin, they should aim for this allocation. They should just make sure they know the risks first.]]></description>
+      <pubDate>Thu, 30 Jan 2020 13:41:02 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2019/12/16/advisors-look-beyond-client-assets-to-give-investment-advice.html</link>
+      <guid isPermaLink="false">106259284</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106259284</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Some advisors look beyond clients&apos; assets when giving investment advice</title>
+      <description><![CDATA[While certain investors might share some commonalities, they also bring a variety of circumstances and financial individuality to the table that some advisors sort through before handing over investment advice.]]></description>
+      <pubDate>Mon, 16 Dec 2019 13:31:01 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2019/12/11/heres-what-top-advisors-see-on-the-horizon-for-markets-in-2020.html</link>
+      <guid isPermaLink="false">106259043</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106259043</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>What top advisors see on the horizon for markets in 2020</title>
+      <description><![CDATA[Financial advisors who made CNBC's FA 100 list of leading firms for 2019 share what their outlook is on factors influencing markets and investors in the new year, from domestic politics to global trade and corporate earnings.]]></description>
+      <pubDate>Wed, 11 Dec 2019 15:16:22 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2019/12/09/financial-advisors-hire-young-talent-for-their-business-to-thrive.html</link>
+      <guid isPermaLink="false">106256042</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106256042</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Advisors hire next-generation talent to thrive. Here&apos;s how some practices have already done it</title>
+      <description><![CDATA[As 40% of advisors plan to retire within the next 10 years, young financial advisors can help fill the gap. Here's how established advisory practices are integrating younger generations into their teams.]]></description>
+      <pubDate>Mon, 09 Dec 2019 13:22:43 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2019/12/04/clients-health-care-spending-gets-closer-look-from-advisors.html</link>
+      <guid isPermaLink="false">106237890</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106237890</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Clients&apos; health-care spending gets closer look from advisors as costs squeeze budgets</title>
+      <description><![CDATA[With the average couple shelling out an estimated $285,000 for medical expenses after age 65, some advisors are looking closely at how their clients should best spend their health-care dollars.]]></description>
+      <pubDate>Wed, 04 Dec 2019 13:01:20 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

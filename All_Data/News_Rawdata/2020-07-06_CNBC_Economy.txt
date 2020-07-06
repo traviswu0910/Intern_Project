@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:metadata="http://search.cnbc.com/rss/2.0/modules/siteContentMetadata" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <atom:link rel="self" type="application/rss+xml" href="https://www.cnbc.com/id/20910258/device/rss/rss.html"/>
+    <language>en-us</language>
+    <ttl>60</ttl>
+    <title>Economy</title>
+    <feed_asset>
+      <id>20910258</id>
+      <type>franchise</type>
+      <subtype>section</subtype>
+      <seo>https://www.cnbc.com/economy/</seo>
+    </feed_asset>
+    <lastBuildDate>Thu, 02 Jul 2020 14:24 GMT</lastBuildDate>
+    <pubDate>Thu, 02 Jul 2020 14:24 GMT</pubDate>
+    <link>https://www.cnbc.com/economy/</link>
+    <description><![CDATA[Find the latest economic news, current events and headlines, as well as blogs and video from CNBC.com. ]]></description>
+    <item>
+      <link>https://www.cnbc.com/2020/07/01/stock-market-futures-open-to-close-news.html</link>
+      <guid isPermaLink="false">106600358</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106600358</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Stocks rise after better-than-expected jobs report to close out winning week</title>
+      <description><![CDATA[Stocks rose on Thursday following a better-than-expected U.S. jobs report as the economy tries to recover from the coronavirus pandemic.]]></description>
+      <pubDate>Thu, 02 Jul 2020 20:13:37 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/02/jobs-report-june-2020.html</link>
+      <guid isPermaLink="false">106601116</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106601116</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Record jobs gain of 4.8 million in June smashes expectations; unemployment rate falls to 11.1%</title>
+      <description><![CDATA[Another big contributor to the decline of the jobless rate was a plunge in those on temporary layoff. That total fell by 4.8 million in June to 10.6 million after a decrease of 2.7 million in May.]]></description>
+      <pubDate>Thu, 02 Jul 2020 15:32:35 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/02/feds-bullard-warns-of-financial-crisis-risks-as-virus-cases-spike.html</link>
+      <guid isPermaLink="false">106601042</guid>
+      <metadata:type>wirestory</metadata:type>
+      <metadata:id>106601042</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Fed&apos;s Bullard warns of financial crisis risks as virus cases spike, FT reports</title>
+      <description><![CDATA[St. Louis Federal Reserve Bank president James Bullard has warned that a growing number of bankruptcies due to the coronavirus outbreak could lead to a financial crisis, the Financial Times reported.]]></description>
+      <pubDate>Thu, 02 Jul 2020 10:14:00 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/01/millions-of-unemployed-americans-wont-return-to-their-old-jobs.html</link>
+      <guid isPermaLink="false">106599684</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106599684</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>17.6 million unemployed Americans probably won&apos;t return to their pre-pandemic jobs</title>
+      <description><![CDATA[The share of the workforce currently out of work with no reasonable chance of returning to their jobs is about 11%, or about 17.6 million people, according to new reserach from the Economic Policy Institute.]]></description>
+      <pubDate>Thu, 02 Jul 2020 14:34:34 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/01/coronavirus-is-expected-to-tank-us-auto-sales-in-the-second-quarter.html</link>
+      <guid isPermaLink="false">106599638</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106599638</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>GM, Fiat Chrysler U.S. auto sales tank in second quarter as coronavirus saps demand</title>
+      <description><![CDATA[U.S. vehicle sales in the second quarter for General Motors, Toyota Motor and Fiat Chrysler plunged by more than 30%]]></description>
+      <pubDate>Thu, 02 Jul 2020 13:33:38 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/01/adp-private-payrolls-june-2020.html</link>
+      <guid isPermaLink="false">106599309</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106599309</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>June private payrolls rose 2.37 million and there was a big positive revision for May, ADP says</title>
+      <description><![CDATA[Private payrolls grew by 2.369 million for the month, a bit lower than the 2.5 million expectation from economists surveyed by Dow Jones, according to a report Wednesday from ADP and Moody's Analytics.]]></description>
+      <pubDate>Wed, 01 Jul 2020 12:57:10 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/01/economys-second-half-comeback-is-now-threatened-by-coronavirus-resurgence.html</link>
+      <guid isPermaLink="false">106598133</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106598133</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Economy&apos;s second-half comeback is now threatened by coronavirus resurgence</title>
+      <description><![CDATA[Economists expect to see a bounceback in the second half of 2020, but the resurging virus threatens the strength of the rebound.]]></description>
+      <pubDate>Wed, 01 Jul 2020 12:18:46 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/01/mortgage-demand-falls-for-second-week-suggesting-slowdown-in-housing-recovery.html</link>
+      <guid isPermaLink="false">106598449</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106598449</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Mortgage demand falls for the second straight week, signaling a potential slowdown in the housing recovery</title>
+      <description><![CDATA[The surge in mortgage demand from homebuyers over the past two months appears to be waning, even as mortgage rates continue to drop.]]></description>
+      <pubDate>Thu, 02 Jul 2020 12:30:35 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/30/us-consumer-confidence-june-2020.html</link>
+      <guid isPermaLink="false">106597712</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106597712</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>U.S. consumer confidence for June jumps more than expected</title>
+      <description><![CDATA[Consumer confidence rose more than expected in June as the U.S. loosened stay-at-home and quarantine restrictions, according to data released Tuesday.]]></description>
+      <pubDate>Tue, 30 Jun 2020 16:46:53 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/30/goldman-sachs-says-a-national-mask-mandate-could-slash-infections-and-save-economy-from-a-5percent-hit.html</link>
+      <guid isPermaLink="false">106597417</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106597417</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Goldman Sachs says a national mask mandate could slash infections and save economy from a 5% hit</title>
+      <description><![CDATA[A face mask mandate would not only cut the daily growth rate of new cases of Covid-19, but could also save the U.S. economy up to 5% in GDP.]]></description>
+      <pubDate>Wed, 01 Jul 2020 00:14:53 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/30/coronavirus-update-home-prices-continued-to-heat-up-in-april-sp-case-shiller-says.html</link>
+      <guid isPermaLink="false">106597492</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106597492</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Home prices heated up in April, despite brief sales drop from coronavirus, S&amp;P Case-Shiller says</title>
+      <description><![CDATA[Home prices strengthened in April, despite a national economic shutdown and a sharp drop in home sales due to the coronavirus.]]></description>
+      <pubDate>Tue, 30 Jun 2020 13:49:45 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/29/powell-says-recovery-path-is-extraordinarily-uncertain-amid-efforts-to-control-virus.html</link>
+      <guid isPermaLink="false">106596564</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106596564</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Powell says recovery path is &apos;extraordinarily uncertain&apos; amid efforts to control virus</title>
+      <description><![CDATA[]]></description>
+      <pubDate>Mon, 29 Jun 2020 20:00:08 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/29/nearly-half-the-us-population-is-without-a-job-showing-how-far-the-labor-recovery-has-to-go.html</link>
+      <guid isPermaLink="false">106596169</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106596169</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Nearly half the U.S. population is without a job, showing how far the labor recovery has to go</title>
+      <description><![CDATA["To get the employment-to-population ratio back to where it was at its peak in 2000 we need to create 30 million jobs," said Torsten Slok, Deutsche Bank's chief economist.]]></description>
+      <pubDate>Tue, 30 Jun 2020 13:48:44 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/29/coronavirus-update-pending-home-sales-spike-a-record-44point3percent-in-may.html</link>
+      <guid isPermaLink="false">106596058</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106596058</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Pending home sales spike a record 44.3% in May, as homebuyers rush back into the market</title>
+      <description><![CDATA[Pending home sales spiked a stunning 44.3% in May compared with April, according to the National Association of Realtors. That beat expectations of a 15% rise. Sales were still 5.1% lower compared with May 2019.]]></description>
+      <pubDate>Mon, 29 Jun 2020 16:52:47 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/26/the-employment-recovery-may-be-slowing-as-virus-cases-climb.html</link>
+      <guid isPermaLink="false">106592241</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106592241</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Employment recovery may be slowing as virus cases climb</title>
+      <description><![CDATA[Data from staffing firms that track hourly employees show job growth may have stagnated or even declined in recent weeks.]]></description>
+      <pubDate>Mon, 29 Jun 2020 12:24:41 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/26/jobs-report-will-be-a-litmus-test-for-economy-as-investors-focus-on-surge-in-virus-outbreaks.html</link>
+      <guid isPermaLink="false">106592810</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106592810</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Fragile economic recovery faces first big test with June jobs report in the week ahead</title>
+      <description><![CDATA[The second half of 2020 is here, and now it's up to the economy to prove that the stock market was right about a sharp comeback in growth.]]></description>
+      <pubDate>Fri, 26 Jun 2020 20:44:28 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/26/coronavirus-mortgage-bailouts-suddenly-swell-as-homeowners-struggle.html</link>
+      <guid isPermaLink="false">106592820</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106592820</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Coronavirus mortgage bailouts suddenly swell as homeowners face new struggles</title>
+      <description><![CDATA[After declining for three weeks, the number of borrowers delaying their monthly mortgage payments due to the coronavirus rose sharply.]]></description>
+      <pubDate>Fri, 26 Jun 2020 19:49:22 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/25/weekly-jobless-claims.html</link>
+      <guid isPermaLink="false">106591790</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106591790</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Total of those receiving unemployment benefits falls below 20 million</title>
+      <description><![CDATA[Jobless claims totaled 1.48 million last week as unemployment related to the coronavirus pandemic remained stubbornly high. Economists surveyed by Dow Jones had been expecting 1.35 million claims.]]></description>
+      <pubDate>Thu, 25 Jun 2020 14:49:48 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/25/us-gdp-q1-2020-final-reading.html</link>
+      <guid isPermaLink="false">106591722</guid>
+      <metadata:type>wirestory</metadata:type>
+      <metadata:id>106591722</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>U.S. GDP fell at a 5% rate in the first quarter, and the worse is likely on the way</title>
+      <description><![CDATA[The U.S. economy shrank at a 5.0% rate in the first quarter with a much worse decline expected in the current three-month economic period because of the coronavirus pandemic.]]></description>
+      <pubDate>Thu, 25 Jun 2020 12:47:03 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/23/homebuilders-see-strongest-may-sales-in-over-a-decade-but-they-have-a-big-problem.html</link>
+      <guid isPermaLink="false">106588857</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106588857</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Homebuilders see strongest May sales in over a decade, but they have a big problem</title>
+      <description><![CDATA[Sales of newly built homes jumped far more than expected in May, according to the U.S. Census. After slowing dramatically in March, as the coronavirus shut down the economy, they posted the strongest May pace since 2007, a recovery that surprised even the builders themselves. But housing starts were not nearly as strong, and builders are struggling to meet this new demand.]]></description>
+      <pubDate>Tue, 23 Jun 2020 17:24:28 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/19/feds-rosengren-reports-tremendous-interest-from-businesses-for-loan-program.html</link>
+      <guid isPermaLink="false">106584622</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106584622</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Fed&apos;s Rosengren reports &apos;tremendous interest&apos; from businesses for loan program</title>
+      <description><![CDATA[As the Main Street lending facility wraps up its first full week of operation, Rosengren reported brisk interest on the borrowing side amid what looks like tepid interest from banks thus far.]]></description>
+      <pubDate>Fri, 19 Jun 2020 14:02:32 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/19/a-tale-of-two-coronavirus-recessions-some-thrive-as-others-suffer.html</link>
+      <guid isPermaLink="false">106583544</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106583544</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>A tale of two recessions: Some Americans thrive as others suffer</title>
+      <description><![CDATA[The recession is playing out much differently across wealth, race and gender divides. Some are bearing the brunt of the economic contagion, while others hardly feel a thing.]]></description>
+      <pubDate>Mon, 22 Jun 2020 16:42:24 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/18/another-1-million-jobless-claims-show-congress-may-need-to-extend-extra-benefits-set-to-expire.html</link>
+      <guid isPermaLink="false">106582948</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106582948</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Another 1 million jobless claims show Congress may need to extend extra benefits set to expire</title>
+      <description><![CDATA[Economists say the latest jobless claims report shows adds weight to calls for the extension of expanded unemployment benefits.]]></description>
+      <pubDate>Thu, 18 Jun 2020 21:57:43 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/18/weekly-jobless-claims.html</link>
+      <guid isPermaLink="false">106582788</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106582788</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Jobless claims total 1.5 million, worse than expected as economic pain persists</title>
+      <description><![CDATA[The elevated claims number persists even as all states have reopened to varying degrees and nonfarm payrolls grew by 2.5 million in May.]]></description>
+      <pubDate>Thu, 18 Jun 2020 14:06:45 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/16/powell-warns-of-significant-uncertainty-about-the-recovery-and-says-small-businesses-are-at-risk.html</link>
+      <guid isPermaLink="false">106579653</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106579653</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Powell warns of &apos;significant uncertainty&apos; about the recovery and says small businesses are at risk</title>
+      <description><![CDATA[The Fed chairman repeated warnings about the economy during the first day of his semiannual testimony before Congress.]]></description>
+      <pubDate>Tue, 16 Jun 2020 18:01:20 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/16/powell-says-the-fed-doesnt-want-to-run-through-the-bond-market-like-an-elephant.html</link>
+      <guid isPermaLink="false">106579795</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106579795</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Powell says the Fed doesn&apos;t want to &apos;run through the bond market like an elephant&apos;</title>
+      <description><![CDATA[Powell said the central bank's announced move this week to buy corporate bonds fulfills a pledge it had made earlier but is not an effort to take over the market.]]></description>
+      <pubDate>Tue, 16 Jun 2020 16:41:55 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/16/coronavirus-update-homebuilder-sentiment-posts-biggest-monthly-surge-ever.html</link>
+      <guid isPermaLink="false">106579577</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106579577</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Homebuilder sentiment posts biggest monthly surge ever, a sign housing is rebounding from coronavirus</title>
+      <description><![CDATA[Builder sentiment jumped a striking 21 points in June to 58, the largest monthly increase ever in the National Association of Home Builders/Wells Fargo Housing Market Index.]]></description>
+      <pubDate>Tue, 16 Jun 2020 15:53:01 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/16/us-retail-sales-may-2020.html</link>
+      <guid isPermaLink="false">106579365</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106579365</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>U.S. May retail sales surge 17.7% in the biggest monthly jump ever</title>
+      <description><![CDATA[U.S. retail sales were expected to rise 8% in May, after plunging 16.4% the prior month as retailers went into lockdown amid the coronavirus crisis.]]></description>
+      <pubDate>Tue, 16 Jun 2020 19:53:29 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/15/the-fed-says-it-is-going-to-start-buying-individual-corporate-bonds.html</link>
+      <guid isPermaLink="false">106578372</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106578372</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>The Fed says it is going to start buying individual corporate bonds</title>
+      <description><![CDATA[Those purchases will go along with the ETFs the Fed already has been buying, the central bank announced Monday.]]></description>
+      <pubDate>Mon, 15 Jun 2020 21:27:10 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/15/new-york-region-manufacturers-are-the-most-optimistic-since-coming-out-of-the-financial-crisis.html</link>
+      <guid isPermaLink="false">106577960</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106577960</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>New York region manufacturers are the most optimistic since the Great Recession</title>
+      <description><![CDATA[Monthly improvement came across the board, especially in the index of future business conditions.]]></description>
+      <pubDate>Mon, 15 Jun 2020 14:46:39 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

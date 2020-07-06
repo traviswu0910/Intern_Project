@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:metadata="http://search.cnbc.com/rss/2.0/modules/siteContentMetadata" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <atom:link rel="self" type="application/rss+xml" href="https://www.cnbc.com/id/10001147/device/rss/rss.html"/>
+    <language>en-us</language>
+    <ttl>60</ttl>
+    <title>Business News</title>
+    <feed_asset>
+      <id>10001147</id>
+      <type>franchise</type>
+      <subtype>section</subtype>
+      <seo>https://www.cnbc.com/business/</seo>
+    </feed_asset>
+    <lastBuildDate>Mon, 06 Jul 2020 03:13 GMT</lastBuildDate>
+    <pubDate>Mon, 06 Jul 2020 03:13 GMT</pubDate>
+    <link>https://www.cnbc.com/business/</link>
+    <description><![CDATA[Latest headlines for business news around the world. ]]></description>
+    <item>
+      <link>https://www.cnbc.com/2020/07/02/bar-owners-reckon-with-costly-stop-and-starts-as-states-close-them-down-again.html</link>
+      <guid isPermaLink="false">106597502</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106597502</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Bar owners reckon with costly stop and starts as states close them down again</title>
+      <description><![CDATA[Governors in Michigan, Florida, Texas, California, Colorado and Arizona are closing thousands of bars again ahead of the Fourth of July weekend as Covid-19 cases in those states surge.]]></description>
+      <pubDate>Thu, 02 Jul 2020 19:20:07 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/02/moderna-stock-falls-8percent-after-report-says-late-stage-coronavirus-vaccine-trial-delayed.html</link>
+      <guid isPermaLink="false">106601700</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106601700</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Moderna stock falls by as much as 9.4% after report says late-stage coronavirus vaccine trial delayed</title>
+      <description><![CDATA[The company is making changes to its trial plan, which has pushed back the expected start date, according to health-care publication STAT News.]]></description>
+      <pubDate>Thu, 02 Jul 2020 18:53:31 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/02/dodge-unveils-durango-hellcat-as-most-powerful-suv-ever.html</link>
+      <guid isPermaLink="false">106601586</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106601586</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Fiat Chrysler unveils Dodge Durango Hellcat as &apos;most powerful SUV ever&apos;</title>
+      <description><![CDATA[The automaker unveiled a new "Hellcat" model of the 2021 Durango SUV, which it is calling "the most powerful SUV ever."]]></description>
+      <pubDate>Thu, 02 Jul 2020 18:29:23 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/02/dr-scott-gottlieb-says-he-thinks-the-worst-of-the-us-coronavirus-epidemic-will-be-over-by-january.html</link>
+      <guid isPermaLink="false">106601169</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106601169</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Dr. Scott Gottlieb says he thinks the worst of the U.S. coronavirus epidemic &apos;will be over by January&apos;</title>
+      <description><![CDATA["This will be over by January one way or the other," former FDA Commissioner Dr. Scott Gottlieb said on "Squawk Box."]]></description>
+      <pubDate>Thu, 02 Jul 2020 17:12:49 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/02/researchers-find-neurological-damage-in-four-children-with-coronavirus-inflammatory-syndrome.html</link>
+      <guid isPermaLink="false">106599581</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106599581</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Researchers find neurological damage in four children with coronavirus inflammatory syndrome</title>
+      <description><![CDATA[Children diagnosed with Covid-19 pediatric multisystem inflammatory syndrome, or PMIS, may develop new-onset neurological symptoms in the absence of respiratory manifestations, according to a study published Wednesday in JAMA Neurology.]]></description>
+      <pubDate>Thu, 02 Jul 2020 17:23:53 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/02/casinos-see-strong-sales-despite-social-distancing-owner-says.html</link>
+      <guid isPermaLink="false">106601643</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106601643</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Casinos are seeing strong sales despite social distancing, Circa Resort CEO says</title>
+      <description><![CDATA[Las Vegas casino owner Derek Stevens said Thursday that although social distancing protocols are limiting the amount of people inside his casinos, sales in June were higher than a year ago.]]></description>
+      <pubDate>Thu, 02 Jul 2020 17:58:52 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/02/american-airlines-says-its-overstaffed-by-20000-employees-for-fall-schedule-due-to-covid19.html</link>
+      <guid isPermaLink="false">106601392</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106601392</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>American Airlines says it&apos;s overstaffed by 20,000 employees for fall schedule</title>
+      <description><![CDATA[American Airlines told staff that it expects to be overstaffed by more than 20,000 people this fall.]]></description>
+      <pubDate>Fri, 03 Jul 2020 11:48:11 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/06/hong-kong-national-security-law-may-spook-socially-conscious-investors.html</link>
+      <guid isPermaLink="false">106602164</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106602164</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Hong Kong national security law may spook socially conscious investors, sparking outflows</title>
+      <description><![CDATA[Investors who take a sustainable approach to allocating capital may be reevaluating putting their money into Hong Kong after the city implemented a national security law, an analyst said on Friday.]]></description>
+      <pubDate>Mon, 06 Jul 2020 02:51:35 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/05/coronavirus-on-track-to-overwhelm-houston-hospitals-in-two-weeks-mayor-says.html</link>
+      <guid isPermaLink="false">106603419</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106603419</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Coronavirus on track to overwhelm Houston hospitals in two weeks, mayor says</title>
+      <description><![CDATA[Hospitals in Houston, Texas are on track to be overwhelmed in approximately two weeks as coronavirus cases mount, Mayor Sylvester Turner said on Sunday.]]></description>
+      <pubDate>Sun, 05 Jul 2020 18:48:35 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/05/automakers-rethink-reveals-for-ford-bronco-gmc-hummer-amid-pandemic.html</link>
+      <guid isPermaLink="false">106601112</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106601112</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Coronavirus causes automakers to rethink debuts of Ford Bronco, GMC Hummer EV and others</title>
+      <description><![CDATA[Auto show cancellations due to the coronavirus pandemic have created a backlog of vehicle debuts as new models arrive in showrooms in the coming months.]]></description>
+      <pubDate>Sun, 05 Jul 2020 14:54:36 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/05/here-are-five-charts-tracking-the-us-economy-amid-the-coronavirus.html</link>
+      <guid isPermaLink="false">106601509</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106601509</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Here are five charts tracking the U.S. economy amid the coronavirus pandemic</title>
+      <description><![CDATA[The United States has reported record increases in coronavirus cases with spikes seen in states well underway in their reopening progress.]]></description>
+      <pubDate>Sun, 05 Jul 2020 18:50:49 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/05/as-black-buying-power-grows-racial-profiling-by-retailers-remains-a-problem.html</link>
+      <guid isPermaLink="false">106587622</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106587622</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>As Black buying power grows, racial profiling by retailers remains persistent problem</title>
+      <description><![CDATA[George Floyd's killing and Black Lives Matter protests have sparked a national conversation not only about police reform, but about the everyday places where Black Americans face discrimination.]]></description>
+      <pubDate>Sun, 05 Jul 2020 18:59:37 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/04/world-health-organization-reports-new-coronavirus-cases-reach-all-time-high.html</link>
+      <guid isPermaLink="false">106603162</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106603162</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>World Health Organization reports new coronavirus cases reach all-time high</title>
+      <description><![CDATA[The number of new Covid-19 cases has reached a new high at 212,326 cases in 24 hours, according to a July 4 report from the World Health Organization.]]></description>
+      <pubDate>Sat, 04 Jul 2020 20:31:34 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/04/coronavirus-who-halts-trial-of-two-hiv-drugs-lopinavir-ritonavir.html</link>
+      <guid isPermaLink="false">106603160</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106603160</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>WHO halts trial of HIV drugs as possible treatment for patients hospitalized with coronavirus</title>
+      <description><![CDATA[The WHO said the trial results of the hydroxychloroquine and lopinavir-ritonavir drugs "produced little or no reduction in the mortality" of COVID-19 patients.]]></description>
+      <pubDate>Sun, 05 Jul 2020 13:00:24 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/04/florida-reports-more-than-11000-new-coronavirus-cases-another-daily-record.html</link>
+      <guid isPermaLink="false">106603137</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106603137</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>&apos;The growth is exponential&apos; — Florida and Texas report surge of coronavirus cases over Fourth of July</title>
+      <description><![CDATA[Even as Florida continues to report record case numbers, Gov. Ron DeSantis said the state will not halt its re-opening and refuses to order a statewide mask mandate to curb the spread of the virus.]]></description>
+      <pubDate>Sun, 05 Jul 2020 23:45:49 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/04/road-trips-are-the-way-to-travel-more-safely-this-summer.html</link>
+      <guid isPermaLink="false">106599817</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106599817</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>If you miss travel, road trips could be your key to safer summer getaways</title>
+      <description><![CDATA[If you're like most people, you miss traveling. These tips to travel safely by car can get you back on the road.]]></description>
+      <pubDate>Sat, 04 Jul 2020 14:30:01 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/04/virtual-reality-usage-booms-in-the-workplace-amid-the-pandemic.html</link>
+      <guid isPermaLink="false">106598315</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106598315</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Virtual reality is booming in the workplace amid the pandemic. Here&apos;s why</title>
+      <description><![CDATA[Virtual reality usage is booming in the workplace as companies use it for training, customer service, hiring and work meetings during the pandemic.]]></description>
+      <pubDate>Sat, 04 Jul 2020 14:30:01 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/04/how-six-flags-parks-plan-to-survive-the-coronavirus-pandemic.html</link>
+      <guid isPermaLink="false">106597865</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106597865</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>How Six Flags plans to survive coronavirus</title>
+      <description><![CDATA[Six Flags' theme parks have emerged from a rough business history. In 2020, investors worried that it may not survive coronavirus, but it secured cash and is getting stronger.]]></description>
+      <pubDate>Sat, 04 Jul 2020 14:00:01 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/04/virtual-family-daytrips-that-will-help-parents-stay-sane-this-summer.html</link>
+      <guid isPermaLink="false">106593867</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106593867</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Virtual family daytrips that will help parents stay sane and keep boredom at bay this summer</title>
+      <description><![CDATA[Familiar summer destinations like museums, national parks and major cities may not be easy to travel to this summer amid the ongoing coronavirus pandemic.]]></description>
+      <pubDate>Sat, 04 Jul 2020 13:30:01 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/04/supreme-court-decision-in-louisiana-case-sets-back-abortion-foes.html</link>
+      <guid isPermaLink="false">106598178</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106598178</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Supreme Court ruling in Louisiana case sets back abortion foes&apos; hopes of overturning Roe v. Wade</title>
+      <description><![CDATA[The Supreme Court struck down a Louisiana law that would have required abortion providers to have admitting privileges to a nearby hospital. The law was nearly identical to one in Texas that the Supreme Court ruled against in 2016. These laws are part of a strategy by anti-abortion activists to limit access to abortion and eventually overturn Roe v. Wade.]]></description>
+      <pubDate>Sat, 04 Jul 2020 12:00:01 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/04/coronavirus-kimberly-guilfoyle-donald-trump-jrs-girlfriend-tests-positive.html</link>
+      <guid isPermaLink="false">106602881</guid>
+      <metadata:type>partnerstory</metadata:type>
+      <metadata:id>106602881</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Kimberly Guilfoyle, Trump campaign official and girlfriend of president&apos;s son, tests positive for coronavirus</title>
+      <description><![CDATA[Kimberly Guilfoyle, a senior Trump campaign official and Donald Trump Jr.'s girlfriend, tested positive for coronavirus while in South Dakota on Friday, according to NBC News citing sources.]]></description>
+      <pubDate>Sat, 04 Jul 2020 10:48:59 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/03/before-you-hit-the-highway-the-ins-and-outs-of-road-trip-insurance.html</link>
+      <guid isPermaLink="false">106601346</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106601346</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Before you hit the highway, here are the ins and outs of road trip insurance</title>
+      <description><![CDATA[Millions of eager Americans are hitting the country's highways and byways on long-awaited road trip vacations this summer. Here's a look at how to ensure a good time while away by paying attention to the ins and out of road trip and vehicle insurance.]]></description>
+      <pubDate>Fri, 03 Jul 2020 15:00:01 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/03/how-to-shop-for-car-deals-during-4th-of-july-sales.html</link>
+      <guid isPermaLink="false">106599940</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106599940</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>July Fourth car shopping comes with some deals but less of a selection. Here&apos;s what to expect</title>
+      <description><![CDATA[The coronavirus pandemic has disrupted auto manufacturing, which means there's less inventory at many dealership, but auto makers are still offering specials on certain models.]]></description>
+      <pubDate>Fri, 03 Jul 2020 14:30:01 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/03/delta-american-and-united-the-future-of-air-travel.html</link>
+      <guid isPermaLink="false">106597798</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106597798</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Air travel in six months: What it will look like</title>
+      <description><![CDATA[Without a vaccine or an effective treatment against coronavirus, air travel in January could look radically different than in 2019. Passengers arriving at airports could see new check-in procedures, face even longer lines and be subject to health screenings.]]></description>
+      <pubDate>Fri, 03 Jul 2020 14:05:01 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/03/the-10-most-valuable-malls-in-america-before-the-coronavirus-pandemic.html</link>
+      <guid isPermaLink="false">106596237</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106596237</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>The 10 most valuable malls in America before the coronavirus pandemic</title>
+      <description><![CDATA[Before the coronavirus pandemic hit, America's most valuable malls were driving billions of dollars in sales annually, contributing hundreds of millions of dollars to local tax coffers.]]></description>
+      <pubDate>Fri, 03 Jul 2020 14:00:01 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/03/coronavirus-update-surgeon-general-avoids-warning-people-to-avoid-july-fourth-crowds.html</link>
+      <guid isPermaLink="false">106602637</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106602637</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Surgeon general stops short of warning people to avoid crowds on Fourth of July</title>
+      <description><![CDATA[Surgeon General Jerome Adams stopped short of advising people to avoid participating in large gatherings over the Fourth of July weekend, despite warnings from health officials that such events may spread the coronavirus.]]></description>
+      <pubDate>Fri, 03 Jul 2020 13:32:00 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/03/surrounded-by-trees-using-solar-a-factory-is-challenging-perceptions.html</link>
+      <guid isPermaLink="false">106602616</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106602616</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Surrounded by trees and with 1,200 solar panels, this Norwegian building could change how we think about factories</title>
+      <description><![CDATA[The buildings that produce the goods we use every single day are changing.]]></description>
+      <pubDate>Fri, 03 Jul 2020 13:02:18 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/03/uk-to-end-compulsory-quarantine-for-travelers-from-france-germany-spain-and-italy.html</link>
+      <guid isPermaLink="false">106602522</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106602522</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>England to end compulsory quarantine for travelers from France, Germany, Spain and Italy</title>
+      <description><![CDATA[The U.K. government is about to lift compulsory self-isolation for travelers from low-risk destinations to England starting next week.]]></description>
+      <pubDate>Fri, 03 Jul 2020 11:24:54 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/03/where-to-book-luxury-cabins-this-autumn.html</link>
+      <guid isPermaLink="false">106598975</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106598975</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Forget summer: These luxury cabins are right for autumn getaways</title>
+      <description><![CDATA[These luxury cabins are designed for groups of families and friends who want a safe and secluded holiday that is as posh as a resort – but without all the people.]]></description>
+      <pubDate>Fri, 03 Jul 2020 06:31:33 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/03/how-hong-kong-beat-coronavirus-and-avoided-lockdown.html</link>
+      <guid isPermaLink="false">106596862</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106596862</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>How Hong Kong beat coronavirus and avoided lockdown</title>
+      <description><![CDATA[Hong Kong is one of the world's densest cities. Public transit is often packed. There are even direct flights from Wuhan. Yet, the city managed to handle the outbreak with a combination of factors.]]></description>
+      <pubDate>Fri, 03 Jul 2020 02:31:07 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:metadata="http://search.cnbc.com/rss/2.0/modules/siteContentMetadata" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <atom:link rel="self" type="application/rss+xml" href="https://www.cnbc.com/id/10000116/device/rss/rss.html"/>
+    <language>en-us</language>
+    <ttl>60</ttl>
+    <title>Retail</title>
+    <feed_asset>
+      <id>10000116</id>
+      <type>franchise</type>
+      <subtype>section</subtype>
+      <seo>https://www.cnbc.com/retail/</seo>
+    </feed_asset>
+    <lastBuildDate>Sun, 05 Jul 2020 13:37 GMT</lastBuildDate>
+    <pubDate>Sun, 05 Jul 2020 13:37 GMT</pubDate>
+    <link>https://www.cnbc.com/retail/</link>
+    <description><![CDATA[Find the latest news, headlines, blogs and video about retail, consumers, shopping and retail companies from CNBC.com.]]></description>
+    <item>
+      <link>https://www.cnbc.com/2020/07/05/here-are-five-charts-tracking-the-us-economy-amid-the-coronavirus.html</link>
+      <guid isPermaLink="false">106601509</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106601509</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Here are five charts tracking the U.S. economy amid the coronavirus pandemic</title>
+      <description><![CDATA[The United States has reported record increases in coronavirus cases with spikes seen in states well underway in their reopening progress.]]></description>
+      <pubDate>Sun, 05 Jul 2020 18:50:49 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/05/as-black-buying-power-grows-racial-profiling-by-retailers-remains-a-problem.html</link>
+      <guid isPermaLink="false">106587622</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106587622</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>As Black buying power grows, racial profiling by retailers remains persistent problem</title>
+      <description><![CDATA[George Floyd's killing and Black Lives Matter protests have sparked a national conversation not only about police reform, but about the everyday places where Black Americans face discrimination.]]></description>
+      <pubDate>Sun, 05 Jul 2020 18:59:37 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/03/delta-american-and-united-the-future-of-air-travel.html</link>
+      <guid isPermaLink="false">106597798</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106597798</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Air travel in six months: What it will look like</title>
+      <description><![CDATA[Without a vaccine or an effective treatment against coronavirus, air travel in January could look radically different than in 2019. Passengers arriving at airports could see new check-in procedures, face even longer lines and be subject to health screenings.]]></description>
+      <pubDate>Fri, 03 Jul 2020 14:05:01 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/03/the-10-most-valuable-malls-in-america-before-the-coronavirus-pandemic.html</link>
+      <guid isPermaLink="false">106596237</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106596237</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>The 10 most valuable malls in America before the coronavirus pandemic</title>
+      <description><![CDATA[Before the coronavirus pandemic hit, America's most valuable malls were driving billions of dollars in sales annually, contributing hundreds of millions of dollars to local tax coffers.]]></description>
+      <pubDate>Fri, 03 Jul 2020 14:00:01 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/03/alibaba-exec-fired-for-helping-girlfriend-secure-job-accepting-gifts.html</link>
+      <guid isPermaLink="false">106602179</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106602179</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Top Alibaba exec fired for helping girlfriend secure a job and accepting gifts, internal memo says</title>
+      <description><![CDATA[Alibaba has fired the head of its fast-growing livestreaming business for allegedly engaging in nepotism and accepting gifts, according to an internal memo seen by CNBC.]]></description>
+      <pubDate>Fri, 03 Jul 2020 07:44:18 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/02/bar-owners-reckon-with-costly-stop-and-starts-as-states-close-them-down-again.html</link>
+      <guid isPermaLink="false">106597502</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106597502</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Bar owners reckon with costly stop and starts as states close them down again</title>
+      <description><![CDATA[Governors in Michigan, Florida, Texas, California, Colorado and Arizona are closing thousands of bars again ahead of the Fourth of July weekend as Covid-19 cases in those states surge.]]></description>
+      <pubDate>Thu, 02 Jul 2020 19:20:07 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/02/casinos-see-strong-sales-despite-social-distancing-owner-says.html</link>
+      <guid isPermaLink="false">106601643</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106601643</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Casinos are seeing strong sales despite social distancing, Circa Resort CEO says</title>
+      <description><![CDATA[Las Vegas casino owner Derek Stevens said Thursday that although social distancing protocols are limiting the amount of people inside his casinos, sales in June were higher than a year ago.]]></description>
+      <pubDate>Thu, 02 Jul 2020 17:58:52 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/02/bipartisan-senate-bill-would-punish-retailers-for-refusing-cash-payments.html</link>
+      <guid isPermaLink="false">106601600</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106601600</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Bipartisan Senate bill would punish retailers for refusing cash payments</title>
+      <description><![CDATA[Retailers are promoting "contactless" digital payments to minimize germ spread during the coronavirus pandemic.]]></description>
+      <pubDate>Thu, 02 Jul 2020 18:46:17 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/01/mcdonalds-is-halting-its-us-reopening-plans-as-coronavirus-cases-spike.html</link>
+      <guid isPermaLink="false">106600402</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106600402</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>McDonald&apos;s is halting its U.S. reopening plans as coronavirus cases spike</title>
+      <description><![CDATA[McDonald's is pausing its U.S. reopening plans for 21 days as coronavirus cases spike across the country.]]></description>
+      <pubDate>Thu, 02 Jul 2020 12:10:22 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/01/lowes-ceo-marvin-ellison-says-corporate-leaders-must-step-up-diversity-efforts.html</link>
+      <guid isPermaLink="false">106599839</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106599839</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>&apos;Talk less and do more&apos;: Lowe&apos;s CEO Marvin Ellison says corporate leaders must step up diversity efforts</title>
+      <description><![CDATA[During a virtual speaker series on Wednesday, Ellison said it's "mentally exhausting that in 2020, we're still discussing racial injustice."]]></description>
+      <pubDate>Wed, 01 Jul 2020 20:08:42 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/01/fourth-of-july-celebrations-at-home-are-driving-record-fireworks-sales.html</link>
+      <guid isPermaLink="false">106597853</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106597853</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Record fireworks sales expected as Fourth of July gets celebrated at home during the pandemic</title>
+      <description><![CDATA[Covid-19 has prompted the cancellation of thousands of large fireworks displays to celebrate Independence Day. Without these attractions, more people than ever are setting off their own firework displays.]]></description>
+      <pubDate>Wed, 01 Jul 2020 18:03:53 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/01/luckin-coffee-says-probe-into-sales-fraud-is-substantially-complete.html</link>
+      <guid isPermaLink="false">106599573</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106599573</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Luckin Coffee says independent probe into sales fraud is &apos;substantially&apos; complete</title>
+      <description><![CDATA[Luckin Coffee said Wednesday that it has "substantially" completed its independent internal probe into sales fraud.]]></description>
+      <pubDate>Wed, 01 Jul 2020 14:02:00 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/01/macys-says-regional-coronavirus-flare-ups-will-hurt-sales.html</link>
+      <guid isPermaLink="false">106599370</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106599370</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Rocky road ahead at Macy&apos;s, potential &apos;regional flare-ups,&apos; with Covid-19 cases surging in some states</title>
+      <description><![CDATA[The road to recovery at Macy's is likely going to be a rocky one because of the coronavirus pandemic. The retailer warned Wednesday that sales are falling again in states such as Texas where Covid-19 cases are on the rise.]]></description>
+      <pubDate>Wed, 01 Jul 2020 17:47:42 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/01/mall-owner-cbl-says-in-forbearance-over-skipped-interest-payment.html</link>
+      <guid isPermaLink="false">106599308</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106599308</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Mall owner CBL says it&apos;s in forbearance over skipped interest payment</title>
+      <description><![CDATA[CBL said "there can be no assurance" that it will be able "to reach any agreement with respect to its indebtedness."]]></description>
+      <pubDate>Wed, 01 Jul 2020 13:07:27 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/01/constellation-brands-acquires-gary-vaynerchuks-empathy-wines.html</link>
+      <guid isPermaLink="false">106596799</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106596799</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Constellation Brands acquires Gary Vaynerchuk&apos;s Empathy Wines</title>
+      <description><![CDATA[The acquisition comes at a time when many states are slowing or reversing their reopening plans as coronavirus cases climb. Restrictions on bars and indoor dining may be extended as a result, providing a boon for alcohol e-commerce.]]></description>
+      <pubDate>Wed, 01 Jul 2020 12:50:19 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/01/pizza-huts-largest-us-franchisee-files-for-chapter-11-bankruptcy.html</link>
+      <guid isPermaLink="false">106597846</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106597846</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Pizza Hut&apos;s largest U.S. franchisee files for Chapter 11 bankruptcy</title>
+      <description><![CDATA[NPC joins a host of other companies that filed for bankruptcy during the pandemic, including Chuck E. Cheese's parent company CEC Entertainment, rental car company Hertz, and retailers J. Crew and J.C. Penney.]]></description>
+      <pubDate>Wed, 01 Jul 2020 16:03:21 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/01/macys-m-reports-q1-2020-loss-per-share.html</link>
+      <guid isPermaLink="false">106597561</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106597561</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Macy&apos;s reports first-quarter loss but does not expect &apos;another full shutdown&apos;</title>
+      <description><![CDATA[Macy's on Wednesday reported a first-quarter loss, in line with the retailer's previously announced estimates, as its business took a hit from the coronavirus pandemic.]]></description>
+      <pubDate>Wed, 01 Jul 2020 12:26:05 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/01/beyond-meat-enters-grocery-stores-in-mainland-china-through-alibaba-partnership.html</link>
+      <guid isPermaLink="false">106598341</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106598341</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Beyond Meat enters grocery stores in mainland China through Alibaba partnership</title>
+      <description><![CDATA[Beyond Meat announced Tuesday that Alibaba's Freshippo grocery stores would start selling its meatless burger patties.]]></description>
+      <pubDate>Wed, 01 Jul 2020 01:46:29 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/30/walgreens-says-new-small-format-store-personalizes-care-could-help-in-pharmacy-deserts.html</link>
+      <guid isPermaLink="false">106590818</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106590818</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Walgreens says new small-format store personalizes care, could help in &apos;pharmacy deserts&apos;</title>
+      <description><![CDATA[Expect to see fewer front-of-store items, a slimmed down selection of over-the-counter medications and an emphasis on relationships between pharmacists and customers.]]></description>
+      <pubDate>Wed, 01 Jul 2020 12:02:07 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/30/heres-why-the-biggest-us-mall-owner-might-want-to-buy-jc-penney.html</link>
+      <guid isPermaLink="false">106597560</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106597560</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Here&apos;s why the biggest U.S. mall owner might want to buy JC Penney</title>
+      <description><![CDATA[Simon Property Group might want to own bankrupt J.C. Penney to be able to redevelop some of its best real estate and make it even better, according to one analyst.]]></description>
+      <pubDate>Wed, 01 Jul 2020 17:09:03 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/30/fitmatch-a-virtual-fitting-experience-moves-into-brookfield-malls.html</link>
+      <guid isPermaLink="false">106581728</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106581728</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>No more dressing rooms: This virtual fitting experience is moving into Brookfield malls</title>
+      <description><![CDATA[Fit:Match is teaming with mall owner Brookfield to open spaces where people can receive a 3D body scan to find their sizes and shop for clothes.]]></description>
+      <pubDate>Tue, 30 Jun 2020 13:13:37 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/30/fanatics-paris-saint-germain-soccer-club-renew-partnership-for-10-years.html</link>
+      <guid isPermaLink="false">106596888</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106596888</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Fanatics, Paris Saint-Germain soccer club renew partnership for 10 years</title>
+      <description><![CDATA[The deal is the largest financial agreement the Fanatics has struck with a sports team, individuals with knowledge of the deal told CNBC.]]></description>
+      <pubDate>Tue, 30 Jun 2020 12:06:44 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/29/lululemon-to-acquire-at-home-fitness-company-mirror-for-500-million.html</link>
+      <guid isPermaLink="false">106596577</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106596577</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Lululemon to acquire at-home fitness company Mirror for $500 million</title>
+      <description><![CDATA[Lululemon is acquiring the in-home fitness company Mirror for $500 million, the retailer announced Monday, marking its first acquisition.]]></description>
+      <pubDate>Mon, 29 Jun 2020 21:52:52 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/29/impossible-foods-rolls-out-its-meatless-sausage-to-all-restaurants-nationwide.html</link>
+      <guid isPermaLink="false">106596187</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106596187</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Impossible Foods begins selling its meatless sausage to restaurants nationwide</title>
+      <description><![CDATA[Impossible Foods announced Monday that its meatless sausage will now be sold to restaurants nationwide.]]></description>
+      <pubDate>Mon, 29 Jun 2020 17:05:00 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/29/burger-kings-us-same-store-sales-are-flat-as-fast-food-customers-return.html</link>
+      <guid isPermaLink="false">106595884</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106595884</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Burger King&apos;s U.S. same-store sales are flat as fast-food customers return to restaurants</title>
+      <description><![CDATA[Burger King's U.S. same-store sales are trending flat as customers return to its locations for Whoppers and french fries.]]></description>
+      <pubDate>Mon, 29 Jun 2020 13:46:19 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/28/starbucks-latest-company-to-pause-ads-across-social-media-platforms.html</link>
+      <guid isPermaLink="false">106595379</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106595379</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Starbucks is the latest company to pause advertising across social media platforms</title>
+      <description><![CDATA[Starbucks is the latest company said it will pause advertising on "all social media platforms" and promises to have discussions internally and with media partners and civil rights organizations to stop the spread of hate speech.]]></description>
+      <pubDate>Sun, 28 Jun 2020 19:24:10 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/28/coronavirus-plastic-waste-surges-as-restaurants-use-more-disposable-packaging.html</link>
+      <guid isPermaLink="false">106583078</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106583078</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Plastic waste surges as coronavirus prompts restaurants to use more disposable packaging</title>
+      <description><![CDATA[The surge in single-use plastic is a major blow to the fight against plastic pollution, which is projected to increase by 40% in the next decade.]]></description>
+      <pubDate>Sun, 28 Jun 2020 13:15:01 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/28/here-are-five-charts-illustrating-the-us-economic-recovery-amid-the-coronavirus-pandemic.html</link>
+      <guid isPermaLink="false">106594293</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106594293</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Here are five charts illustrating the U.S. economic recovery amid the coronavirus pandemic</title>
+      <description><![CDATA[Though states are reporting new surges in Covid-19 cases, pausing reopening measures and even re-instituting business restrictions, specific economic sectors have continued to see improvement.]]></description>
+      <pubDate>Sun, 28 Jun 2020 12:45:01 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/26/luckin-coffee-moves-to-remove-chairman-after-accounting-scandal.html</link>
+      <guid isPermaLink="false">106594231</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106594231</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Luckin Coffee moves to remove chairman after accounting scandal</title>
+      <description><![CDATA[Luckin Coffee announced Friday that its board of directors is moving to force out director and Chairman Charles Zhengyao Lu.]]></description>
+      <pubDate>Sat, 27 Jun 2020 03:09:09 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/26/albertsons-ceo-says-ipo-is-a-great-accomplishment-amid-coronavirus-pandemic.html</link>
+      <guid isPermaLink="false">106593464</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106593464</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Albertsons CEO says grocery operator&apos;s IPO is &apos;a great accomplishment&apos; amid coronavirus pandemic</title>
+      <description><![CDATA[Albertsons debuted on the New York Stock Exchange Friday at a lower-than-expected $16 per share, but the supermarket operator has gotten a bounce from shopping trends during the pandemic.]]></description>
+      <pubDate>Fri, 26 Jun 2020 21:16:06 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

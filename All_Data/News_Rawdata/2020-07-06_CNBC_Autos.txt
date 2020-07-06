@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:metadata="http://search.cnbc.com/rss/2.0/modules/siteContentMetadata" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <atom:link rel="self" type="application/rss+xml" href="https://www.cnbc.com/id/10000101/device/rss/rss.html"/>
+    <language>en-us</language>
+    <ttl>60</ttl>
+    <title>Autos</title>
+    <feed_asset>
+      <id>10000101</id>
+      <type>franchise</type>
+      <subtype>section</subtype>
+      <seo>https://www.cnbc.com/autos/</seo>
+    </feed_asset>
+    <lastBuildDate>Sun, 05 Jul 2020 15:15 GMT</lastBuildDate>
+    <pubDate>Sun, 05 Jul 2020 15:15 GMT</pubDate>
+    <link>https://www.cnbc.com/autos/</link>
+    <description><![CDATA[Find the latest news on car recalls and automobile manufacturers, as well as industry insights from Behind the Wheel, from CNBC.com.]]></description>
+    <item>
+      <link>https://www.cnbc.com/2020/07/05/automakers-rethink-reveals-for-ford-bronco-gmc-hummer-amid-pandemic.html</link>
+      <guid isPermaLink="false">106601112</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106601112</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Coronavirus causes automakers to rethink debuts of Ford Bronco, GMC Hummer EV and others</title>
+      <description><![CDATA[Auto show cancellations due to the coronavirus pandemic have created a backlog of vehicle debuts as new models arrive in showrooms in the coming months.]]></description>
+      <pubDate>Sun, 05 Jul 2020 14:54:36 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/03/before-you-hit-the-highway-the-ins-and-outs-of-road-trip-insurance.html</link>
+      <guid isPermaLink="false">106601346</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106601346</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Before you hit the highway, here are the ins and outs of road trip insurance</title>
+      <description><![CDATA[Millions of eager Americans are hitting the country's highways and byways on long-awaited road trip vacations this summer. Here's a look at how to ensure a good time while away by paying attention to the ins and out of road trip and vehicle insurance.]]></description>
+      <pubDate>Fri, 03 Jul 2020 15:00:01 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/03/how-to-shop-for-car-deals-during-4th-of-july-sales.html</link>
+      <guid isPermaLink="false">106599940</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106599940</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>July Fourth car shopping comes with some deals but less of a selection. Here&apos;s what to expect</title>
+      <description><![CDATA[The coronavirus pandemic has disrupted auto manufacturing, which means there's less inventory at many dealership, but auto makers are still offering specials on certain models.]]></description>
+      <pubDate>Fri, 03 Jul 2020 14:30:01 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/02/tesla-ended-reduced-salaries-this-week-says-internal-email.html</link>
+      <guid isPermaLink="false">106601854</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106601854</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Tesla ended reduced salaries this week, says internal email</title>
+      <description><![CDATA[In April, with a Covid-19 outbreak spreading in the U.S., Tesla slashed employee pay and furloughed hourly workers. This week, Tesla HR informed employees reduced pay ended]]></description>
+      <pubDate>Thu, 02 Jul 2020 22:47:13 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/02/dodge-unveils-durango-hellcat-as-most-powerful-suv-ever.html</link>
+      <guid isPermaLink="false">106601586</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106601586</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Fiat Chrysler unveils Dodge Durango Hellcat as &apos;most powerful SUV ever&apos;</title>
+      <description><![CDATA[The automaker unveiled a new "Hellcat" model of the 2021 Durango SUV, which it is calling "the most powerful SUV ever."]]></description>
+      <pubDate>Thu, 02 Jul 2020 18:29:23 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/02/ford-sales-fall-33point3percent-due-to-coronavirus-stay-at-home-orders.html</link>
+      <guid isPermaLink="false">106601269</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106601269</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Ford sales fall 33.3% in the second quarter due to coronavirus</title>
+      <description><![CDATA[Ford said its U.S. vehicle sales in the second quarter were down 33.3%, in line with expectations as the coronavirus caused consumers to stay at home and dealerships and factories to shutter.]]></description>
+      <pubDate>Thu, 02 Jul 2020 14:34:05 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/02/5-things-to-know-before-the-stock-market-opens-july-2-2020.html</link>
+      <guid isPermaLink="false">106601130</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106601130</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>5 things to know before the stock market opens Thursday</title>
+      <description><![CDATA[Dow futures pointed to a strong gain at Thursday's open after a double dose of jobs data.]]></description>
+      <pubDate>Thu, 02 Jul 2020 13:00:52 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/02/tesla-tsla-q2-2020-vehicle-delivery-and-production-numbers.html</link>
+      <guid isPermaLink="false">106601153</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106601153</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Tesla shares soar after reporting big beat on second-quarter deliveries</title>
+      <description><![CDATA[The delivery data comes a day after Tesla CEO Elon Musk sent out an e-mail congratulating his tens of thousands of employees on their "amazing" execution "in such difficult times."]]></description>
+      <pubDate>Thu, 02 Jul 2020 15:56:33 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/02/ford-is-partnering-with-disney-to-unveil-bronco-suvs-on-july-13.html</link>
+      <guid isPermaLink="false">106600525</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106600525</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Ford is partnering with Disney to unveil Bronco SUVs on July 13</title>
+      <description><![CDATA[Ford will unveil its "Ford Bronco 4x4 family" of vehicles across Disney's media networks, including ABC, ESPN, National Geographic and Hulu.]]></description>
+      <pubDate>Thu, 02 Jul 2020 14:35:26 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/01/elon-musk-congratulates-tesla-employees-ahead-of-q2-deliveries-report.html</link>
+      <guid isPermaLink="false">106600419</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106600419</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Elon Musk congratulates Tesla employees ahead of Q2 deliveries report</title>
+      <description><![CDATA["Just amazing how well you executed, especially in such difficult times. I am so proud to work with you!" read the email from Musk in its entirety.]]></description>
+      <pubDate>Wed, 01 Jul 2020 22:58:40 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/01/tesla-tops-toyota-to-become-largest-automaker-by-market-value.html</link>
+      <guid isPermaLink="false">106599751</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106599751</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Tesla tops Toyota to become largest automaker by market value</title>
+      <description><![CDATA[Tesla just became the world's most valuable automaker.]]></description>
+      <pubDate>Wed, 01 Jul 2020 16:21:14 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/01/coronavirus-is-expected-to-tank-us-auto-sales-in-the-second-quarter.html</link>
+      <guid isPermaLink="false">106599638</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106599638</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>GM, Fiat Chrysler U.S. auto sales tank in second quarter as coronavirus saps demand</title>
+      <description><![CDATA[U.S. vehicle sales in the second quarter for General Motors, Toyota Motor and Fiat Chrysler plunged by more than 30%]]></description>
+      <pubDate>Thu, 02 Jul 2020 13:33:38 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/01/european-uber-rival-bolt-launches-electric-bikes-in-paris.html</link>
+      <guid isPermaLink="false">106598065</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106598065</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>European Uber rival Bolt launches electric bikes in Paris</title>
+      <description><![CDATA[Estonian start-up Bolt says it will roll out bike rentals in Paris from Wednesday.]]></description>
+      <pubDate>Wed, 01 Jul 2020 13:19:51 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/30/uaw-officials-want-gm-to-close-suv-plant-in-texas-due-to-coronavirus.html</link>
+      <guid isPermaLink="false">106598191</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106598191</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Local UAW officials want GM to close SUV plant in Texas due to coronavirus concerns</title>
+      <description><![CDATA[Officials of a local chapter of the United Auto Workers union have asked General Motors to temporarily close its large SUV plant in Arlington, Texas, due to the growth of Covid-19 cases in the state.]]></description>
+      <pubDate>Tue, 30 Jun 2020 20:05:41 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/30/kia-unveils-new-k5-sedan-in-attempt-to-halt-skidding-sales.html</link>
+      <guid isPermaLink="false">106598005</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106598005</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Kia unveils new K5 in attempt to halt skidding sedan sales</title>
+      <description><![CDATA[Kia has unveiled a new midsize sedan called the K5, which will replace the outgoing Optima.]]></description>
+      <pubDate>Tue, 30 Jun 2020 21:12:05 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/30/bentley-redesigns-bentayga-suv-as-key-vehicle-under-new-business-strategy.html</link>
+      <guid isPermaLink="false">106597591</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106597591</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Bentley redesigns Bentayga SUV as first vehicle under new business strategy</title>
+      <description><![CDATA[Bentley has redesigned its Bentayga SUV as a key product in the famed British carmaker's new business plan.]]></description>
+      <pubDate>Tue, 30 Jun 2020 16:01:07 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/30/tesla-and-the-science-of-low-cost-next-gen-ev-million-mile-battery.html</link>
+      <guid isPermaLink="false">106572798</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106572798</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Tesla and the science behind the next-generation, lower-cost, &apos;million-mile&apos; electric-car battery</title>
+      <description><![CDATA[Elon Musk is often referred to as the real-life Tony Stark, aka Iron Man, and in the new quest to engineer an electric vehicle battery that lasts up to 1 million miles, iron may play the role of hero.]]></description>
+      <pubDate>Tue, 30 Jun 2020 18:22:12 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/30/tesla-stock-hits-10-year-milestone-heres-where-it-heads-next.html</link>
+      <guid isPermaLink="false">106596709</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106596709</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Tesla hits 10-year milestone. Here&apos;s where it heads next</title>
+      <description><![CDATA[Tesla just hit a major milestone. The electric vehicle maker turned 10 years old as a publicly traded company on Monday. Oppenheimer's Ari Wald takes to the charts to determine where it could head next.]]></description>
+      <pubDate>Tue, 30 Jun 2020 11:16:25 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/29/tesla-stock-up-4125percent-since-ipo-ten-years-ago.html</link>
+      <guid isPermaLink="false">106596445</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106596445</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Tesla stock is up more than 4000% since its debut 10 years ago</title>
+      <description><![CDATA[That stock performance puts Tesla in rarified air, alongside Netflix, which was the top-performing stock on the S&P 500 during the 2010s.]]></description>
+      <pubDate>Tue, 30 Jun 2020 00:28:16 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/29/2021-geneva-auto-show-canceled-due-to-coronavirus-pandemic.html</link>
+      <guid isPermaLink="false">106596563</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106596563</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>2021 Geneva auto show canceled due to coronavirus pandemic; organizers selling event</title>
+      <description><![CDATA[The problems caused by the coronavirus pandemic add to uncertain times for global auto shows, many of which were struggling to retain their prominence prior to the global health crisis.]]></description>
+      <pubDate>Tue, 30 Jun 2020 21:16:18 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/29/elon-musk-emails-tesla-workers-breaking-even-is-looking-super-tight.html</link>
+      <guid isPermaLink="false">106596570</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106596570</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Elon Musk emails Tesla employees: &apos;Breaking even is looking super tight&apos;</title>
+      <description><![CDATA[Tesla is expected to report its second quarter vehicle production and deliveries numbers this week, before the 4th of July weekend.]]></description>
+      <pubDate>Tue, 30 Jun 2020 13:46:53 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/29/court-suspends-meeting-between-gm-and-fiat-chrysler-over-rico-lawsuit.html</link>
+      <guid isPermaLink="false">106596342</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106596342</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Appeals court suspends meeting between GM and Fiat Chrysler CEOs over RICO lawsuit</title>
+      <description><![CDATA[An order by a federal judge for General Motors CEO Mary Barra and Fiat Chrysler CEO Mike Manley to meet to resolve a civil racketeering lawsuit has been temporarily suspended by a federal appeals court.]]></description>
+      <pubDate>Mon, 29 Jun 2020 19:15:12 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/27/fords-2021-f-150-review-new-pickup-has-five-unique-features.html</link>
+      <guid isPermaLink="false">106593550</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106593550</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>From tailgating parties to worksites: Five unique features on Ford&apos;s new F-150 pickup</title>
+      <description><![CDATA[Ford unveiled its new F-150 pickup Thursday night with surprising new features, like an integrated generator and hidden bottle openers for worksites and tailgate parties.]]></description>
+      <pubDate>Sat, 27 Jun 2020 15:00:01 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/26/gm-requests-removal-of-judge-from-rico-lawsuit-against-fiat-chrysler.html</link>
+      <guid isPermaLink="false">106594089</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106594089</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>General Motors requests removal of judge and to vacate order from RICO lawsuit against Fiat Chrysler</title>
+      <description><![CDATA[General Motors is seeking to vacate an order and remove a judge who called its racketeering lawsuit against Fiat Chrysler a "waste of time."]]></description>
+      <pubDate>Sat, 27 Jun 2020 00:34:29 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/26/amazon-spending-1-billion-on-zoox-will-have-to-invest-billions-more.html</link>
+      <guid isPermaLink="false">106593849</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106593849</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Amazon will have to invest many billions more than it&apos;s spending on Zoox to bring self-driving tech to market</title>
+      <description><![CDATA[Amazon's announced purchase of Zoox on Friday is just the beginning of its investment in a nascent technology that will cost billions more to bring to market.]]></description>
+      <pubDate>Sat, 27 Jun 2020 01:34:40 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/26/new-ford-f-150-adding-tech-people-are-willing-to-pay-for-exec-says.html</link>
+      <guid isPermaLink="false">106593425</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106593425</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>New Ford F-150 adding tech consumers are &apos;more than willing to pay for,&apos; exec says</title>
+      <description><![CDATA[On Thursday evening, Ford unveiled traditional and hybrid versions of the 2021 F-150 pickup. The truck is scheduled to begin arriving in dealerships this fall.]]></description>
+      <pubDate>Fri, 26 Jun 2020 17:47:59 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/26/amazon-buys-self-driving-technology-company-zoox.html</link>
+      <guid isPermaLink="false">106552815</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106552815</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Amazon to buy self-driving technology company Zoox</title>
+      <description><![CDATA[Amazon is jumping deeper into the market for autonomous driving with the purchase of Zoox, which was valued at over $3 billion in 2018.]]></description>
+      <pubDate>Fri, 26 Jun 2020 13:47:23 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/26/tesla-bull-case-growing-as-legacy-automakers-flail-on-autonomous-cars.html</link>
+      <guid isPermaLink="false">106592465</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106592465</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Tesla&apos;s industry lead is growing as legacy automakers &apos;flail&apos; on driverless cars, Ark Invest analyst says</title>
+      <description><![CDATA[Tesla's trek higher seems unstoppable with traditional automakers' businesses in flames as a result of Covid-19, said Tasha Keeney, an analyst at Ark Invest.]]></description>
+      <pubDate>Fri, 26 Jun 2020 18:34:47 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/26/5-things-to-know-before-the-stock-market-opens-friday.html</link>
+      <guid isPermaLink="false">106593398</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106593398</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>5 things to know before the stock market opens Friday</title>
+      <description><![CDATA[Dow futures declined Friday, with bank stocks falling on Fed stress-test restrictions and Nike dropping on disappointing quarterly results.]]></description>
+      <pubDate>Fri, 26 Jun 2020 12:56:58 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/26/lamborghini-destroyed-just-20-minutes-after-leaving-the-showroom.html</link>
+      <guid isPermaLink="false">106593251</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106593251</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Lamborghini wrecked just 20 minutes after leaving the showroom</title>
+      <description><![CDATA[A Lamborghini was destroyed in a collision on a highway in West Yorkshire in the U.K., just 20 minutes after the car left the showroom.]]></description>
+      <pubDate>Fri, 26 Jun 2020 21:20:37 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:metadata="http://search.cnbc.com/rss/2.0/modules/siteContentMetadata" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <atom:link rel="self" type="application/rss+xml" href="https://www.cnbc.com/id/10000110/device/rss/rss.html"/>
+    <language>en-us</language>
+    <ttl>60</ttl>
+    <title>Media</title>
+    <feed_asset>
+      <id>10000110</id>
+      <type>franchise</type>
+      <subtype>section</subtype>
+      <seo>https://www.cnbc.com/media/</seo>
+    </feed_asset>
+    <lastBuildDate>Mon, 22 Jun 2020 18:22 GMT</lastBuildDate>
+    <pubDate>Mon, 22 Jun 2020 18:22 GMT</pubDate>
+    <link>https://www.cnbc.com/media/</link>
+    <description><![CDATA[Latest news on media, communications, broadcast media, media companies, social media, and advertising from CNBC.com.]]></description>
+    <item>
+      <link>https://www.cnbc.com/2020/06/22/one-mission-shared-by-nearly-every-company-on-cnbcs-2020-disruptor-50.html</link>
+      <guid isPermaLink="false">106585249</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106585249</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>This is the one mission shared by nearly every company on CNBC&apos;s 2020 Disruptor 50 list</title>
+      <description><![CDATA[CNBC's eighth annual Disruptor 50 list, revealed last week, identified private companies that are changing the world in unimaginable ways. Yet there's one dramatic trend that has nothing to do with the underlying technologies driving their growth: a social or environmental mission that is core to their business model.]]></description>
+      <pubDate>Mon, 22 Jun 2020 18:02:48 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/17/transparent-collective-helps-minority-start-up-founders-succeed.html</link>
+      <guid isPermaLink="false">106581496</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106581496</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>A non-profit in Silicon Valley is helping minority start-up founders succeed</title>
+      <description><![CDATA[Transparent Collective runs a four-day program helps entrepreneurs with their start-up pitches so they can secure funding for their businesses.]]></description>
+      <pubDate>Wed, 17 Jun 2020 18:46:19 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/16/the-coronavirus-fueled-tech-trends-that-will-continue-to-dominate.html</link>
+      <guid isPermaLink="false">106572562</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106572562</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>The coronavirus-fueled tech trends that will continue to dominate daily life</title>
+      <description><![CDATA[The 2020 CNBC Disruptor 50 list reveals how the most innovative digital-first firms have been able to gain a competitive advantage in areas of work, education and commerce. An edge that may prove long-lasting.]]></description>
+      <pubDate>Tue, 16 Jun 2020 11:35:02 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/16/why-there-are-no-black-ceos-on-this-years-disruptor-50-list.html</link>
+      <guid isPermaLink="false">106575601</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106575601</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Opportunity missed: Why there are no Black CEOs on this year&apos;s Disruptor 50 list</title>
+      <description><![CDATA[As CNBC unveils the 2020 CNBC Disruptor 50 amid nationwide protests and calls to end racial inequality, the list has a glaring absence: No black CEOs.]]></description>
+      <pubDate>Wed, 17 Jun 2020 15:58:35 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/06/05/old-and-new-media-continue-to-be-dogged-by-both-sides-philosophy.html</link>
+      <guid isPermaLink="false">106566704</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106566704</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Old and new media continue to be dogged by &apos;both sides&apos; philosophy</title>
+      <description><![CDATA[Media organizations and technology platforms should more clearly define their purposes to exist as they try to balance open dialogue with offensive and misleading speech.]]></description>
+      <pubDate>Fri, 05 Jun 2020 14:54:02 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/05/19/apple-sony-deal-for-tom-hanks-movie-driven-by-coronavirus-shutdowns.html</link>
+      <guid isPermaLink="false">106544559</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106544559</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Apple-Sony deal for Tom Hanks movie was driven by coronavirus shutdowns</title>
+      <description><![CDATA[Apple paid Sony about $70 million for 15 years of streaming rights to the Tom Hanks film "Greyhound," which cost about $50 million to make, according to sources familiar.]]></description>
+      <pubDate>Wed, 20 May 2020 13:17:55 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/05/15/vice-media-ceo-slams-big-tech-as-great-threat-to-journalism.html</link>
+      <guid isPermaLink="false">106539396</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106539396</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Vice Media CEO slams Big Tech as &apos;great threat to journalism&apos; in layoffs memo</title>
+      <description><![CDATA["Platforms are not just taking a larger slice of the pie, but almost the whole pie," wrote Vice CEO Nancy Dubuc in a memo to staff announcing more than 150 layoffs.]]></description>
+      <pubDate>Mon, 18 May 2020 14:59:12 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/05/15/upfronts-canceled-tv-ad-commitments-plummeting.html</link>
+      <guid isPermaLink="false">106539285</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106539285</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>With TV ad commitments plummeting, the advertising business may never look the same</title>
+      <description><![CDATA[TV broadcasters are bracing for unprecedented ad cancellations in the third quarter.]]></description>
+      <pubDate>Fri, 15 May 2020 15:42:18 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/05/13/magazine-giant-conde-nast-to-lay-off-roughly-100-us-employees.html</link>
+      <guid isPermaLink="false">106535401</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106535401</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Magazine giant Conde Nast to lay off roughly 100 US employees</title>
+      <description><![CDATA[Conde Nast is the latest among a slew of publishers that have been affected by a decrease in advertising revenue brought on by Covid-19.]]></description>
+      <pubDate>Wed, 13 May 2020 15:41:51 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/05/08/tv-advertising-bracing-for-tough-quarter-amid-coronavirus-pandemic.html</link>
+      <guid isPermaLink="false">106528540</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106528540</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Media companies expect a tough quarter for TV advertising, with no live sports and spending delayed</title>
+      <description><![CDATA[In recent days, companies including ABC and ESPN parent Disney, Fox Corp., AMC Networks, NBCUniversal parent Comcast, ViacomCBS and Discovery reported earnings that showed how TV is trending as advertisers are pulling spend or postponing campaigns until later in the year.]]></description>
+      <pubDate>Fri, 08 May 2020 18:10:33 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/04/28/pop-radio-in-decline-streaming-on-the-rise-in-coronavirus-pandemic.html</link>
+      <guid isPermaLink="false">106508645</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106508645</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Pop radio in decline, streaming on the rise: How the coronavirus is changing what we listen to</title>
+      <description><![CDATA[Instead of car radio, people calling on digital assistants like Amazon's Alexa and Apple's Siri to fire up some music while they cook.]]></description>
+      <pubDate>Wed, 29 Apr 2020 17:39:12 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/04/24/hollywoods-small-businesses-in-crisis.html</link>
+      <guid isPermaLink="false">106505630</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106505630</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Hollywood&apos;s small businesses in crisis as coronavirus shuts everything down</title>
+      <description><![CDATA[Of the 5,900 businesses in Hollywood, 99.5% have less than 500 employees, and over 90% have fewer than 10 employees. Many are being forced to layoff or furlough employees as the coronavirus pandemic drags on.]]></description>
+      <pubDate>Sat, 25 Apr 2020 00:58:08 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/04/24/coursera-offers-unemployed-workers-thousands-of-free-online-courses.html</link>
+      <guid isPermaLink="false">106503817</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106503817</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Online education company Coursera offers unemployed workers thousands of free courses</title>
+      <description><![CDATA[Unemployed workers are gaining free access to 3,800 courses created by elite universities and companies such as Amazon to learn skills and gain professional certificates for new job opportunities.]]></description>
+      <pubDate>Fri, 24 Apr 2020 13:59:37 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/04/21/nbcuniversal-peacock-streaming-service-advertisers-express-optimism.html</link>
+      <guid isPermaLink="false">106498516</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106498516</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>NBCUniversal&apos;s Peacock has a buffer against ad slowdown with launch partners — here&apos;s why they signed up</title>
+      <description><![CDATA[Peacock is soft-launching as streaming hours are up, but advertisers are pulling and decreasing spend.]]></description>
+      <pubDate>Tue, 21 Apr 2020 17:57:05 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/04/20/why-disney-is-furloughing-workers-and-the-other-media-giants-arent.html</link>
+      <guid isPermaLink="false">106497659</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106497659</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Why Disney is furloughing workers and the other media giants aren&apos;t</title>
+      <description><![CDATA[Parks and Resorts is Disney's largest division, responsible for 35% of its revenue in 2019. That reliance on gathering large groups of people in public lies at the heart of Disney's challenges right now.Dis]]></description>
+      <pubDate>Mon, 20 Apr 2020 23:01:03 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/04/15/craig-moffett-sees-best-of-times-and-worst-of-times-for-streaming.html</link>
+      <guid isPermaLink="false">106489804</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106489804</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Analyst sees the &apos;best of times and the worst of times&apos; for video streaming services</title>
+      <description><![CDATA[NBCUniversal's Peacock launches for Comcast subscribers on Wednesday. With more people staying at home streaming content, one analyst says the environment is primed for Peacock's rollout.]]></description>
+      <pubDate>Wed, 15 Apr 2020 18:20:37 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/04/15/instagram-gift-cards-food-orders-for-small-businesses-announced.html</link>
+      <guid isPermaLink="false">106489694</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106489694</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Instagram announces new features for small businesses including gift cards, food orders and fundraisers</title>
+      <description><![CDATA[Starting Wednesday in the U.S. and Canada, Instagram users can tap on a gift card or food order to make a purchase through a company's site. Fundraisers created by a business or its supporter open on Facebook.]]></description>
+      <pubDate>Wed, 15 Apr 2020 15:43:52 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/04/14/ofcom-assessing-itv-show-over-eamonn-holmes-5g-coronavirus-comments.html</link>
+      <guid isPermaLink="false">106487404</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106487404</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>UK TV watchdog &apos;assessing&apos; popular daytime show over comments on 5G-coronavirus conspiracy theories</title>
+      <description><![CDATA[Ofcom is looking into a popular morning show after its presenter made comments about baseless conspiracy theories linking Covid-19 to 5G.]]></description>
+      <pubDate>Wed, 15 Apr 2020 07:57:27 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/04/09/linkedin-offers-free-help-for-job-hunters-and-essential-businesses.html</link>
+      <guid isPermaLink="false">106482915</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106482915</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>LinkedIn offers to connect job-seekers with essential businesses for free</title>
+      <description><![CDATA[In the wake of COVID-19 shutting down broad swaths of the economy, LinkedIn is ditching the core engine of its business model to help people connect with jobs at no cost.]]></description>
+      <pubDate>Thu, 09 Apr 2020 21:29:30 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/04/09/with-hollywood-on-hiatus-studios-are-bracing-for-fights-with-insurers.html</link>
+      <guid isPermaLink="false">106481139</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106481139</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>With Hollywood on hiatus, studios are bracing for fights with insurers over coronavirus losses</title>
+      <description><![CDATA[Allianz, which is one of the main insurers for entertainment companies, estimates that Hollywood studios paid $400 million in premiums last year to cover "unforeseeable events." Now the bill is coming due.]]></description>
+      <pubDate>Thu, 09 Apr 2020 13:44:04 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/04/01/atts-stankey-consumer-behavior-will-be-changed-from-coronavirus.html</link>
+      <guid isPermaLink="false">106470312</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106470312</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>AT&amp;T president says consumer behavior will be fundamentally changed from coronavirus</title>
+      <description><![CDATA["We're going to return to a different economic environment. We're going to return to different business models," AT&T President and COO John Stankey told CNBC.]]></description>
+      <pubDate>Wed, 01 Apr 2020 20:53:12 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/04/01/coronavirus-sports-cancellations-set-up-media-fights-over-refunds.html</link>
+      <guid isPermaLink="false">106466935</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106466935</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Media networks have paid billions for sports they won&apos;t receive this year — but the fighting for refunds hasn&apos;t started yet</title>
+      <description><![CDATA[Media networks have paid billions for live sports that they aren't going to broadcast this year. But nobody's pressing the issue yet, as the cable industry is focused on survival.]]></description>
+      <pubDate>Thu, 02 Apr 2020 19:01:15 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/03/31/wpp-pulls-dividend-share-buyback-and-guidance-due-to-coronavirus.html</link>
+      <guid isPermaLink="false">106468032</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106468032</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Ad giant WPP pulls dividend, CEO &apos;very cautious&apos; about the impact of virus on marketing budgets</title>
+      <description><![CDATA[The world's largest advertising group pulled its dividend and share buyback and withdrew guidance for 2020 on Tuesday, after clients cancelled marketing booked with the company due to the coronavirus crisis.]]></description>
+      <pubDate>Tue, 31 Mar 2020 15:57:13 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/03/23/pressure-is-rising-to-postpone-the-2020-tokyo-olympics.html</link>
+      <guid isPermaLink="false">106456774</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106456774</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Pressure is rising to postpone the Olympics</title>
+      <description><![CDATA[Billions of dollars are at stake. Japan has pumped at least $12 billion of investment into the 2020 Tokyo Olympic games, not to mention the losses that would be incurred by sponsors, broadcasters and others.]]></description>
+      <pubDate>Tue, 24 Mar 2020 03:11:19 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/03/20/how-coronavirus-could-permanently-change-the-movie-industry.html</link>
+      <guid isPermaLink="false">106454657</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106454657</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>How coronavirus could permanently change the movie industry</title>
+      <description><![CDATA[The distinction between a theatrical and a digital release is disappearing as theaters shut down. This could fundamentally changes studios' leverage in negotiations with theater chains, permanently alter consumer behavior and raise the bar significantly for going out to the movies.]]></description>
+      <pubDate>Sat, 21 Mar 2020 13:46:01 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/03/19/tom-brady-bucs-pairing-will-be-adjustment-to-culture-playing-style.html</link>
+      <guid isPermaLink="false">106452613</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106452613</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Tom Brady and the Bucs: Pundits expect clashes in playing style and a test of team culture</title>
+      <description><![CDATA[The Tom Brady to Tampa Bay Buccaneers deal has yet to be compete, but some NFL pundits see both pros and cons to the partnership.]]></description>
+      <pubDate>Thu, 19 Mar 2020 22:18:35 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/03/19/doctors-wonder-if-nba-getting-special-treatment-with-coronavirus-tests.html</link>
+      <guid isPermaLink="false">106452210</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106452210</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Doctors and patients wonder if the NBA is getting special treatment with coronavirus tests</title>
+      <description><![CDATA[Sick patients are being turned away, unable to receive tests because they simply aren't available. In a stark contrast, the NBA said that as of Wednesday, at least eight teams had been tested for the COVID-19 coronavirus.]]></description>
+      <pubDate>Thu, 19 Mar 2020 23:23:02 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/03/19/mlb-to-assist-minor-league-players-affected-by-coronavirus.html</link>
+      <guid isPermaLink="false">106452436</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106452436</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>MLB to offer compensation to minor league players affected by coronavirus work stoppage</title>
+      <description><![CDATA[Major League Baseball said it will offer financial assistance to minor league players affected by the work stoppage due to the coronavirus pandemic.]]></description>
+      <pubDate>Thu, 19 Mar 2020 21:18:30 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/03/17/coronavirus-puts-nfl-free-agent-deals-at-risk-teams-cant-use-own-doctors.html</link>
+      <guid isPermaLink="false">106448072</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106448072</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>NFL free agent deals at risk as team doctors can&apos;t evaluate players due to coronavirus</title>
+      <description><![CDATA[With in-person visits with free agents restricted due to the coronavirus outbreak, some NFL agents are wondering how a new deal will become official without team examinations.]]></description>
+      <pubDate>Tue, 17 Mar 2020 21:49:00 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/03/17/tom-brady-leaving-new-england-patriots.html</link>
+      <guid isPermaLink="false">106447952</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106447952</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Tom Brady announces he will leave the New England Patriots</title>
+      <description><![CDATA[The superstar quarterback did not say where he will go next.]]></description>
+      <pubDate>Tue, 17 Mar 2020 14:44:11 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

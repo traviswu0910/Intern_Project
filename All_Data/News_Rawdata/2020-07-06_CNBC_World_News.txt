@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:metadata="http://search.cnbc.com/rss/2.0/modules/siteContentMetadata" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <atom:link rel="self" type="application/rss+xml" href="https://www.cnbc.com/id/100727362/device/rss/rss.html"/>
+    <language>en-us</language>
+    <ttl>60</ttl>
+    <title>International: Top News And Analysis</title>
+    <feed_asset>
+      <id>100727362</id>
+      <type>franchise</type>
+      <subtype>section</subtype>
+      <seo>https://www.cnbc.com/world-top-news/</seo>
+    </feed_asset>
+    <lastBuildDate>Mon, 06 Jul 2020 02:52 GMT</lastBuildDate>
+    <pubDate>Mon, 06 Jul 2020 02:52 GMT</pubDate>
+    <link>https://www.cnbc.com/world-top-news/</link>
+    <description><![CDATA[CNBC International is the world leader for news on business, technology, China, trade, oil prices, the Middle East and markets.]]></description>
+    <item>
+      <link>https://www.cnbc.com/2020/07/06/asia-markets-coronavirus-us-china-tensions-currencies-in-focus.html</link>
+      <guid isPermaLink="false">106603494</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106603494</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Shanghai soars nearly 4% as &apos;bull sentiment&apos; drives markets; WHO reports all-time high in coronavirus cases</title>
+      <description><![CDATA[Stocks in China led gains among the major markets regionally, with the Shanghai composite nearly 4%.]]></description>
+      <pubDate>Mon, 06 Jul 2020 03:20:24 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/06/investing-advice-how-to-start-trading-in-india-philippines-singapore.html</link>
+      <guid isPermaLink="false">106598628</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106598628</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Millennials are piling into stock trading in Asia. Here&apos;s how to make the most of your money</title>
+      <description><![CDATA[Trading platforms in Asia are seeing a strong demand from new investors. Here's how to put your money to work in investments.]]></description>
+      <pubDate>Mon, 06 Jul 2020 02:15:55 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/06/hong-kong-national-security-law-may-spook-socially-conscious-investors.html</link>
+      <guid isPermaLink="false">106602164</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106602164</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Hong Kong national security law may spook socially conscious investors, sparking outflows</title>
+      <description><![CDATA[Investors who take a sustainable approach to allocating capital may be reevaluating putting their money into Hong Kong after the city implemented a national security law, an analyst said on Friday.]]></description>
+      <pubDate>Mon, 06 Jul 2020 02:51:35 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/05/warren-buffetts-berkshire-buys-dominion-energy-natural-gas-assets-in-10-billion-deal.html</link>
+      <guid isPermaLink="false">106603449</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106603449</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Warren Buffett&apos;s Berkshire buys Dominion Energy natural gas assets in $10 billion deal</title>
+      <description><![CDATA[It's the first major purchase from Berkshire since the coronavirus pandemic and subsequent market collapse in March.]]></description>
+      <pubDate>Sun, 05 Jul 2020 21:31:29 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/06/indian-soldiers-unarmed-and-caught-by-surprise-in-china-clash-families-say.html</link>
+      <guid isPermaLink="false">106603540</guid>
+      <metadata:type>wirestory</metadata:type>
+      <metadata:id>106603540</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Indian soldiers unarmed and caught by surprise in China clash, families say</title>
+      <description><![CDATA[Twenty Indian soldiers died in the June 15 clash on the de facto border separating the Indian and Chinese armies.]]></description>
+      <pubDate>Mon, 06 Jul 2020 02:44:43 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/06/city-in-chinas-inner-mongolia-warns-after-suspected-bubonic-plague-case.html</link>
+      <guid isPermaLink="false">106603497</guid>
+      <metadata:type>wirestory</metadata:type>
+      <metadata:id>106603497</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>City in China&apos;s Inner Mongolia warns after suspected bubonic plague case</title>
+      <description><![CDATA[Plague cases are not uncommon in China, but outbreaks have become increasingly rare. From 2009 to 2018, China reported 26 cases and 11 deaths.]]></description>
+      <pubDate>Sun, 05 Jul 2020 23:32:35 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/06/australias-victoria-state-reports-jump-in-new-coronavirus-cases.html</link>
+      <guid isPermaLink="false">106603519</guid>
+      <metadata:type>wirestory</metadata:type>
+      <metadata:id>106603519</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Australia&apos;s Victoria state reports 108 new coronavirus cases, biggest jump since March</title>
+      <description><![CDATA[The spike in Victoria is being closely watched as the rest of the country has reined in the virus that causes Covid-19.]]></description>
+      <pubDate>Mon, 06 Jul 2020 01:21:56 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/05/iran-nuclear-facility-fire-could-set-back-atomic-program.html</link>
+      <guid isPermaLink="false">106603444</guid>
+      <metadata:type>wirestory</metadata:type>
+      <metadata:id>106603444</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Iran nuclear facility fire could set back atomic program</title>
+      <description><![CDATA[Some Iranian officials have said it may have been caused by cyber sabotage and one warned that Tehran would retaliate against any country carrying out such attacks.]]></description>
+      <pubDate>Sun, 05 Jul 2020 19:46:27 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/04/florida-reports-more-than-11000-new-coronavirus-cases-another-daily-record.html</link>
+      <guid isPermaLink="false">106603137</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106603137</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>&apos;The growth is exponential&apos; — Florida and Texas report surge of coronavirus cases over Fourth of July</title>
+      <description><![CDATA[Even as Florida continues to report record case numbers, Gov. Ron DeSantis said the state will not halt its re-opening and refuses to order a statewide mask mandate to curb the spread of the virus.]]></description>
+      <pubDate>Sun, 05 Jul 2020 23:45:49 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/05/democracy-activists-books-unavailable-in-hong-kong-libraries.html</link>
+      <guid isPermaLink="false">106603462</guid>
+      <metadata:type>wirestory</metadata:type>
+      <metadata:id>106603462</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Democracy activists&apos; books unavailable in Hong Kong libraries after new national security law</title>
+      <description><![CDATA[Books by prominent Hong Kong pro-democracy figures have become unavailable in the Chinese-ruled city's public libraries as they are being reviewed to see whether they violate a new national security law, a government department said on Sunday.]]></description>
+      <pubDate>Sun, 05 Jul 2020 20:15:14 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/03/myanmar-rohingya-refugees-search-for-hope-after-fleeing-rakhine.html</link>
+      <guid isPermaLink="false">106575304</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106575304</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>From stateless to displaced, the Rohingya are still searching for hope years after fleeing Myanmar</title>
+      <description><![CDATA[The Rohingya are among the world's most persecuted ethnic minorities — haunted by the past and denied a future.]]></description>
+      <pubDate>Fri, 03 Jul 2020 06:09:05 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/02/linkedin-the-worlds-10-most-in-demand-jobs-that-dont-need-a-degree.html</link>
+      <guid isPermaLink="false">106601579</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106601579</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>LinkedIn says these are the world&apos;s 10 most in-demand jobs that don&apos;t need a degree</title>
+      <description><![CDATA[LinkedIn has said that the U.K. jobs market is currently three times more competitive when compared to the same period last year but has compiled a list of roles most in-demand by employers globally.]]></description>
+      <pubDate>Thu, 02 Jul 2020 15:50:44 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/04/tech-employees-open-wallets-to-beat-trump-even-as-stocks-profits-soar.html</link>
+      <guid isPermaLink="false">106578763</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106578763</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Tech workers are opening their wallets to beat Trump even with stock prices soaring and profits near records</title>
+      <description><![CDATA[Silicon Valley has leaned left for decades, but heading into the 2020 election, the disparity between donations to Democrats and Republicans has never been greater.]]></description>
+      <pubDate>Sat, 04 Jul 2020 18:50:08 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/04/hong-kong-officials-very-disappointed-at-canadas-move-to-suspend-extradition-pact.html</link>
+      <guid isPermaLink="false">106602911</guid>
+      <metadata:type>wirestory</metadata:type>
+      <metadata:id>106602911</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Hong Kong officials &apos;very disappointed&apos; at Canada&apos;s move to suspend extradition pact</title>
+      <description><![CDATA[Senior officials in Hong Kong said on Saturday they were "very disappointed" at Canada's decision to suspend its extradition treaty with the Chinese-ruled city and again slammed Washington for "interfering" in its affairs.]]></description>
+      <pubDate>Sat, 04 Jul 2020 18:51:10 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/03/fitch-downgraded-record-number-of-sovereign-ratings-due-to-coronavirus.html</link>
+      <guid isPermaLink="false">106602396</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106602396</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Fitch has downgraded a record number of sovereign ratings due to the coronavirus. It&apos;s not done yet</title>
+      <description><![CDATA[Fitch Ratings has downgraded a record 33 sovereign ratings in the first half of this year — more than in any given year in the past.]]></description>
+      <pubDate>Sat, 04 Jul 2020 13:22:58 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/03/pointless-to-delist-chinese-companies-from-us-stock-markets-piie-says.html</link>
+      <guid isPermaLink="false">106602210</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106602210</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Think tank explains why it&apos;s &apos;pointless&apos; to delist Chinese companies from U.S. stock markets</title>
+      <description><![CDATA[The move will neither deny those firms access to American capital markets nor hurt China's growth, said Peterson Institute for International Economics.]]></description>
+      <pubDate>Fri, 03 Jul 2020 07:06:07 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/04/iconic-747-jumbo-jet-nears-the-end-as-boeing-placed-final-part-orders.html</link>
+      <guid isPermaLink="false">106603174</guid>
+      <metadata:type>wirestory</metadata:type>
+      <metadata:id>106603174</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Iconic 747 jumbo jet nears the end as Boeing placed final part orders</title>
+      <description><![CDATA[Boeing Co and suppliers set the final number of parts it would need for the 747 jumbo jet program at least a year ago, signaling the end for a plane that democratized global air travel in the 1970s but fell behind modern twin-engine aircraft, industry sources told Reuters on Friday.]]></description>
+      <pubDate>Sat, 04 Jul 2020 21:43:13 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/04/canada-suspends-extradition-treaty-with-hong-kong-eyes-immigration-boost.html</link>
+      <guid isPermaLink="false">106602855</guid>
+      <metadata:type>wirestory</metadata:type>
+      <metadata:id>106602855</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Canada suspends its extradition treaty with Hong Kong, eyes immigration boost</title>
+      <description><![CDATA[Canada is suspending its extradition treaty with Hong Kong in the wake of new Chinese national security legislation and could boost immigration from the former British colony, top officials said on Friday.]]></description>
+      <pubDate>Sat, 04 Jul 2020 18:51:44 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/03/how-hong-kong-beat-coronavirus-and-avoided-lockdown.html</link>
+      <guid isPermaLink="false">106596862</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106596862</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>How Hong Kong beat coronavirus and avoided lockdown</title>
+      <description><![CDATA[Hong Kong is one of the world's densest cities. Public transit is often packed. There are even direct flights from Wuhan. Yet, the city managed to handle the outbreak with a combination of factors.]]></description>
+      <pubDate>Fri, 03 Jul 2020 02:31:07 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/03/why-coronavirus-contact-tracing-apps-havent-been-a-game-changer.html</link>
+      <guid isPermaLink="false">106602621</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106602621</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Why coronavirus contact-tracing apps aren&apos;t yet the &apos;game changer&apos; authorities hoped they&apos;d be</title>
+      <description><![CDATA[The apps have faced setbacks, not least because some countries refused to adopt tools created by Apple and Google.]]></description>
+      <pubDate>Fri, 03 Jul 2020 13:07:52 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/03/oneweb-starlink-satellite-broadband.html</link>
+      <guid isPermaLink="false">106602611</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106602611</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>UK looks to challenge Elon Musk&apos;s Starlink after winning bid for bankrupt satellite company OneWeb</title>
+      <description><![CDATA[The U.K. is set to try and take on Elon Musk's Starlink in the race to beam high-speed internet from space after the acquisition of OneWeb.]]></description>
+      <pubDate>Fri, 03 Jul 2020 13:48:05 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/03/handicapping-the-market-from-here-what-history-tells-us-about-the-odds-the-comeback-continues.html</link>
+      <guid isPermaLink="false">106601841</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106601841</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Handicapping the market from here — what history tells us about the odds the comeback continues</title>
+      <description><![CDATA[Can history help handicap where markets head from here after the extraordinary path stocks have taken so far this year?]]></description>
+      <pubDate>Fri, 03 Jul 2020 18:23:18 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/03/facebook-boycott-is-a-turning-point-ad-trade-group-ceo-says.html</link>
+      <guid isPermaLink="false">106601754</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106601754</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>The CEO of a major advertising trade group says the Facebook boycott is a turning point</title>
+      <description><![CDATA[World Federation of Advertisers CEO Stephan Loerke believes the slew of big brands publicly pausing social media advertising aren't likely to come back until real change is made. "We moved from brand safety to, I think, societal safety."]]></description>
+      <pubDate>Fri, 03 Jul 2020 18:18:49 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/03/alibaba-exec-fired-for-helping-girlfriend-secure-job-accepting-gifts.html</link>
+      <guid isPermaLink="false">106602179</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106602179</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Top Alibaba exec fired for helping girlfriend secure a job and accepting gifts, internal memo says</title>
+      <description><![CDATA[Alibaba has fired the head of its fast-growing livestreaming business for allegedly engaging in nepotism and accepting gifts, according to an internal memo seen by CNBC.]]></description>
+      <pubDate>Fri, 03 Jul 2020 07:44:18 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/03/trump-in-trouble-over-coronavirus-black-lives-matter-expert.html</link>
+      <guid isPermaLink="false">106602646</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106602646</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Trump will &apos;pay a terrible price&apos; in November&apos;s election over coronavirus and Black Lives Matter, professor predicts</title>
+      <description><![CDATA[Inderjeet Parmar, professor of International Politics at City University, said President Trump had been given two political gifts — but had squandered both.]]></description>
+      <pubDate>Fri, 03 Jul 2020 13:33:01 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/03/uk-to-end-compulsory-quarantine-for-travelers-from-france-germany-spain-and-italy.html</link>
+      <guid isPermaLink="false">106602522</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106602522</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>England to end compulsory quarantine for travelers from France, Germany, Spain and Italy</title>
+      <description><![CDATA[The U.K. government is about to lift compulsory self-isolation for travelers from low-risk destinations to England starting next week.]]></description>
+      <pubDate>Fri, 03 Jul 2020 11:24:54 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/03/intel-jio-platforms-investment.html</link>
+      <guid isPermaLink="false">106602565</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106602565</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Intel to invest in Jio Platforms, after Facebook&apos;s $5.7 billion bet on the Indian telco</title>
+      <description><![CDATA[Intel is investing $253.5 million in Indian telco Jio Platforms in exchange for 0.39% of the company.]]></description>
+      <pubDate>Fri, 03 Jul 2020 10:37:04 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/03/french-prime-minister-resigns-amid-speculation-of-wider-government-reshuffle.html</link>
+      <guid isPermaLink="false">106602505</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106602505</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>French President Macron unveils a new prime minister in major reshuffle</title>
+      <description><![CDATA[Jean Castex has been named the new prime minister of France after Edouard Philippe unexpectedly resigned Friday.]]></description>
+      <pubDate>Fri, 03 Jul 2020 11:05:32 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/03/surrounded-by-trees-using-solar-a-factory-is-challenging-perceptions.html</link>
+      <guid isPermaLink="false">106602616</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106602616</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Surrounded by trees and with 1,200 solar panels, this Norwegian building could change how we think about factories</title>
+      <description><![CDATA[The buildings that produce the goods we use every single day are changing.]]></description>
+      <pubDate>Fri, 03 Jul 2020 13:02:18 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/03/ukraine-parliament-approves-resignation-of-central-bank-governor.html</link>
+      <guid isPermaLink="false">106602674</guid>
+      <metadata:type>wirestory</metadata:type>
+      <metadata:id>106602674</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Ukraine parliament approves resignation of Central Bank Governor Smoliy</title>
+      <description><![CDATA[Yakiv Smoliy's resignation rattled the market and raised questions about Ukraine's commitment to reforms.]]></description>
+      <pubDate>Fri, 03 Jul 2020 13:40:05 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

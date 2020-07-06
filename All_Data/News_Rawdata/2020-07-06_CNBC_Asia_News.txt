@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:metadata="http://search.cnbc.com/rss/2.0/modules/siteContentMetadata" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <atom:link rel="self" type="application/rss+xml" href="https://www.cnbc.com/id/19832390/device/rss/rss.html"/>
+    <language>en-us</language>
+    <ttl>60</ttl>
+    <title>Asia News</title>
+    <feed_asset>
+      <id>19832390</id>
+      <type>franchise</type>
+      <subtype>section</subtype>
+      <seo>https://www.cnbc.com/asia-news/</seo>
+    </feed_asset>
+    <lastBuildDate>Mon, 06 Jul 2020 03:13 GMT</lastBuildDate>
+    <pubDate>Mon, 06 Jul 2020 03:13 GMT</pubDate>
+    <link>https://www.cnbc.com/asia-news/</link>
+    <description><![CDATA[Read the latest stock market news and analysis on Asia Pacific in regions from Japan, China, Singapore, Australia, to New Zealand. Find business; finance; economy, stocks, and global economy news on CNBC's Asia Pacific page.]]></description>
+    <item>
+      <link>https://www.cnbc.com/2020/07/06/hong-kong-national-security-law-may-spook-socially-conscious-investors.html</link>
+      <guid isPermaLink="false">106602164</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106602164</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Hong Kong national security law may spook socially conscious investors, sparking outflows</title>
+      <description><![CDATA[Investors who take a sustainable approach to allocating capital may be reevaluating putting their money into Hong Kong after the city implemented a national security law, an analyst said on Friday.]]></description>
+      <pubDate>Mon, 06 Jul 2020 02:51:35 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/06/asia-markets-coronavirus-us-china-tensions-currencies-in-focus.html</link>
+      <guid isPermaLink="false">106603494</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106603494</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Shanghai soars nearly 4% as &apos;bull sentiment&apos; drives markets; WHO reports all-time high in coronavirus cases</title>
+      <description><![CDATA[Stocks in China led gains among the major markets regionally, with the Shanghai composite nearly 4%.]]></description>
+      <pubDate>Mon, 06 Jul 2020 03:20:24 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/03/fitch-downgraded-record-number-of-sovereign-ratings-due-to-coronavirus.html</link>
+      <guid isPermaLink="false">106602396</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106602396</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Fitch has downgraded a record number of sovereign ratings due to the coronavirus. It&apos;s not done yet</title>
+      <description><![CDATA[Fitch Ratings has downgraded a record 33 sovereign ratings in the first half of this year — more than in any given year in the past.]]></description>
+      <pubDate>Sat, 04 Jul 2020 13:22:58 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/03/pointless-to-delist-chinese-companies-from-us-stock-markets-piie-says.html</link>
+      <guid isPermaLink="false">106602210</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106602210</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Think tank explains why it&apos;s &apos;pointless&apos; to delist Chinese companies from U.S. stock markets</title>
+      <description><![CDATA[The move will neither deny those firms access to American capital markets nor hurt China's growth, said Peterson Institute for International Economics.]]></description>
+      <pubDate>Fri, 03 Jul 2020 07:06:07 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/03/myanmar-rohingya-refugees-search-for-hope-after-fleeing-rakhine.html</link>
+      <guid isPermaLink="false">106575304</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106575304</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>From stateless to displaced, the Rohingya are still searching for hope years after fleeing Myanmar</title>
+      <description><![CDATA[The Rohingya are among the world's most persecuted ethnic minorities — haunted by the past and denied a future.]]></description>
+      <pubDate>Fri, 03 Jul 2020 06:09:05 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/03/asia-listings-ipos-in-hong-kong-shanghai-jump-amid-pandemic-tensions.html</link>
+      <guid isPermaLink="false">106600542</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106600542</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>IPOs in Hong Kong and Shanghai pop, despite pandemic, tensions with the U.S.</title>
+      <description><![CDATA[Initial public offerings (IPOs) in greater China jumped in the first half of this year, bucking the declines seen elsewhere due to the impact of the coronavirus pandemic.]]></description>
+      <pubDate>Fri, 03 Jul 2020 01:47:00 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/03/asia-markets-coronavirus-global-economy-currencies-in-focus.html</link>
+      <guid isPermaLink="false">106602111</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106602111</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Shanghai stocks jump 2% as data shows China&apos;s services sector grew in June; U.S. jobs report beats expectations</title>
+      <description><![CDATA[A private survey showed Friday that China's services sector showed it growing at its fastest pace in over a decade in June, according to Reuters, with the Caixin/Markit services Purchasing Manager's Index coming in at 58.4 for the month.]]></description>
+      <pubDate>Fri, 03 Jul 2020 07:30:35 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/03/japans-middle-class-is-disappearing-as-poverty-rises-warns-economist.html</link>
+      <guid isPermaLink="false">106592935</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106592935</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Japan&apos;s middle class is &apos;disappearing&apos; as poverty rises, warns economist</title>
+      <description><![CDATA[As poverty rises in Japan, the middle class in the country is slowly eroding away, according to a recent report by Oxford Economics' Shigeto Nagai.]]></description>
+      <pubDate>Thu, 02 Jul 2020 23:01:25 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/02/the-coronavirus-may-have-mutated-to-become-more-infectious-dr-anthony-fauci-says.html</link>
+      <guid isPermaLink="false">106601861</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106601861</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>The coronavirus may have mutated to become more infectious, Dr. Anthony Fauci says</title>
+      <description><![CDATA["The data is showing there's a single mutation that makes the virus be able to replicate better and maybe have high viral loads," Fauci said in an interview.]]></description>
+      <pubDate>Fri, 03 Jul 2020 18:21:18 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/02/texas-issues-state-wide-order-requiring-face-coverings.html</link>
+      <guid isPermaLink="false">106601942</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106601942</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>As coronavirus cases soar, Texas issues statewide order requiring face coverings</title>
+      <description><![CDATA[The CDC and the World Health Organization recommend that people wear masks as a way to slow the spread of the virus.]]></description>
+      <pubDate>Thu, 02 Jul 2020 22:14:49 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/02/coronavirus-dont-balance-lives-against-the-economy-dr-anthony-fauci-warns.html</link>
+      <guid isPermaLink="false">106601775</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106601775</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Don&apos;t &apos;balance lives against the economy&apos; in unprecedented pandemic, Dr. Anthony Fauci warns</title>
+      <description><![CDATA["You don't want to balance lives against the economy," Dr. Anthony Fauci said during an interview with the JAMA Network.]]></description>
+      <pubDate>Thu, 02 Jul 2020 22:00:38 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/02/watch-live-dr-anthony-fauci-discusses-coronavirus-developments-with-the-jama-network.html</link>
+      <guid isPermaLink="false">106601742</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106601742</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Watch live: Dr. Anthony Fauci discusses coronavirus developments with the JAMA Network</title>
+      <description><![CDATA[Dr. Anthony Fauci, director of the National Institutes of Allergy and Infectious Diseasese, is scheduled to hold a discussion Thursday with the the Journal of the American Medical Association.]]></description>
+      <pubDate>Thu, 02 Jul 2020 17:52:07 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/02/moderna-stock-falls-8percent-after-report-says-late-stage-coronavirus-vaccine-trial-delayed.html</link>
+      <guid isPermaLink="false">106601700</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106601700</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Moderna stock falls by as much as 9.4% after report says late-stage coronavirus vaccine trial delayed</title>
+      <description><![CDATA[The company is making changes to its trial plan, which has pushed back the expected start date, according to health-care publication STAT News.]]></description>
+      <pubDate>Thu, 02 Jul 2020 18:53:31 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/02/us-coronavirus-cases-soar-by-more-than-50600-in-record-single-day-jump.html</link>
+      <guid isPermaLink="false">106601198</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106601198</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>U.S. coronavirus cases soar by more than 50,600 in record single-day jump</title>
+      <description><![CDATA[The U.S. reported more than 50,600 additional coronavirus cases on Wednesday, the largest single-day increase since the beginning of the outbreak.]]></description>
+      <pubDate>Fri, 03 Jul 2020 00:32:24 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/02/dr-scott-gottlieb-says-he-thinks-the-worst-of-the-us-coronavirus-epidemic-will-be-over-by-january.html</link>
+      <guid isPermaLink="false">106601169</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106601169</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Dr. Scott Gottlieb says he thinks the worst of the U.S. coronavirus epidemic &apos;will be over by January&apos;</title>
+      <description><![CDATA["This will be over by January one way or the other," former FDA Commissioner Dr. Scott Gottlieb said on "Squawk Box."]]></description>
+      <pubDate>Thu, 02 Jul 2020 17:12:49 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/02/watch-live-cdc-director-and-other-key-us-health-officials-testify-on-coronavirus-vaccine-at-senate-hearing.html</link>
+      <guid isPermaLink="false">106601344</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106601344</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Watch live: Senate holds hearing on Trump administration&apos;s Operation Warp Speed to develop coronavirus vaccine</title>
+      <description><![CDATA[]]></description>
+      <pubDate>Thu, 02 Jul 2020 14:41:33 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/02/coronavirus-live-updates.html</link>
+      <guid isPermaLink="false">106601080</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106601080</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Texas mandates face coverings; jobs may not fully recover in some U.S. industries</title>
+      <description><![CDATA[The coronavirus has now infected more than 10.84 million people around the world as of Friday morning, killing at least 520,785 people.]]></description>
+      <pubDate>Sat, 04 Jul 2020 13:32:24 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/02/us-china-relations-headed-for-the-darkest-chapter-yet-eurasia-group.html</link>
+      <guid isPermaLink="false">106600591</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106600591</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>U.S.-China relations are headed for the &apos;darkest chapter yet,&apos; says Eurasia Group</title>
+      <description><![CDATA[U.S. and China relations could deteriorate further as both countries have signaled that they're prepared to fight in more areas, said Todd Mariano, director for U.S. at Eurasia Group.]]></description>
+      <pubDate>Thu, 02 Jul 2020 05:54:01 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/02/asia-markets-coronavirus-australia-trade-data-currencies-in-focus.html</link>
+      <guid isPermaLink="false">106600460</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106600460</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Hong Kong surges nearly 3% as Asia Pacific stocks rise amid coronavirus vaccine hopes</title>
+      <description><![CDATA[Stocks in Asia Pacific rose on Thursday following positive news overnight around the development of a potential coronavirus vaccine.]]></description>
+      <pubDate>Thu, 02 Jul 2020 08:43:46 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/01/us-reports-second-highest-day-of-new-coronavirus-cases-as-arizona-california-set-new-records.html</link>
+      <guid isPermaLink="false">106599518</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106599518</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>US reports second-highest day of new coronavirus cases as Arizona, California set records</title>
+      <description><![CDATA[The U.S. reported more than 44,700 coronavirus cases on Tuesday, the second-highest daily increase, according to Johns Hopkins University data.]]></description>
+      <pubDate>Wed, 01 Jul 2020 22:56:48 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/01/california-to-close-indoor-businesses-in-some-counties-as-coronavirus-cases-hit-record-highs.html</link>
+      <guid isPermaLink="false">106600137</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106600137</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>California to close indoor businesses in some counties as coronavirus cases hit record highs</title>
+      <description><![CDATA[Indoor businesses required to close include restaurants, wineries and tasting rooms, movie theaters, family entertainment centers, zoos, museums and cardrooms, Gov. Gavin Newsom said.]]></description>
+      <pubDate>Wed, 01 Jul 2020 22:55:18 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/01/who-warns-some-countries-may-have-to-reinstate-lockdowns-as-coronavirus-pandemic-accelerates.html</link>
+      <guid isPermaLink="false">106599915</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106599915</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>WHO warns some countries may have to reinstate lockdowns as coronavirus pandemic accelerates</title>
+      <description><![CDATA["It isn't too late to turn it around. It isn't too late to get the infrastructure in place, to work on that and to use it appropriately," Dr. Maria Van Kerkhove, head of the WHO's emerging diseases and zoonosis unit, said.]]></description>
+      <pubDate>Wed, 01 Jul 2020 18:53:58 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/01/new-york-gov-cuomo-warns-of-resurgence-in-coronavirus-cases-we-have-dark-clouds-on-the-horizon.html</link>
+      <guid isPermaLink="false">106599845</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106599845</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>New York Gov. Cuomo warns of resurgence in coronavirus cases: &apos;We have dark clouds on the horizon&apos;</title>
+      <description><![CDATA["We have dark clouds on the horizon, and we've made tremendous progress," New York Gov. Andrew Cuomo said at a press briefing.]]></description>
+      <pubDate>Wed, 01 Jul 2020 19:48:05 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/01/official-us-coronavirus-death-toll-is-a-substantial-undercount-of-actual-tally-new-yale-study-finds.html</link>
+      <guid isPermaLink="false">106599699</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106599699</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Official U.S. coronavirus death toll is &apos;a substantial undercount&apos; of actual tally, Yale study finds</title>
+      <description><![CDATA[The 781,000 total deaths in the United States in the three months through May 30 were nearly 19% higher than what would normally be expected, the study said.]]></description>
+      <pubDate>Thu, 02 Jul 2020 13:11:46 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/01/watch-live-new-york-gov-andrew-cuomo-holds-a-press-briefing-on-the-coronavirus-outbreak.html</link>
+      <guid isPermaLink="false">106599802</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106599802</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Watch live: New York Gov. Andrew Cuomo holds a press briefing on the coronavirus outbreak</title>
+      <description><![CDATA[New York Gov. Andrew Cuomo is holding a news conference Wednesday as the state shows some caution around reopening amid outbreaks elsewhere in the U.S.]]></description>
+      <pubDate>Wed, 01 Jul 2020 15:25:30 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/01/watch-live-world-health-organization-holds-press-conference-as-coronavirus-pandemic-accelerates.html</link>
+      <guid isPermaLink="false">106599632</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106599632</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>Watch live: World Health Organization holds press conference as coronavirus pandemic accelerates</title>
+      <description><![CDATA[]]></description>
+      <pubDate>Wed, 01 Jul 2020 14:36:05 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/01/us-already-at-100000-new-coronavirus-cases-a-day-it-just-isnt-testing-them-all-gottlieb-says.html</link>
+      <guid isPermaLink="false">106599434</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106599434</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>U.S. already at 100,000 new coronavirus cases a day, it just isn&apos;t testing them all, former FDA Commissioner Gottlieb says</title>
+      <description><![CDATA["States like Texas and Florida, they're falling behind on testing right now because the testing isn't evenly distributed across the country," former FDA Commissioner Dr. Scott Gottlieb said.]]></description>
+      <pubDate>Wed, 01 Jul 2020 16:51:35 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/01/chinas-national-security-law-hong-kong-global-financial-center.html</link>
+      <guid isPermaLink="false">106596750</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106596750</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>How China&apos;s national security law could change Hong Kong forever</title>
+      <description><![CDATA[Hong Kong's status as a world financial hub looks to be under threat. Beijing has expedited a new national security law, which some experts warn has the potential to erode the very structure that grants the region major privileges on the international stage.]]></description>
+      <pubDate>Wed, 01 Jul 2020 13:48:08 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/01/coronavirus-live-updates.html</link>
+      <guid isPermaLink="false">106599266</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106599266</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>India&apos;s coronavirus cases cross 600,000; demand for China&apos;s medical products surge</title>
+      <description><![CDATA[The coronavirus has infected more than 10.69 million people around the world as of Thursday, killing at least 516,210 people.]]></description>
+      <pubDate>Thu, 02 Jul 2020 11:32:14 GMT</pubDate>
+    </item>
+    <item>
+      <link>https://www.cnbc.com/2020/07/01/imf-asias-economy-will-shrink-first-time-in-living-memory-due-to-coronavirus.html</link>
+      <guid isPermaLink="false">106598732</guid>
+      <metadata:type>cnbcnewsstory</metadata:type>
+      <metadata:id>106598732</metadata:id>
+      <metadata:sponsored>false</metadata:sponsored>
+      <title>IMF says Asia&apos;s economy will shrink &apos;for the first time in living memory&apos; due to the coronavirus</title>
+      <description><![CDATA[The fund said Asia's economy is expected to contract by 1.6% this year — a downgrade from its previous forecast of no growth in April.]]></description>
+      <pubDate>Wed, 01 Jul 2020 07:21:23 GMT</pubDate>
+    </item>
+  </channel>
+</rss>
