@@ -3,7 +3,7 @@ import ast
 import json
 dic = {}
 data=[]
-with open('./All_Data/Rawdata/0706.txt') as fp: #填入要parse的rawdata名稱
+with open('./All_Data/Twitters_Rawdata/0706.txt') as fp: #填入要parse的rawdata名稱
 	for line in fp:
 		obj = ast.literal_eval(line)
 		for x in range (len(obj)):
@@ -24,7 +24,7 @@ with open('./All_Data/Rawdata/0706.txt') as fp: #填入要parse的rawdata名稱
 		json_result = json.dumps(data) #轉換成json格式
 #print(json_result)
 
-f = open('./All_Data/ParsedData/p0706.txt','w')
+f = open('./All_Data/Twitters_ParsedData/p0706.txt','w')
 f.write(json_result)
 f.close()
 
