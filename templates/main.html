@@ -40,8 +40,8 @@
                         <option value="pph_4" {{selected['pph_4']}}>周報酬低於 10%</option>
                         <option value="pph_5" {{selected['pph_5']}}>月報酬超過 20%</option>
                     </select>
-                <div class="ikeyword">Keyword: <input type="text" id="ikeyword" name="ikeyword" value={{keyword}}><input type="submit" id="keysubmit" name="keysubmit" value="search"></div>
-            </form>
+                    <div class="ikeyword">Keyword: <input type="text" id="ikeyword" name="ikeyword" value={{keyword}}><input type="submit" id="keysubmit" name="keysubmit" value="search"></div>
+                </form>
             
             </div>
         </div>
@@ -191,6 +191,11 @@
                                         beginAtZero: true
                                     }
                                 }]
+                            },
+                            legend: {
+                                labels: {
+                                    fontColor: 'white',
+                                },
                             },
                         },
                         // hidden=true

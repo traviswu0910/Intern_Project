@@ -21,7 +21,7 @@ def login():
 		global user
 		user = request.values['usr']
 		pwd = request.values['pwd']
-		data = []
+		data = {}
 		try:
 			with open(f'./All_Data/Reference/Info.json', 'r') as json_file:
 				data = json.load(json_file)
@@ -29,8 +29,8 @@ def login():
 				data.update({user:{}})
 		except:
 			with open(f'./All_Data/Reference/Info.json', 'w+') as f:
-				json.dump([], f)
-		with open(f'./All_Data/Reference/Info.json', 'w') as json_file:
+				data.update({user:{}})
+		with open(f'./All_Data/Reference/Info.json', 'w+') as json_file:
 			json.dump(data, json_file)
 			
 		default_year = '05/05/2020'
@@ -72,20 +72,16 @@ def op():
 		year = request.values['datepicker']
 		portfolio = request.values['portfolio']
 		keyword = request.form['ikeyword']
-		data = []
-		try:
-			with open(f'./All_Data/Reference/Info.json', 'r') as json_file:
+		data = {}
+		with open(f'./All_Data/Reference/Info.json', 'r+') as json_file:
 				data = json.load(json_file)
-		except:
-			with open(f'./All_Data/Reference/Info.json', 'w+') as f:
-				json.dump([], f)
-		int = 0
+		count = 0
 		try:
-			while str(int) in data[user].keys():
-				int = int + 1
+			while str(count) in data[user].keys():
+				count = count + 1
 		except:
 			return render_template('login_willy.html')
-		data[user].update({int : {"date" : year,
+		data[user].update({count : {"date" : year,
 									"pf" : portfolio,
 									"kw" : keyword }})
 		with open(f'./All_Data/Reference/Info.json', 'w') as json_file:
