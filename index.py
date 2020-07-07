@@ -4,7 +4,7 @@ import pandas as pd
 import datetime as dt
 
 app = Flask(__name__)
-fullName = pd.read_json("./schema/InfoCodeToFullName.json").set_index('InfoCode')
+fullName = pd.read_json("./All_Data/Reference/InfoCodeToFullName.json").set_index('InfoCode')
 method_list = {'pph_1':'news_PortfolioList_AbovePositive5',
                'pph_2':'news_PortfolioList_BelowNegative5',
                'pph_3':'news_PortfolioList_WeekAbovePositive10',
@@ -21,13 +21,16 @@ def login():
         global user
         user = request.values['usr']
         pwd = request.values['pwd']
-        with open(f'./schema/Info.json', 'r') as json_file:
-            data = json.load(json_file)
-        if user not in data.keys():
-            data.update({user:{}})
-        with open(f'./schema/Info.json', 'w') as json_file:
+        try:
+            with open(f'./All_Data/Reference/Info.json', 'r') as json_file:
+                data = json.load(json_file)
+            if user not in data.keys():
+                data.update({user:{}})
+        except:
+            with open(f'./All_Data/Reference/Info.json', 'w+') as f:
+                json.dump([], f)
+        with open(f'./All_Data/Reference/Info.json', 'w') as json_file:
             json.dump(data, json_file)
-            json_file.close()
             
         default_year = '05/05/2020'
         selected = {'pph_1':'','pph_2':'selected','pph_3':'','pph_4':'','pph_5':''}
@@ -68,8 +71,12 @@ def op():
         year = request.values['datepicker']
         portfolio = request.values['portfolio']
         keyword = request.form['ikeyword']
-        with open(f'./schema/Info.json', 'r') as json_file:
-           data = json.load(json_file)
+        try:
+            with open(f'./All_Data/Reference/Info.json', 'r') as json_file:
+            data = json.load(json_file)
+        except:
+            with open(f'./All_Data/Reference/Info.json', 'w+') as f:
+                json.dump([], f)
         int = 0
         try:
             while str(int) in data[user].keys():
@@ -79,7 +86,7 @@ def op():
         data[user].update({int : {"date" : year,
                                     "pf" : portfolio,
                                     "kw" : keyword }})
-        with open(f'./schema/Info.json', 'w') as json_file:
+        with open(f'./All_Data/Reference/Info.json', 'w') as json_file:
            json.dump(data, json_file)
         selected = {'pph_1':'','pph_2':'','pph_3':'','pph_4':''}
         selected[portfolio]='selected'
@@ -115,7 +122,7 @@ def op():
 
 def get_top_news(which_day,num,keyword):
     which_day = pd.to_datetime(which_day).strftime('%Y%m%d')
-    with open(f'./UIData/news/{which_day}_{num}.json')as f:
+    with open(f'./All_Data/UIData/news/{which_day}_{num}.json')as f:
         file = json.load(f)
         key = file[0]
         news = file[1:]
@@ -137,7 +144,7 @@ def get_portfolio_news(which_day,method,keyword):
     which_day = pd.to_datetime(which_day).strftime('%Y%m%d')
     method = method_list[method]
     try:
-        with open(f'./UIData/news/{method}_{which_day}.json')as f:
+        with open(f'./All_Data/UIData/news/{method}_{which_day}.json')as f:
             file = json.load(f)
         if len(file)>1:
             portfolio = file[0]
@@ -168,7 +175,7 @@ def get_portfolio_news(which_day,method,keyword):
 def get_chart_data(which_day,method):
     which_day = pd.to_datetime(which_day).strftime('%Y%m%d')
     method = method_list[method].replace('news_PortfolioList_','')
-    data = pd.read_json(f'./UIData/chart/PortfolioPerformance_{method}_{which_day}.json')
+    data = pd.read_json(f'./All_Data/UIData/chart/PortfolioPerformance_{method}_{which_day}.json')
     data['company'] = data['InfoCode'].apply(lambda x:fullName.loc[int(x)][0])
     data['Single']=data['Single']*360
     data=data.rename(columns={'Single':'day','Nearest7DaysAnnualSingle':'week',
@@ -202,18 +209,18 @@ def get_chart_data(which_day,method):
 
 def get_top_twitter(which_day,num):
     which_day = pd.to_datetime(which_day).strftime('%Y%m%d')
-    with open(f'./UIData/twitter/{which_day}_{num}.json')as f:
+    with open(f'./All_Data/UIData/twitter/{which_day}_{num}.json')as f:
         file = json.load(f)
         key = file[0]
         twitter = file[1:]
     return key,twitter
 def get_hot_twitter(which_day):
     which_day = pd.to_datetime(which_day).strftime('%Y%m%d')
-    with open(f'./UIData/twitter/FundyLongShort+{which_day}.json')as f:
+    with open(f'./All_Data/UIData/twitter/FundyLongShort+{which_day}.json')as f:
         file1 = json.load(f)
-    with open(f'./UIData/twitter/SmallCapLS+{which_day}.json')as f:
+    with open(f'./All_Data/UIData/twitter/SmallCapLS+{which_day}.json')as f:
         file2 = json.load(f)
-    with open(f'./UIData/twitter/ShortSightedCap+{which_day}.json')as f:
+    with open(f'./All_Data/UIData/twitter/ShortSightedCap+{which_day}.json')as f:
         file3 = json.load(f)
     return file1,file2,file3
         
@@ -222,7 +229,7 @@ def create_entry():
     time=dt.datetime.now().strftime('%Y%m%d  %H:%M:%S')
     req = request.get_json()
     print(req)
-    with open(f'./schema/Info.json', 'r') as json_file:
+    with open(f'./All_Data/Reference/Info.json', 'r') as json_file:
         data = json.load(json_file)
     int = 0
     try:
@@ -236,7 +243,7 @@ def create_entry():
                              "clc": {"url": req['url'], "title" : req['title'], "tab": req['tab'],
                                      'click_time':time
                                      }}})
-    with open(f'./schema/Info.json', 'w') as json_file:
+    with open(f'./All_Data/Reference/Info.json', 'w') as json_file:
         json.dump(data, json_file)
         json_file.close()
     res = make_response(jsonify({"message": "OK"}), 200)
