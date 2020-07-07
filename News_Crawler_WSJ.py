@@ -38,7 +38,7 @@ headers = {
 }
 today = str(date.today())
 today_for_crawl = str(date.today()).replace('-', '')
-target = '20200705' #要抓的日期
+target = '20200707' #要抓的日期
 url='https://www.wsj.com/news/archive/'+target
 print(target)
 
@@ -71,7 +71,7 @@ for news in news_list:
 	data.append(dic)
 
 
-with open(f'./All_Data/News_ParsedData/2020-07-05_WSJ.json','w') as f:
+with open(f'./All_Data/News_ParsedData/2020-07-07_WSJ.json','w') as f:
 	json.dump(data,f)
 
 
