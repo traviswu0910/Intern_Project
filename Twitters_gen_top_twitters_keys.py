@@ -46,7 +46,7 @@ def gen_keywords(start,end):
                 ans_list.append( (value[i],count[i]/len(model.wv.vocab.keys())) )
             ans[date] = ans_list
         except:pass
-    with open('top_news_keys','wb')as f:
+    with open('top_twitters_keys','wb')as f:
         pickle.dump(ans,f)
 if __name__ == '__main__':   
     gen_keywords('2018-01-01','2020-06-01')

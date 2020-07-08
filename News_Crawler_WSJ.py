@@ -36,9 +36,11 @@ ua = UserAgent()
 headers = {
 	'User-Agent':ua.random
 }
+print(headers)#檢查哪個user agent可以哪個不行
 today = str(date.today())
 today_for_crawl = str(date.today()).replace('-', '')
-target = '20200707' #要抓的日期
+target = '20200708' #要抓的日期
+date_for_pubdate = '2020-07-08'
 url='https://www.wsj.com/news/archive/'+target
 print(target)
 
@@ -66,12 +68,14 @@ for i, a in enumerate(found):
 data = []
 for news in news_list:
 	dic = {}
-	dic['Title'] = news[0]
+	dic['title'] = news[0]
 	dic['link'] = news[1]
+	dic['pubdate'] = date_for_pubdate
+	dic['source'] = 'Wall Street Journal'
 	data.append(dic)
 
 
-with open(f'./All_Data/News_ParsedData/2020-07-07_WSJ.json','w') as f:
+with open(f'./All_Data/News_ParsedData/2020-07-08_WSJ.json','w') as f:
 	json.dump(data,f)
 
 

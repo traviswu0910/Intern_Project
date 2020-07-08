@@ -8,7 +8,7 @@ def clean_title(x):
     x=Clean(x)
     x.Capitalize()
     x.DeletePunctuation()
-    x.DeleteRedundant()
+    x.DeleteRedundant_News()
     return x.Text
 
 def gen_2_week_news(start,end):
@@ -41,4 +41,4 @@ def gen_2_week_news(start,end):
 
 
 if __name__ == '__main__':   
-    gen_2_week_news('2018-01-01','2020-05-26')
+    gen_2_week_news('2018-01-01','2020-07-08')

@@ -15,12 +15,12 @@ def clean_text(x): #清洗資料
     text.DeleteRedundant_Twitters()
     # print(text.Text)
     return text.Text
-with open('top_news_keys','rb')as f:
+with open('top_twitters_keys','rb')as f:
     key = pickle.load(f)
 
 
 def gen_toptwitters(start,end):
-    with open('top_news_keys','rb')as f:
+    with open('top_twitters_keys','rb')as f:
         key = pickle.load(f)
     total_date = [x.strftime('%Y%m%d') for x in pd.date_range(start,end,freq='d')]
     for date in tqdm(total_date):

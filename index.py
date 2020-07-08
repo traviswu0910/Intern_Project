@@ -26,10 +26,10 @@ def login():
 			with open(f'./All_Data/Reference/Info.json', 'r') as json_file:
 				data = json.load(json_file)
 			if user not in data.keys():
-				data.update({user:{}})
+				data[user] = {}
 		except:
 			with open(f'./All_Data/Reference/Info.json', 'w+') as f:
-				data.update({user:{}})
+				data[user] = {}
 		with open(f'./All_Data/Reference/Info.json', 'w+') as json_file:
 			json.dump(data, json_file)
 			
@@ -81,9 +81,9 @@ def op():
 				count = count + 1
 		except:
 			return render_template('login_willy.html')
-		data[user].update({count : {"date" : year,
+		data[user][count] = {"date" : year,
 									"pf" : portfolio,
-									"kw" : keyword }})
+									"kw" : keyword }
 		with open(f'./All_Data/Reference/Info.json', 'w') as json_file:
 			json.dump(data, json_file)
 		selected = {'pph_1':'','pph_2':'','pph_3':'','pph_4':''}

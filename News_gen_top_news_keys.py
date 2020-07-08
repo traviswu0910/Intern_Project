@@ -32,4 +32,4 @@ def gen_keywords(start,end):
         pickle.dump(ans,f)
         
 if __name__ == '__main__':   
-    gen_keywords('2018-01-01','2020-05-26')
+    gen_keywords('2018-01-01','2020-07-08')
