@@ -63,5 +63,5 @@ def gen_toptwitters(start,end):
 
 
 if __name__ == '__main__':   
-    gen_toptwitters('2018-01-01','2020-05-26')
+    gen_toptwitters('2018-01-01','2020-07-08')
     

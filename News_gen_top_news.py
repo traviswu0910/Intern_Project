@@ -33,5 +33,5 @@ def gen_topnews(start,end):
             json.dump(top_news_3,f)
 
 if __name__ == '__main__':   
-    gen_topnews('2018-01-02','2020-05-26')
+    gen_topnews('2018-01-02','2020-07-08')
     
