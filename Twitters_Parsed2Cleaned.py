@@ -6,7 +6,7 @@ import glob
 
 #合併parsed data
 data = pd.DataFrame()
-all_txt_files = glob.glob('./All_Data/Twitters_ParsedData/*.txt')
+all_txt_files = glob.glob('./All_Data/Twitters_ParsedData/*.json')
 for file in all_txt_files:
     a = pd.read_json(file)
     data = data.append(a)
@@ -23,7 +23,7 @@ c.drop_duplicates('Text',inplace=True)
 
 
 #取20170101到20200601的資料
-time_range = pd.date_range('20170101','20200708')
+time_range = pd.date_range('20170101','20200713')
 time_range = time_range.strftime('%Y%m%d')
 
 #建json檔
