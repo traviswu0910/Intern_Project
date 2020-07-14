@@ -4,7 +4,7 @@ import json
 import pandas as pd
 import datetime
 
-time_range = pd.date_range('20180101','20200708') #想要輸出多久的資料
+time_range = pd.date_range('20180101','20200713') #想要輸出多久的資料
 
 for time in time_range:
 	two_week_range = pd.date_range(pd.to_datetime(time)-pd.to_timedelta(2,'w'),time,freq='d')

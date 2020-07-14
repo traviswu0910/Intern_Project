@@ -63,7 +63,7 @@ class Clean(Clean):
                'WHITE','MARKET','MARKETS','TIME','AMERICA','UK','MAN','WOMAN','MEN','WOMEN','CAN’T','TWO','AMID','KEEP','END','HELP',
                'YEARS','LIFE','HIT','3RD','VERY',
                'YES','ASK','OTHERS','SOMETHING','ANYONE','EVERYONE','60M...','SO','BOTH','WANTED','YOURS','GUY','SAME','LOVES','GOING','DOES',
-               'TRUE',
+               'TRUE','EPIC','FOOT','REASONS','WASNT','DOG','11%','WEEKS','HANDS'
                'SINCE','SAID','WHICH','MYSELF','YOURSELF','HISSELF','HERSELF','THEMSELVES','NOPE','ALSO',
                'ANY','ME','SAY','ONE','SEE','RT','WHO','SHOULD','LIST','REAL','MIGHT','FEW','IM','NOR','REALLY','MOST','OTHER','ONLY','OKAY','ALONG',
                'ONCE','SEEMS','ACTUALLY','REVIEWS','FATHER','VIA','STILL','WE','MINE','ISNT','AINT','SAYS','EVER','CANNOT','THOUGH','LAST','SURE','THING',
@@ -104,7 +104,7 @@ class Clean(Clean):
                'WHITE','MARKET','MARKETS','TIME','AMERICA','UK','MAN','WOMAN','MEN','WOMEN','CAN’T','TWO','AMID','KEEP','END','HELP',
                'YEARS','LIFE','HIT','YES','ASK','WHICH','WHO','HOME','SAYS','SAY','STOCK','STOCKS','GOOD','PUSH','ONE','SUPER','INVESTORS',
                'INVESTOR','POWER','CITY','CALL','CALLS','BILLION','MILLION','WATCH','LOVE','ISNT','ARENT','WERENT','ANYTHING','EVERYTHING',
-               'GIVE','THINKS','HES','JAN',''
+               'GIVE','THINKS','HES','JAN','FIVE','COURT',''
                
                ]
         resultwords = [word for word in re.split("\s+", self.Text) if word.upper() not in words and len(word)>1 and not_redundant_int(word)]
