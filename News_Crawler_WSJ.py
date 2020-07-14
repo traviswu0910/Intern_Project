@@ -39,7 +39,7 @@ headers = {
 print(headers)#檢查哪個user agent可以哪個不行
 today = str(date.today())
 today_for_crawl = str(date.today()).replace('-', '')
-target = '20200712' #要抓的日期
+target = '20200713' #要抓的日期
 date_for_pubdate = '2020-07-13'
 url='https://www.wsj.com/news/archive/'+target
 print(target)
@@ -54,6 +54,8 @@ found = soup.findAll('a', {'class':''})
 # print(found)
 found = [a for a in soup.findAll('a', {'class':''}) if 'articles' in str(a).split('/')]
 print(len(found))
+
+
 # print(found)
 
 news_list = []
