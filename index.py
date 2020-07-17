@@ -6,63 +6,15 @@ from util import *
 
 from GetUIData import News,Twitter,Chart
 
-global userfeed
-global userList
+user = UserInfo()        
+LOGIN_FLAG=0
+SIGNUP_FLAG=0
 
-userfeed = json_safeLoading(Path['feed'])
-userList = json_safeLoading(Path['id'])
-
-class UserInfo:
-    currentForm = {
-        'date':'2020-05-05',
-        'pf':'pph_2',
-        'kw':'',
-        "click":{},
-        'time':dt.datetime.now().strftime('%Y%m%d  %H:%M:%S')
-    }
-    # BrowseClick=0
-    # BrowseHistory={}
-    def __init__(self, name, password):
-        self.username = name
-        self.password = password
-        self.defaultInput = self.currentForm
-
-        
-    def rewind(self):
-        self.currentForm = self.defaultInput
-
-    def signUp(self):
-        userList[self.username] = {
-                'Password': self.password,
-                'ID': tag()
-            }
-        json_safeDumping(userList, Path['id'])
-
-class InfoJson:
-    def _feedDump():
-        json_safeDumping(userfeed, Path['feed'])
-
-    def Create(user, tag):
-        userfeed[tag] = {'login':[user.currentForm], 'activity':[]}
-        json_safeDumping(userfeed, Path['feed'])
-        
-    def Read(self):
-        pass
-    def Update(self):
-        tag = userList[user.username]
-        userfeed[tag]['activity'].append(user.currentForm)
-        self._feedDump()
-
-    def Delete(self):
-        pass
-        
-LoginFlag=0
-SignupFlag=0
-
+utilities = [
+        {'image': 'na_togo', 'name': 'na'}
+    ]
 
 app = Flask(__name__)
-
-InfoFile=InfoJson()
 
 @app.route("/")
 def login():
@@ -75,117 +27,91 @@ def main():
             'refill': 0,
             'username': '',
             'password': '',
-            'retype': 0,
+            'retype': '',
+            'show_retype': 0,
         }
-    return render_template('Main.html', inputs=inputs)
+    return render_template('Main.html', inputs=inputs, utilities=utilities)
 
 @app.route("/NewsAssistant", methods=["POST", "GET"])
 def newsAssistant():
-    def userLoad():
-        userList = json_safeLoading(Path['id'])
-
-    def userUpdate():
-        user.signUp()
-
-    def userPlugin():
-        userUpdate()
-        InfoJson.Create(user=user, tag=userList[user.username]['ID'])
-
-    def validateID(name, password):
-        if userList==None:
-            userLoad()
-        users = [ u.upper() for u in userList.keys() ]
-        if not (name.upper() in users):
-            return({'SuccessFlag':0,'Description':'The user does not exist'})
-        elif userList[name]['Password']==password:
-            return({'SuccessFlag':1,'Description':'Pass'})
-        else :
-            return({'SuccessFlag':-1,'Description':'Password is wrong!!'})
-
     def signup():
         if 'signup' in request.values.keys():
             return True
-
+    global user, LOGIN_FLAG, SIGNUP_FLAG
+    usr = request.values['usr']
+    pwd = request.values['pwd']
+    retype = request.values['retype']
     if request.method == "POST":
-        global LoginFlag
-        global SignupFlag
-
-        print('LoginFlag: {}'.format(LoginFlag))
-        print('SignupFlag: {}'.format(SignupFlag))
-
-        if not LoginFlag:
-            global user
-            user=UserInfo(request.values['usr'], request.values['pwd'])
-            validation=validateID(user.username, user.password)
-            if not SignupFlag:
-                if not signup(): # sign-in button
-                    if not validation['SuccessFlag']:
+        if not LOGIN_FLAG:
+            user.fillInfo(usr, pwd, retype)
+            if not SIGNUP_FLAG:
+                if signup(): # sign-up button
+                    msg = user.signup(SIGNUP_FLAG)
+                    show_retype=0
+                    if msg==Sign.SUCCESS: ### username available
+                        SIGNUP_FLAG = 1
+                        show_retype = 1
+                        
+                    inputs = {
+                            'msg': msg,
+                            'refill': 1,
+                            'username': user.username,
+                            'password': user.password,
+                            'retype': retype,
+                            'show_retype': show_retype,
+                        }
+                    return render_template('Main.html', inputs=inputs, utilities=utilities)
+                else: # sign-in button
+                    msg = user.signin()
+                    if not msg==Sign.SUCCESS:
                         inputs = {
-                                'msg': validation['Description'],
-                                'refill': 0,
-                                'username': user.username,
-                                'password': user.password,
-                                'retype': 0,
-                            }
-                        return render_template('Main.html', inputs=inputs)
-                    LoginFlag=1
-                else: # sign-up button
-                ### currently working here
-                    if validation['SuccessFlag']==0:
-                        SignupFlag = 1
-                        print(user.username)
-                        inputs = {
-                                'msg': '',
+                                'msg': msg,
                                 'refill': 1,
                                 'username': user.username,
                                 'password': user.password,
-                                'retype': 1,
+                                'retype': retype,
+                                'show_retype': 0,
                             }
-                        return render_template('Main.html', inputs=inputs)
-                    else:
-                        validation['Description'] = 'Username is already in use!'
-                        inputs = {
-                                'msg' : validation['Description'],
-                                'refill': 1,
-                                'username': user.username,
-                                'password': user.password,
-                                'retype': 0,
-                            }
-                        return render_template('Main.html', inputs=inputs)
+                        return render_template('Main.html', inputs=inputs, utilities=utilities)
+                    LOGIN_FLAG=1
             else: ### signing up (retyping password)
-                if validation['SuccessFlag']!=0:
-                    validation['Description']='Username already in use!'
-                    inputs = {
-                            'msg': validation['Description'],
-                            'refill': 1,
-                            'username': user.username,
-                            'password': user.password,
-                            'retype': 1,
-                        }
-                    return render_template('Main.html', inputs=inputs)
-                elif request.values['retype']!=user.password:
-                    validation['Description']='The passwords don\'t match'
-                    inputs = {
-                            'msg': validation['Description'],
-                            'refill': 1,
-                            'username': user.username,
-                            'password': user.password,
-                            'retype': 1,
-                        }
-                    return render_template('Main.html', inputs=inputs)
-                userPlugin()
-                
+                if signup():
+                    msg = user.signup(SIGNUP_FLAG)
+                    if not msg==Sign.SUCCESS:
+                        inputs = {
+                                'msg': msg,
+                                'refill': 1,
+                                'username': user.username,
+                                'password': user.password,
+                                'retype': retype,
+                                'show_retype': 1,
+                            }
+                        return render_template('Main.html', inputs=inputs, utilities=utilities)
+                else:
+                    msg = user.signin()
+                    SIGNUP_FLAG=0
+                    if not msg==Sign.SUCCESS:
+                        inputs = {
+                                'msg': msg,
+                                'refill': 1,
+                                'username': user.username,
+                                'password': user.password,
+                                'retype': retype,
+                                'show_retype': 0,
+                            }
+                        return render_template('Main.html', inputs=inputs, utilities=utilities)
         else:
             try:
                 user.currentForm={
-                    'date':request.values['datepicker'],
-                    'pf':request.values['portfolio'],
-                    'kw':request.form['ikeyword'],
-                    "click":{},
-                    'time':dt.datetime.now().strftime('%Y%m%d  %H:%M:%S')
+                    'date': request.values['datepicker'],
+                    'pf': request.values['portfolio'],
+                    'kw': request.form['ikeyword'],
+                    "click": {},
+                    'time': dt.datetime.now().strftime('%Y%m%d  %H:%M:%S'),
+                    'note': ''
                 }
             except:
-                user.rewind()
+                user.defaultForm()
             
         selected = {'pph_1':'','pph_2':'','pph_3':'','pph_4':'','pph_5':''}
         selected[user.currentForm['pf']]='selected'
@@ -222,19 +148,16 @@ def newsAssistant():
 def create_entry():
     req = request.get_json()
     
-    user.currentForm={
-        "date":user.currentForm['date'],
-        "pf":user.currentForm['pf'],
-        "kw":user.currentForm['kw'],
-        "click":{"url": req['url'], "title" : req['title'], "tab": req['tab']},
-        'time':dt.datetime.now().strftime('%Y%m%d  %H:%M:%S'),
-        'note': req['note'],
-    }
-    
-    InfoFile.Update()
+    user.addActivity(form={
+            "date":user.currentForm['date'],
+            "pf":user.currentForm['pf'],
+            "kw":user.currentForm['kw'],
+            "click":{"url": req['url'], "title" : req['title'], "tab": req['tab']},
+            'time':dt.datetime.now().strftime('%Y%m%d  %H:%M:%S'),
+            'note': req['note'],
+        })
 
     res = make_response(jsonify({"message": "OK"}), 200)
-
     return res
 
 if __name__ == "__main__":

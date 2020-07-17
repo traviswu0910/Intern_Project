@@ -12,9 +12,11 @@ Path={
 
 class Sign():
 	SUCCESS				= ''
+	USERNAME_TAKEN		= 'This username is already taken :('
 	ABSENT_USERNAME		= 'Username does not exist >o<'
 	WRONG_PASSWORD		= 'You have the wrong password :('
 	WRONG_RETYPE		= 'Your passwords don\'t match :('
+	EMPTY_INPUT			= 'You left your input boxes empty ><'
 
 def tag():
 	tag = ''
@@ -34,7 +36,7 @@ def json_safeLoading(filename):
 			return json.load(f)
 	except:
 		with open(filename, 'w+') as f:
-			return json.dump({}, f)
+			json.dump({}, f)
 		return {}
 
 def json_safeDumping(content, filename):
@@ -45,7 +47,7 @@ def json_safeDumping(content, filename):
 class InfoJson():
 	def __init__(self, filename):
 		self.info = json_safeLoading(filename)
-		self.filename
+		self.filename = filename
 
 	def pull(self):
 		self.info = json_safeLoading(filename)
@@ -53,15 +55,18 @@ class InfoJson():
 	def push(self):
 		json_safeDumping(self.info, self.filename)
 
+
+
 class UserList(InfoJson):
 	def __init__(self, filename):
-		super().__init__(fiilename)
+		super().__init__(filename)
 
-	def create(self, username, password):
+	def create(self, username, password, tag):
 		self.info[username] = {
 			'password': password,
-			'id': tag(),
+			'id': tag,
 		}
+		self.push()
 
 	def delete(self):
 		pass
@@ -69,9 +74,11 @@ class UserList(InfoJson):
 	def changePassword(self):
 		pass
 
+
+
 class UserFeed(InfoJson):
 	def __init__(self, filename):
-		super().__init__(fiilename)
+		super().__init__(filename)
 
 	def create(self, tag, time):
 		self.info[tag] = {
@@ -88,6 +95,8 @@ class UserFeed(InfoJson):
 		self.info[tag]['activity'].append(action)
 		self.push()
 
+
+
 class UserInfo():
 	currentForm = {
 	    'date':'2020-05-05',
@@ -95,58 +104,81 @@ class UserInfo():
         'kw':'',
         "click":{},
         'time':dt.datetime.now().strftime('%Y%m%d  %H:%M:%S'),
+        'note': '',
 	}
-	self.userlist = InfoJson(Path['id'])
-	self.userfeed = InfoJson(Path['feed'])
+	userlist = UserList(Path['id'])
+	userfeed = UserFeed(Path['feed'])
 
-	def __init__(self, username, password):
+	def __init__(self):
 		self.defaultForm = self.currentForm
 
 	def updateTime(self):
-		currentForm['time'] = dt.datetime.now().strftime('%Y%m%d  %H:%M:%S')
+		self.currentForm['time'] = dt.datetime.now().strftime('%Y%m%d  %H:%M:%S')
 
-	def fillInfo(self, username, password):
+	def fillInfo(self, username, password, retype):
 		self.username = username
 		self.password = password
-		self.tag = self.userlist.info[self.username]['id']
+		self.retype = retype
+		self.exists = False
+		if self.username.upper() in [a.upper() for a in self.userlist.info.keys()]:
+			self.exists = True
 
 	def defaultForm(self):
 		self.currentForm = self.defaultForm
 		return self.defaultForm
 
-	def checkInput(self, input_usr, input_pwd):
-		users = self.userlist.keys()
-		if input_usr in users:
-			if not input_pwd==users[input_usr]:
+	def checkRetype(self):
+		if self.retype=='' or self.password=='':
+			return Sign.EMPTY_INPUT
+		if not self.retype==self.password:
+			return Sign.WRONG_RETYPE
+		return Sign.SUCCESS
+
+	def checkSignup(self, flag):
+		if self.username=='':
+			return Sign.EMPTY_INPUT
+		elif self.exists:
+			return Sign.USERNAME_TAKEN
+		else:
+			if flag==1:
+				return self.checkRetype()
+			return Sign.SUCCESS
+
+
+	def signup(self, flag):
+		check = self.checkSignup(flag)
+		if flag==1 and check==Sign.SUCCESS:
+			self.tag = tag()
+			self.userlist.create(self.username, self.password, self.tag)
+			self.updateTime()
+			self.userfeed.create(self.tag, self.currentForm['time'])
+			self.exists = True
+		return check
+
+	def checkSignin(self):
+		if self.username=='' or self.password=='':
+			return Sign.EMPTY_INPUT
+		if self.exists:
+			if not self.password==self.userlist.info[self.username]['password']:
 				return Sign.WRONG_PASSWORD
 			return Sign.SUCCESS
-		else
+		else:
 			return Sign.ABSENT_USERNAME
 
-	def signup(self, input_usr, input_pwd, input_re, flag):
-		check = self.checkInput(input_usr, input_pwd)
-		if flag==1:
-			if input_pwd==input_re:
-				if check==Sign.SUCCESS:
-					self.userlist.create(input_usr, input_pwd)
-					self.updateTime()
-					self.userfeed.create(self.tag, self.currentForm['time'])
-					return check
-				return Sign.WRONG_RETYPE
-		else:
-			return check
-
-	def signin(self, input_usr, input_pwd):
-		check = self.checkInput(input_usr, input_pwd)
+	def signin(self):
+		check = self.checkSignin()
 		if check==Sign.SUCCESS:
 			self.updateTime()
+			self.tag = self.userlist.info[self.username]['id']
 			self.userfeed.update_login(self.tag, self.currentForm['time'])
 		return check
 
-	def activity(self, action):
-		self.userfeed.update_activity(self.tag, action)
+	def activity(self):
+		self.userfeed.update_activity(self.tag, self.currentForm)
 
-
+	def addActivity(self, form):
+		self.currentForm = form
+		self.activity()
 
 
 

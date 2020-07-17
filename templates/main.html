@@ -1,7 +1,7 @@
 <html>
 	<head>
 		<link rel=stylesheet type="text/css" href="../static/login_willy.css">
-		<script type="text/javascript" src="{{ url_for('static', filename='login.js') }}"></script>
+		<script type="text/javascript" src="{{ url_for('static', filename='sign.js') }}"></script>
 	</head>
 	
 	<body>
@@ -10,21 +10,28 @@
 		    <form action='NewsAssistant' method='POST'>
 		        <input type="text" class="full-width" id="input_usr" name="usr" placeholder="Username">
 		        <input type="password" class="full-width" id="input_pwd" name="pwd" placeholder="Password">
-		        <input type="password" class="full-width" id="retype" name="retype" placeholder="Retype password">
+		        <input type="password" class="full-width" id="input_retype" name="retype" placeholder="Retype password">
 		        {% if inputs['msg']!='' %}
 		        <p id='message' class="message">{{inputs['msg']}}</p>
 		        {% endif %}
 		        <input type="submit" name="signin" class="btn btn-primary btn-block btn-large half-width left-side" id="signin" value="Sign In">
 		        <input type="submit" name="signup" class="btn btn-primary btn-block btn-large half-width right-side" id="signup" value='Sign Up'>
+		        <div class='utilities-bar full-width'>
+		        	{% for page in utilities %}
+		        		<div class="image-container">
+	                        <image id="{{page['name']}}_icon" class="togo-icon no-outline" src="/static/img/{{page['image']}}.png">
+	                    </div>
+		        	{% endfor %}
+		        </div>
+		        {% for page in utilities %}
+	                <textarea class="hidden" id="{{page['name']}}_input" name="{{page['name']}}_input" value="0">
+	                </textarea>
+		        {% endfor %}
 		    </form>
 		</div>
 		<script>
-			// var x = {{username}};
-        	fillInfo({{inputs['refill']}},
-        			"{{inputs['username']}}",
-        			"{{inputs['password']}}"
-        		);
-        	checkRetype({{inputs['retype']}});
+        	fillInfo("{{inputs['username']}}", "{{inputs['password']}}", "{{inputs['retype']}}");
+        	checkRetype({{inputs['show_retype']}});
         </script>
 	</body>
 </html>
