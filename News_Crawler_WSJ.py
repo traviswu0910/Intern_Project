@@ -39,8 +39,8 @@ headers = {
 print(headers)#檢查哪個user agent可以哪個不行
 today = str(date.today())
 today_for_crawl = str(date.today()).replace('-', '')
-target = '20200714' #要抓的日期
-date_for_pubdate = '2020-07-14'
+target = '20200715' #要抓的日期
+date_for_pubdate = '2020-07-15'
 url='https://www.wsj.com/news/archive/'+target
 print(target)
 
@@ -74,10 +74,14 @@ for news in news_list:
 	dic['link'] = news[1]
 	dic['pubdate'] = date_for_pubdate
 	dic['source'] = 'Wall Street Journal'
+	dic['author'] = None
+	dic['description'] = None
+	dic['content'] = None
+	dic['urlToImage'] = None
 	data.append(dic)
 
 
-with open(f'./All_Data/News_ParsedData/2020-07-14_WSJ.json','w') as f:
+with open(f'./All_Data/News_ParsedData/2020-07-15_WSJ.json','w') as f:
 	json.dump(data,f)
 
 
