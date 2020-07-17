@@ -30,9 +30,13 @@ def concat_news():
             continue
         else:
             x = pd.read_json(news)
-            x['pubdate'] = x['pubdate'].apply(pd.to_datetime)
-            df = df.append(x)
-            df.drop_duplicates('title',inplace = True)
+            try:
+                x['pubdate'] = x['pubdate'].apply(pd.to_datetime)
+                df = df.append(x)
+                df.drop_duplicates('title',inplace = True)
+            except:
+                print("Wrong:",news)
+                pass
     df['pubdate'] = df['pubdate'].apply(lambda x:x.strftime('%Y%m%d'))
     #我們用的資料只要在2018年以後，故把以前的新聞
     current = df['pubdate'].apply(lambda x:True if int(x)>=20180101 else False)

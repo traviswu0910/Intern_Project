@@ -36,9 +36,11 @@ ua = UserAgent()
 headers = {
 	'User-Agent':ua.random
 }
+print(headers)#檢查哪個user agent可以哪個不行
 today = str(date.today())
 today_for_crawl = str(date.today()).replace('-', '')
-target = '20200707' #要抓的日期
+target = '20200715' #要抓的日期
+date_for_pubdate = '2020-07-15'
 url='https://www.wsj.com/news/archive/'+target
 print(target)
 
@@ -52,6 +54,8 @@ found = soup.findAll('a', {'class':''})
 # print(found)
 found = [a for a in soup.findAll('a', {'class':''}) if 'articles' in str(a).split('/')]
 print(len(found))
+
+
 # print(found)
 
 news_list = []
@@ -66,12 +70,18 @@ for i, a in enumerate(found):
 data = []
 for news in news_list:
 	dic = {}
-	dic['Title'] = news[0]
+	dic['title'] = news[0]
 	dic['link'] = news[1]
+	dic['pubdate'] = date_for_pubdate
+	dic['source'] = 'Wall Street Journal'
+	dic['author'] = None
+	dic['description'] = None
+	dic['content'] = None
+	dic['urlToImage'] = None
 	data.append(dic)
 
 
-with open(f'./All_Data/News_ParsedData/2020-07-07_WSJ.json','w') as f:
+with open(f'./All_Data/News_ParsedData/2020-07-15_WSJ.json','w') as f:
 	json.dump(data,f)
 
 

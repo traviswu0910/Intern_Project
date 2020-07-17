@@ -2,13 +2,21 @@ from MetaClass import Clean
 from MetaClass import Crawler
 import tweepy
 from Twitters_credentials import *
-import Twitters_w2l
+# import Twitters_w2l
 import time
 from datetime import datetime
 import json
 
 today=datetime.now().strftime('%Y-%m-%d')
 RawData=[]
+
+def word2list(filename):
+	names = []
+	with open(filename, 'r') as f:
+		for l in f.readlines():
+			names.append(l.strip())
+	# print(names)
+	return names
 
 
 def get_Twitters_data():
@@ -25,7 +33,7 @@ def get_Twitters_data():
 	extractor = api
 
 	#top100 twitters'name
-	top100_list = Twitters_w2l.word2list('Twitters_top100.txt')
+	top100_list = word2list('Twitters_top100.txt')
 
 	# create a tweet list as follows:
 	for tweetersname in top100_list:

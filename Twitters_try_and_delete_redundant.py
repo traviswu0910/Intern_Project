@@ -1,16 +1,30 @@
 #抓贅字用，修正清洗資料用
+#也可看時間序列變化
 import pickle
 import pandas as pd
 
-with open('top_news_keys','rb')as f:
+with open('top_twitters_keys','rb')as f:
 	data = pickle.load(f)
 
-# total_date = pd.date_range('20180101','20200526',freq='d')
-# total_date = total_date.strftime('%Y%m%d')
-# for date in total_date:
-# 	print(data[date][:4])
 
+def show_key_words_with_score():
+	total_date = pd.date_range('20180101','20200708',freq='d')
+	total_date = total_date.strftime('%Y%m%d')
+	for date in total_date:
+		try:
+			print(date)
+			print(data[date][:4])
+		except:
+			print('This day is wrong:',date)
+			pass
+	return()
 
-for i in data:
-	for x,y in data[i][:4]:
-		print(x)
+def show_only_key_words():
+	for i in data:
+		for x,y in data[i][:4]:
+			print(x)
+	return()
+
+if __name__ == '__main__':
+	show_only_key_words()
+	# show_key_words_with_score()
