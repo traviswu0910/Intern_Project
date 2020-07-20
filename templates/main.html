@@ -14,8 +14,10 @@
 		        {% if inputs['msg']!='' %}
 		        <p id='message' class="message">{{inputs['msg']}}</p>
 		        {% endif %}
-		        <input type="submit" name="signin" class="btn btn-primary btn-block btn-large half-width left-side" id="signin" value="Sign In">
-		        <input type="submit" name="signup" class="btn btn-primary btn-block btn-large half-width right-side" id="signup" value='Sign Up'>
+		        <div class="button-container">
+			        <input type="submit" name="signin" class="button half-width left-side" id="signin" value="Sign In">
+			        <input type="submit" name="signup" class="button half-width right-side" id="signup" value='Sign Up'>
+			    </div>
 		        <div class='utilities-bar full-width'>
 		        	{% for page in utilities %}
 		        		<div class="image-container">

@@ -16,6 +16,10 @@ utilities = [
 
 app = Flask(__name__)
 
+@app.route('/draw')
+def drawingBoard():
+    return render_template('DrawingBoard.html')
+
 @app.route("/")
 def login():
     return render_template('Home.html')
@@ -38,11 +42,11 @@ def newsAssistant():
         if 'signup' in request.values.keys():
             return True
     global user, LOGIN_FLAG, SIGNUP_FLAG
-    usr = request.values['usr']
-    pwd = request.values['pwd']
-    retype = request.values['retype']
     if request.method == "POST":
         if not LOGIN_FLAG:
+            usr = request.values['usr']
+            pwd = request.values['pwd']
+            retype = request.values['retype']
             user.fillInfo(usr, pwd, retype)
             if not SIGNUP_FLAG:
                 if signup(): # sign-up button
