@@ -34,12 +34,13 @@ def get_Twitters_data():
 
 	#top100 twitters'name
 	top100_list = word2list('Twitters_top100.txt')
-
+	list_try = []
 	# create a tweet list as follows:
 	for tweetersname in top100_list:
 		try:
 			tweets = extractor.user_timeline(screen_name=tweetersname, count=200)
 			print(tweetersname)#印出正在爬的作者
+			list_try.append(tweetersname)
 			for tweet in tweets[:200]:
 				RawData.append(tweetersname)#作者姓名
 				RawData.append(tweet.text) #推文
@@ -51,9 +52,11 @@ def get_Twitters_data():
 		except:
 			pass
 
-		with open(f'./All_Data/Twitters_Rawdata/{today}.txt','w') as f:
-			f.write(str(RawData))
-
+	with open(f'./All_Data/Twitters_Rawdata/{today}_API.txt','w') as f:
+		f.write(str(RawData))
+		# with open('./All_Data/Twitters_Rawdata/list_try.txt','w') as f:
+		# 	f.write(str(list_try))
+	# print(RawData)
 
 
 if __name__ == '__main__':
