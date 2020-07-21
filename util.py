@@ -115,63 +115,84 @@ class UserInfo():
 	def updateTime(self):
 		self.currentForm['time'] = dt.datetime.now().strftime('%Y%m%d  %H:%M:%S')
 
-	def fillInfo(self, username, password, retype):
+	def getInputs(self):
+		return {
+				'msg': self.msg,
+				'username': self.username,
+				'password': self.password,
+				'retype': self.retype,
+				'show_retype': self.show_retype,
+			}
+
+	def fillInfo(self, username, password, retype, show_retype=0, msg=''):
 		self.username = username
 		self.password = password
 		self.retype = retype
-		self.exists = False
-		if self.username.upper() in [a.upper() for a in self.userlist.info.keys()]:
-			self.exists = True
+		self.show_retype = show_retype
+		self.msg = msg
 
-	def defaultForm(self):
+	def returnDefault(self):
 		self.currentForm = self.defaultForm
-		return self.defaultForm
 
 	def checkRetype(self):
 		if self.retype=='' or self.password=='':
-			return Sign.EMPTY_INPUT
-		if not self.retype==self.password:
-			return Sign.WRONG_RETYPE
-		return Sign.SUCCESS
+			self.msg = Sign.EMPTY_INPUT
+		elif not self.retype==self.password:
+			self.msg = Sign.WRONG_RETYPE
+		else:
+			self.msg = Sign.SUCCESS
+		return self.msg
+
+	def checkName(self, signin=False):
+		print('hihihi')
+		if self.username=='':
+			self.msg = Sign.EMPTY_INPUT
+		elif self.username.upper() in [u.upper() for u in self.userlist.info.keys()]:
+			print('hi there')
+			if signin:
+				self.msg = Sign.SUCCESS
+			else:
+				self.msg = Sign.USERNAME_TAKEN
+		else:
+			self.msg = Sign.SUCCESS
+		return self.msg
 
 	def checkSignup(self, flag):
-		if self.username=='':
-			return Sign.EMPTY_INPUT
-		elif self.exists:
-			return Sign.USERNAME_TAKEN
-		else:
+		if self.checkName()==Sign.SUCCESS:
 			if flag==1:
-				return self.checkRetype()
-			return Sign.SUCCESS
+				self.checkRetype()
+			else:
+				self.msg = Sign.SUCCESS
+		return self.msg
 
 
 	def signup(self, flag):
-		check = self.checkSignup(flag)
-		if flag==1 and check==Sign.SUCCESS:
-			self.tag = tag()
-			self.userlist.create(self.username, self.password, self.tag)
-			self.updateTime()
-			self.userfeed.create(self.tag, self.currentForm['time'])
-			self.exists = True
-		return check
+		self.show_retype = 1
+		if self.checkSignup(flag)==Sign.SUCCESS:
+			if flag==1:
+				self.tag = tag()
+				self.userlist.create(self.username, self.password, self.tag)
+				self.updateTime()
+				self.userfeed.create(self.tag, self.currentForm['time'])
+		return self.msg
 
 	def checkSignin(self):
 		if self.username=='' or self.password=='':
-			return Sign.EMPTY_INPUT
-		if self.exists:
+			self.msg = Sign.EMPTY_INPUT
+		elif self.checkName(signin=True)==Sign.SUCCESS:
 			if not self.password==self.userlist.info[self.username]['password']:
-				return Sign.WRONG_PASSWORD
-			return Sign.SUCCESS
+				self.msg = Sign.WRONG_PASSWORD
 		else:
-			return Sign.ABSENT_USERNAME
+			self.msg = Sign.ABSENT_USERNAME
+		return self.msg
 
 	def signin(self):
-		check = self.checkSignin()
-		if check==Sign.SUCCESS:
+		self.show_retype = 0
+		if self.checkSignin()==Sign.SUCCESS:
 			self.updateTime()
 			self.tag = self.userlist.info[self.username]['id']
 			self.userfeed.update_login(self.tag, self.currentForm['time'])
-		return check
+		return self.msg
 
 	def activity(self):
 		self.userfeed.update_activity(self.tag, self.currentForm)

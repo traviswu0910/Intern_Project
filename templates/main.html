@@ -32,9 +32,9 @@
 		    </form>
 		</div>
 		<script>
-			setTogo({{utilities}});
         	fillInfo("{{inputs['username']}}", "{{inputs['password']}}", "{{inputs['retype']}}");
         	checkRetype({{inputs['show_retype']}});
+        	setTogo({{utilities|tojson}});
         </script>
 	</body>
 </html>
