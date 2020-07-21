@@ -17,6 +17,7 @@ class Sign():
 	WRONG_PASSWORD		= 'You have the wrong password :('
 	WRONG_RETYPE		= 'Your passwords don\'t match :('
 	EMPTY_INPUT			= 'You left your input boxes empty ><'
+	PICK_UTIL			= 'Please pick a destination before you enjoy the ride :)'
 
 def tag():
 	tag = ''
@@ -98,6 +99,13 @@ class UserFeed(InfoJson):
 
 
 class UserInfo():
+	utilities = [{
+            'image': '/static/img/togo/{}.png'.format(a),
+            'name': a,
+            'id': a,
+            'input': '{}_input'.format(a),
+            'html': '{}.html'.format(a),
+        } for a in ['NewsAssistant', 'Stock',]]
 	currentForm = {
 	    'date':'2020-05-05',
         'pf':'pph_2',
@@ -115,14 +123,25 @@ class UserInfo():
 	def updateTime(self):
 		self.currentForm['time'] = dt.datetime.now().strftime('%Y%m%d  %H:%M:%S')
 
+	def blankInputs(self):
+		return {
+			'msg': '',
+			'username': '',
+			'password': '',
+			'retype': '',
+			'show_retype': '',
+			'utilities': self.utilities,
+		}
+
 	def getInputs(self):
 		return {
-				'msg': self.msg,
-				'username': self.username,
-				'password': self.password,
-				'retype': self.retype,
-				'show_retype': self.show_retype,
-			}
+			'msg': self.msg,
+			'username': self.username,
+			'password': self.password,
+			'retype': self.retype,
+			'show_retype': self.show_retype,
+			'utilities': self.utilities,
+		}
 
 	def fillInfo(self, username, password, retype, show_retype=0, msg=''):
 		self.username = username
@@ -131,8 +150,22 @@ class UserInfo():
 		self.show_retype = show_retype
 		self.msg = msg
 
+	def updateForm(self, req=None):
+		if not req:
+			self.returnDefault()
+			return
+		self.currentForm = {
+			'date': req.values['datepicker'],
+			'pf': req.values['portfolio'],
+			'kw': req.form['ikeyword'],
+			"click": {},
+			'time': dt.datetime.now().strftime('%Y%m%d  %H:%M:%S'),
+			'note': ''
+		}
+
 	def returnDefault(self):
 		self.currentForm = self.defaultForm
+		return self.currentForm
 
 	def checkRetype(self):
 		if self.retype=='' or self.password=='':
@@ -144,11 +177,9 @@ class UserInfo():
 		return self.msg
 
 	def checkName(self, signin=False):
-		print('hihihi')
 		if self.username=='':
 			self.msg = Sign.EMPTY_INPUT
 		elif self.username.upper() in [u.upper() for u in self.userlist.info.keys()]:
-			print('hi there')
 			if signin:
 				self.msg = Sign.SUCCESS
 			else:
@@ -197,10 +228,16 @@ class UserInfo():
 	def activity(self):
 		self.userfeed.update_activity(self.tag, self.currentForm)
 
-	def addActivity(self, form):
-		self.currentForm = form
+	def addActivity(self, currForm, req):
+		self.currentForm = {
+				"date":currForm['date'],
+	            "pf":currForm['pf'],
+	            "kw":currForm['kw'],
+	            "click":{"url": req['url'], "title" : req['title'], "tab": req['tab']},
+	            'time':dt.datetime.now().strftime('%Y%m%d  %H:%M:%S'),
+	            'note': req['note'],
+	        }
 		self.activity()
-
 
 
 

@@ -19,19 +19,19 @@
             <div class="vertical-center">
             
                 <form action="NewsAssistant" method="post">
-                    <div class="date-box">Date <input type="date" id="datepicker" name="datepicker"class="inputbox cursor-pointer" value={{date}} onfocus="(this.type=date)">
+                    <div class="date-box">Date <input type="date" id="datepicker" name="datepicker"class="inputbox cursor-pointer" value={{inputs['date']}} onfocus="(this.type=date)">
                     </div>
                     <div class="portfolio-box">Portfolio 
                         <select id="portfolio" name="portfolio" class="inputbox cursor-pointer">
-                            <option value="pph_1" {{selected['pph_1']}}>Daily 5% &#8593</option>
-                            <option value="pph_2" {{selected['pph_2']}}>Daily 5% &#8595</option>
-                            <option value="pph_3" {{selected['pph_3']}}>Weekly 10% &#8593</option>
-                            <option value="pph_4" {{selected['pph_4']}}>Weekly 10% &#8595</option>
-                            <option value="pph_5" {{selected['pph_5']}}>Monthly 20% &#8593</option>
+                            <option value="pph_1" {{inputs['selected']['pph_1']}}>Daily 5% &#8593</option>
+                            <option value="pph_2" {{inputs['selected']['pph_2']}}>Daily 5% &#8595</option>
+                            <option value="pph_3" {{inputs['selected']['pph_3']}}>Weekly 10% &#8593</option>
+                            <option value="pph_4" {{inputs['selected']['pph_4']}}>Weekly 10% &#8595</option>
+                            <option value="pph_5" {{inputs['selected']['pph_5']}}>Monthly 20% &#8593</option>
                         </select>
                     </div>
                     <div class="keyword-box">
-                        <div class="ikeyword">Keyword <input type="text" id="ikeyword" name="ikeyword" class="inputbox" value={{keyword}}></div>
+                        <div class="ikeyword">Keyword <input type="text" id="ikeyword" name="ikeyword" class="inputbox" value={{inputs['keyword']}}></div>
                     </div>
                     <div class="image-container">
                         <input type="image" id="goto" class="goto no-outline" src="/static/img/goto_w.png">
@@ -45,7 +45,7 @@
         <div class="leftpane">
             <p class='pane-title'>Portfolio Information</p>
             <div class="portfolio_panel" name="portfolio_panel">
-                {% for stock in portfolio %}
+                {% for stock in inputs['portfolio'] %}
                     <div class="stock-box">
                         {{ stock }}
                     </div>
@@ -57,7 +57,7 @@
         <div class="middlepane">
             <p class='pane-title'>Portfolio News</p>
             <div class="general_panel" name="general_panel">
-                {% for news in portfolio_news %}
+                {% for news in inputs['portfolio_news'] %}
                 <a class="pf-news-clickbox lazy" href={{ news['link']}} onclick="userInput({{ news }}, '0', '');" target="_blank">
                     <div class="pf-news-title lazy">
                         {{ news['title']}}
@@ -74,7 +74,7 @@
         <!--News Display Section-->
         <div class="rightpane">
             <p class='pane-title'>Top News</p>
-            {% for news_list in top_news %}
+            {% for news_list in inputs['top_news'] %}
             <div class="top-news-column">
                 <a class="top-news-category">{{ news_list['key'] }}<br></a>
                 <div class="news_panel margin-sides" name="news_panel">
@@ -105,7 +105,7 @@
             <div class="w3-bar w3-black bottom-tab-bar">
                 <button class="button-text w3-bar-item w3-button" onclick="openTab('trends')">Market Trends</button>
                 <button class="button-text w3-bar-item w3-button" onclick="openTab('top')">Twitter Tops</button>
-                {% for celeb in celebs %}
+                {% for celeb in inputs['celebs'] %}
                     <button class="button-text w3-bar-item w3-button" onclick="openTab('celeb{{loop.index}}')">{{celeb}}</button>
                 {% endfor %}
             </div>
@@ -113,12 +113,12 @@
             <div id="trends" class="bottompane-tabs tabs_panel chart-tab">
                 <canvas id="myChart"></canvas>
                 <script>
-                    drawChart({{ret|tojson}});
+                    drawChart({{inputs['ret']|tojson}});
                 </script>
             </div>
 
             <div id="top" class="bottompane-tabs"><div class="tabs_panel" name="tabs_panel">
-                {% for tw_list in top_tws %}
+                {% for tw_list in inputs['top_tws'] %}
                 <div class="hot-tws-column">
                     <p class='category-title'><b>{{ tw_list['key'] }}</b></p>
                     <div class="twitter-top" name="twitter_panel">
@@ -136,7 +136,7 @@
             </div></div>
             
             <div class="twitter-window">
-                {% for tws in hot_tws %}
+                {% for tws in inputs['hot_tws'] %}
                 <div id="celeb{{loop.index}}" class="bottompane-tabs"><div class="tabs_panel" name="tabs_panel">
                     <div class="twitter_panel_1" name="twitter_panel">
                         {% for post in tws %}

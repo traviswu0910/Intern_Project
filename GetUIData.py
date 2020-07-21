@@ -19,8 +19,6 @@ method_list = {
     'pph_5':'news_PortfolioList_MonthAbovePositive20'
 }
 
-
-
 class News:
     def get_top_news(day, ran, kw):
         def get_top_news_ind(which_day, num, keyword):

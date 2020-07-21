@@ -26,13 +26,13 @@ function utilClick(ele, utils) {
 			if (id!=ele.id) {
 				let item = document.getElementById(id);
 				item.classList.remove("togo-icon-clicked");
-				item.value = "0";
+				document.getElementById(id.concat('_input')).value = '0';
 			}
 		}
 		ele.classList.add("togo-icon-clicked");
-		ele.value = "1";
+		document.getElementById(ele.id.concat('_input')).value = '1';
 	} else {
 		ele.classList.remove("togo-icon-clicked");
-		ele.value = "0";
+		document.getElementById(ele.id.concat('_input')).value = '0';
 	}
 }
