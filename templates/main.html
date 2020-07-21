@@ -21,17 +21,18 @@
 		        <div class='utilities-bar full-width'>
 		        	{% for page in utilities %}
 		        		<div class="image-container">
-	                        <image id="{{page['name']}}_icon" class="togo-icon no-outline" src="/static/img/{{page['image']}}.png">
+	                        <image id="{{page['id']}}" class="togo-icon no-outline" src="{{page['image']}}" onclick="utilClick(this, {{utilities}})">
 	                    </div>
 		        	{% endfor %}
 		        </div>
-		        {% for page in utilities %}
+		        <!-- {% for page in utilities %}
 	                <textarea class="hidden" id="{{page['name']}}_input" name="{{page['name']}}_input" value="0">
 	                </textarea>
-		        {% endfor %}
+		        {% endfor %} -->
 		    </form>
 		</div>
 		<script>
+			setTogo({{utilities}});
         	fillInfo("{{inputs['username']}}", "{{inputs['password']}}", "{{inputs['retype']}}");
         	checkRetype({{inputs['show_retype']}});
         </script>

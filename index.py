@@ -10,9 +10,12 @@ user = UserInfo()
 LOGIN_FLAG=0
 SIGNUP_FLAG=0
 
-utilities = [
-        {'image': 'na_togo', 'name': 'na'}
-    ]
+utilities = ['na', 'stock']
+utilities = [{
+            'image': '/static/img/togo/{}.png'.format(a),
+            'name': '{}'.format(a),
+            'id': a,
+        } for a in utilities]
 
 app = Flask(__name__)
 

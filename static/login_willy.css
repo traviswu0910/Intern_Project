@@ -45,8 +45,8 @@ body {
 }
 
 .half-width {
-	width: 47%;
-	float: left;
+	width: 45%;
+	/*float: left;*/
 }
 
 .left-side {
@@ -61,7 +61,7 @@ body {
 
 .message {
 	/*display: none;*/
-	margin-top: -1.5%;
+	margin-top: -.5%;
 	margin-bottom: 2.5%;
 	color: red;
 	font-size: 10pt;
@@ -88,14 +88,26 @@ body {
     opacity: 0.5;
 }
 
+.togo-icon-clicked {
+    transform: scale(1.2);
+    opacity: 1;
+}
+
 .togo-icon:hover {
 	transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    opacity: 0.7;
+}
+
+.togo-icon-clicked:hover {
+    transform: scale(1.2);
     opacity: 1;
 }
 
 .image-container {
     display: inline-block;
 	text-align: center;
+    margin-left: 3%;
+    margin-right: 3%;
 }
 
 .no-outline:focus {
@@ -107,7 +119,7 @@ body {
 	margin-top: 5%;
 }
 
-input {	
+input:not(.togo-icon) {	
 	margin-bottom: 10px; 
 	background: rgba(0,0,0,0.3);
 	border: none;
@@ -126,24 +138,26 @@ input {
 	transition: box-shadow .5s ease;
 }
 
-input:focus { box-shadow: inset 0 -5px 45px rgba(100,100,100,0.4), 0 1px 1px rgba(255,255,255,0.2); }
+input:not(.togo-icon):focus { box-shadow: inset 0 -5px 45px rgba(100,100,100,0.4), 0 1px 1px rgba(255,255,255,0.2); }
 
 /*buttons*/
 .button-container {
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: column;
-	/*justify-content: space-evenly;*/
 	align-items: center;
     justify-content: space-between;
     width: 100%;
     height: 20%;
+    margin-bottom: -5%;
 }
+
 .button-container h1 {
 	background: linear-gradient(to right, #fec163 0%, #de4313 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
+
 .button-container .button {
 	transition: all 0.3s ease-in-out;
 }
@@ -153,7 +167,7 @@ input:focus { box-shadow: inset 0 -5px 45px rgba(100,100,100,0.4), 0 1px 1px rgb
     outline: none;
     border: none;
     cursor: pointer;
-    font-size: 24px;
+    font-size: 20px;
     color: white;
     font-weight: 500;
 }
@@ -161,11 +175,20 @@ input:focus { box-shadow: inset 0 -5px 45px rgba(100,100,100,0.4), 0 1px 1px rgb
 .button-container .button:nth-child(1) {
 	background-image: linear-gradient(135deg, #abdcff 0%, #0396ff 100%);
 	box-shadow: 0 20px 30px -6px rgba(171, 88, 219, 0.5);
-	
 }
+
 .button-container .button:nth-child(2) {
 	background-image: linear-gradient(135deg, #81fbb8 0%, #28c76f 100%);
 	box-shadow: 0 20px 30px -6px rgba(171, 88, 219, 0.5);
+}
+
+.button-container .button:hover {
+    transform: translatey(3px);
+    box-shadow: none;
+}
+
+.button-container .button:active {
+    opacity: 0.5;
 }
 /*.button-container .button:nth-child(3) {
 	width: 150px;
@@ -204,15 +227,6 @@ input:focus { box-shadow: inset 0 -5px 45px rgba(100,100,100,0.4), 0 1px 1px rgb
     color: white;
 }
 */
-
-
-.button-container .button:hover {
-	transform: translatey(3px);
-	box-shadow: none;
-}
-.button-container .button:active {
-	opacity: 0.5;
-}
 
 
 
