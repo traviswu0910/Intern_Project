@@ -7,12 +7,14 @@ from util import *
 from GetUIData import News,Twitter,Chart
 
 user = UserInfo()        
-LOGIN_FLAG=0
-SIGNUP_FLAG=0
+LOGIN_FLAG, SIGNUP_FLAG = 0, 0
 
-utilities = [
-        {'image': 'na_togo', 'name': 'na'}
-    ]
+utilities = ['na', 'stock']
+utilities = [{
+            'image': '/static/img/togo/{}.png'.format(a),
+            'name': '{}'.format(a),
+            'id': a,
+        } for a in utilities]
 
 app = Flask(__name__)
 
@@ -26,6 +28,7 @@ def login():
 
 @app.route('/Main')
 def main():
+    # global user, LOGIN_FLAG, SIGNUP_FLAG
     inputs = {
             'msg': '',
             'refill': 0,
@@ -41,70 +44,18 @@ def newsAssistant():
     def signup():
         if 'signup' in request.values.keys():
             return True
-    global user, LOGIN_FLAG, SIGNUP_FLAG
+    global user, LOGIN_FLAG, SIGNUP_FLAG, LOGIN_SUCCESS
     if request.method == "POST":
         if not LOGIN_FLAG:
-            usr = request.values['usr']
-            pwd = request.values['pwd']
-            retype = request.values['retype']
-            user.fillInfo(usr, pwd, retype)
-            if not SIGNUP_FLAG:
-                if signup(): # sign-up button
-                    msg = user.signup(SIGNUP_FLAG)
-                    show_retype=0
-                    if msg==Sign.SUCCESS: ### username available
-                        SIGNUP_FLAG = 1
-                        show_retype = 1
-                        
-                    inputs = {
-                            'msg': msg,
-                            'refill': 1,
-                            'username': user.username,
-                            'password': user.password,
-                            'retype': retype,
-                            'show_retype': show_retype,
-                        }
-                    return render_template('Main.html', inputs=inputs, utilities=utilities)
-                else: # sign-in button
-                    msg = user.signin()
-                    if not msg==Sign.SUCCESS:
-                        inputs = {
-                                'msg': msg,
-                                'refill': 1,
-                                'username': user.username,
-                                'password': user.password,
-                                'retype': retype,
-                                'show_retype': 0,
-                            }
-                        return render_template('Main.html', inputs=inputs, utilities=utilities)
-                    LOGIN_FLAG=1
-            else: ### signing up (retyping password)
-                if signup():
-                    msg = user.signup(SIGNUP_FLAG)
-                    if not msg==Sign.SUCCESS:
-                        inputs = {
-                                'msg': msg,
-                                'refill': 1,
-                                'username': user.username,
-                                'password': user.password,
-                                'retype': retype,
-                                'show_retype': 1,
-                            }
-                        return render_template('Main.html', inputs=inputs, utilities=utilities)
-                else:
-                    msg = user.signin()
-                    SIGNUP_FLAG=0
-                    if not msg==Sign.SUCCESS:
-                        inputs = {
-                                'msg': msg,
-                                'refill': 1,
-                                'username': user.username,
-                                'password': user.password,
-                                'retype': retype,
-                                'show_retype': 0,
-                            }
-                        return render_template('Main.html', inputs=inputs, utilities=utilities)
-        else:
+            user.fillInfo(username=request.values['usr'], password=request.values['pwd'], retype=request.values['retype'])
+            if signup():
+                if user.signup(SIGNUP_FLAG)==Sign.SUCCESS:
+                    if SIGNUP_FLAG:
+                        LOGIN_FLAG = 1
+                    SIGNUP_FLAG = 1
+            elif user.signin()==Sign.SUCCESS:
+                LOGIN_FLAG = 1
+        if LOGIN_FLAG:
             try:
                 user.currentForm={
                     'date': request.values['datepicker'],
@@ -115,7 +66,9 @@ def newsAssistant():
                     'note': ''
                 }
             except:
-                user.defaultForm()
+                user.returnDefault()
+        else:
+            return render_template('Main.html', inputs=user.getInputs(), utilities=utilities)
             
         selected = {'pph_1':'','pph_2':'','pph_3':'','pph_4':'','pph_5':''}
         selected[user.currentForm['pf']]='selected'
