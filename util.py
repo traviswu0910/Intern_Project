@@ -105,6 +105,7 @@ class UserInfo():
             'id': a,
             'input': '{}_input'.format(a),
             'html': '{}.html'.format(a),
+            'redirect': './{}'.format(a),
         } for a in ['NewsAssistant', 'Stock',]]
 	currentForm = {
 	    'date':'2020-05-05',

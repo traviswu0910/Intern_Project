@@ -38,15 +38,15 @@ def main():
         if LOGIN_FLAG:
             for u in user.utilities:
                 if request.values[u['input']]=='1':
-                    return render_template(u['html'], inputs=utilInputs(util=u['name'], form=user.returnDefault()))
+                    redirect(url_for(u['html'], inputs=utilInputs(util=u['name'], form=user.returnDefault())))
             user.msg = Sign.PICK_UTIL
         return render_template('Main.html', inputs=user.getInputs())
 
 
 
 @app.route("/NewsAssistant", methods=["POST", "GET"])
-def newsAssistant():
-    if request.method == "POST":
+def NewsAssistant():
+    if request.method=="POST":
         user.updateForm(req=request)
         return render_template("NewsAssistant.html", inputs=utilInputs(user.currentForm))
     elif request.method=="GET":
