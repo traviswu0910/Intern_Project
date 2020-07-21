@@ -7,7 +7,7 @@
 	<body>
 		<div class="login">
 		    <h1>Login</h1>
-		    <form action='NewsAssistant' method='POST'>
+		    <form action='Main' method='POST'>
 		        <input type="text" class="full-width" id="input_usr" name="usr" placeholder="Username">
 		        <input type="password" class="full-width" id="input_pwd" name="pwd" placeholder="Password">
 		        <input type="password" class="full-width" id="input_retype" name="retype" placeholder="Retype password">
@@ -19,22 +19,21 @@
 			        <input type="submit" name="signup" class="button half-width right-side" id="signup" value='Sign Up'>
 			    </div>
 		        <div class='utilities-bar full-width'>
-		        	{% for page in utilities %}
+		        	{% for page in inputs['utilities'] %}
 		        		<div class="image-container">
-	                        <image id="{{page['id']}}" class="togo-icon no-outline" src="{{page['image']}}" onclick="utilClick(this, {{utilities}})">
+	                        <image id="{{page['id']}}" class="togo-icon no-outline" src="{{page['image']}}" onclick="utilClick(this, {{inputs['utilities']}})">
 	                    </div>
 		        	{% endfor %}
 		        </div>
-		        <!-- {% for page in utilities %}
-	                <textarea class="hidden" id="{{page['name']}}_input" name="{{page['name']}}_input" value="0">
-	                </textarea>
-		        {% endfor %} -->
+		        {% for page in inputs['utilities'] %}
+	                <input type="text" class="hidden" id="{{page['id']}}_input" name="{{page['id']}}_input" value="0">
+		        {% endfor %}
 		    </form>
 		</div>
 		<script>
         	fillInfo("{{inputs['username']}}", "{{inputs['password']}}", "{{inputs['retype']}}");
         	checkRetype({{inputs['show_retype']}});
-        	setTogo({{utilities|tojson}});
+        	setTogo({{inputs['utilities']|tojson}});
         </script>
 	</body>
 </html>
