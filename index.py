@@ -16,7 +16,7 @@ def drawingBoard():
 
 @app.route("/")
 def login():
-    return render_template('Home.html')
+    return redirect(url_for('main'))
 
 @app.route('/Main', methods=['POST', 'GET'])
 def main():
@@ -38,19 +38,20 @@ def main():
         if LOGIN_FLAG:
             for u in user.utilities:
                 if request.values[u['input']]=='1':
-                    return render_template(u['html'], inputs=utilInputs(util=u['name'], form=user.returnDefault()))
+                    return redirect(url_for(u['name']))
+                    # return render_template(u['html'], inputs=utilInputs(util=u['name'], form=user.returnDefault()))
             user.msg = Sign.PICK_UTIL
         return render_template('Main.html', inputs=user.getInputs())
 
 
 
 @app.route("/NewsAssistant", methods=["POST", "GET"])
-def newsAssistant():
+def NewsAssistant():
     if request.method == "POST":
         user.updateForm(req=request)
-        return render_template("NewsAssistant.html", inputs=utilInputs(user.currentForm))
+        return render_template("NewsAssistant.html", inputs=utilInputs(user.currentForm, util='NewsAssistant'))
     elif request.method=="GET":
-        return render_template("NewsAssistant.html", inputs=utilInputs(user.returnDefault()))
+        return render_template("NewsAssistant.html", inputs=utilInputs(user.currentForm, util='NewsAssistant'))
     
 
 @app.route("/log/create-entry", methods=["POST"])

@@ -1,0 +1,25 @@
+/*NewsAssistant-common.css*/
+
+/* common characteristic */
+.block-color {
+	background-color: rgba(139, 183, 225, 1);
+	opacity: 1;
+	color: rgba(0, 0, 0, 1);
+}
+
+.nanshan-blue {
+	background-color: #1170C0;
+	color: white;
+}
+
+.news-block {
+	color: black;
+	background-color: rgba(255, 255, 255, 1);
+	border-radius: 5px;
+}
+
+.news-info-block {
+	color: black;
+	/*background-color: rgba(170, 220, 256, 1);*/
+}
+
