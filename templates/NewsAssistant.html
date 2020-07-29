@@ -1,47 +1,43 @@
-<!-- <!DOCTYPE html> -->
 <html>
     <head>
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <link rel=stylesheet type="text/css" href="{{ url_for('static', filename='NewsAssistant.css') }}">
         <link rel=stylesheet type="text/css" href="{{ url_for('static', filename='NewsAssistant-common.css') }}">
         <script type="text/javascript" src="{{ url_for('static', filename='NewsAssistant.js') }}"></script>
-        <!-- <link rel=stylesheet type="text/css" href="{{ url_for('static', filename='main_fix.css') }}"> -->
-        <!--Basic settings above-->
+        <script type="text/javascript" src="{{ url_for('static', filename='jquery-migrate-3.3.0.min.js') }}"></script>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
+        <script type="text/javascript" src="{{ url_for('static', filename='Chart.min.js') }}"></script>
     </head>
     
     <body> 
-        <!--Input Section-->
-        <div class="toppane nanshan-blue">
-            <div class="user-form">
-                <form action="NewsAssistant" method="post">
-                    <div class="form-element">
-                        <label for="datepicker">Date </label>
-                        <input type="date" id="datepicker" name="datepicker"class="inputbox cursor-pointer" value={{inputs['date']}} onfocus="(this.type=date)">
-                    </div>
-                    <div class="form-element">
-                        <label for="portfolio">Portfolio </label>
-                        <select id="portfolio" name="portfolio" class="inputbox cursor-pointer">
-                            <option value="pph_1" {{inputs['selected']['pph_1']}}>Daily 5% &#8593</option>
-                            <option value="pph_2" {{inputs['selected']['pph_2']}}>Daily 5% &#8595</option>
-                            <option value="pph_3" {{inputs['selected']['pph_3']}}>Weekly 10% &#8593</option>
-                            <option value="pph_4" {{inputs['selected']['pph_4']}}>Weekly 10% &#8595</option>
-                            <option value="pph_5" {{inputs['selected']['pph_5']}}>Monthly 20% &#8593</option>
-                        </select>
-                    </div>
-                    <div class="form-element">
-                        <div class="ikeyword">Keyword <input type="text" id="ikeyword" name="ikeyword" class="inputbox" value={{inputs['keyword']}}></div>
-                    </div>
-                    <div class="image-container form-element">
-                        <input type="image" id="goto" class="goto no-outline" src="/static/img/goto_w.png">
-                    </div>
-                </form>
-            </div>
+        {% include 'logo.html' %}
+        <div class="toppane">
+            <form class="user-form" action="NewsAssistant" method="post">
+                <div class="form-element">
+                    <label for="datepicker">Date </label>
+                    <input type="date" id="datepicker" name="datepicker"class="inputbox cursor-pointer" value={{inputs['date']}} onfocus="(this.type=date)">
+                </div>
+                <div class="form-element">
+                    <label for="portfolio">Portfolio </label>
+                    <select id="portfolio" name="portfolio" class="inputbox cursor-pointer">
+                        <option value="pph_1" {{inputs['selected']['pph_1']}}>Daily 5% &#8593</option>
+                        <option value="pph_2" {{inputs['selected']['pph_2']}}>Daily 5% &#8595</option>
+                        <option value="pph_3" {{inputs['selected']['pph_3']}}>Weekly 10% &#8593</option>
+                        <option value="pph_4" {{inputs['selected']['pph_4']}}>Weekly 10% &#8595</option>
+                        <option value="pph_5" {{inputs['selected']['pph_5']}}>Monthly 20% &#8593</option>
+                    </select>
+                </div>
+                <div class="form-element">
+                    <div class="ikeyword">Keyword <input type="text" id="ikeyword" name="ikeyword" class="inputbox" value={{inputs['keyword']}}></div>
+                </div>
+                <div class="image-container form-element">
+                    <input type="image" id="goto" class="goto no-outline" src="/static/img/goto_w.png">
+                </div>
+            </form>
+            <a id="history-icon" class="image-container" href="/NewsAssistant/History" target="_self">
+                <img class="history no-outline " src="/static/img/history.png">
+            </a>
         </div>
         
         <div class="body-block">
@@ -62,7 +58,7 @@
                 <p class='pane-title'>Portfolio News</p>
                 <div class="general_panel" name="general_panel">
                     {% for news in inputs['portfolio_news'] %}
-                    <a class="pf-news-clickbox lazy" href={{ news['link']}} onclick="userInput({{ news }}, '0', '');" target="_blank">
+                    <a class="pf-news-clickbox lazy" href={{ news['link']}} onclick="userClick({{ news }}, '0');" target="_blank">
                         <div class="pf-news-title lazy news-block">
                             {{ news['title']}}
                         </div>
@@ -84,7 +80,7 @@
                     <div class="news_panel margin-sides" name="news_panel">
                         {% set i=loop.index %}
                         {% for news in news_list['list'] %}
-                        <a class="top-news-clickbox" href={{news['link']}} onclick="userInput({{ news }}, '{{loop.index}}', '');" target="_blank">
+                        <a class="top-news-clickbox" href={{news['link']}} onclick="userClick({{ news }}, '{{loop.index}}');" target="_blank">
                             <div class="top-news-title news-block">
                                 {{ news['title']}}
                             </div>
@@ -127,10 +123,10 @@
                         <p class='category-title'><b>{{ tw_list['key'] }}</b></p>
                         <div class="twitter-top" name="twitter_panel">
                             {% for post in tw_list['list'] %}
-                            <div class="twitter-top-text">
+                            <div class="twitter-top-text news-block">
                                 {{ post['Text']}}
                             </div>
-                            <div class="twitter-top-info">
+                            <div class="twitter-top-info news-info-block">
                              &ensp;Time &ensp;:&ensp;{{ post['Time']}}  <br/> &ensp; Name&ensp;:&ensp;{{ post['Name']}}
                             </div>
                             {% endfor %}
@@ -144,10 +140,10 @@
                     <div id="celeb{{loop.index}}" class="bottompane-tabs"><div class="tabs_panel" name="tabs_panel">
                         <div class="twitter_panel_1" name="twitter_panel">
                             {% for post in tws %}
-                                <div class="twitter-pop-text">
+                                <div class="twitter-pop-text news-block">
                                     {{ post['Text']}}
                                 </div>
-                                <div class="twitter-pop-info">
+                                <div class="twitter-pop-info news-info-block">
                                  &ensp;Time&ensp;:&ensp;{{ post['Time']}}  <br/> &ensp; Name&ensp;:&ensp;{{ post['Name']}}
                                 </div>
                             {% endfor %}
