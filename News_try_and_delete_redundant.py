@@ -25,5 +25,5 @@ def show_only_key_words():
 	return()
 
 if __name__ == '__main__':
-	show_only_key_words()
-	# show_key_words_with_score()
+	# show_only_key_words()
+	show_key_words_with_score()
