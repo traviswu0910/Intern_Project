@@ -100,12 +100,12 @@ class UserFeed(InfoJson):
 
 class UserInfo():
 	utilities = [{
-            'image': '/static/img/togo/{}.png'.format(a),
-            'name': a,
-            'id': a,
-            'input': '{}_input'.format(a),
-            'html': '{}.html'.format(a),
-        } for a in ['NewsAssistant', 'Stock',]]
+        'image': '/static/img/togo/{}.png'.format(a),
+        'name': a,
+        'id': a,
+        'input': '{}_input'.format(a),
+        'html': '{}.html'.format(a),
+    } for a in ['NewsAssistant', 'Stock',]]
 	currentForm = {
 	    'date':'2020-05-05',
         'pf':'pph_2',
@@ -229,6 +229,7 @@ class UserInfo():
 		self.userfeed.update_activity(self.tag, self.currentForm)
 
 	def addActivity(self, currForm, req):
+		print(req['note'])
 		self.currentForm = {
 				"date":currForm['date'],
 	            "pf":currForm['pf'],
