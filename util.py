@@ -84,7 +84,8 @@ class UserFeed(InfoJson):
 	def create(self, tag, time):
 		self.info[tag] = {
 			'login':[],
-			'activity':[],
+			'click':[],
+			'note':[],
 		}
 		self.update_login(tag, time)
 
@@ -92,8 +93,12 @@ class UserFeed(InfoJson):
 		self.info[tag]['login'].append(time)
 		self.push()
 
-	def update_activity(self, tag, action):
-		self.info[tag]['activity'].append(action)
+	def update_activity(self, tag, note):
+		self.info[tag]['note'].append(note)
+		self.push()
+
+	def updateClick(self, tag, click):
+		self.info[tag]['click'].append(click)
 		self.push()
 
 
@@ -158,9 +163,7 @@ class UserInfo():
 			'date': req.values['datepicker'],
 			'pf': req.values['portfolio'],
 			'kw': req.form['ikeyword'],
-			"click": {},
 			'time': dt.datetime.now().strftime('%Y%m%d  %H:%M:%S'),
-			'note': ''
 		}
 
 	def returnDefault(self):
@@ -225,20 +228,31 @@ class UserInfo():
 			self.userfeed.update_login(self.tag, self.currentForm['time'])
 		return self.msg
 
-	def activity(self):
-		self.userfeed.update_activity(self.tag, self.currentForm)
-
-	def addActivity(self, currForm, req):
-		print(req['note'])
+	def addNote(self, currForm, req):
 		self.currentForm = {
 				"date":currForm['date'],
 	            "pf":currForm['pf'],
 	            "kw":currForm['kw'],
-	            "click":{"url": req['url'], "title" : req['title'], "tab": req['tab']},
+	            "url": req['url'],
+	            "title" : req['title'],
+	            "tab": req['tab'],
 	            'time':dt.datetime.now().strftime('%Y%m%d  %H:%M:%S'),
 	            'note': req['note'],
 	        }
-		self.activity()
+		self.userfeed.updateNote(self.tag, self.currentForm)
+
+	def addClick(self, currForm, req):
+		self.currentForm = {
+				"date":currForm['date'],
+	            "pf":currForm['pf'],
+	            "kw":currForm['kw'],
+	            "url": req['url'],
+	            "title" : req['title'],
+	            "tab": req['tab'],
+	            'time':dt.datetime.now().strftime('%Y%m%d  %H:%M:%S'),
+	        }
+		self.userfeed.updateClick(self.tag, self.currentForm)
+
 
 
 

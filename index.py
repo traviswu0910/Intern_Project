@@ -53,10 +53,20 @@ def NewsAssistant():
     elif request.method=="GET":
         return render_template("NewsAssistant.html", inputs=utilInputs(user.currentForm, util='NewsAssistant'))
     
+@app.route("/NewsAssistant/History", methods=['POST', 'GET'])
+def History():
+    if request.method=='GET':
+        return render_template('NewsAssistant_History.html', history=userHistory(user))
 
-@app.route("/log/create-entry", methods=["POST"])
-def create_entry():    
-    user.addActivity(currForm=user.currentForm, req=request.get_json())
+@app.route("/log/news-assistant-click", methods=["POST"])
+def newsAssistant_click():    
+    user.addClick(currForm=user.currentForm, req=request.get_json())
+    res = make_response(jsonify({"message": "OK"}), 200)
+    return res
+
+@app.route("/log/news-assistant-note", methods=["POST"])
+def newsAssistant_note():    
+    user.addNote(currForm=user.currentForm, req=request.get_json())
     res = make_response(jsonify({"message": "OK"}), 200)
     return res
 

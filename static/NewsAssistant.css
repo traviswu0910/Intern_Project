@@ -1,3 +1,8 @@
+@font-face {
+	font-family: techFont;
+	src: url('../static/fonts/Gtek Technology free promo.ttf');
+}
+
 html {
 	width: 100%;
 	/*overflow: auto;*/
@@ -14,6 +19,34 @@ body{
 	background-color: #FFFFFF;
 }
 
+.utility-title {
+	text-align: center;
+	width: 100%;
+	vertical-align: middle;
+	margin-top: -3%;
+	margin-bottom: -1%;
+}
+
+.utility-name {
+	font-size: 30pt;
+	color: rgb(20, 100, 200);
+	font-family: techFont;
+	text-align: center;
+	height: 0%;
+	display: inline-block;
+}
+
+#nanshan-icon {
+	display: inline-block;
+}
+
+.nanshan {
+	width: 40px;
+	height: 27px;
+	margin-bottom: 50%;
+	cursor: pointer;
+}
+
 .body-block {
 	width: 98%;
 	margin: auto;
@@ -25,13 +58,24 @@ body{
 	width: 100%;
 	height: 7%;
 	text-align: center;
+	background-image: linear-gradient(rgb(69, 114, 149), rgb(110, 184, 239) 7%, rgb(79, 159, 220) 17%, rgb(48, 128, 191) 100%);
+	/*background-image: linear-gradient(rgba(79, 159, 220, 1), rgba(48, 128, 191, 1));*/
 }
 
 .user-form {
-	width: 100%;
+	width: 90%;
 	height: 100%;
-	padding-top: 1%;
-	vertical-align: middle;
+	padding-top: 0.75%;
+	text-align: center;
+	display: inline-block;
+}
+
+#history-icon {
+	width: 5%;
+	height: 100%;
+	padding-top: 0.75%;
+	float: right;
+	display: inline-block;
 }
 
 .image-container {
@@ -64,6 +108,18 @@ body{
 }
 
 .goto:hover {
+	transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.history {
+	transition: transform .2s; /* Animation */
+	width: 25px;
+	height: 25px;
+	margin: 0 auto;
+	cursor: pointer;
+}
+
+.history:hover {
 	transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
@@ -159,6 +215,10 @@ body{
 	float: left;
 	border: 0;
 	margin: 1px;
+}
+
+.top-news-category {
+	font-weight: 400;
 }
 
 .news_panel{
@@ -293,18 +353,15 @@ textarea.notes {
 .twitter-pop-text {
 	font-size: 10pt;
 	text-align: justify;
-	color:white;
 	text-decoration: none;
 	margin: 1px;
 	padding: 9px;
-	background-color: #909090;
 	cursor: pointer;
 }
 
 .twitter-pop-info {
 	font-size: 8pt;
 	text-align: justify;
-	color:white;
 }
 
 
@@ -393,13 +450,13 @@ textarea.notes {
 }
 
 .twitter-top{
-	/*width: 24.6%;*/
 	height: 100%;
 	overflow: scroll;
 	position: relative;
 	float: left;
 	border: 0;
 	margin: 1px;
+	color: black;
 }
 
 .hot-tws-column {
@@ -413,25 +470,21 @@ textarea.notes {
 }
 
 .category-title {
-	color: white;
+	color: black;
 }
 
 .twitter-top-text {
 	font-size: 10pt;
 	text-align: justify;
-	color: white;
 	text-decoration: none;
 	margin: 1px;
 	padding: 9px;
-	color: white;
-	background-color: #909090;
 	cursor: pointer;
 }
 
 .twitter-top-info {
 	font-size: 8pt;
 	text-align: justify;
-	color: white;
 }
 
 .twitter_panel_1{
@@ -442,6 +495,7 @@ textarea.notes {
 	float: left;
 	border: 0;
 	margin: 1px;
+	color: black;
 }
 
 

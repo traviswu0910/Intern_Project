@@ -23,7 +23,7 @@ function noteInput(e, news, i, j) {
 		if (!e.shiftKey) {
 			x = document.getElementById(id);
 			note = x.value;
-			userInput(news, i, note);
+			userNote(news, i, note);
 			x.style.display = 'none';
 		}	
 	}
@@ -38,15 +38,45 @@ function showNote(i, j) {
 		x.style.display = 'none';
 }
 
-function userInput(obj, tab, note) {
-    var entry = {
+function userNote(obj, tab, note) {
+	var entry = {
         title: obj['title'],
         url: obj['link'],
         tab: tab,
         note: note,
     };
 
-    fetch(`${window.origin}/log/create-entry`, {
+    fetch(`${window.origin}/log/news-assistant-note`, {
+        method: "POST",
+        credentials: "include",
+        body: JSON.stringify(entry),
+        cache: "no-cache",
+        headers: new Headers({
+          "content-type": "application/json"
+        })
+      })
+      .then(function(response) {
+        if (response.status !== 200) {
+          console.log(`Looks like there was a problem. Status code: ${response.status}`);
+          return;
+        }
+        response.json().then(function(data) {
+          console.log(data);
+        });
+      })
+      .catch(function(error) {
+        console.log("Fetch error: " + error);
+    });
+}
+
+function userClick(obj, tab) {
+    var entry = {
+        title: obj['title'],
+        url: obj['link'],
+        tab: tab,
+    };
+
+    fetch(`${window.origin}/log/news-assistant-click`, {
         method: "POST",
         credentials: "include",
         body: JSON.stringify(entry),

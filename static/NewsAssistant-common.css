@@ -2,8 +2,7 @@
 
 /* common characteristic */
 .block-color {
-	background-color: rgba(139, 183, 225, 1);
-	opacity: 1;
+	background-color: rgba(100, 170, 225, 0.5);
 	color: rgba(0, 0, 0, 1);
 }
 
