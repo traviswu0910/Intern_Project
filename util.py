@@ -19,9 +19,9 @@ class Sign():
 	EMPTY_INPUT			= 'You left your input boxes empty ><'
 	PICK_UTIL			= 'Please pick a destination before you enjoy the ride :)'
 
-def tag():
+def tag(num):
 	tag = ''
-	for i in range(40):
+	for i in range(num):
 		n = random.randint(0, 61)
 		if n<10:
 			tag+=str(n)
@@ -30,6 +30,7 @@ def tag():
 		else:
 			tag+=chr(n+61)
 	return tag
+
 
 def json_safeLoading(filename):
 	try:
@@ -86,19 +87,41 @@ class UserFeed(InfoJson):
 			'login':[],
 			'click':[],
 			'note':[],
+			'log':[],
 		}
-		self.update_login(tag, time)
+		self.updateLogin(tag, time)
 
-	def update_login(self, tag, time):
+	def notes(self, tag):
+		return self.info[tag]['note']
+
+	def clicks(self, tag):
+		return self.info[tag]['click']
+
+	def logs(self, tag):
+		return self.info[tag]['log']
+
+	def addHistory(self, tag, log):
+		self.logs(tag).append(log)
+
+	def updateLogin(self, tag, time):
+		self.addHistory(tag, {'action': 'login', 'content': time})
 		self.info[tag]['login'].append(time)
 		self.push()
 
-	def update_activity(self, tag, note):
-		self.info[tag]['note'].append(note)
+	def updateClick(self, tag, clickContent):
+		self.addHistory(tag, {'action': 'click', 'content': clickContent})
+		for i, click in enumerate(self.clicks(tag)):
+			if click['title']==clickContent['title'] and click['url']==clickContent['url']:
+				self.clicks(tag).pop(i)
+		self.clicks(tag).append(clickContent)
 		self.push()
 
-	def updateClick(self, tag, click):
-		self.info[tag]['click'].append(click)
+	def updateNote(self, tag, noteContent):
+		self.addHistory(tag, {'action': 'note', 'content': noteContent})
+		for i, note in enumerate(self.notes(tag)):
+			if note['title']==noteContent['title'] and note['url']==noteContent['url']:
+				self.notes(tag).pop(i)
+		self.notes(tag).append(noteContent)
 		self.push()
 
 
@@ -124,6 +147,12 @@ class UserInfo():
 
 	def __init__(self):
 		self.defaultForm = self.currentForm
+
+	def notes(self):
+		return self.userfeed.notes(self.tag)
+
+	def clicks(self):
+		return self.userfeed.clicks(self.tag)
 
 	def updateTime(self):
 		self.currentForm['time'] = dt.datetime.now().strftime('%Y%m%d  %H:%M:%S')
@@ -204,7 +233,7 @@ class UserInfo():
 		self.show_retype = 1
 		if self.checkSignup(flag)==Sign.SUCCESS:
 			if flag==1:
-				self.tag = tag()
+				self.tag = tag(40)
 				self.userlist.create(self.username, self.password, self.tag)
 				self.updateTime()
 				self.userfeed.create(self.tag, self.currentForm['time'])
@@ -225,35 +254,55 @@ class UserInfo():
 		if self.checkSignin()==Sign.SUCCESS:
 			self.updateTime()
 			self.tag = self.userlist.info[self.username]['id']
-			self.userfeed.update_login(self.tag, self.currentForm['time'])
+			self.userfeed.updateLogin(self.tag, self.currentForm['time'])
 		return self.msg
 
 	def addNote(self, currForm, req):
 		self.currentForm = {
-				"date":currForm['date'],
-	            "pf":currForm['pf'],
-	            "kw":currForm['kw'],
+				"date": currForm['date'],
+	            "pf": currForm['pf'],
+	            "kw": currForm['kw'],
 	            "url": req['url'],
 	            "title" : req['title'],
 	            "tab": req['tab'],
-	            'time':dt.datetime.now().strftime('%Y%m%d  %H:%M:%S'),
+	            'time': dt.datetime.now().strftime('%Y%m%d  %H:%M:%S'),
 	            'note': req['note'],
 	        }
 		self.userfeed.updateNote(self.tag, self.currentForm)
 
 	def addClick(self, currForm, req):
 		self.currentForm = {
-				"date":currForm['date'],
-	            "pf":currForm['pf'],
-	            "kw":currForm['kw'],
+				"date": currForm['date'],
+	            "pf": currForm['pf'],
+	            "kw": currForm['kw'],
 	            "url": req['url'],
 	            "title" : req['title'],
 	            "tab": req['tab'],
-	            'time':dt.datetime.now().strftime('%Y%m%d  %H:%M:%S'),
+	            'note': '',
+	            'time': dt.datetime.now().strftime('%Y%m%d  %H:%M:%S'),
 	        }
 		self.userfeed.updateClick(self.tag, self.currentForm)
 
+	def changeNote(self, news, noteContent):
+		for i, note in enumerate(self.notes()):
+			if note['title']==news['title'] and note['url']==news['url']:
+				self.notes()[i]['note'] = noteContent
+		self.userfeed.push()
 
+	def deleteNote(self, news):
+		self.addHistory(self.tag, {'action': 'delete note', 'content': news})
+		for i, note in enumerate(self.notes()):
+			if note['title']==news['title'] and note['url']==news['url']:
+				self.notes().pop(i)
+				break
+		self.userfeed.push()
+
+	def deleteStory(self, news):
+		self.addHistory(self.tag, {'action': 'delete click', 'content': news})
+		for i, click in enumerate(self.clicks()):
+			if click['title']==news['title'] and click['url']==news['url']:
+				self.clicks().pop(i)
+		self.userfeed.push()
 
 
 

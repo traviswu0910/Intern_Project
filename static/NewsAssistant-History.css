@@ -1,12 +1,268 @@
 /*NewsAssistant-History.css*/
 
-.userHistory {
+#userHistory {
 	width: 100%;
 	height: 80%;
 }
 
-.panel-userClick {
-	width: 400px;
-	height: 300px;
-	background-color: black;
+.history-panel {
+	padding-bottom: 20px;
+	margin-top: 10px;
+	height: 550px;
+	background-color: rgba(129, 189, 251, 1.0);
+	display: inline-block;
+	border-radius: 10px;
+	text-align: center;
+	position: relative;
+	float: left;
+	overflow: auto;
 }
+
+#panel-userClick {
+	width: 375px;
+	margin-left: 30px;
+}
+
+#panel-userNote {
+	width: 700px;
+	margin-left: 15px;
+}
+
+.blocks-container {
+	width: 100%;
+	height: 483px;
+	overflow: auto;
+	/*margin-bottom: 15px;*/
+}
+
+.category-title {
+	margin-top: 10px;
+	margin-bottom: 5px;
+	text-align: center;
+	font-weight: 900;
+	font-size: 20px;
+	color: black;
+	width: 100%;
+}
+
+.history-block {
+	opacity: 0.999;
+	width: 100%;
+	text-align: center;
+	margin-top: 5px;
+	/*-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;*/
+}
+
+.note-title-parent {
+	cursor: pointer;
+}
+
+.history-title {
+	background-color: white;
+	border-radius: 10px;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 400;
+	padding: 9px;
+	position: relative;
+	overflow: hidden;
+}
+
+.click-title-parent {
+	width: 86%;
+	cursor: pointer;
+}
+
+.click-title {
+}
+
+.cross {
+	cursor: pointer;
+	width: 10px;
+	height: 100%;
+	border-radius: 10px;
+	background-color: rgba(255, 0, 0, 1);
+	-webkit-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+	position: absolute;
+	opacity: 0.3;
+	right: 0;
+	top: 0;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.cross:hover {
+	background-color: rgba(255, 0, 0, 1);
+	opacity: 0.6;
+	width: 30px;
+}
+
+.cross-image {
+	opacity: 0;
+	transition: all .5s ease-in-out;
+	-webkit-transition: all .5s ease-in-out;
+}
+
+.cross:hover .cross-image {
+	opacity: 1;
+}
+
+.note-title {
+	float: left;
+	width: 60%;
+	min-height: 46px;
+}
+
+.note-block {
+	background-color: rgba(192, 221, 253, 1);
+	width: 92%;
+	border-radius: 10px;
+	display: inline-block;
+	position: relative;
+}
+
+.note-text {
+	padding-left: 10px;
+	overflow: hidden;
+	text-align: left;
+	display: inline-block;
+	width: 35%;
+}
+
+.note-textarea {
+	background-color: rgba(255, 255, 255, 0);
+	border: none;
+	outline: none;
+	resize: none;
+	width: 100%;
+	/*overflow: auto;*/
+}
+
+.note-message-block {
+	position: absolute;
+	text-align: center;
+	/*background-color: red;*/
+	/*display: none;*/
+	left: 60%;
+	width: 35%;
+	height: 0;
+	top: 0;
+	opacity: 0;
+	transition: opacity .5s ease-in-out;
+	-webkit-transition: opacity .5s ease-in-out;
+}
+
+.note-message {
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+	border: rgba(0, 0, 0, 0.3);
+	border-radius: 5px;
+	width: 120px;
+	display: inline-block;
+	/*left: 40px;*/
+}
+
+.note-buttons {
+	display: inline-block;
+	float: right;
+	width: 10px;
+	-webkit-transition: width .3s;
+	transition: width .3s;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+.note-buttons:hover {
+	width: 5%;
+}
+
+.noteBtn {
+	-webkit-transition: ease-in-out .3s;
+	transition: ease-in-out .3s;
+	text-align: center;
+	vertical-align: middle;
+	flex-wrap: column wrap;
+	overflow: hidden;
+	position: relative;
+}
+
+.edit-button {
+	border-top-right-radius: 10px;
+	background-color: rgba(255, 201, 34, .5);
+}
+
+.edit-button:hover {
+	background-color: rgba(255, 201, 34, 1);
+}
+
+.delete-button {
+	border-bottom-right-radius: 10px;
+	background-color: rgba(189, 17, 89, .5);
+}
+
+.delete-button:hover {
+	background-color: rgba(189, 17, 89, 1);
+}
+
+.deleted {
+	background-color: rgba(189, 17, 89, 1);
+}
+
+.editBtn {
+	display: none;
+}
+
+.noteBtn:hover .editBtn {
+	display: inline-block;
+}
+
+.fade {
+	transition: opacity .5s ease-in-out;
+	-webkit-transition: opacity .5s ease-in-out;
+	opacity: 0;
+}
+
+.hide {
+	display: none;
+}
+
+.inline {
+	display: inline-block;
+}
+
+.information-parent-block {
+	border-radius: 10px;
+	margin-top: -20px;
+	margin-bottom: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 20px;
+	z-index: -10;
+	background-color: rgb(175, 251, 213);
+	-webkit-transition: height .5s ease-in-out;
+	transition: height .5s ease-in-out;
+	overflow: hidden;
+}
+
+.note-information {
+	width: 92%;
+}
+
+.click-information {
+	width: 86%;
+}
+
+.information-block {
+	margin-top: 20px;
+	width: 100%;
+	height: 0px;
+	border-radius: 10px;
+	-webkit-transition: height .5s ease-in-out;
+	transition: height .5s ease-in-out;
+}
+
