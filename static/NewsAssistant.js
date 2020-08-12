@@ -26,7 +26,7 @@ function lockInfo(ind) {
 function unlockInfo(ind) {
 	get('click-block-'+ind).onmouseover = function() {
 		showInfo(get('click-block-'+ind), ind);
-	}
+	};
 }
 
 function showInfo(ele, ind) {
@@ -223,7 +223,7 @@ function dragEnd(e, ind, click) {
 	if (overElement(e, get('panel-userNote'))) {
 		e.target.classList.remove('fade');
 		e.target.classList.remove('hide');
-		userDeleteStory(click);
+		userDeleteStory(click, '1');
 		userNote({'link': click['url'], 'title': click['title']}, click['tab'], '');
 		hide(get('click-block-'+ind));
 		show(get('note-block-'+ind));
@@ -249,8 +249,9 @@ function crossClick(ele, ind, news) {
 	ele.style.opacity = 0.8;
 	ele.style.width = percent(100);
 	setCross(ind, 25);
+	hide(get('information-parent-block-'+ind));
 	setTimeout(function() {
-		userDeleteStory(news);
+		userDeleteStory(news, '0');
 		deleteStory(ele, ind);
 	}, 300);
 }
@@ -404,9 +405,10 @@ function userDeleteNote(news) {
 	});
 }
 
-function userDeleteStory(news) {
+function userDeleteStory(news, move) {
 	var entry = {
 		news: news,
+		move: move,
 	};
 
 	fetch(`${window.origin}/log/news-assistant-delete-story`, {
@@ -469,6 +471,33 @@ function userClick(obj, tab) {
 	};
 
 	fetch(`${window.origin}/log/news-assistant-click`, {
+		method: "POST",
+		credentials: "include",
+		body: JSON.stringify(entry),
+		cache: "no-cache",
+		headers: new Headers({
+			"content-type": "application/json"
+		})
+		})
+		.then(function(response) {
+		if (response.status !== 200) {
+			console.log(`Looks like there was a problem. Status code: ${response.status}`);
+			return;
+		}
+		response.json().then(function(data) {
+			console.log(data);
+		});
+		})
+		.catch(function(error) {
+		console.log("Fetch error: " + error);
+	});
+}
+
+function downloadData() {
+	var entry = {
+	};
+
+	fetch(`${window.origin}/log/news-assistant-download`, {
 		method: "POST",
 		credentials: "include",
 		body: JSON.stringify(entry),

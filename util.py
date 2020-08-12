@@ -144,9 +144,17 @@ class UserInfo():
 	}
 	userlist = UserList(Path['id'])
 	userfeed = UserFeed(Path['feed'])
+	flag = {'signup':False, 'login':False}
 
 	def __init__(self):
 		self.defaultForm = self.currentForm
+
+	def loggedIn(self):
+		return self.flag['login']
+
+	def signingUp(self):
+		return self.flag['signup']
+
 
 	def notes(self):
 		return self.userfeed.notes(self.tag)
@@ -156,6 +164,9 @@ class UserInfo():
 
 	def updateTime(self):
 		self.currentForm['time'] = dt.datetime.now().strftime('%Y%m%d  %H:%M:%S')
+
+	def addHistory(self, content):
+		self.userfeed.addHistory(self.tag, content)
 
 	def blankInputs(self):
 		return {
@@ -220,23 +231,25 @@ class UserInfo():
 			self.msg = Sign.SUCCESS
 		return self.msg
 
-	def checkSignup(self, flag):
+	def checkSignup(self):
 		if self.checkName()==Sign.SUCCESS:
-			if flag==1:
+			if self.signingUp():
 				self.checkRetype()
 			else:
 				self.msg = Sign.SUCCESS
 		return self.msg
 
 
-	def signup(self, flag):
+	def signup(self):
 		self.show_retype = 1
-		if self.checkSignup(flag)==Sign.SUCCESS:
-			if flag==1:
+		if self.checkSignup()==Sign.SUCCESS:
+			if self.signingUp():
 				self.tag = tag(40)
 				self.userlist.create(self.username, self.password, self.tag)
 				self.updateTime()
 				self.userfeed.create(self.tag, self.currentForm['time'])
+				self.flag['login'] = True
+			self.flag['signin'] = True
 		return self.msg
 
 	def checkSignin(self):
@@ -255,6 +268,7 @@ class UserInfo():
 			self.updateTime()
 			self.tag = self.userlist.info[self.username]['id']
 			self.userfeed.updateLogin(self.tag, self.currentForm['time'])
+			self.flag['login'] = True
 		return self.msg
 
 	def addNote(self, currForm, req):
@@ -290,15 +304,16 @@ class UserInfo():
 		self.userfeed.push()
 
 	def deleteNote(self, news):
-		self.addHistory(self.tag, {'action': 'delete note', 'content': news})
+		self.addHistory({'action': 'delete note', 'content': news})
 		for i, note in enumerate(self.notes()):
 			if note['title']==news['title'] and note['url']==news['url']:
 				self.notes().pop(i)
 				break
 		self.userfeed.push()
 
-	def deleteStory(self, news):
-		self.addHistory(self.tag, {'action': 'delete click', 'content': news})
+	def deleteStory(self, news, move=False):
+		if not move:
+			self.addHistory({'action': 'delete click', 'content': news})
 		for i, click in enumerate(self.clicks()):
 			if click['title']==news['title'] and click['url']==news['url']:
 				self.clicks().pop(i)

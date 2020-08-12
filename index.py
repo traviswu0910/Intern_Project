@@ -24,19 +24,16 @@ def main():
 	def signup():
 		if 'signup' in request.values.keys():
 			return True
-	global user, LOGIN_FLAG, SIGNUP_FLAG, LOGIN_SUCCESS
+	global user, LOGIN_FLAG, SIGNUP_FLAG
 	if request.method=='GET':
 		return render_template('Main.html', inputs=user.blankInputs())
 	elif request.method=='POST':
 		user.fillInfo(username=request.values['usr'], password=request.values['pwd'], retype=request.values['retype'])
 		if signup():
-			if user.signup(SIGNUP_FLAG)==Sign.SUCCESS:
-				if SIGNUP_FLAG:
-					LOGIN_FLAG = 1
-				SIGNUP_FLAG = 1
-		elif user.signin()==Sign.SUCCESS:
-			LOGIN_FLAG = 1
-		if LOGIN_FLAG:
+			user.signup()
+		else:
+			user.signin()
+		if user.loggedIn():
 			for u in user.utilities:
 				if request.values[u['input']]=='1':
 					return redirect(url_for(u['name']))
@@ -54,9 +51,18 @@ def NewsAssistant():
 	elif request.method=="GET":
 		return render_template("NewsAssistant.html", inputs=utilInputs(user.currentForm, util='NewsAssistant'))
 	
+@app.route('/NewsAssistant/HistoryLog', methods=['POST', 'GET'])
+def HistoryLog():
+	if request.method=='GET':
+		if not user.loggedIn():
+			return redirect(url_for('main'))
+		return render_template('HistoryLog.html')
+
 @app.route("/NewsAssistant/History", methods=['POST', 'GET'])
 def History():
 	if request.method=='GET':
+		if not user.loggedIn():
+			return redirect(url_for('main'))
 		return render_template('NewsAssistant_History.html', history=userHistory(user))
 
 @app.route("/log/news-assistant-change-note", methods=["POST"])
@@ -76,7 +82,7 @@ def newsAssistant_deleteNote():
 @app.route("/log/news-assistant-delete-story", methods=["POST"])
 def newsAssistant_deleteStory():
 	req = request.get_json()
-	user.deleteStory(news=req['news'])
+	user.deleteStory(news=req['news'], move=(int(req['move'])==1))
 	res = make_response(jsonify({"message": "OK"}), 200)
 	return res
 
@@ -89,6 +95,12 @@ def newsAssistant_click():
 @app.route("/log/news-assistant-note", methods=["POST"])
 def newsAssistant_note():
 	user.addNote(currForm=user.currentForm, req=request.get_json())
+	res = make_response(jsonify({"message": "OK"}), 200)
+	return res
+
+@app.route('/log/news-assistant-download', methods=['POST'])
+def newsAssistant_Download():
+	print('hihihi')
 	res = make_response(jsonify({"message": "OK"}), 200)
 	return res
 
