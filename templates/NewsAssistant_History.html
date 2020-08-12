@@ -5,6 +5,8 @@
         <link rel=stylesheet type="text/css" href="{{ url_for('static', filename='NewsAssistant.css') }}">
         <link rel=stylesheet type="text/css" href="{{ url_for('static', filename='NewsAssistant-History.css') }}">
         <link rel=stylesheet type="text/css" href="{{ url_for('static', filename='NewsAssistant-common.css') }}">
+        <link rel=stylesheet type="text/css" href="{{ url_for('static', filename='Radio-Button.css') }}">
+
         <script type="text/javascript" src="{{ url_for('static', filename='NewsAssistant.js') }}"></script>
         <script type="text/javascript" src="{{ url_for('static', filename='jquery-migrate-3.3.0.min.js') }}"></script>
         <meta charset="utf-8">
@@ -14,10 +16,59 @@
     
     <body> 
         {% include 'logo.html' %}
-        <div class="userHistory">
-	        <div class="panel-userClick">
-	        		
+        <div id="userHistory">
+        	<div id="panel-userClick" class="history-panel">
+	        	<div class="category-title">
+	        		<a>Stories</a>
+	        	</div>
+	        	<div class="blocks-container">
+	        		{% include 'history_click.html' %}
+				</div>
 	        </div>
+	        <div id="panel-userNote" class="history-panel" ondrop="drop(event)" ondragover="allowDrop(event)">
+        		<div class="category-title">
+	        		<a>Notes</a>
+	        	</div>
+	        	<div id="note-parent" class="blocks-container">
+	        		{% include 'history_note.html' %}
+	    		</div>
+        	</div>
+        	<div class="continput">
+	    		<ul>
+	        		<li>
+						<input checked type="radio" name="1" class="radio-button">
+						<label>Latest First</label>
+						<div class="bullet">
+							<div class="line zero"></div>
+							<div class="line one"></div>
+							<div class="line two"></div>
+							<div class="line three"></div>
+							<div class="line four"></div>
+							<div class="line five"></div>
+							<div class="line six"></div>
+							<div class="line seven"></div>
+						</div>
+					</li>
+					<li>
+						<input checked type="radio" name="1" class="radio-button">
+						<label>Oldest First</label>
+						<div class="bullet">
+							<div class="line zero"></div>
+							<div class="line one"></div>
+							<div class="line two"></div>
+							<div class="line three"></div>
+							<div class="line four"></div>
+							<div class="line five"></div>
+							<div class="line six"></div>
+							<div class="line seven"></div>
+						</div>
+					</li>
+				</ul>
+	    	</div>
 	    </div>
+	    <script>
+	    	setCrosses(10);
+	    	setNotes();
+	    </script>
     </body>
 </html>

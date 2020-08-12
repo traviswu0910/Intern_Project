@@ -38,8 +38,8 @@ def utilInputs(form=None, util=None):
 
 def userHistory(user):
 	return {
-		'click': user.userfeed.info[user.tag]['click'],
-		'note': user.userfeed.info[user.tag]['note'],
+		'click': user.clicks(),
+		'note': user.notes(),
 	}
 
 

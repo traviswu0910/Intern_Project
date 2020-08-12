@@ -4,6 +4,7 @@
         <link rel=stylesheet type="text/css" href="{{ url_for('static', filename='NewsAssistant.css') }}">
         <link rel=stylesheet type="text/css" href="{{ url_for('static', filename='NewsAssistant-common.css') }}">
         <script type="text/javascript" src="{{ url_for('static', filename='NewsAssistant.js') }}"></script>
+        <script type="text/javascript" src="{{ url_for('static', filename='NewsAssistant_Download.js') }}"></script>
         <script type="text/javascript" src="{{ url_for('static', filename='jquery-migrate-3.3.0.min.js') }}"></script>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -88,10 +89,10 @@
                         <div class="top-news-infobox">
                             <div class="top-news-info news-info-block">&ensp;Date:&ensp;{{ news['pubdate']}}  <br/>&ensp;Src:&ensp;{{ news['source']}}</div>
                             <div class="top-news-pencil">
-                                <figure class='pencil'>
-                                    <img class="pencil-image lazy" src="/static/img/pencil_w.png" onclick="showNote({{i}}, {{loop.index}})" />
+                                <figure class='pencil' onclick="showNote({{i}}, {{loop.index}})">
+                                    <img class="pencil-image lazy" src="/static/img/pencil_w.png" />
                                 </figure>
-                                <textarea id="note-{{i}}{{loop.index}}" onkeypress="noteInput(event, {{news}}, {{i}}, {{loop.index}}, this)" class="notes" placeholder="Take notes"></textarea>
+                                <textarea id="note-{{i}}{{loop.index}}" onkeypress="noteInput(event, {{news}}, {{i}}, this)" onblur="updateNote(this, {{i}}, {{news}})" class="notes" placeholder="Take notes"></textarea>
                             </div>
                         </div>
                         {% endfor %}

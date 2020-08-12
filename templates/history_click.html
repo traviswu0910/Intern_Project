@@ -1,0 +1,37 @@
+{% for click in history['click'] %}
+<div draggable="true" id="story-block--{{loop.index}}" class="history-block" ondragstart="dragStart(event, -{{loop.index}})" ondragend="dragEnd(event, -{{loop.index}}, {{click}})" ondragover="dragOver(event, -{{loop.index}})">
+	<div id="click-block--{{loop.index}}" class="history-title click-title-parent" onmouseover="showInfo(this, -{{loop.index}})" onclick="pinInfo(this, -{{loop.index}})">
+		<a class="click-title">{{click['title']}}</a>
+		<div id="cross--{{loop.index}}" class="cross" onmouseover="lockInfo(-{{loop.index}})" onmouseout="unlockInfo(-{{loop.index}})" onclick="crossClick(this, -{{loop.index}}, {{click}})">
+			<img id="cross-image--{{loop.index}}" class="cross-image no-outline" src="/static/img/cross.png">
+		</div>
+	</div>
+	<div id="note-block--{{loop.index}}" class="note-block hide">
+		<div onmouseover="showInfo(this, -{{loop.index}})" onclick="pinInfo(this, -{{loop.index}})" class="note-title-parent">
+			<a id="pinned--{{loop.index}}" style="display:none;">false</a>
+			<a class="history-title note-title">{{click['title']}}</a>
+		</div>
+		<div class="note-text">
+			<textarea id="note-textarea--{{loop.index}}" class="note-textarea" onmouseover="hideMsgBlock(-{{loop.index}})" onmouseout="showMsgBlock(-{{loop.index}})" onkeypress="noteEdit(event, -{{loop.index}}, this, {{click}})" onfocus="checkFocus(this)" onblur="checkBlur(this)">{{click['note']}}</textarea>
+			<div id="note-message--{{loop.index}}" class="note-message-block">
+				<a id="note-message-text--{{loop.index}}" class="note-message">
+					Note edited!
+				</a>
+			</div>
+		</div>
+		<div id="buttons-block--{{loop.index}}" class="note-buttons">
+			<div id="edit-button--{{loop.index}}" class="noteBtn edit-button" onclick="allowEdit(-{{loop.index}})">
+				<img class="editBtn no-outline" src="/static/img/edit.png">
+			</div>
+			<div id="delete-button--{{loop.index}}" class="noteBtn delete-button" onclick="deleteNote(this, -{{loop.index}}, {{click}})">
+				<img id="delete-icon--{{loop.index}}" class="editBtn no-outline" src="/static/img/delete.png">
+			</div>
+		</div>
+	</div>
+	<div id="information-parent-block--{{loop.index}}" class="information-parent-block click-information">
+		<div id="information-block--{{loop.index}}" class="information-block">
+			<a>testing testing 123</a>
+		</div>
+	</div>
+</div>
+{% endfor %}

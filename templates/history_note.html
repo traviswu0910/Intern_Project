@@ -1,0 +1,31 @@
+{% for note in history['note'] %}
+<div id="note-block-{{loop.index}}" class="history-block">
+	<div class="note-block">
+		<div onmouseover="showInfo(this, {{loop.index}})" onclick="pinInfo(this, {{loop.index}})" class="note-title-parent">
+			<a id="pinned-{{loop.index}}" class="hide">false</a>
+			<a class="history-title note-title">{{note['title']}}</a>
+		</div>
+		<div class="note-text">
+			<textarea id="note-textarea-{{loop.index}}" class="note-textarea" onmouseover="hideMsgBlock({{loop.index}})" onmouseout="showMsgBlock({{loop.index}})" onkeypress="noteEdit(event, {{loop.index}}, this, {{note}})" onfocus="checkFocus(this)" onblur="checkBlur(this)">{{note['note']}}</textarea>
+			<div id="note-message-{{loop.index}}" class="note-message-block">
+				<a id="note-message-text-{{loop.index}}" class="note-message">
+					Note edited!
+				</a>
+			</div>
+		</div>
+		<div id="buttons-block-{{loop.index}}" class="note-buttons">
+			<div id="edit-button-{{loop.index}}" class="noteBtn edit-button" onclick="allowEdit({{loop.index}})">
+				<img class="editBtn no-outline" src="/static/img/edit.png">
+			</div>
+			<div id="delete-button-{{loop.index}}" class="noteBtn delete-button" onclick="deleteNote(this, {{loop.index}}, {{note}})">
+				<img id="delete-icon-{{loop.index}}" class="editBtn no-outline" src="/static/img/delete.png">
+			</div>
+		</div>
+	</div>
+	<div id="information-parent-block-{{loop.index}}" class="information-parent-block note-information">
+		<div id="information-block-{{loop.index}}" class="information-block">
+			<a>testing testing 123</a>
+		</div>
+	</div>
+</div>
+{% endfor %}
