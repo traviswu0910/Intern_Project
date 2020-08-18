@@ -13,149 +13,19 @@
     
     <body> 
         {% include 'logo.html' %}
-        <div class="toppane">
-            <form class="user-form" action="NewsAssistant" method="post">
-                <div class="form-element">
-                    <label for="datepicker">Date </label>
-                    <input type="date" id="datepicker" name="datepicker"class="inputbox cursor-pointer" value={{inputs['date']}} onfocus="(this.type=date)">
-                </div>
-                <div class="form-element">
-                    <label for="portfolio">Portfolio </label>
-                    <select id="portfolio" name="portfolio" class="inputbox cursor-pointer">
-                        <option value="pph_1" {{inputs['selected']['pph_1']}}>Daily 5% &#8593</option>
-                        <option value="pph_2" {{inputs['selected']['pph_2']}}>Daily 5% &#8595</option>
-                        <option value="pph_3" {{inputs['selected']['pph_3']}}>Weekly 10% &#8593</option>
-                        <option value="pph_4" {{inputs['selected']['pph_4']}}>Weekly 10% &#8595</option>
-                        <option value="pph_5" {{inputs['selected']['pph_5']}}>Monthly 20% &#8593</option>
-                    </select>
-                </div>
-                <div class="form-element">
-                    <div class="ikeyword">Keyword <input type="text" id="ikeyword" name="ikeyword" class="inputbox" value={{inputs['keyword']}}></div>
-                </div>
-                <div class="image-container form-element">
-                    <input type="image" id="goto" class="goto no-outline" src="/static/img/goto_w.png">
-                </div>
-            </form>
-            <a id="history-icon" class="image-container" href="/NewsAssistant/History" target="_self">
-                <img class="history no-outline " src="/static/img/history.png">
-            </a>
-        </div>
-        
+        {% include 'NewsAssistant-top-pane.html' %}
         <div class="body-block">
             <!--Portfolio Display Section-->
-            <div class="leftpane pane-block block-color">
-                <p class='pane-title'>Portfolio Information</p>
-                <div class="portfolio-panel" name="portfolio_panel">
-                    {% for stock in inputs['portfolio'] %}
-                        <div class="stock-box news-block">
-                            {{ stock }}
-                        </div>
-                    {% endfor %}
-                </div>
-            </div>
-
+            {% include 'NewsAssistant-left-pane.html' %}
             <!--General Display Section-->
-            <div class="middlepane pane-block block-color">
-                <p class='pane-title'>Portfolio News</p>
-                <div class="general_panel" name="general_panel">
-                    {% for news in inputs['portfolio_news'] %}
-                    <a class="pf-news-clickbox lazy" href={{ news['link']}} onclick="userClick({{ news }}, '0');" target="_blank">
-                        <div class="pf-news-title lazy news-block">
-                            {{ news['title']}}
-                        </div>
-                    </a>
-                    <div class="pf-news-info lazy news-info-block">
-                        &ensp;Date&ensp;:&ensp;{{ news['pubdate']}}<br/>&ensp;Src&ensp;:&ensp;{{ news['source']}}
-                        <br/>&ensp;Comp:&ensp;<b>{{news['title_company']}}</b>
-                    </div>
-                    {% endfor %}        
-                </div>
-            </div>
-            
+            {% include 'NewsAssistant-middle-pane.html' %}
             <!--News Display Section-->
-            <div class="rightpane pane-block block-color">
-                <p class='pane-title'>Top News</p>
-                {% for news_list in inputs['top_news'] %}
-                <div class="top-news-column">
-                    <a class="top-news-category">{{ news_list['key'] }}<br></a>
-                    <div class="news_panel margin-sides" name="news_panel">
-                        {% set i=loop.index %}
-                        {% for news in news_list['list'] %}
-                        <a class="top-news-clickbox" href={{news['link']}} onclick="userClick({{ news }}, '{{loop.index}}');" target="_blank">
-                            <div class="top-news-title news-block">
-                                {{ news['title']}}
-                            </div>
-                        </a>
-                        <div class="top-news-infobox">
-                            <div class="top-news-info news-info-block">&ensp;Date:&ensp;{{ news['pubdate']}}  <br/>&ensp;Src:&ensp;{{ news['source']}}</div>
-                            <div class="top-news-pencil">
-                                <figure class='pencil' onclick="showNote({{i}}, {{loop.index}})">
-                                    <img class="pencil-image lazy" src="/static/img/pencil_w.png" />
-                                </figure>
-                                <textarea id="note-{{i}}{{loop.index}}" onkeypress="noteInput(event, {{news}}, {{i}}, this)" onblur="updateNote(this, {{i}}, {{news}})" class="notes" placeholder="Take notes"></textarea>
-                            </div>
-                        </div>
-                        {% endfor %}
-                    </div>
-                </div>
-                {% endfor %}
-            </div>
-
+            {% include 'NewsAssistant-right-pane.html' %}
             <!--General Recommendation Display Section-->
-            <div class="bottompane block-color">
-                <div class="w3-bar w3-black bottom-tab-bar">
-                    <button class="button-text w3-bar-item w3-button" onclick="openTab('trends')">Market Trends</button>
-                    <button class="button-text w3-bar-item w3-button" onclick="openTab('top')">Twitter Tops</button>
-                    {% for celeb in inputs['celebs'] %}
-                        <button class="button-text w3-bar-item w3-button" onclick="openTab('celeb{{loop.index}}')">{{celeb}}</button>
-                    {% endfor %}
-                </div>
-
-                <div id="trends" class="bottompane-tabs tabs_panel chart-tab">
-                    <canvas id="myChart"></canvas>
-                    <script>
-                        drawChart({{inputs['ret']|tojson}});
-                    </script>
-                </div>
-
-                <div id="top" class="bottompane-tabs"><div class="tabs_panel" name="tabs_panel">
-                    {% for tw_list in inputs['top_tws'] %}
-                    <div class="hot-tws-column">
-                        <p class='category-title'><b>{{ tw_list['key'] }}</b></p>
-                        <div class="twitter-top" name="twitter_panel">
-                            {% for post in tw_list['list'] %}
-                            <div class="twitter-top-text news-block">
-                                {{ post['Text']}}
-                            </div>
-                            <div class="twitter-top-info news-info-block">
-                             &ensp;Time &ensp;:&ensp;{{ post['Time']}}  <br/> &ensp; Name&ensp;:&ensp;{{ post['Name']}}
-                            </div>
-                            {% endfor %}
-                        </div>
-                    </div>
-                    {% endfor %}
-                </div></div>
-                
-                <div class="twitter-window">
-                    {% for tws in inputs['hot_tws'] %}
-                    <div id="celeb{{loop.index}}" class="bottompane-tabs"><div class="tabs_panel" name="tabs_panel">
-                        <div class="twitter_panel_1" name="twitter_panel">
-                            {% for post in tws %}
-                                <div class="twitter-pop-text news-block">
-                                    {{ post['Text']}}
-                                </div>
-                                <div class="twitter-pop-info news-info-block">
-                                 &ensp;Time&ensp;:&ensp;{{ post['Time']}}  <br/> &ensp; Name&ensp;:&ensp;{{ post['Name']}}
-                                </div>
-                            {% endfor %}
-                        </div>
-                    </div></div>
-                    {% endfor %}
-                </div>
-                <script>
-                    openTab('trends');
-                </script>
-            </div>
+            {% include 'NewsAssistant-bottom-pane.html' %}
         </div>
+        <script>
+            openTab('trends');
+        </script>
     </body>
 </html>

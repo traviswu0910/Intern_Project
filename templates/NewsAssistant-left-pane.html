@@ -1,0 +1,12 @@
+<!-- NewsAssistant-left-pane.html -->
+
+<div class="leftpane pane-block block-color">
+    <p class='pane-title'>Portfolio Information</p>
+    <div class="portfolio-panel" name="portfolio_panel">
+        {% for stock in inputs['portfolio'] %}
+            <div class="stock-box news-block">
+                {{ stock }}
+            </div>
+        {% endfor %}
+    </div>
+</div>

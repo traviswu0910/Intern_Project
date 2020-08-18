@@ -1,37 +1,49 @@
-{% for click in history['click'] %}
-<div draggable="true" id="story-block--{{loop.index}}" class="history-block" ondragstart="dragStart(event, -{{loop.index}})" ondragend="dragEnd(event, -{{loop.index}}, {{click}})" ondragover="dragOver(event, -{{loop.index}})">
-	<div id="click-block--{{loop.index}}" class="history-title click-title-parent" onmouseover="showInfo(this, -{{loop.index}})" onclick="pinInfo(this, -{{loop.index}})">
-		<a class="click-title">{{click['title']}}</a>
-		<div id="cross--{{loop.index}}" class="cross" onmouseover="lockInfo(-{{loop.index}})" onmouseout="unlockInfo(-{{loop.index}})" onclick="crossClick(this, -{{loop.index}}, {{click}})">
-			<img id="cross-image--{{loop.index}}" class="cross-image no-outline" src="/static/img/cross.png">
+{% for day in history['click'] %}
+<div class="each-date">
+	<div class="date-block">
+		<div class="date-text click-date">
+			<a class="cursor-pointer" onclick="dateClick('click-{{day['crude']}}')">{{day['date']}}</a>
 		</div>
 	</div>
-	<div id="note-block--{{loop.index}}" class="note-block hide">
-		<div onmouseover="showInfo(this, -{{loop.index}})" onclick="pinInfo(this, -{{loop.index}})" class="note-title-parent">
-			<a id="pinned--{{loop.index}}" style="display:none;">false</a>
-			<a class="history-title note-title">{{click['title']}}</a>
-		</div>
-		<div class="note-text">
-			<textarea id="note-textarea--{{loop.index}}" class="note-textarea" onmouseover="hideMsgBlock(-{{loop.index}})" onmouseout="showMsgBlock(-{{loop.index}})" onkeypress="noteEdit(event, -{{loop.index}}, this, {{click}})" onfocus="checkFocus(this)" onblur="checkBlur(this)">{{click['note']}}</textarea>
-			<div id="note-message--{{loop.index}}" class="note-message-block">
-				<a id="note-message-text--{{loop.index}}" class="note-message">
-					Note edited!
-				</a>
+	{% set crude=day['crude'] %}
+	<div id="click-{{crude}}" class="date-parent">
+		{% for click in day['clicks'] %}
+		<div draggable="true" id="story-block--{{loop.index}}{{crude}}" class="history-block" ondragstart="dragStart(event, -{{loop.index}}{{crude}})" ondragend="dragEnd(event, -{{loop.index}}{{crude}}, {{click}})" ondragover="dragOver(event, -{{loop.index}}{{crude}})">
+			<div id="click-block--{{loop.index}}{{crude}}" class="history-title click-title-parent" onmouseover="showInfo(this, -{{loop.index}}{{crude}})" onclick="pinInfo(this, -{{loop.index}}{{crude}})">
+				<a class="click-title">{{click['title']}}</a>
+				<div id="cross--{{loop.index}}{{crude}}" class="cross" onmouseover="lockInfo(-{{loop.index}}{{crude}})" onmouseout="unlockInfo(-{{loop.index}}{{crude}})" onclick="crossClick(this, -{{loop.index}}{{crude}}, {{click}})">
+					<img id="cross-image--{{loop.index}}{{crude}}" class="cross-image no-outline" src="/static/img/cross.png">
+				</div>
+			</div>
+			<div id="note-block--{{loop.index}}{{crude}}" class="note-block hide">
+				<div onmouseover="showInfo(this, -{{loop.index}}{{crude}})" onclick="pinInfo(this, -{{loop.index}}{{crude}})" class="note-title-parent">
+					<a id="pinned--{{loop.index}}{{crude}}" class="hide">false</a>
+					<a class="history-title note-title">{{click['title']}}</a>
+				</div>
+				<div class="note-text">
+					<textarea id="note-textarea--{{loop.index}}{{crude}}" class="note-textarea" onmouseover="hideMsgBlock(-{{loop.index}}{{crude}})" onmouseout="showMsgBlock(-{{loop.index}}{{crude}})" onkeypress="noteEdit(event, -{{loop.index}}{{crude}}, this, {{click}})" onfocus="checkFocus(this)" onblur="checkBlur(this)">{{click['note']}}</textarea>
+					<div id="note-message--{{loop.index}}{{crude}}" class="note-message-block">
+						<a id="note-message-text--{{loop.index}}{{crude}}" class="note-message">
+							Note edited!
+						</a>
+					</div>
+				</div>
+				<div id="buttons-block--{{loop.index}}{{crude}}" class="note-buttons">
+					<div id="edit-button--{{loop.index}}{{crude}}" class="noteBtn edit-button" onclick="allowEdit(-{{loop.index}}{{crude}})">
+						<img class="editBtn no-outline" src="/static/img/edit.png">
+					</div>
+					<div id="delete-button--{{loop.index}}{{crude}}" class="noteBtn delete-button" onclick="deleteNote(this, -{{loop.index}}{{crude}}, {{click}})">
+						<img id="delete-icon--{{loop.index}}{{crude}}" class="editBtn no-outline" src="/static/img/delete.png">
+					</div>
+				</div>
+			</div>
+			<div id="information-parent-block--{{loop.index}}{{crude}}" class="information-parent-block click-information">
+				<div id="information-block--{{loop.index}}{{crude}}" class="information-block">
+					<a>testing testing 123</a>
+				</div>
 			</div>
 		</div>
-		<div id="buttons-block--{{loop.index}}" class="note-buttons">
-			<div id="edit-button--{{loop.index}}" class="noteBtn edit-button" onclick="allowEdit(-{{loop.index}})">
-				<img class="editBtn no-outline" src="/static/img/edit.png">
-			</div>
-			<div id="delete-button--{{loop.index}}" class="noteBtn delete-button" onclick="deleteNote(this, -{{loop.index}}, {{click}})">
-				<img id="delete-icon--{{loop.index}}" class="editBtn no-outline" src="/static/img/delete.png">
-			</div>
-		</div>
-	</div>
-	<div id="information-parent-block--{{loop.index}}" class="information-parent-block click-information">
-		<div id="information-block--{{loop.index}}" class="information-block">
-			<a>testing testing 123</a>
-		</div>
+		{% endfor %}
 	</div>
 </div>
 {% endfor %}

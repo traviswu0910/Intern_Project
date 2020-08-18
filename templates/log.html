@@ -1,0 +1,18 @@
+<!-- log.html -->
+
+{% for day in logfile %}
+<div class="each-date">
+	<div class="date-block">
+		<div class="date-text log-date">
+			<a class="cursor-pointer" onclick="dateClick('log-{{day['crude']}}')">{{day['date']}}</a>
+		</div>
+	</div>
+	<div id="log-{{day['crude']}}" class="log-parent">
+		{% for log in day['logs'] %}
+		<div class="log-block">
+			<a class="log-content">{{log['action']}}</a>
+		</div>
+		{% endfor %}
+	</div>
+</div>
+{% endfor %}

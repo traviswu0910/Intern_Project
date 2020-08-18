@@ -7,7 +7,6 @@ from util import *
 from getInputs import *
 
 user = UserInfo()		
-LOGIN_FLAG, SIGNUP_FLAG = 0, 0
 
 app = Flask(__name__)
 
@@ -34,6 +33,7 @@ def main():
 		else:
 			user.signin()
 		if user.loggedIn():
+			print('hihi')
 			for u in user.utilities:
 				if request.values[u['input']]=='1':
 					return redirect(url_for(u['name']))
@@ -56,7 +56,7 @@ def HistoryLog():
 	if request.method=='GET':
 		if not user.loggedIn():
 			return redirect(url_for('main'))
-		return render_template('HistoryLog.html')
+		return render_template('HistoryLog.html', logfile=userLog(user))
 
 @app.route("/NewsAssistant/History", methods=['POST', 'GET'])
 def History():
@@ -98,10 +98,10 @@ def newsAssistant_note():
 	res = make_response(jsonify({"message": "OK"}), 200)
 	return res
 
-@app.route('/log/news-assistant-download', methods=['POST'])
+@app.route("/log/news-assistant-download", methods=['Post'])
 def newsAssistant_Download():
-	print('hihihi')
 	res = make_response(jsonify({"message": "OK"}), 200)
+	utilInputs(user.currentForm, util='download')
 	return res
 
 if __name__ == "__main__":

@@ -14,18 +14,19 @@
 	border-radius: 10px;
 	text-align: center;
 	position: relative;
-	float: left;
 	overflow: auto;
 }
 
 #panel-userClick {
-	width: 375px;
-	margin-left: 30px;
+	float: left;
+	width: 400px;
+	margin-left: 55px;
 }
 
 #panel-userNote {
-	width: 700px;
-	margin-left: 15px;
+	float: right;
+	width: 725px;
+	margin-right: 55px;
 }
 
 .blocks-container {
@@ -50,10 +51,10 @@
 	width: 100%;
 	text-align: center;
 	margin-top: 5px;
-	/*-webkit-transition: all .5s ease-in-out;
+	-webkit-transition: all .5s ease-in-out;
 	-moz-transition: all .5s ease-in-out;
 	-o-transition: all .5s ease-in-out;
-	transition: all .5s ease-in-out;*/
+	transition: all .5s ease-in-out;
 }
 
 .note-title-parent {
@@ -83,7 +84,8 @@
 	cursor: pointer;
 	width: 10px;
 	height: 100%;
-	border-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
 	background-color: rgba(255, 0, 0, 1);
 	-webkit-transition: all .5s ease-in-out;
 	transition: all .5s ease-in-out;
@@ -139,7 +141,6 @@
 	outline: none;
 	resize: none;
 	width: 100%;
-	/*overflow: auto;*/
 }
 
 .note-message-block {
@@ -231,6 +232,10 @@
 	display: none;
 }
 
+.hide-height {
+	height: 0px;
+}
+
 .inline {
 	display: inline-block;
 }
@@ -262,7 +267,39 @@
 	width: 100%;
 	height: 0px;
 	border-radius: 10px;
-	-webkit-transition: height .5s ease-in-out;
-	transition: height .5s ease-in-out;
+	-webkit-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+}
+
+
+/*dates for clicks and notes*/
+.each-date {
+	/*transition: all .5s ease-in-out;*/
+	/*-webkit-transition: all .5s ease-in-out;*/
+}
+
+.date-block {
+	text-align: center;
+	color: white;
+}
+
+.date-parent {
+	-webkit-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+	overflow: auto;
+}
+
+.date-text {
+	margin: auto;
+	text-align: left;
+	border-bottom: solid 1px white;
+}
+
+.note-date {
+	width: 88%;
+}
+
+.click-date {
+	width: 80%;
 }
 

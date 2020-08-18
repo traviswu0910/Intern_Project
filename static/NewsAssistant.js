@@ -1,5 +1,59 @@
 var TEXTAREA_DEFAULT = 'Type something your style~';
 var grey = 150;
+var heights = {};
+var changeHeight = 0;
+
+function parentClass(ele, className) {
+	while(!ele.classList.contains(className))
+		ele = ele.parentNode;
+	return ele;
+}
+
+function recordHeights() {
+	var blocks = getClass('date-parent');
+	for (let i=0; i<blocks.length; i++) {
+		let h = blocks[i].offsetHeight;
+		heights[blocks[i].id] = h;
+		blocks[i].style.height = px(h);
+	}
+}
+
+function autoHeights() {
+	var blocks = getClass('date-parent');
+	for (let i=0; i<blocks/length; i++) {
+		blocks[i].style.height = 'auto';
+	}
+}
+
+function autoHeight(id) {
+	get(id).style.height = 'auto';
+}
+
+function renewHieght(id) {
+	heights[id] = get(id).offsetHeight;
+}
+
+function updateHeight(id, change) {
+	heights[id]+=change;
+}
+
+function refreshHeight(id) {
+	get(id).style.height = px(heights[id]);
+}
+
+function urHeight(id, change) {
+	updateHeight(id, change);
+	refreshHeight(id);
+}
+
+function dateClick(id) {
+	let ele = get(id);
+	if (ele.offsetHeight>5)
+		ele.style.height = px(0);
+	else {
+		ele.style.height = px(heights[id]);
+	}
+}
 
 function pin(ind) {
 	get('pinned-'+ind).innerHTML = 'true';
@@ -23,10 +77,28 @@ function lockInfo(ind) {
 	hideInfo(ind);
 }
 
+function lockAllInfo() {
+	var clicks = getClass('click-title-parent');
+	for (let i=0; i<clicks.length; i++) {
+		let ind = clicks[i].id.substr(12);
+		if (!pinned(ind)) 
+			lockInfo(ind);
+	}
+}
+
 function unlockInfo(ind) {
 	get('click-block-'+ind).onmouseover = function() {
 		showInfo(get('click-block-'+ind), ind);
 	};
+}
+
+function unlockAllInfo() {
+	var clicks = getClass('click-title-parent');
+	for (let i=0; i<clicks.length; i++) {
+		let ind = clicks[i].id.substr(12);
+		if (!pinned(ind)) 
+			unlockInfo(ind);
+	}
 }
 
 function showInfo(ele, ind) {
@@ -38,12 +110,19 @@ function showInfo(ele, ind) {
 
 function hideInfo(ind) {
 	get('information-block-'+ind).style.height = px(0);
-	get('information-parent-block-'+ind).style.height = px(20);
+	let p = get('information-parent-block-'+ind);
+	p.style.height = px(20);
+	let g = p.parentNode.parentNode;
+	g.style.height = px(heights[g.id]);
 }
 
 function extendInfo(ind) {
 	get('information-block-'+ind).style.height = px(60);
-	get('information-parent-block-'+ind).style.height = px(80);
+	let p = get('information-parent-block-'+ind);
+	p.style.height = px(80);
+	let g = p.parentNode.parentNode;
+	g.style.height = px(heights[g.id]+60);
+
 }
 
 function pinInfo(ele, ind) {
@@ -99,41 +178,38 @@ function overElement(e, ele) {
 	return (my>min && my<max && mx>left && mx<right);
 }
 
+function setScreen() {
+	get('userHistory').style.width = screen.width;
+}
+
 function setNotes() {
-	let ele = document.getElementById('userHistory');
-	ele.style.width = screen.width;
-	var edits = document.getElementsByClassName('edit-button');
-	var editBtns = document.getElementsByClassName('editBtn');
-	var deletes = document.getElementsByClassName('delete-button');
-	var titles = document.getElementsByClassName('note-title');
-	var noteMsg = document.getElementsByClassName('note-message');	
+	var edits = getClass('edit-button');
+	var editBtns = getClass('editBtn');
+	var deletes = getClass('delete-button');
+	var titles = getClass('note-title');
+	var noteMsg = getClass('note-message');	
 	let btnHeight = 16;
 	let msgHeight = noteMsg[0].offsetHeight;
 	for (let i=0; i<edits.length; i++) {
 		let blockHeight = titles[i].offsetHeight/2;
-		let h = blockHeight+'px';
-		let top = (blockHeight/2-btnHeight/2)+'px';
+		let h = px(blockHeight);
+		let top = px(blockHeight/2-btnHeight/2);
 		edits[i].style.height = h;
 		deletes[i].style.height = h;
-		editBtns[i*2].style.height = btnHeight+'px';
-		editBtns[i*2+1].style.width = btnHeight+'px';
+		editBtns[i*2].style.height = px(btnHeight);
+		editBtns[i*2+1].style.width = px(btnHeight);
 		editBtns[i*2].style.marginTop = top;
 		editBtns[i*2+1].style.marginTop = top;
-		noteMsg[i].style.marginTop = (blockHeight-msgHeight/2)+'px';
+		noteMsg[i].style.marginTop = px(blockHeight-msgHeight/2);
 	}
 
-
-	var notes = document.getElementsByClassName('note-textarea');
-	var par = document.getElementsByClassName('note-block');
+	var notes = getClass('note-textarea');
+	var par = getClass('note-block');
 	for (let i=0; i<notes.length; i++) {
-		notes[i].style.height = par[i].offsetHeight+'px';
-	}
-
-	var tas = getClass('note-textarea');
-	for (let i=0; i<tas.length; i++) {
-		if (tas[i].value=='') {
-			tas[i].value = TEXTAREA_DEFAULT;
-			tas[i].style.color = `rgba(${grey}, ${grey}, ${grey}, 1)`;
+		notes[i].style.height = px(par[i].offsetHeight);
+		if (notes[i].value=='') {
+			notes[i].value = TEXTAREA_DEFAULT;
+			notes[i].style.color = `rgba(${grey}, ${grey}, ${grey}, 1)`;
 		}
 	}
 }
@@ -180,9 +256,13 @@ function deleteNote(ele, ind, news) {
 	ele.classList.remove('delete-button');
 	ele.classList.add('deleted');
 	icon.classList.remove('editBtn');
+
 	setInterval(function() {
-		if (ind>0)
-			hide(get('note-block-'+ind));
+		if (ind>0) {
+			let note = get('note-block-'+ind);
+			urHeight(parentClass(note, 'date-parent').id, -note.offsetHeight-5);
+			hide(note);
+		}
 		else
 			hide(get('story-block-'+ind));
 	}, 500);
@@ -194,21 +274,32 @@ function allowDrop(e) {
 
 function drop(e) {
 	e.preventDefault();
-	let np = get('note-parent');
+	let np = get('new-notes');
 	let id = e.dataTransfer.getData('id');
-	if (getClass('note-block').length==0) {
+	let block = get('new-notes-block');
+	if (block.classList.contains('hide')) {
+		show(block);
 		np.appendChild(get(id));
+		// heights[block.id] = 0;
 	} else {
 		np.insertBefore(get(id), np.firstChild);
 	}
+	np.classList.add('date-parent');
+	// urHeight(block.id, -changeHeight);
 	// e.target.appendChild(get(id));
 }
 
 function dragStart(e, ind) {
+	lockAllInfo();
+	let id = parentClass(e.target, 'date-parent').id;
+	changeHeight = -get('click-block-'+ind).offsetHeight-5;
+	urHeight(id, changeHeight);
 	var crosses = getClass('cross');
 	for (let i=0; i<crosses.length; i++) {
 		crosses[i].classList.add('hide');
 	}
+	e.dataTransfer.setData('changeID', id);
+	e.dataTransfer.setData('changeHeight', -changeHeight);
 	e.dataTransfer.setData('id', e.target.id);
 	e.target.classList.add('fade');
 	setTimeout(function() {
@@ -220,40 +311,50 @@ function dragOver(e, ind) {
 }
 
 function dragEnd(e, ind, click) {
+	// let changeHeight = e.dataTransfer.getData('changeHeight');
 	if (overElement(e, get('panel-userNote'))) {
-		e.target.classList.remove('fade');
-		e.target.classList.remove('hide');
 		userDeleteStory(click, '1');
 		userNote({'link': click['url'], 'title': click['title']}, click['tab'], '');
 		hide(get('click-block-'+ind));
 		show(get('note-block-'+ind));
-		showInline(get('information-parent-block-'+ind));
 		let info = get('information-parent-block-'+ind);
+		showInline(info);
 		info.classList.remove('click-information');
 		info.classList.add('note-information');
 		e.target.style.marginBottom = px(-5);
 		e.target.draggable = false;
-		setNotes();
+		// urHeight('note-'+ind, changeHeight);
 	} else {
-		e.target.classList.remove('fade');
-		e.target.classList.remove('hide');
+		urHeight(parentClass(e.target, 'date-parent').id, -changeHeight);
 	}
+	e.target.classList.remove('fade');
+	e.target.classList.remove('hide');
+	
 	
 	var crosses = getClass('cross');
 	for (let i=0; i<crosses.length; i++) {
 		crosses[i].classList.remove('hide');
 	}
+	setNotes();
+	get('note-textarea-'+ind).style.width = percent(100);
+	unlockAllInfo();
 }
 
 function crossClick(ele, ind, news) {
+	let p = parentClass(ele, 'date-parent');
+	updateHeight(p.id, -get('story-block-'+ind).offsetHeight)
+	refreshHeight(p.id);
 	ele.style.opacity = 0.8;
 	ele.style.width = percent(100);
 	setCross(ind, 25);
 	hide(get('information-parent-block-'+ind));
 	setTimeout(function() {
+		updateHeight(p.id, -5)
+		refreshHeight(p.id);
 		userDeleteStory(news, '0');
 		deleteStory(ele, ind);
 	}, 300);
+	// unlockAllInfo();
 }
 
 function deleteStory(ele, ind) {
@@ -471,6 +572,33 @@ function userClick(obj, tab) {
 	};
 
 	fetch(`${window.origin}/log/news-assistant-click`, {
+		method: "POST",
+		credentials: "include",
+		body: JSON.stringify(entry),
+		cache: "no-cache",
+		headers: new Headers({
+			"content-type": "application/json"
+		})
+		})
+		.then(function(response) {
+		if (response.status !== 200) {
+			console.log(`Looks like there was a problem. Status code: ${response.status}`);
+			return;
+		}
+		response.json().then(function(data) {
+			console.log(data);
+		});
+		})
+		.catch(function(error) {
+		console.log("Fetch error: " + error);
+	});
+}
+
+function downloadData() {
+	var entry = {
+	};
+
+	fetch(`${window.origin}/log/news-assistant-download`, {
 		method: "POST",
 		credentials: "include",
 		body: JSON.stringify(entry),

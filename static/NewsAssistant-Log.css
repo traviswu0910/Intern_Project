@@ -1,0 +1,65 @@
+/*NewsAssistant-Log.css*/
+
+.main-block {
+	margin-top: 20px;
+	text-align: center;
+}
+
+.filter-bar {
+	margin: auto;
+	border-radius: 10px;
+	width: 900px;
+	height: 40px;
+	background-color: #f9a602;
+}
+
+.log-panel {
+	margin: auto;
+	margin-top: 10px;
+	width: 900px;
+	height: 550px;
+	background-color: rgba(129, 189, 251, 1.0);
+	border-radius: 10px;
+	overflow: auto;
+	padding-bottom: 20px;
+}
+
+.date-block {
+	color: white;
+	margin: auto;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	border-bottom: solid 1px white;
+	text-align: left;
+	width: calc(100% - 120px);
+}
+
+.log-block {
+	width: calc(100% - 100px);
+	height: 35px;
+	margin: auto;
+	margin-bottom: 3px;
+	background-color: white;
+	border-radius: 5px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+.log-parent{
+	overflow: hidden;
+	-webkit-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+}
+
+.log-content {
+	display: inline-block;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+
+
+
+
+

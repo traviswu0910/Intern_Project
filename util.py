@@ -2,6 +2,7 @@
 import random
 import json
 import datetime as dt
+from download import strategy_list
 
 SchemaLocation='All_Data/'
 Path={
@@ -88,6 +89,7 @@ class UserFeed(InfoJson):
 			'click':[],
 			'note':[],
 			'log':[],
+			'portfolio': strategy_list
 		}
 		self.updateLogin(tag, time)
 
@@ -104,7 +106,7 @@ class UserFeed(InfoJson):
 		self.logs(tag).append(log)
 
 	def updateLogin(self, tag, time):
-		self.addHistory(tag, {'action': 'login', 'content': time})
+		self.addHistory(tag, {'action': 'login', 'content': {'time': time}})
 		self.info[tag]['login'].append(time)
 		self.push()
 
@@ -155,12 +157,29 @@ class UserInfo():
 	def signingUp(self):
 		return self.flag['signup']
 
-
 	def notes(self):
 		return self.userfeed.notes(self.tag)
 
 	def clicks(self):
 		return self.userfeed.clicks(self.tag)
+
+	def logs(self):
+		return self.userfeed.logs(self.tag)
+
+	def copy(self, target):
+		dest = []
+		for t in target:
+			dest.append(t)
+		return dest
+
+	def copyClicks(self):
+		return self.copy(self.clicks())
+
+	def copyNotes(self):
+		return self.copy(self.notes())
+
+	def copyLogs(self):
+		return self.copy(self.logs())
 
 	def updateTime(self):
 		self.currentForm['time'] = dt.datetime.now().strftime('%Y%m%d  %H:%M:%S')
@@ -249,7 +268,8 @@ class UserInfo():
 				self.updateTime()
 				self.userfeed.create(self.tag, self.currentForm['time'])
 				self.flag['login'] = True
-			self.flag['signin'] = True
+				print('success')
+			self.flag['signup'] = True
 		return self.msg
 
 	def checkSignin(self):
