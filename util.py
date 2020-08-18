@@ -249,7 +249,7 @@ class UserInfo():
 				self.updateTime()
 				self.userfeed.create(self.tag, self.currentForm['time'])
 				self.flag['login'] = True
-			self.flag['signin'] = True
+			self.flag['signup'] = True
 		return self.msg
 
 	def checkSignin(self):

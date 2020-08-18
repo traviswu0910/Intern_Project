@@ -1,5 +1,6 @@
 from GetUIData import *
 from util import *
+from download import *
 
 def utilInputs(form=None, util=None):
     if util=='NewsAssistant':
@@ -9,6 +10,9 @@ def utilInputs(form=None, util=None):
         top_news = News.get_top_news(form['date'], range(1, 4), form['kw'])
 
         portfolio_list,portfolio_news = News.get_portfolio_news(form['date'],form['pf'],form['kw'])
+
+        # download_data = package(form['date'],form['pf'],form['kw'])
+
         if portfolio_list:
             ret = Chart.get_chart_data(form['date'],form['pf'])
         else:
@@ -17,6 +21,8 @@ def utilInputs(form=None, util=None):
         top_tws = Twitter.get_top_twitter(form['date'], range(1, 5))
 
         celebs, hot_tws = Twitter.get_hot_twitter(form['date'])
+
+
 
         return {
             'date': form['date'],
@@ -29,9 +35,15 @@ def utilInputs(form=None, util=None):
             'top_tws': top_tws,
             'hot_tws': hot_tws,
             'celebs': celebs,
+            # 'download_data':download_data
         }
     elif util=='Stock':
         return {}
+    elif util == 'download':
+        download_data = package(form['date'],form['pf'],form['kw'])
+        return {
+            'download_data':download_data
+        }
     else:
         return {}
 
