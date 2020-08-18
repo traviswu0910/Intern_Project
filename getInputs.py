@@ -1,9 +1,6 @@
 from GetUIData import *
 from util import *
-<<<<<<< HEAD
 import datetime
-=======
->>>>>>> a83e44bb40f6ec548cd46da5354b38f5ca7c3555
 from download import *
 
 def utilInputs(form=None, util=None):
@@ -68,7 +65,7 @@ def userHistory(user):
 		return news['time'][:8]
 	def getTime(news):
 		time = news['time']
-		return datetime.datetime(int(time[:4]), int(time[4:6]), int(time[6:8])).strftime('%b %d, %Y')
+		return datetime(int(time[:4]), int(time[4:6]), int(time[6:8])).strftime('%b %d, %Y')
 	if len(clicks)>0:
 		click_days = [{'date':getTime(clicks[0]), 'crude': getCrude(clicks[0]), 'clicks':[clicks.pop(0)]}]
 		for i, click in enumerate(clicks):
@@ -98,7 +95,7 @@ def userLog(user):
 		return news['content']['time'][:8]
 	def getTime(news):
 		time = news['content']['time']
-		return datetime.datetime(int(time[:4]), int(time[4:6]), int(time[6:8])).strftime('%b %d, %Y')
+		return datetime(int(time[:4]), int(time[4:6]), int(time[6:8])).strftime('%b %d, %Y')
 	if len(logs)>0:
 		log_days = [{'date':getTime(logs[0]), 'crude': getCrude(logs[0]), 'logs':[logs.pop(0)]}]
 		for i, log in enumerate(logs):
