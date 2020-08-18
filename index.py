@@ -7,7 +7,6 @@ from util import *
 from getInputs import *
 
 user = UserInfo()		
-LOGIN_FLAG, SIGNUP_FLAG = 0, 0
 
 app = Flask(__name__)
 
@@ -34,6 +33,7 @@ def main():
 		else:
 			user.signin()
 		if user.loggedIn():
+			print('hihi')
 			for u in user.utilities:
 				if request.values[u['input']]=='1':
 					return redirect(url_for(u['name']))
@@ -56,7 +56,7 @@ def HistoryLog():
 	if request.method=='GET':
 		if not user.loggedIn():
 			return redirect(url_for('main'))
-		return render_template('HistoryLog.html')
+		return render_template('HistoryLog.html', logfile=userLog(user))
 
 @app.route("/NewsAssistant/History", methods=['POST', 'GET'])
 def History():
@@ -97,7 +97,11 @@ def newsAssistant_note():
 	user.addNote(currForm=user.currentForm, req=request.get_json())
 	res = make_response(jsonify({"message": "OK"}), 200)
 	return res
+<<<<<<< HEAD
+
+=======
 #start
+>>>>>>> a83e44bb40f6ec548cd46da5354b38f5ca7c3555
 @app.route("/log/news-assistant-download", methods=['Post'])
 def newsAssistant_Download():
 	res = make_response(jsonify({"message": "OK"}), 200)

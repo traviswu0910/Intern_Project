@@ -1,14 +1,13 @@
 <!-- HistoryLog.html -->
-
 <html>
     <head>
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <link rel=stylesheet type="text/css" href="{{ url_for('static', filename='NewsAssistant.css') }}">
-        <link rel=stylesheet type="text/css" href="{{ url_for('static', filename='NewsAssistant-History.css') }}">
+        <link rel=stylesheet type="text/css" href="{{ url_for('static', filename='NewsAssistant-Log.css') }}">
         <link rel=stylesheet type="text/css" href="{{ url_for('static', filename='NewsAssistant-common.css') }}">
         <link rel=stylesheet type="text/css" href="{{ url_for('static', filename='Radio-Button.css') }}">
 
-        <script type="text/javascript" src="{{ url_for('static', filename='NewsAssistant.js') }}"></script>
+        <script type="text/javascript" src="{{ url_for('static', filename='Log.js') }}"></script>
         <script type="text/javascript" src="{{ url_for('static', filename='jquery-migrate-3.3.0.min.js') }}"></script>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,7 +16,16 @@
     
     <body> 
         {% include 'logo.html' %}
-	    <script>
-	    </script>
+        <div class="main-block">
+        	<div class="filter-bar">
+        	</div>
+        	<div id="lop-panel" class="log-panel">
+        		{% include 'log.html' %}
+        	</div>
+        </div>
     </body>
+	<script>
+    	recordLogHeights();
+    	setLogHeights();
+    </script>
 </html>

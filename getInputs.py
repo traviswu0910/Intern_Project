@@ -1,5 +1,9 @@
 from GetUIData import *
 from util import *
+<<<<<<< HEAD
+import datetime
+=======
+>>>>>>> a83e44bb40f6ec548cd46da5354b38f5ca7c3555
 from download import *
 
 def utilInputs(form=None, util=None):
@@ -37,6 +41,12 @@ def utilInputs(form=None, util=None):
             'celebs': celebs,
             # 'download_data':download_data
         }
+    elif util == 'download':
+        download_data = package(form['date'],form['pf'],form['kw'])
+        return {
+            'download_data':download_data
+        }
+
     elif util=='Stock':
         return {}
     elif util == 'download':
@@ -49,12 +59,55 @@ def utilInputs(form=None, util=None):
 
 
 def userHistory(user):
+	clicks = user.copyClicks()
+	clicks.reverse()
+	notes = user.copyNotes()
+	notes.reverse()
+	click_days, note_days = [], []
+	def getCrude(news):
+		return news['time'][:8]
+	def getTime(news):
+		time = news['time']
+		return datetime.datetime(int(time[:4]), int(time[4:6]), int(time[6:8])).strftime('%b %d, %Y')
+	if len(clicks)>0:
+		click_days = [{'date':getTime(clicks[0]), 'crude': getCrude(clicks[0]), 'clicks':[clicks.pop(0)]}]
+		for i, click in enumerate(clicks):
+			time = getTime(click)
+			if time==click_days[-1]['date']:
+				click_days[-1]['clicks'].append(click)
+			else:
+				click_days.append({'date':time, 'crude':getCrude(click), 'clicks':[click]})
+	if len(notes)>0:
+		note_days = [{'date':getTime(notes[0]), 'crude': getCrude(notes[0]), 'notes':[notes.pop(0)]}]
+		for i, note in enumerate(notes):
+			time = getTime(note)
+			if time==note_days[-1]['date']:
+				note_days[-1]['notes'].append(note)
+			else:
+				note_days.append({'date':time, 'crude': getCrude(note), 'notes':[note]})
 	return {
-		'click': user.clicks(),
-		'note': user.notes(),
+		'click': click_days,
+		'note': note_days,
 	}
 
-
+def userLog(user):
+	logs = user.copyLogs()
+	logs.reverse()
+	log_days = []
+	def getCrude(news):
+		return news['content']['time'][:8]
+	def getTime(news):
+		time = news['content']['time']
+		return datetime.datetime(int(time[:4]), int(time[4:6]), int(time[6:8])).strftime('%b %d, %Y')
+	if len(logs)>0:
+		log_days = [{'date':getTime(logs[0]), 'crude': getCrude(logs[0]), 'logs':[logs.pop(0)]}]
+		for i, log in enumerate(logs):
+			time = getTime(log)
+			if time==log_days[-1]['date']:
+				log_days[-1]['logs'].append(log)
+			else:
+				log_days.append({'date':time, 'crude':getCrude(log), 'logs':[log]})
+	return log_days
 
 
 

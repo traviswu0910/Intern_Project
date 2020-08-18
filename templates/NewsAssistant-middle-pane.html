@@ -1,0 +1,17 @@
+<!-- NewsAssistant-middle-pane.html -->
+<div class="middlepane pane-block block-color">
+    <p class='pane-title'>Portfolio News</p>
+    <div class="general_panel" name="general_panel">
+        {% for news in inputs['portfolio_news'] %}
+        <a class="pf-news-clickbox lazy" href={{ news['link']}} onclick="userClick({{ news }}, '0');" target="_blank">
+            <div class="pf-news-title lazy news-block">
+                {{ news['title']}}
+            </div>
+        </a>
+        <div class="pf-news-info lazy news-info-block">
+            &ensp;Date&ensp;:&ensp;{{ news['pubdate']}}<br/>&ensp;Src&ensp;:&ensp;{{ news['source']}}
+            <br/>&ensp;Comp:&ensp;<b>{{news['title_company']}}</b>
+        </div>
+        {% endfor %}        
+    </div>
+</div>

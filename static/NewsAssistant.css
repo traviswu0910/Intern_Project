@@ -70,11 +70,17 @@ body{
 	display: inline-block;
 }
 
-#history-icon {
+.jump-icons {
+	float: right;
+	width: 120px;
+	height: 100%;
+}
+
+.toppane-icon {
 	width: 5%;
 	height: 100%;
-	padding-top: 0.75%;
-	float: right;
+	margin-right: 25px;
+	margin-top: 10px;
 	display: inline-block;
 }
 
@@ -111,15 +117,15 @@ body{
 	transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
-.history {
+.toppane-icon-image {
 	transition: transform .2s; /* Animation */
 	width: 25px;
 	height: 25px;
-	margin: 0 auto;
+	margin: auto;
 	cursor: pointer;
 }
 
-.history:hover {
+.toppane-icon-image:hover {
 	transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
@@ -523,6 +529,37 @@ textarea.notes {
 }
 
 
+
+#download-icon {
+	width: 4.5%;
+	height: 100%;
+	padding-top: 0.75%;
+	float: right;
+	display: inline-block;
+}
+
+.d-image-container {
+	right: 90px;
+	position: absolute;
+	width: 50%;
+	text-align: center;
+}
+
+
+.download {
+	transition: .5s ease; /* Animation */
+	width: 43%;
+	height: auto;
+	margin: 0 auto;
+	cursor: pointer;
+	display: block;
+	backface-visibility: hidden;
+	opacity: 1;
+}
+
+.download:hover {
+	transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
 
 
 

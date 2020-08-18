@@ -1,8 +1,14 @@
 import pandas as pd
 import json
 from datetime import datetime
+<<<<<<< HEAD
+from os import path, mkdir
+
+fPath = './All_Data'
+=======
 
 path = '/Users/tianyouwu/Desktop/Intern/All_Data'
+>>>>>>> a83e44bb40f6ec548cd46da5354b38f5ca7c3555
 strategy_list = {
     'pph_1':'news_PortfolioList_AbovePositive5',
     'pph_2':'news_PortfolioList_BelowNegative5',
@@ -14,6 +20,12 @@ strategy_list = {
 
 def package(date, strategy_name, keyword):
 	# print('123123')
+<<<<<<< HEAD
+	p = path.join(fPath,'Download_Data')
+	if not path.isdir(p):
+		mkdir(p)
+=======
+>>>>>>> a83e44bb40f6ec548cd46da5354b38f5ca7c3555
 	date = date.replace('-','')
 	result={}
 	def top_news_package(date,keyword):
@@ -23,7 +35,11 @@ def package(date, strategy_name, keyword):
 						'count1','count2','count3']
 		for num in range(1,4):
 			try:
+<<<<<<< HEAD
+				with open(fPath+'/top_news/{}_{}.json'.format(date,num),'r') as f:
+=======
 				with open(path+'/top_news/{}_{}.json'.format(date,num),'r') as f:
+>>>>>>> a83e44bb40f6ec548cd46da5354b38f5ca7c3555
 					top_news_file = json.load(f)
 				# print(top_news_file[1])
 				for i in range(len(top_news_file)):
@@ -57,7 +73,11 @@ def package(date, strategy_name, keyword):
 		del_key_list = ['clean_text','count1','count2','count3','count4']
 		for num in range(1,5):
 			try:
+<<<<<<< HEAD
+				with open(fPath+'/top_twitters/{}_{}.json'.format(date,num),'r') as f:
+=======
 				with open(path+'/top_twitters/{}_{}.json'.format(date,num),'r') as f:
+>>>>>>> a83e44bb40f6ec548cd46da5354b38f5ca7c3555
 					top_twitters_file = json.load(f)
 					# print(top_twitters_file)
 					for i in range(len(top_twitters_file)):
@@ -79,7 +99,11 @@ def package(date, strategy_name, keyword):
 		del_key_list = ['AnnualConti','AnnualSingle','Conti','Nearest30DaysSingle','Nearest365DaysSingle',
 						'Nearest7DaysSingle','Period','Price','created','id']
 		try:
+<<<<<<< HEAD
+			with open(fPath+'/UIData/PortfolioPerformance_{}_{}.json'.format(strategy_name,date),'r') as f:
+=======
 			with open(path+'/UIData/PortfolioPerformance_{}_{}.json'.format(strategy_name,date),'r') as f:
+>>>>>>> a83e44bb40f6ec548cd46da5354b38f5ca7c3555
 				portfolio_performance_file = json.load(f)
 				# print(portfolio_performance_file)
 				for i in range(len(portfolio_performance_file)):
@@ -99,7 +123,11 @@ def package(date, strategy_name, keyword):
 		del_key_list=['author','content','description','feedburner:origlink','guid','metadata:id',
 						'metadata:sponsored','metadata:type','urlToImage','title_cleaned','count']
 		try:
+<<<<<<< HEAD
+			with open(fPath+'/portfolio_news/{}_{}.json'.format(strategy_name,date),'r') as f:
+=======
 			with open(path+'/portfolio_news/{}_{}.json'.format(strategy_name,date),'r') as f:
+>>>>>>> a83e44bb40f6ec548cd46da5354b38f5ca7c3555
 				portfolio_news_file = json.load(f)
 			# print(portfolio_news_file)
 			for i in range(len(portfolio_news_file)):
@@ -128,7 +156,11 @@ def package(date, strategy_name, keyword):
 	def portfolio_list_package(date):
 		portfolio_list_package_dic={}
 		try:
+<<<<<<< HEAD
+			with open(fPath+'/UIData/PortfolioList_AbovePositive5.json','r') as f:
+=======
 			with open(path+'/UIData/PortfolioList_AbovePositive5.json','r') as f:
+>>>>>>> a83e44bb40f6ec548cd46da5354b38f5ca7c3555
 				portfolio_list_file = json.load(f)
 				# print(portfolio_list_file)
 			for i in range(len(portfolio_list_file)):
@@ -145,7 +177,11 @@ def package(date, strategy_name, keyword):
 		author_list = ['FundyLongShort','SmallCapLS','ShortSightedCap']
 		try:
 			for author in author_list:
+<<<<<<< HEAD
+				with open(fPath+'/top_author_twitters/{}+{}.json'.format(author,date),'r') as f:
+=======
 				with open(path+'/top_author_twitters/{}+{}.json'.format(author,date),'r') as f:
+>>>>>>> a83e44bb40f6ec548cd46da5354b38f5ca7c3555
 					top_author_twitters_file = json.load(f)
 				# print(top_author_twitters_file)
 				top_author_twitters_dic[author] = []
@@ -158,9 +194,15 @@ def package(date, strategy_name, keyword):
 		return top_author_twitters_dic # return {'A':[{'Name':...,}]}
 	result['Top_Twitters_Author'] = top_author_twitter_package(date)
 	strategy_name= strategy_list[strategy_name]
+<<<<<<< HEAD
+	with open(fPath+'/Download_Data/{}_{}_{}.json'.format(date, strategy_name, keyword), 'w') as f:
+		json.dump(result,f)
+	# print(date, strategy_name, keyword)
+=======
 	# with open(path+'/Download_Data/{}_{}_{}.json'.format(date, strategy_name, keyword),'w') as f:
 	# 	json.dump(result,f)
 	print(date, strategy_name, keyword)
+>>>>>>> a83e44bb40f6ec548cd46da5354b38f5ca7c3555
 	return result
 
 # print(package('20180123','AbovePositive5',''))
