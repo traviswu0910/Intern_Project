@@ -268,7 +268,10 @@ class UserInfo():
 				self.updateTime()
 				self.userfeed.create(self.tag, self.currentForm['time'])
 				self.flag['login'] = True
+<<<<<<< HEAD
 				print('success')
+=======
+>>>>>>> a83e44bb40f6ec548cd46da5354b38f5ca7c3555
 			self.flag['signup'] = True
 		return self.msg
 

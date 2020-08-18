@@ -13,7 +13,44 @@
     
     <body> 
         {% include 'logo.html' %}
+<<<<<<< HEAD
         {% include 'NewsAssistant-top-pane.html' %}
+=======
+        <div class="toppane">
+            <form class="user-form" action="NewsAssistant" method="post">
+                <div class="form-element">
+                    <label for="datepicker">Date </label>
+                    <input type="date" id="datepicker" name="datepicker"class="inputbox cursor-pointer" value={{inputs['date']}} onfocus="(this.type=date)">
+                </div>
+                <div class="form-element">
+                    <label for="portfolio">Portfolio </label>
+                    <select id="portfolio" name="portfolio" class="inputbox cursor-pointer">
+                        <option value="pph_1" {{inputs['selected']['pph_1']}}>Daily 5% &#8593</option>
+                        <option value="pph_2" {{inputs['selected']['pph_2']}}>Daily 5% &#8595</option>
+                        <option value="pph_3" {{inputs['selected']['pph_3']}}>Weekly 10% &#8593</option>
+                        <option value="pph_4" {{inputs['selected']['pph_4']}}>Weekly 10% &#8595</option>
+                        <option value="pph_5" {{inputs['selected']['pph_5']}}>Monthly 20% &#8593</option>
+                    </select>
+                </div>
+                <div class="form-element">
+                    <div class="ikeyword">Keyword <input type="text" id="ikeyword" name="ikeyword" class="inputbox" value={{inputs['keyword']}}></div>
+                </div>
+                <div class="image-container form-element">
+                    <input type="image" id="goto" class="goto no-outline" src="/static/img/goto_w.png">
+                </div>
+            </form>
+            <a id="history-icon" class="image-container" href="/NewsAssistant/History" target="_self">
+                <img class="history no-outline " src="/static/img/history.png">
+            </a>
+            <!--start--> 
+            <a id="download-icon" class="
+            d-image-container" onclick="downloadData();">
+                <img class="download" src="/static/img/download.png">
+            </a>
+            <!--end--> 
+        </div>
+        
+>>>>>>> a83e44bb40f6ec548cd46da5354b38f5ca7c3555
         <div class="body-block">
             <!--Portfolio Display Section-->
             {% include 'NewsAssistant-left-pane.html' %}
