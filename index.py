@@ -97,17 +97,13 @@ def newsAssistant_note():
 	user.addNote(currForm=user.currentForm, req=request.get_json())
 	res = make_response(jsonify({"message": "OK"}), 200)
 	return res
-<<<<<<< HEAD
 
-=======
-#start
->>>>>>> a83e44bb40f6ec548cd46da5354b38f5ca7c3555
 @app.route("/log/news-assistant-download", methods=['Post'])
 def newsAssistant_Download():
 	res = make_response(jsonify({"message": "OK"}), 200)
 	utilInputs(user.currentForm, util='download')
 	return res
-#end
+
 if __name__ == "__main__":
 	app.run()
 
