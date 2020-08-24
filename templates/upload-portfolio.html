@@ -1,0 +1,14 @@
+<!-- upload-portfolio.html -->
+<script>
+	$('#portfolio-form').submit(function(e){
+	    $.ajax({
+	        url: 'portfolio-upload',
+	        type: 'post',
+	        data: $('#portfolio-form').serialize(),
+	        success:function(){
+	            // Whatever you want to do after the form is successfully submitted
+	        }
+	    });
+	    e.preventDefault();
+	});
+</script>

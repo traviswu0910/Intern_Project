@@ -3,9 +3,9 @@
     <head>
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <link rel=stylesheet type="text/css" href="{{ url_for('static', filename='NewsAssistant.css') }}">
+        <link rel=stylesheet type="text/css" href="{{ url_for('static', filename='menu.css') }}">
         <link rel=stylesheet type="text/css" href="{{ url_for('static', filename='NewsAssistant-History.css') }}">
         <link rel=stylesheet type="text/css" href="{{ url_for('static', filename='NewsAssistant-common.css') }}">
-        <link rel=stylesheet type="text/css" href="{{ url_for('static', filename='Radio-Button.css') }}">
 
         <script type="text/javascript" src="{{ url_for('static', filename='NewsAssistant.js') }}"></script>
         <script type="text/javascript" src="{{ url_for('static', filename='jquery-migrate-3.3.0.min.js') }}"></script>
@@ -16,6 +16,14 @@
     
     <body> 
         {% include 'logo.html' %}
+        <div class="menu">
+        	<a class="menu-image-container" href="/NewsAssistant" target="_blank">
+                <img id="home-icon" class="menu-icon no-outline" src="/static/img/home.png">
+            </a>
+        	<a class="menu-image-container" href="/NewsAssistant/HistoryLog" target="_blank">
+                <img id="log-icon" class="menu-icon no-outline" src="/static/img/log.png">
+            </a>
+        </div>
         <div id="userHistory">
         	<div id="panel-userClick" class="history-panel">
 	        	<div class="category-title">
@@ -33,38 +41,6 @@
 	        		{% include 'history_note.html' %}
 	    		</div>
         	</div>
-        	<!-- <div class="continput">
-	    		<ul>
-	        		<li>
-						<input checked type="radio" name="1" class="radio-button">
-						<label>Latest First</label>
-						<div class="bullet">
-							<div class="line zero"></div>
-							<div class="line one"></div>
-							<div class="line two"></div>
-							<div class="line three"></div>
-							<div class="line four"></div>
-							<div class="line five"></div>
-							<div class="line six"></div>
-							<div class="line seven"></div>
-						</div>
-					</li>
-					<li>
-						<input checked type="radio" name="1" class="radio-button">
-						<label>Oldest First</label>
-						<div class="bullet">
-							<div class="line zero"></div>
-							<div class="line one"></div>
-							<div class="line two"></div>
-							<div class="line three"></div>
-							<div class="line four"></div>
-							<div class="line five"></div>
-							<div class="line six"></div>
-							<div class="line seven"></div>
-						</div>
-					</li>
-				</ul>
-	    	</div> -->
 	    </div>
 	    <script>
 	    	setScreen();

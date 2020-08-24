@@ -1,6 +1,18 @@
+:root {
+	--chatbox-border: 2px;
+	--chatbox-width: 300px;
+	--chatbox-height: 200px;
+	--chatbox-color: coral;
+}
+
 @font-face {
 	font-family: techFont;
 	src: url('../static/fonts/Gtek Technology free promo.ttf');
+}
+
+@font-face {
+	font-family: scribbleFont;
+	src: url('../static/fonts/ScribbleBoxDemo-gyWq.ttf');
 }
 
 html {
@@ -54,46 +66,55 @@ body{
 
 /* top-pane -- top user bar */
 .toppane{
-	margin-bottom: 0.5%;
+	margin-bottom: 10px;
 	width: 100%;
-	height: 7%;
+	height: 8%;
 	text-align: center;
 	background-image: linear-gradient(rgb(69, 114, 149), rgb(110, 184, 239) 7%, rgb(79, 159, 220) 17%, rgb(78, 114, 151) 100%);
 	/*background-image: linear-gradient(rgba(79, 159, 220, 1), rgba(48, 128, 191, 1));*/
 }
 
 .user-form {
-	width: 90%;
+	width: 1000px;
 	height: 100%;
-	padding-top: 0.75%;
-	text-align: center;
-	display: inline-block;
+	margin-left: 100px;
+	/*padding-top: 0.75%;*/
+	/*text-align: center;*/
+	display: flex;
+	justify-content:center;
+	align-items:center;
 }
 
 .jump-icons {
-	float: right;
-	width: 120px;
 	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	float: right;
+	margin-right: -100px;
+	width: 200px;
+	/*translate()*/
+	/*margin-left: 30px;*/
 }
 
 .toppane-icon {
-	width: 5%;
-	height: 100%;
-	margin-right: 25px;
-	margin-top: 10px;
+	width: 50px;
+	/*height: 100%;*/
+	/*margin-right: 10px;*/
+	/*margin-top: 10px;*/
+	float: right;
 	display: inline-block;
 }
 
 .image-container {
-	margin-left: 1.5%;
+	/*margin-left: 1.5%;*/
 	text-align: center;
 }
 
 .form-element {
 	display: inline-block;
-	margin-left: 1%;
-	margin-right: 1%;
-	vertical-align: middle;
+	margin-left: 5px;
+	margin-right: 5px;
 }
 
 .inputbox {
@@ -132,41 +153,6 @@ body{
 .inputbox:focus, .notes:focus, .no-outline:focus {
 	outline: none;
 }
-
-#download-icon {
-	width: 4.5%;
-	height: 100%;
-	padding-top: 0.75%;
-	float: right;
-	display: inline-block;
-}
-
-.d-image-container {
-	margin-left: 0%;
-	position: absolute;
-	width: 50%;
-	text-align: center;
-}
-
-
-.download {
-	transition: .5s ease; /* Animation */
-	width: 43%;
-	height: auto;
-	margin: 0 auto;
-	cursor: pointer;
-	display: block;
-	backface-visibility: hidden;
-	opacity: 1;
-}
-
-.download:hover {
-	transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-}
-
-
-
-
 
 /* middle-pane: portfolio information + portfolio news + top news */
 .leftpane{
@@ -528,38 +514,218 @@ textarea.notes {
 	color: black;
 }
 
-
-
-#download-icon {
-	width: 4.5%;
-	height: 100%;
-	padding-top: 0.75%;
-	float: right;
-	display: inline-block;
+#portfolio-file-selector {
+	display: none;
 }
 
-.d-image-container {
-	right: 90px;
+#portfolio-submit {
+	display: none;
+}
+
+#portfolio-form {
+	display: none;
+}
+
+.hide {
+	display: none;
+}
+
+.transparent {
+	opacity: 0;
+}
+
+.chatbox-back {
+	width: var(--chatbox-width);
+	height: var(--chatbox-height);
 	position: absolute;
-	width: 50%;
+	background-color: var(--chatbox-color);
+	z-index: 100;
+	border-radius: 7px;
+	border: solid var(--chatbox-border) grey;
+	overflow: hidden;
+	-webkit-transition: all 1s ease-in-out;
+	transition: all 10s ease-in-out;
+}
+
+.chatbox-fore {
+	width: calc(var(--chatbox-width) - var(--chatbox-border) * 2);
+	height: calc(var(--chatbox-height) - var(--chatbox-border) * 2);
+	position: absolute;
+	border-radius: 7px;
+	background-color: var(--chatbox-color);
+	border: none;
+	z-index: 110;
+	-webkit-transition: all 1s ease-in-out;
+	transition: all 10s ease-in-out;
+	overflow: hidden;
+}
+
+.chatbox-corner {
+	width: 20px;
+	height: 30px;
+	position: absolute;
+	transform: rotate(45deg);
+	z-index: 105;
+	background-color: var(--chatbox-color);
+	border: solid var(--chatbox-border) grey;
+	-webkit-transition: all 1s ease-in-out;
+	transition: all 10s ease-in-out;
+}
+
+.timer {
+	-webkit-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+}
+
+.timer-page {
+	position: relative;
+	width: var(--chatbox-width);
+	height: 100%;
+	display: inline-block;
+	margin: 0;
+}
+
+#timer-first-page {
+	background-color: transparent;
 	text-align: center;
 }
 
+#timer-second-page {
+	left: var(--chatbox-width);
+	top: calc(0px - var(--chatbox-height) + var(--chatbox-border) * 2);
+	background-color: transparent;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+}
 
-.download {
-	transition: .5s ease; /* Animation */
-	width: 43%;
-	height: auto;
-	margin: 0 auto;
+#day-selector {
+	height: 40px;
+	width: 80%;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom: solid 3px grey;
 	cursor: pointer;
-	display: block;
-	backface-visibility: hidden;
-	opacity: 1;
 }
 
-.download:hover {
-	transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+#day-selector-label {
+	cursor: pointer;
+	width: 100%;
+	color: black;
+	font-weight: 800;
+	font-size: 15px;
+	display: inline-block;
+	z-index: 20;
 }
+
+#day-selector-shade {
+	z-index: 10;
+	position: absolute;
+	width: 100%;
+	height: 40px;
+	left: 0;
+	right: 0;
+	background-color: black;
+	opacity: 0.2;
+}
+
+#time-setter {
+	width: 100%;
+	height: calc(100% - 50px);
+	display: flex;
+	justify-content:center;
+	align-items:center;
+}
+
+.time-setter-punctuation {
+	float: left;
+	font-size: 80px;
+}
+
+.time-setter-time {
+	float: left;
+	font-size: 75px;
+	height: 120px;
+	width: 95px;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
+
+.time-setter-time::-webkit-scrollbar {
+	display: none;
+}
+
+.time-parent {
+	-webkit-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+}
+
+#time-setter-hour {
+	overflow: auto;
+}
+
+#time-setter-minute {
+	overflow: auto;
+}
+
+.time-hour {
+	font-family: scribbleFont;
+	height: 100%;
+	width: 100%;
+}
+
+.time-minute {
+	font-family: scribbleFont;
+	height: 100%;
+	width: 100%;
+}
+
+.time-punctuation {
+	font-family: scribbleFont;
+}
+
+#time-setter-ap {
+	font-size: 15px;
+	transform: translate(5px, 22px);
+}
+
+#day-list {
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+}
+
+.day-option {
+	width: 100%;
+	height: 24%;
+	margin: 1px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	cursor: pointer;
+}
+
+.day-label {
+	display: inline-block;
+	cursor: pointer;
+}
+
+/*.day-shade {
+	display: absolute;
+	background-color: black;
+	opacity: 0.2;
+	z-index: 10;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}*/
+
 
 
 

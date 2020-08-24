@@ -3,7 +3,7 @@
     <form class="user-form" action="NewsAssistant" method="post">
         <div class="form-element">
             <label for="datepicker">Date </label>
-            <input type="date" id="datepicker" name="datepicker"class="inputbox cursor-pointer" value={{inputs['date']}} onfocus="(this.type=date)">
+            <input type="date" id="datepicker" name="datepicker" class="inputbox cursor-pointer" value={{inputs['date']}} onfocus="(this.type=date)">
         </div>
         <div class="form-element">
             <label for="portfolio">Portfolio </label>
@@ -15,23 +15,33 @@
                 <option value="pph_5" {{inputs['selected']['pph_5']}}>Monthly 20% &#8593</option>
             </select>
         </div>
+        <a class="toppane-icon image-container" >
+            <label for="portfolio-file-selector">
+                <img id="import-icon" class="toppane-icon-image no-outline" src="/static/img/import.png">
+            </label>
+        </a>
         <div class="form-element">
             <div class="ikeyword">Keyword <input type="text" id="ikeyword" name="ikeyword" class="inputbox" value={{inputs['keyword']}}></div>
         </div>
         <div class="image-container form-element">
             <input type="image" id="goto" class="goto no-outline" src="/static/img/goto_w.png">
         </div>
+        <div class="jump-icons">
+            <a id="download-icon" class="cursor-pointer toppane-icon
+                image-container" onclick="downloadData();">
+                <img class="goto no-outline" src="/static/img/download.png">
+            </a>
+            <!-- <a id="log-icon" class="toppane-icon image-container" href="/NewsAssistant/HistoryLog" target="_blank">
+                <img class="toppane-icon-image no-outline" src="/static/img/log.png">
+            </a> -->
+            <a id="history-icon" class="toppane-icon image-container" href="/NewsAssistant/History" target="_self">
+                <img class="toppane-icon-image no-outline" src="/static/img/history.png">
+            </a>
+        </div>
     </form>
-    <div class="jump-icons">
-        <a id="download-icon" class="
-            d-image-container" onclick="downloadData();">
-            <img class="download" src="/static/img/download.png">
-        </a>
-        <a id="log-icon" class="toppane-icon image-container" href="/NewsAssistant/HistoryLog" target="_blank">
-            <img class="toppane-icon-image no-outline" src="/static/img/log.png">
-        </a>
-        <a id="history-icon" class="toppane-icon image-container" href="/NewsAssistant/History" target="_self">
-            <img class="toppane-icon-image no-outline" src="/static/img/history.png">
-        </a>
-    </div>
+    <iframe class="hide" id="iframe" name="my_iframe"></iframe>
+    <form action="portfolio-upload" id="portfolio-form" method="POST" enctype="multipart/form-data" target="my_iframe">
+        <input type="file" id="portfolio-file-selector" name="upload" onchange="uploadPortfolio()">
+        <input id="portfolio-hidden" type="submit">
+    </form>
 </div>

@@ -22,8 +22,11 @@ def utilInputs(form=None, util=None):
         top_tws = Twitter.get_top_twitter(form['date'], range(1, 5))
 
         celebs, hot_tws = Twitter.get_hot_twitter(form['date'])
+        week = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+        week_days = [{'full': w, 'short': w[:3]} for w in week]
 
-
+        hour = ['{:02d}'.format(i) for i in range(12)]
+        minute = ['{:02d}'.format(i) for i in range(60)]
 
         return {
             'date': form['date'],
@@ -36,6 +39,9 @@ def utilInputs(form=None, util=None):
             'top_tws': top_tws,
             'hot_tws': hot_tws,
             'celebs': celebs,
+            'week_days': week_days,
+            'hour': hour,
+            'minute': minute,
             # 'download_data':download_data
         }
     elif util == 'download':

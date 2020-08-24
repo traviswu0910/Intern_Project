@@ -1,14 +1,27 @@
 <html>
     <head>
-        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel=stylesheet type="text/css" href="{{ url_for('static', filename='w3.css') }}">
         <link rel=stylesheet type="text/css" href="{{ url_for('static', filename='NewsAssistant.css') }}">
         <link rel=stylesheet type="text/css" href="{{ url_for('static', filename='NewsAssistant-common.css') }}">
         <script type="text/javascript" src="{{ url_for('static', filename='NewsAssistant.js') }}"></script>
         <script type="text/javascript" src="{{ url_for('static', filename='NewsAssistant_Download.js') }}"></script>
-        <script type="text/javascript" src="{{ url_for('static', filename='jquery-migrate-3.3.0.min.js') }}"></script>
+        <script type="text/javascript" src="{{ url_for('static', filename='jquery-3.5.1.js') }}"></script>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script type="text/javascript" src="{{ url_for('static', filename='Chart.min.js') }}"></script>
+        <script>
+            $('#portfolio-form').submit(function(e){
+                e.preventDefault();
+                $.ajax({
+                    url: 'portfolio-upload',
+                    type: 'post',
+                    data:$('#portfolio-file-selector').serialize(),
+                    success:function(){
+                        // Whatever you want to do after the form is successfully submitted
+                    }
+                });
+            });
+        </script>
     </head>
     
     <body> 
@@ -24,8 +37,60 @@
             <!--General Recommendation Display Section-->
             {% include 'NewsAssistant-bottom-pane.html' %}
         </div>
+        {% include 'upload-portfolio.html' %}
+        <div id="chatbox-back" class="chatbox-back hide">
+        </div>
+        <div id="chatbox-fore" class="chatbox-fore hide">
+            <form>
+            <div id="timer" class="timer">
+                <div id="timer-first-page" class="timer-page">
+                    <div id="day-selector" class="" onclick="timerNext()" onmouseover="shadeOn(this.id+'-shade')" onmouseout="shadeOff(this.id+'-shade')">
+                        <a id="day-selector-label">Remind On ></a>
+                        <div id="day-selector-shade" class="hide"></div>
+                    </div>
+                    <div id="time-setter">
+                        <div id="time-setter-hour" class="time-setter-time" onscroll="setHour()">
+                            <div id="time-parent-hour" class="time-parent">
+                                {% for hour in inputs['hour'] %}
+                                <a class="time-hour">{{hour}}</a>
+                                {% endfor %}
+                            </div>
+                        </div>
+                        <div class="time-punctuation">:</div>
+                        <div id="time-setter-minute" class="time-setter-time" onscroll="setMinute()">
+                            <div id="time-parent-minute">
+                                {% for minute in inputs['minute'] %}
+                                <a id="minute-{{loop.index}}" class="time-minute">{{minute}}</a>
+                                {% endfor %}
+                            </div>
+                        </div>
+                        <a id="time-setter-ap">A.M.</a>
+                    </div>
+                </div>
+                <div id="timer-second-page" class="timer-page" onclick="timerPrevious()">
+                    <div id="day-list">
+                        {% for day in inputs['week_days'] %}
+                        <div id="day-option-{{loop.index}}" class="day-option" onclick="selectDay({{loop.index}})" onmouseover="dayShadeOn(this)" onmouseout="dayShadeOff(this)">
+                            <label for="day-{{loop.index}}" class="day-label">{{day['full']}}</label>
+                            <input type="checkbox" name="day-{{loop.index}}" id="day-{loop.index}}" class="hide">
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+            </form>
+        </div>
+        <div id="chatbox-corner" class="chatbox-corner hide">
+        </div>
+        <a id="chatOwner" class="hide"></a>
+        <a id="lockChat" class="hide"></a>
         <script>
             openTab('trends');
+            lockChat();
+            callChat(get('import-icon'));
+            //
+            timerNext();
+            getInfo();
         </script>
     </body>
 </html>

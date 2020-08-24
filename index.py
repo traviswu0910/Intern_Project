@@ -10,6 +10,8 @@ user = UserInfo()
 
 app = Flask(__name__)
 
+developing = True
+
 @app.route('/draw')
 def drawingBoard():
 	return render_template('DrawingBoard.html')
@@ -33,7 +35,6 @@ def main():
 		else:
 			user.signin()
 		if user.loggedIn():
-			print('hihi')
 			for u in user.utilities:
 				if request.values[u['input']]=='1':
 					return redirect(url_for(u['name']))
@@ -46,9 +47,17 @@ def main():
 @app.route("/NewsAssistant", methods=["POST", "GET"])
 def NewsAssistant():
 	if request.method == "POST":
+		if not user.loggedIn():
+			return redirect(url_for('main'))
 		user.updateForm(req=request)
 		return render_template("NewsAssistant.html", inputs=utilInputs(user.currentForm, util='NewsAssistant'))
 	elif request.method=="GET":
+		if not user.loggedIn():
+			if developing:
+				user.fillInfo(username='BazingaWonka', password='buzz', retype='')
+				user.signin()
+			else:
+				return redirect(url_for('main'))
 		return render_template("NewsAssistant.html", inputs=utilInputs(user.currentForm, util='NewsAssistant'))
 	
 @app.route('/NewsAssistant/HistoryLog', methods=['POST', 'GET'])
@@ -102,6 +111,16 @@ def newsAssistant_note():
 def newsAssistant_Download():
 	res = make_response(jsonify({"message": "OK"}), 200)
 	utilInputs(user.currentForm, util='download')
+	return res
+
+@app.route("/portfolio-upload", methods=['post'])
+def uploadPortfolio():
+	res  = make_response(jsonify({"message": "New portfolio uploaded!"}), 200)
+	for attr in dir(request):
+		print('{}: {}'.format(attr, getattr(request, attr)))
+	file = request.files['upload']
+	data = json.load(file)
+	# print(data)
 	return res
 
 if __name__ == "__main__":

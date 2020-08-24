@@ -3,6 +3,7 @@
     <head>
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <link rel=stylesheet type="text/css" href="{{ url_for('static', filename='NewsAssistant.css') }}">
+        <link rel=stylesheet type="text/css" href="{{ url_for('static', filename='menu.css') }}">
         <link rel=stylesheet type="text/css" href="{{ url_for('static', filename='NewsAssistant-Log.css') }}">
         <link rel=stylesheet type="text/css" href="{{ url_for('static', filename='NewsAssistant-common.css') }}">
         <link rel=stylesheet type="text/css" href="{{ url_for('static', filename='Radio-Button.css') }}">
@@ -16,6 +17,14 @@
     
     <body> 
         {% include 'logo.html' %}
+        <div class="menu">
+            <a class="menu-image-container" href="/NewsAssistant" target="_blank">
+                <img id="home-icon" class="menu-icon no-outline" src="/static/img/home.png">
+            </a>
+            <a class="menu-image-container" href="/NewsAssistant/HistoryLog" target="_blank">
+                <img id="history-icon" class="menu-icon no-outline" src="/static/img/history.png">
+            </a>
+        </div>
         <div class="main-block">
         	<div class="filter-bar">
         	</div>
