@@ -24,6 +24,10 @@ function getClass(name) {
 	return document.getElementsByClassName(name);
 }
 
+function hide(ele) {
+	ele.classList.add('hide');
+}
+
 function recordLogHeights() {
 	var logs = getClass('log-parent');
 	for (let i=0; i<logs.length; i++) {
@@ -49,4 +53,26 @@ function dateClick(ind) {
 	}
 }
 
+
+function checkBlanks() {
+	var notes = getClass('log-note');
+	var kws = getClass('log-keyword');
+	for (let i=0; i<notes.length; i++) {
+		if (notes[i].innerText=='')
+			notes[i].innerText = '-';
+	}
+	for (let i=0; i<kws.length; i++) {
+		if (kws[i].innerText=='')
+			kws[i].innerText = '-';
+	}
+}
+
+function checkDates() {
+	var dates = getClass('each-date');
+	for (let i=0; i<dates.length; i++) {
+		if (dates[i].offsetHeight<100) {
+			hide(dates[i]);
+		}
+	}
+}
 

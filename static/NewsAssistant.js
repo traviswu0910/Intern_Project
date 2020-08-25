@@ -470,9 +470,15 @@ function updateNote(ele, i, news) {
 }
 
 function uploadPortfolio() {
-	get('portfolio-form').submit();
-	lockChat();
-	callChat(get('import-icon'));
+	Promise.resolve('uploadPortfolio')
+	.then(function() {
+		get('portfolio-form').submit();
+	}).then(function() {
+		setTimeout(function() {
+			lockChat();
+			callChat(get('import-icon'));
+		}, 500);
+	});
 }
 
 function userChangeNote(news, note) {
@@ -734,6 +740,10 @@ function lockChat() {
 	get('lockChat').innerHTML = 'lock';
 }
 
+function unlockChat() {
+	get('lockChat').innerHTML = '';
+}
+
 function chatLocked() {
 	if (get('lockChat').innerHTML=='lock')
 		return true;
@@ -786,7 +796,8 @@ function positionChatAbove(ele) {
 
 function callChat(ele) {
 	owner = get('chatOwner');
-	if (ele.id!=owner.innerHTML) {
+	// if (ele.id!=owner.innerHTML) {
+	if (true) {
 		owner.innerHTML = ele.id;
 		positionChatBelow(ele);
 		setTimeout(function() {
@@ -817,32 +828,52 @@ function shadeOff(ind) {
 	hide(get(ind));
 }
 
-function dayShadeOn(ele) {
+function dayShadeOn(ele, ind) {
 	ele.style.backgroundColor = 'rgba(0, 0, 0, 0.2)';
 }
 
-function dayShadeOff(ele) {
+function dayShadeOff(ele, ind) {
+	if (get('day-check-'+ind).checked)
+		return;
 	ele.style.backgroundColor = 'transparent';
+}
+
+function selectDay(ind) {
+	let cb = get('day-check-'+ind);
+	cb.checked = !cb.checked;
+	// alert(cb);
 }
 
 function setHour() {
 	clearTimeout(scrollTimer);
-	let ele = get('time-parent-hour');
-	ele.style.transform = 'translate(0, 0)';
+	let ele = get('time-setter-hour');
 	scrollTimer = setTimeout(function() {
-		let b = (154-getY(ele))%120;
-		let move = (Math.abs(b)*Math.sign(b));
-		ele.style.transform = `translate(0px, ${px(move)})`;
+		let b = ele.scrollTop;
+		let hour = Math.floor((b+56)/112);
+		ele.scrollTo({top: hour*112, behavior: 'smooth'});
+		// alert(hour*112);
 		// alert(ele.getBoundingClientRect()['y']);
-	}, 500);
+	}, 300);
 }
 
 function setMinute() {
 	// scrollTimer = setTime
+	clearTimeout(scrollTimer);
+	let ele = get('time-setter-minute');
+	scrollTimer = setTimeout(function() {
+		let b = ele.scrollTop;
+		let hour = Math.floor((b+56)/112);
+		ele.scrollTo({top: hour*112, behavior: 'smooth'});
+	}, 300);
 }
 
 function getInfo() {
 	// alert(`Hour width: ${get('time-setter-hour').offsetWidth}\nMinute width: ${get('time-setter-minute').offsetWidth}`);
+}
+
+function setTimer() {
+	hideChat();
+	// update the timer on the backend
 }
 
 

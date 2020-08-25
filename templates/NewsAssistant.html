@@ -66,13 +66,23 @@
                         </div>
                         <a id="time-setter-ap">A.M.</a>
                     </div>
+                    <div id="check-block">
+                        <a class="check-image-container" onclick="setTimer()">
+                            <img id="check-icon" class="check-icon no-outline" src="/static/img/check.png">
+                        </a>
+                    </div>
                 </div>
-                <div id="timer-second-page" class="timer-page" onclick="timerPrevious()">
+                <div id="timer-second-page" class="timer-page">
+                    <div id="vector-block" onclick="timerPrevious()">
+                        <a class="vector-image-container">
+                            <img id="vector-icon" class="vector-icon no-outline" src="/static/img/vector.png">
+                        </a>
+                    </div>
                     <div id="day-list">
                         {% for day in inputs['week_days'] %}
-                        <div id="day-option-{{loop.index}}" class="day-option" onclick="selectDay({{loop.index}})" onmouseover="dayShadeOn(this)" onmouseout="dayShadeOff(this)">
-                            <label for="day-{{loop.index}}" class="day-label">{{day['full']}}</label>
-                            <input type="checkbox" name="day-{{loop.index}}" id="day-{loop.index}}" class="hide">
+                        <div id="day-option-{{loop.index}}" class="day-option" onclick="selectDay({{loop.index}})" onmouseover="dayShadeOn(this, {{loop.index}})" onmouseout="dayShadeOff(this, {{loop.index}})">
+                            <label for="day-check-{{loop.index}}" class="day-label">{{day['full']}}</label>
+                            <input type="checkbox" name="day-check-{{loop.index}}" id="day-check-{{loop.index}}" class="hide">
                         </div>
                         {% endfor %}
                     </div>
@@ -86,10 +96,10 @@
         <a id="lockChat" class="hide"></a>
         <script>
             openTab('trends');
-            lockChat();
-            callChat(get('import-icon'));
+            // lockChat();
+            // callChat(get('import-icon'));
             //
-            timerNext();
+            // timerNext();
             getInfo();
         </script>
     </body>

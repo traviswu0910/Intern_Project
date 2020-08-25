@@ -42,7 +42,17 @@
 			</div>
 			<div id="information-parent-block-{{loop.index}}{{crude}}" class="information-parent-block note-information">
 				<div id="information-block-{{loop.index}}{{crude}}" class="information-block">
-					<a>testing testing 123</a>
+					<!-- travis -->
+					<a class="info-block-note"> 	date : 
+						{{note['date']}}
+						<br>
+						portfolio : {{note['pf']}}
+						<br>
+						{% if note['kw'] != '' %}
+						keyword : {{note['kw']}}
+						{% endif %}
+					</a>
+					<!-- travis -->
 				</div>
 			</div>
 		</div>

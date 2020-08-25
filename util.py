@@ -147,6 +147,7 @@ class UserInfo():
 	userlist = UserList(Path['id'])
 	userfeed = UserFeed(Path['feed'])
 	flag = {'signup':False, 'login':False}
+	pflists = [{'value': 'New', 'companies': ['Company A', '']}]
 
 	def __init__(self):
 		self.defaultForm = self.currentForm

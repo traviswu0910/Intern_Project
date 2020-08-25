@@ -1,0 +1,60 @@
+<!-- log.html -->
+
+{% for day in logfile %}
+<div class="each-date">
+	<div class="date-block">
+		<div class="date-text log-date">
+			<!-- travis -->
+			<a class="cursor-pointer" onclick="dateClick('log-{{day['crude']}}')">date action time date portfolio keyword note</a>
+<!-- 			<a class="title-table">
+				  action time date portfolio keyword note
+			</a> -->
+			<!-- travis -->
+		</div>
+	</div>
+	<div id="log-{{day['crude']}}" class="log-parent">
+		<!-- travis -->
+		{% for log in day['logs'] %}
+		{% if log['action'] != 'login' %}
+		<div class="log-block">
+			<a class="log-content">
+				<table class="note-table">
+					<tr>
+						<th>{{day['date']}}</th>
+						<th>{{log['action']}}</th>
+						<th>{{log['content']['time']}}</th>
+						<th>{{log['content']['date']}}</th>
+						<th>{{log['content']['pf']}}</th>
+						{% if log['content']['kw'] != '' %}
+						<th>{{log['content']['kw']}}</th>
+						{% else %}
+						<th>-</th>
+						{% endif %}
+						{% if log['content']['note'] != '' %}
+						<th>{{log['content']['note']}}</th>
+						{% else %}
+						<th>-</th>
+						{% endif %}
+					</tr>
+				</table>
+			<!-- action : {{log['action']}}, 
+			time : {{log['content']['time']}}
+				<br>
+				{% if log['action'] != 'login'%}
+				date : {{log['content']['date']}}, 
+				portfolio : {{log['content']['pf']}}
+				{% if log['content']['kw'] != '' %} 
+				, keyword :  {{log['content']['kw']}}
+				{% endif %}
+				{% if log['content']['note'] != '' %}
+				, note : {{log['content']['note']}}
+				{% endif %}
+				{% endif %} -->
+			</a>
+		</div>
+		{% endif %}
+		{% endfor %}
+		<!-- travis -->
+	</div>
+</div>
+{% endfor %}

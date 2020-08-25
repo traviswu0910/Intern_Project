@@ -36,7 +36,7 @@
 
 .log-block {
 	width: calc(100% - 100px);
-	height: 75px;
+	height: 35px;
 	margin: auto;
 	margin-bottom: 3px;
 	background-color: white;
@@ -57,9 +57,10 @@
 	margin-top: auto;
 	margin-bottom: auto;
 }
+
 /*travis*/
 .cursor-pointer {
-	/*word-spacing: 76px;*/
+	word-spacing: 76px;
 }
 .note-table {
 	border-collapse: collapse;
@@ -72,28 +73,13 @@
 	/*border: 1px solid black;*/
 	width: 110px;
 }
-
-.log-content {
-	overflow: scroll;
-}
-
-.log-narrow {
-	font-weight: 900;
-	width: 15%;
-}
-
-.log-wide {
-	font-weight: 900;
-	width: 25%;
-}
-
-tr {
-	height: 75px;
-}
 /*.tf-table{
 	width: 50px;
 }*/
 /*travis*/
+
+
+
 
 
 

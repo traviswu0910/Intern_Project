@@ -2,7 +2,9 @@
 	--chatbox-border: 2px;
 	--chatbox-width: 300px;
 	--chatbox-height: 200px;
-	--chatbox-color: coral;
+	--chatbox-color: turquoise;
+	--vector-height: 40px;
+	--timer-check-height: 40px;
 }
 
 @font-face {
@@ -594,9 +596,9 @@ textarea.notes {
 	left: var(--chatbox-width);
 	top: calc(0px - var(--chatbox-height) + var(--chatbox-border) * 2);
 	background-color: transparent;
-	display: flex;
+	/*display: flex;
 	justify-content:center;
-	align-items:center;
+	align-items:center;*/
 }
 
 #day-selector {
@@ -634,10 +636,47 @@ textarea.notes {
 
 #time-setter {
 	width: 100%;
-	height: calc(100% - 50px);
+	height: calc(100% - 50px - var(--timer-check-height));
 	display: flex;
 	justify-content:center;
 	align-items:center;
+}
+
+#check-block {
+	height: var(--timer-check-height);
+	width: var(--chatbox-width);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	cursor: pointer;
+	/*transform: translate();*/
+}
+
+.check-image-container {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	-webkit-transition: all .5s ease-in-out;
+	transition: background-color .5s ease-in-out;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	/**/
+	overflow: hidden;
+}
+
+#check-icon {
+	width: 30px;
+	height: 30px;
+	-webkit-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+	display: inline-block;
+}
+
+#check-icon:hover {
+	transform: scale(1.5);
 }
 
 .time-setter-punctuation {
@@ -648,7 +687,7 @@ textarea.notes {
 .time-setter-time {
 	float: left;
 	font-size: 75px;
-	height: 120px;
+	height: 112px;
 	width: 95px;
 	-ms-overflow-style: none;
 	scrollbar-width: none;
@@ -664,27 +703,32 @@ textarea.notes {
 }
 
 #time-setter-hour {
+	transform: translate(0, 10px);
 	overflow: auto;
 }
 
 #time-setter-minute {
+	transform: translate(0, 10px);
 	overflow: auto;
 }
 
 .time-hour {
-	font-family: scribbleFont;
+	/*font-family: scribbleFont;*/
 	height: 100%;
 	width: 100%;
 }
 
 .time-minute {
-	font-family: scribbleFont;
+	/*font-family: scribbleFont;*/
 	height: 100%;
 	width: 100%;
 }
 
 .time-punctuation {
-	font-family: scribbleFont;
+	/*font-family: scribbleFont;*/
+	transform: translate(0, 10px);
+	font-size: 70px;
+	height: 120px;
 }
 
 #time-setter-ap {
@@ -694,7 +738,7 @@ textarea.notes {
 
 #day-list {
 	width: 100%;
-	height: 100%;
+	height: calc(100% - var(--vector-height));
 	overflow: auto;
 }
 
@@ -715,17 +759,44 @@ textarea.notes {
 	cursor: pointer;
 }
 
-/*.day-shade {
-	display: absolute;
-	background-color: black;
-	opacity: 0.2;
-	z-index: 10;
-	left: 0;
-	top: 0;
+#vector-block {
+	height: var(--vector-height);
+	width: var(--chatbox-width);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	cursor: pointer;
+	/*transform: translate();*/
+}
+
+.vector-image-container {
 	width: 100%;
 	height: 100%;
-}*/
+	text-align: center;
+	-webkit-transition: all .5s ease-in-out;
+	transition: background-color .5s ease-in-out;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 
+	/**/
+	overflow: hidden;
+}
+
+#vector-icon {
+	transform: rotate(180deg);
+	width: 20px;
+	height: 20px;
+	-webkit-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+	display: inline-block;
+}
+
+#vector-block:hover #vector-icon{
+	transform: translate(-120px, 0px) rotate(180deg) scale(1.5);
+	/*transform: scale(100) translate(-5px, 0px);*/
+}
 
 
 

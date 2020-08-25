@@ -10,7 +10,7 @@ user = UserInfo()
 
 app = Flask(__name__)
 
-developing = True
+developing = False
 
 @app.route('/draw')
 def drawingBoard():
@@ -42,15 +42,13 @@ def main():
 			user.msg = Sign.PICK_UTIL
 		return render_template('Main.html', inputs=user.getInputs())
 
-
-
 @app.route("/NewsAssistant", methods=["POST", "GET"])
 def NewsAssistant():
 	if request.method == "POST":
 		if not user.loggedIn():
 			return redirect(url_for('main'))
 		user.updateForm(req=request)
-		return render_template("NewsAssistant.html", inputs=utilInputs(user.currentForm, util='NewsAssistant'))
+		return render_template("NewsAssistant.html", inputs=utilInputs(user.currentForm, util='NewsAssistant', user_portfolios=user.pflists))
 	elif request.method=="GET":
 		if not user.loggedIn():
 			if developing:
@@ -58,7 +56,7 @@ def NewsAssistant():
 				user.signin()
 			else:
 				return redirect(url_for('main'))
-		return render_template("NewsAssistant.html", inputs=utilInputs(user.currentForm, util='NewsAssistant'))
+		return render_template("NewsAssistant.html", inputs=utilInputs(user.currentForm, util='NewsAssistant', user_portfolios=user.pflists))
 	
 @app.route('/NewsAssistant/HistoryLog', methods=['POST', 'GET'])
 def HistoryLog():

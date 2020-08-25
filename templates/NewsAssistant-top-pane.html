@@ -8,11 +8,15 @@
         <div class="form-element">
             <label for="portfolio">Portfolio </label>
             <select id="portfolio" name="portfolio" class="inputbox cursor-pointer">
-                <option value="pph_1" {{inputs['selected']['pph_1']}}>Daily 5% &#8593</option>
+                {% for option in inputs['options'] %}
+                {% set val = option['value'] %}
+                <option value={{val}} {{inputs['selected'][val]}}>{{option['label']}}</option>
+                {% endfor %}
+                <!-- <option value="pph_1" {{inputs['selected']['pph_1']}}>Daily 5% &#8593</option>
                 <option value="pph_2" {{inputs['selected']['pph_2']}}>Daily 5% &#8595</option>
                 <option value="pph_3" {{inputs['selected']['pph_3']}}>Weekly 10% &#8593</option>
                 <option value="pph_4" {{inputs['selected']['pph_4']}}>Weekly 10% &#8595</option>
-                <option value="pph_5" {{inputs['selected']['pph_5']}}>Monthly 20% &#8593</option>
+                <option value="pph_5" {{inputs['selected']['pph_5']}}>Monthly 20% &#8593</option> -->
             </select>
         </div>
         <a class="toppane-icon image-container" >

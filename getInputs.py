@@ -3,14 +3,29 @@ from util import *
 import datetime
 from download import *
 
-def utilInputs(form=None, util=None):
+def utilInputs(form=None, util=None, user_portfolios=None):
     if util=='NewsAssistant':
         selected = {'pph_1':'','pph_2':'','pph_3':'','pph_4':'','pph_5':''}
-        selected[form['pf']]='selected'
+        options = [
+        	{'value': 'pph_1', 'label': 'Daily 5% above'},
+        	{'value': 'pph_2', 'label': 'Daily 5% below'},
+        	{'value': 'pph_3', 'label': 'Weekly 10% above'},
+        	{'value': 'pph_4', 'label': 'Weekly 10% below'},
+        	{'value': 'pph_5', 'label': 'Monthly 20% above'},
+        ]
+        if user_portfolios!=None:
+        	for p in user_portfolios:
+        		options.append({'value': p['value'], 'label': p['value']})
+        		selected[p['value']] = ''
+        try:
+        	selected[form['pf']]='selected'
+        except:
+        	selected['pph_1']='selected'
 
         top_news = News.get_top_news(form['date'], range(1, 4), form['kw'])
 
-        portfolio_list,portfolio_news = News.get_portfolio_news(form['date'],form['pf'],form['kw'])
+        portfolio_list, portfolio_news = News.get_portfolio_news(form['date'],form['pf'],form['kw'])
+        print(form['pf'])
 
         # download_data = package(form['date'],form['pf'],form['kw'])
 
@@ -31,6 +46,7 @@ def utilInputs(form=None, util=None):
         return {
             'date': form['date'],
             'selected': selected,
+            'options': options,
             'portfolio': portfolio_list,
             'portfolio_news': portfolio_news,
             'keyword': form['kw'],
