@@ -10,7 +10,7 @@
             <select id="portfolio" name="portfolio" class="inputbox cursor-pointer">
                 {% for option in inputs['options'] %}
                 {% set val = option['value'] %}
-                <option value={{val}} {{inputs['selected'][val]}}>{{option['label']}}</option>
+                <option id='cheat{{val}}' value={{val}} {{inputs['selected'][val]}}>{{option['label']}}</option>
                 {% endfor %}
                 <!-- <option value="pph_1" {{inputs['selected']['pph_1']}}>Daily 5% &#8593</option>
                 <option value="pph_2" {{inputs['selected']['pph_2']}}>Daily 5% &#8595</option>

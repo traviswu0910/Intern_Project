@@ -118,6 +118,7 @@ def uploadPortfolio():
 		print('{}: {}'.format(attr, getattr(request, attr)))
 	file = request.files['upload']
 	data = json.load(file)
+	
 	# print(data)
 	return res
 

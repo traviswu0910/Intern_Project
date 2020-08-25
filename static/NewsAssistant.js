@@ -478,6 +478,8 @@ function uploadPortfolio() {
 			lockChat();
 			callChat(get('import-icon'));
 		}, 500);
+	}).then(function() {
+		show(get('cheatNew'));
 	});
 }
 
