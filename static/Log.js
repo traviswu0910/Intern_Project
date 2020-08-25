@@ -76,3 +76,24 @@ function checkDates() {
 	}
 }
 
+function cheat() {
+	var pfs = getClass('log-portfolio');
+	for (let i=0; i<pfs.length; i++) {
+		if (pfs[i].innerText=="pph_1") {
+			pfs[i].innerText = 'Daily 5% above';
+		}
+		if (pfs[i].innerText=="pph_2") {
+			pfs[i].innerText = 'Daily 5% below';
+		}
+		if (pfs[i].innerText=="pph_3") {
+			pfs[i].innerText = 'Weekly 10% above';
+		}
+		if (pfs[i].innerText=="pph_4") {
+			pfs[i].innerText = 'Weekly 10% below';
+		}
+		if (pfs[i].innerText=="pph_5") {
+			pfs[i].innerText = 'Monthly 5% above';
+		}
+	}
+}
+

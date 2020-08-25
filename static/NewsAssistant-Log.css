@@ -10,7 +10,12 @@
 	border-radius: 10px;
 	width: 900px;
 	height: 40px;
+	font-weight: 1800;
 	background-color: #f9a602;
+	display:flex;
+	justify-content:center;
+	align-items: center;
+	text-align: center;
 }
 
 .log-panel {
@@ -44,6 +49,12 @@
 	display:flex;
 	justify-content:center;
 	align-items:center;
+	text-align: center;
+}
+
+.log-title {
+	width: 90%;
+	display: inline-block;
 }
 
 .log-parent{
@@ -80,11 +91,15 @@
 .log-narrow {
 	font-weight: 900;
 	width: 15%;
+	float: left;
+	text-align: center;
 }
 
 .log-wide {
 	font-weight: 900;
 	width: 25%;
+	float: left;
+	text-align: center;
 }
 
 tr {

@@ -22,12 +22,20 @@
             <a class="menu-image-container" href="/NewsAssistant" target="_blank">
                 <img id="home-icon" class="menu-icon no-outline" src="/static/img/home.png">
             </a>
-            <a class="menu-image-container" href="/NewsAssistant/HistoryLog" target="_blank">
+            <a class="menu-image-container" href="/NewsAssistant/History" target="_blank">
                 <img id="history-icon" class="menu-icon no-outline" src="/static/img/history.png">
             </a>
         </div>
         <div class="main-block">
         	<div class="filter-bar">
+                <div class="log-title">
+                    <div class="log-action log-narrow">ACTION</div>
+                    <div class="log-time log-narrow">TIME</div>
+                    <div class="log-date log-narrow">DATE</div>
+                    <div class="log-portfolio log-narrow">PORTFOLIO</div>
+                    <div class="log-keyword log-narrow">KEYWORD</div>
+                    <div class="log-note log-wide">NOTE</div>
+                </div>
         	</div>
         	<div id="lop-panel" class="log-panel">
         		{% include 'log.html' %}
@@ -39,5 +47,7 @@
     	setLogHeights();
         checkBlanks();
         checkDates();
+
+        cheat();
     </script>
 </html>

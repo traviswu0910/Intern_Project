@@ -15,6 +15,7 @@ strategy_list = {
 
 
 def package(date, strategy_name, keyword):
+	print(strategy_name)
 	p = path.join(fPath,'Download_Data')
 	if not path.isdir(p):
 		mkdir(p)
