@@ -1,0 +1,58 @@
+<!-- chatbox.html -->
+
+<div id="chatbox-back" class="chatbox-back hide">
+</div>
+<div id="chatbox-fore" class="chatbox-fore hide">
+    <form>
+    <div id="timer" class="timer">
+        <div id="timer-first-page" class="timer-page">
+            <div id="day-selector" class="" onclick="timerNext()" onmouseover="shadeOn(this.id+'-shade')" onmouseout="shadeOff(this.id+'-shade')">
+                <a id="day-selector-label">Remind On ></a>
+                <div id="day-selector-shade" class="hide"></div>
+            </div>
+            <div id="time-setter">
+                <div id="time-setter-hour" class="time-setter-time" onscroll="setHour()">
+                    <div id="time-parent-hour" class="time-parent">
+                        {% for hour in inputs['hour'] %}
+                        <a class="time-hour">{{hour}}</a>
+                        {% endfor %}
+                    </div>
+                </div>
+                <div class="time-punctuation">:</div>
+                <div id="time-setter-minute" class="time-setter-time" onscroll="setMinute()">
+                    <div id="time-parent-minute">
+                        {% for minute in inputs['minute'] %}
+                        <a id="minute-{{loop.index}}" class="time-minute">{{minute}}</a>
+                        {% endfor %}
+                    </div>
+                </div>
+                <a id="time-setter-ap">A.M.</a>
+            </div>
+            <div id="check-block">
+                <a class="check-image-container" onclick="setTimer()">
+                    <img id="check-icon" class="check-icon no-outline" src="/static/img/check.png">
+                </a>
+            </div>
+        </div>
+        <div id="timer-second-page" class="timer-page">
+            <div id="vector-block" onclick="timerPrevious()">
+                <a class="vector-image-container">
+                    <img id="vector-icon" class="vector-icon no-outline" src="/static/img/vector.png">
+                </a>
+            </div>
+            <div id="day-list">
+                {% for day in inputs['week_days'] %}
+                <div id="day-option-{{loop.index}}" class="day-option" onclick="selectDay({{loop.index}})" onmouseover="dayShadeOn(this, {{loop.index}})" onmouseout="dayShadeOff(this, {{loop.index}})">
+                    <label for="day-check-{{loop.index}}" class="day-label">{{day['full']}}</label>
+                    <input type="checkbox" name="day-check-{{loop.index}}" id="day-check-{{loop.index}}" class="hide">
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    </form>
+</div>
+<div id="chatbox-corner" class="chatbox-corner hide">
+</div>
+<a id="chatOwner" class="hide"></a>
+<a id="lockChat" class="hide"></a>
