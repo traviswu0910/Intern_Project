@@ -39,7 +39,18 @@
 			</div>
 			<div id="information-parent-block--{{loop.index}}{{crude}}" class="information-parent-block click-information">
 				<div id="information-block--{{loop.index}}{{crude}}" class="information-block">
-					<a>testing testing 123</a>
+					<!-- travis -->
+					<a class="info-block-click"
+						>
+						date : {{click['date']}}
+						<br>
+						portfolio : {{click['pf']}}
+						<br>
+						{% if click['kw'] != '' %}
+						keyword : {{click['kw']}}
+						{% endif %}
+					</a>
+					<!-- travis -->
 				</div>
 			</div>
 		</div>

@@ -3,11 +3,13 @@
     <head>
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <link rel=stylesheet type="text/css" href="{{ url_for('static', filename='NewsAssistant.css') }}">
+        <link rel=stylesheet type="text/css" href="{{ url_for('static', filename='menu.css') }}">
         <link rel=stylesheet type="text/css" href="{{ url_for('static', filename='NewsAssistant-Log.css') }}">
         <link rel=stylesheet type="text/css" href="{{ url_for('static', filename='NewsAssistant-common.css') }}">
         <link rel=stylesheet type="text/css" href="{{ url_for('static', filename='Radio-Button.css') }}">
 
         <script type="text/javascript" src="{{ url_for('static', filename='Log.js') }}"></script>
+        <!-- <script type="text/javascript" src="{{ url_for('static', filename='NewsAssistant.js') }}"></script> -->
         <script type="text/javascript" src="{{ url_for('static', filename='jquery-migrate-3.3.0.min.js') }}"></script>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,8 +18,24 @@
     
     <body> 
         {% include 'logo.html' %}
+        <div class="menu">
+            <a class="menu-image-container" href="/NewsAssistant" target="_blank">
+                <img id="home-icon" class="menu-icon no-outline" src="/static/img/home.png">
+            </a>
+            <a class="menu-image-container" href="/NewsAssistant/History" target="_blank">
+                <img id="history-icon" class="menu-icon no-outline" src="/static/img/history.png">
+            </a>
+        </div>
         <div class="main-block">
         	<div class="filter-bar">
+                <div class="log-title">
+                    <div class="log-action log-narrow">ACTION</div>
+                    <div class="log-time log-narrow">TIME</div>
+                    <div class="log-date log-narrow">DATE</div>
+                    <div class="log-portfolio log-narrow">PORTFOLIO</div>
+                    <div class="log-keyword log-narrow">KEYWORD</div>
+                    <div class="log-note log-wide">NOTE</div>
+                </div>
         	</div>
         	<div id="lop-panel" class="log-panel">
         		{% include 'log.html' %}
@@ -27,5 +45,9 @@
 	<script>
     	recordLogHeights();
     	setLogHeights();
+        checkBlanks();
+        checkDates();
+
+        cheat();
     </script>
 </html>

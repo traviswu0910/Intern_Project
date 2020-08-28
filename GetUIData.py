@@ -16,7 +16,8 @@ method_list = {
     'pph_2':'news_PortfolioList_BelowNegative5',
     'pph_3':'news_PortfolioList_WeekAbovePositive10',
     'pph_4':'news_PortfolioList_WeekBelowNegative10',
-    'pph_5':'news_PortfolioList_MonthAbovePositive20'
+    'pph_5':'news_PortfolioList_MonthAbovePositive20',
+    'New': 'New'
 }
 
 class News:
@@ -55,6 +56,7 @@ class News:
     def get_portfolio_news(which_day,method,keyword):
         which_day = pd.to_datetime(which_day).strftime('%Y%m%d')
         method = method_list[method]
+        print('method: {}'.format(method))
         try:
             with open(f'./All_Data/portfolio_news/{method}_{which_day}.json')as f:
                 file = json.load(f)
@@ -134,25 +136,25 @@ class Chart:
         
         if len(data)>20:
             if method=='AbovePositive5':
-                data = data.sort_values('day',ascending=False).iloc[:20,:]
+                data = data.sort_values('day', ascending=False).iloc[:20,:]
             elif method=='BelowNegative5':
-                data = data.sort_values('day',ascending=True).iloc[:20,:]
+                data = data.sort_values('day', ascending=True).iloc[:20,:]
             elif method=='WeekAbovePositive10':
-                data = data.sort_values('week',ascending=False).iloc[:20,:]
+                data = data.sort_values('week', ascending=False).iloc[:20,:]
             elif method=='WeekBelowNegative10':
-                data = data.sort_values('week',ascending=True).iloc[:20,:]
+                data = data.sort_values('week', ascending=True).iloc[:20,:]
             elif method=='MonthAbovePositive20':
-                data = data.sort_values('month',ascending=False).iloc[:20,:]
+                data = data.sort_values('month', ascending=False).iloc[:20,:]
         else:
             if method=='AbovePositive5':
-                data = data.sort_values('day',ascending=False)
+                data = data.sort_values('day', ascending=False)
             elif method=='BelowNegative5':
-                data = data.sort_values('day',ascending=True)
+                data = data.sort_values('day', ascending=True)
             elif method=='WeekAbovePositive10':
-                data = data.sort_values('week',ascending=False)
+                data = data.sort_values('week', ascending=False)
             elif method=='WeekBelowNegative10':
-                data = data.sort_values('week',ascending=True)
+                data = data.sort_values('week', ascending=True)
             elif method=='MonthAbovePositive20':
-                data = data.sort_values('month',ascending=False)
+                data = data.sort_values('month', ascending=False)
         data=json.loads(data.to_json(orient='records'))
         return data

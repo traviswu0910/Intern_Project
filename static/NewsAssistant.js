@@ -2,6 +2,16 @@ var TEXTAREA_DEFAULT = 'Type something your style~';
 var grey = 150;
 var heights = {};
 var changeHeight = 0;
+var chatbox = ['chatbox-fore', 'chatbox-back', 'chatbox-corner'];
+var scrollTimer;
+
+function getX(ele) {
+	return ele.getBoundingClientRect()['x'];
+}
+
+function getY(ele) {
+	return ele.getBoundingClientRect()['y'];
+}
 
 function parentClass(ele, className) {
 	while(!ele.classList.contains(className))
@@ -176,6 +186,12 @@ function overElement(e, ele) {
 	let max = min+ele.offsetHeight;
 	let right = left+ele.offsetWidth;
 	return (my>min && my<max && mx>left && mx<right);
+}
+
+function setListener() {
+	get('portfolio-form').addEventListener('submit', function(e) {
+		e.preventDefault();
+	});
 }
 
 function setScreen() {
@@ -453,6 +469,20 @@ function updateNote(ele, i, news) {
 	}
 }
 
+function uploadPortfolio() {
+	Promise.resolve('uploadPortfolio')
+	.then(function() {
+		get('portfolio-form').submit();
+	}).then(function() {
+		setTimeout(function() {
+			lockChat();
+			callChat(get('import-icon'));
+		}, 500);
+	}).then(function() {
+		show(get('cheatNew'));
+	});
+}
+
 function userChangeNote(news, note) {
 	var entry = {
 		note: note,
@@ -549,8 +579,7 @@ function userNote(obj, tab, note) {
 		headers: new Headers({
 			"content-type": "application/json"
 		})
-		})
-		.then(function(response) {
+	}).then(function(response) {
 		if (response.status !== 200) {
 			console.log(`Looks like there was a problem. Status code: ${response.status}`);
 			return;
@@ -558,8 +587,7 @@ function userNote(obj, tab, note) {
 		response.json().then(function(data) {
 			console.log(data);
 		});
-		})
-		.catch(function(error) {
+	}).catch(function(error) {
 		console.log("Fetch error: " + error);
 	});
 }
@@ -579,8 +607,7 @@ function userClick(obj, tab) {
 		headers: new Headers({
 			"content-type": "application/json"
 		})
-		})
-		.then(function(response) {
+	}).then(function(response) {
 		if (response.status !== 200) {
 			console.log(`Looks like there was a problem. Status code: ${response.status}`);
 			return;
@@ -588,35 +615,7 @@ function userClick(obj, tab) {
 		response.json().then(function(data) {
 			console.log(data);
 		});
-		})
-		.catch(function(error) {
-		console.log("Fetch error: " + error);
-	});
-}
-
-function downloadData() {
-	var entry = {
-	};
-
-	fetch(`${window.origin}/log/news-assistant-download`, {
-		method: "POST",
-		credentials: "include",
-		body: JSON.stringify(entry),
-		cache: "no-cache",
-		headers: new Headers({
-			"content-type": "application/json"
-		})
-		})
-		.then(function(response) {
-		if (response.status !== 200) {
-			console.log(`Looks like there was a problem. Status code: ${response.status}`);
-			return;
-		}
-		response.json().then(function(data) {
-			console.log(data);
-		});
-		})
-		.catch(function(error) {
+	}).catch(function(error) {
 		console.log("Fetch error: " + error);
 	});
 }
@@ -738,6 +737,148 @@ function drawChart(r) {
 		// hidden=true
 	});
 }
+
+function lockChat() {
+	get('lockChat').innerHTML = 'lock';
+}
+
+function unlockChat() {
+	get('lockChat').innerHTML = '';
+}
+
+function chatLocked() {
+	if (get('lockChat').innerHTML=='lock')
+		return true;
+	else
+		return false;
+}
+
+function hideChat() {
+	// for (let i=0; i<chatbox.length; i++) {
+	// 	get(chatbox[i]).classList.add('transparent');
+	// }
+	// setTimeout(function() {
+	for (let i=0; i<chatbox.length; i++) {
+		hide(get(chatbox[i]));
+	}
+	// }, 1000);
+}
+
+function showChat() {
+	for (let i=0; i<chatbox.length; i++) {
+		show(get(chatbox[i]));
+	}
+	// for (let i=0; i<chatbox.length; i++) {
+	// 	get(chatbox[i]).style.opacity = 1;
+	// }
+}
+
+function positionChatBelow(ele) {
+	showChat();
+	let chat = get('chatbox-back');
+	let fore = get('chatbox-fore');
+	let corner = get('chatbox-corner');
+	let x = ele.offsetLeft;
+	let y = ele.offsetTop+ele.offsetHeight;
+	let center = x + ele.offsetWidth/2;
+	let left = center - chat.offsetWidth*0.8;
+	let top = y+11;
+
+	chat.style.top = px(top);
+	fore.style.top = px(top+2);
+	corner.style.top = px(top-7);
+	chat.style.left = px(left);
+	fore.style.left = px(left+2);
+	corner.style.left = px(center-13.5);
+}
+
+function positionChatAbove(ele) {
+
+}
+
+function callChat(ele) {
+	owner = get('chatOwner');
+	// if (ele.id!=owner.innerHTML) {
+	if (true) {
+		owner.innerHTML = ele.id;
+		positionChatBelow(ele);
+		setTimeout(function() {
+			if (!chatLocked())
+				hideChat();
+		}, 5000);
+	}
+	// else {
+	// 	owner.innerHTML = '';
+	// 	hideChat();
+	// }
+}
+
+
+function timerNext() {
+	get('timer').style.transform = 'translate(calc(0px - var(--chatbox-width)), 0px)';
+}
+
+function timerPrevious() {
+	get('timer').style.transform = 'none';
+}
+
+function shadeOn(ind) {
+	show(get(ind));
+}
+
+function shadeOff(ind) {
+	hide(get(ind));
+}
+
+function dayShadeOn(ele, ind) {
+	ele.style.backgroundColor = 'rgba(0, 0, 0, 0.2)';
+}
+
+function dayShadeOff(ele, ind) {
+	if (get('day-check-'+ind).checked)
+		return;
+	ele.style.backgroundColor = 'transparent';
+}
+
+function selectDay(ind) {
+	let cb = get('day-check-'+ind);
+	cb.checked = !cb.checked;
+	// alert(cb);
+}
+
+function setHour() {
+	clearTimeout(scrollTimer);
+	let ele = get('time-setter-hour');
+	scrollTimer = setTimeout(function() {
+		let b = ele.scrollTop;
+		let hour = Math.floor((b+56)/112);
+		ele.scrollTo({top: hour*112, behavior: 'smooth'});
+		// alert(hour*112);
+		// alert(ele.getBoundingClientRect()['y']);
+	}, 300);
+}
+
+function setMinute() {
+	// scrollTimer = setTime
+	clearTimeout(scrollTimer);
+	let ele = get('time-setter-minute');
+	scrollTimer = setTimeout(function() {
+		let b = ele.scrollTop;
+		let hour = Math.floor((b+56)/112);
+		ele.scrollTo({top: hour*112, behavior: 'smooth'});
+	}, 300);
+}
+
+function getInfo() {
+	// alert(`Hour width: ${get('time-setter-hour').offsetWidth}\nMinute width: ${get('time-setter-minute').offsetWidth}`);
+}
+
+function setTimer() {
+	hideChat();
+	// update the timer on the backend
+}
+
+
 
 
 

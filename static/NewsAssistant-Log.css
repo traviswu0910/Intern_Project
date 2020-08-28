@@ -10,7 +10,12 @@
 	border-radius: 10px;
 	width: 900px;
 	height: 40px;
+	font-weight: 1800;
 	background-color: #f9a602;
+	display:flex;
+	justify-content:center;
+	align-items: center;
+	text-align: center;
 }
 
 .log-panel {
@@ -36,7 +41,7 @@
 
 .log-block {
 	width: calc(100% - 100px);
-	height: 35px;
+	height: 75px;
 	margin: auto;
 	margin-bottom: 3px;
 	background-color: white;
@@ -44,6 +49,12 @@
 	display:flex;
 	justify-content:center;
 	align-items:center;
+	text-align: center;
+}
+
+.log-title {
+	width: 90%;
+	display: inline-block;
 }
 
 .log-parent{
@@ -57,9 +68,47 @@
 	margin-top: auto;
 	margin-bottom: auto;
 }
+/*travis*/
+.cursor-pointer {
+	/*word-spacing: 76px;*/
+}
+.note-table {
+	border-collapse: collapse;
+	/*border: 1px solid black;*/
+	/*text-decoration: none;*/
+	/*text-align: center;*/
+	width: 100%;
+}
+.note-table th {
+	/*border: 1px solid black;*/
+	width: 110px;
+}
 
+.log-content {
+	overflow: scroll;
+}
 
+.log-narrow {
+	font-weight: 900;
+	width: 15%;
+	float: left;
+	text-align: center;
+}
 
+.log-wide {
+	font-weight: 900;
+	width: 25%;
+	float: left;
+	text-align: center;
+}
+
+tr {
+	height: 75px;
+}
+/*.tf-table{
+	width: 50px;
+}*/
+/*travis*/
 
 
 

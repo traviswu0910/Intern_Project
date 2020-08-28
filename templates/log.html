@@ -4,15 +4,29 @@
 <div class="each-date">
 	<div class="date-block">
 		<div class="date-text log-date">
+			<!-- travis -->
 			<a class="cursor-pointer" onclick="dateClick('log-{{day['crude']}}')">{{day['date']}}</a>
+<!-- 			<a class="title-table">
+				  action time date portfolio keyword note
+			</a> -->
+			<!-- travis -->
 		</div>
 	</div>
 	<div id="log-{{day['crude']}}" class="log-parent">
+		<!-- travis -->
 		{% for log in day['logs'] %}
+		{% if log['action'] != 'login' %}
 		<div class="log-block">
-			<a class="log-content">{{log['action']}}</a>
+			<div class="log-action log-narrow">{{log['action']}}</div>
+			<div class="log-time log-narrow">{{log['content']['time']}}</div>
+			<div class="log-date log-narrow">{{log['content']['date']}}</div>
+			<div class="log-portfolio log-narrow">{{log['content']['pf']}}</div>
+			<div class="log-keyword log-narrow">{{log['content']['kw']}}</div>
+			<div class="log-note log-wide">{{log['content']['note']}}</div>
 		</div>
+		{% endif %}
 		{% endfor %}
+		<!-- travis -->
 	</div>
 </div>
 {% endfor %}
