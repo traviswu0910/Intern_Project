@@ -80,19 +80,29 @@ def package(date, strategy_name, keyword):
 
 	def portfolio_performance_package(date,strategy_name):
 		strategy_name= strategy_list[strategy_name].split('_')[2]
+		# print(strategy_name)
 		portfolio_performance_package_dic={}
 		del_key_list = ['AnnualConti','AnnualSingle','Conti','Nearest30DaysSingle','Nearest365DaysSingle',
 						'Nearest7DaysSingle','Period','Price','created','id']
+		# print('PortfolioPerformance_{}_{}'.format(strategy_name,date))
 		try:
 			with open(fPath+'/UIData/PortfolioPerformance_{}_{}.json'.format(strategy_name,date),'r') as f:
-				# print(portfolio_performance_file)
-				if key in portfolio_performance_file[i]:
-					del portfolio_performance_file[i][key]
-				portfolio_performance_package_dic[portfolio_performance_file[i]['InfoCode']].append(portfolio_performance_file[i])
+				portfolio_performance_file = json.load(f)
+				# print(portfolio_performance_file[0]['InfoCode'])
+				for i in range(len(portfolio_performance_file)):
+					# print(i)
+					for key in del_key_list:
+						if key in portfolio_performance_file[i]:
+		# 					# print(key)
+		# 					# print('hihi')
+							del portfolio_performance_file[i][key]
+					# print(portfolio_performance_file[i]['InfoCode'])
+					portfolio_performance_package_dic[portfolio_performance_file[i]['InfoCode']]=portfolio_performance_file[i]
+					# print('123')
 		except:pass
 		# print(portfolio_performance_package_dic)
 		return portfolio_performance_package_dic # return dict {'A':['InfoCode':...,]}
-	result['Portfolio_Perfomance'] = portfolio_performance_package(date,strategy_name)	
+	result['Portfolio_Performance'] = portfolio_performance_package(date,strategy_name)	
 
 	def portfolio_news_package(date,strategy_name,keyword):
 		strategy_name= strategy_list[strategy_name]
@@ -163,7 +173,4 @@ def package(date, strategy_name, keyword):
 		json.dump(result,f)
 	return result
 
-# print(package('20180123','AbovePositive5',''))
-
-# if __name__ == '__main__':
-# 	package(date, strategy_name, keyword)
+# print(package('20200505','pph_2','')['Portfolio_Perfomance'].keys())
