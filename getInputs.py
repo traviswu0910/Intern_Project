@@ -40,8 +40,10 @@ def utilInputs(form=None, util=None, user_portfolios=None):
         week = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
         week_days = [{'full': w, 'short': w[:3]} for w in week]
 
-        hour = ['{:02d}'.format(i) for i in range(12)]
+        hour = ['{:02d}'.format(i) for i in range(1, 13)]
+        hour = hour+hour+hour
         minute = ['{:02d}'.format(i) for i in range(60)]
+        minute = minute+minute+minute
 
         return {
             'date': form['date'],

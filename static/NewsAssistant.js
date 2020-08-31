@@ -4,6 +4,8 @@ var heights = {};
 var changeHeight = 0;
 var chatbox = ['chatbox-fore', 'chatbox-back', 'chatbox-corner'];
 var scrollTimer;
+var prevHourTop = 0;
+var prevMinuteTop = 0;
 
 function getX(ele) {
 	return ele.getBoundingClientRect()['x'];
@@ -815,7 +817,7 @@ function callChat(ele) {
 
 
 function timerNext() {
-	get('timer').style.transform = 'translate(calc(0px - var(--chatbox-width)), 0px)';
+	// get('timer').style.transform = 'translate(calc(0px - var(--chatbox-width)), 0px)';
 }
 
 function timerPrevious() {
@@ -846,26 +848,88 @@ function selectDay(ind) {
 	// alert(cb);
 }
 
-function setHour() {
+function hourScrollUp() {
+	let hourTop = get('time-setter-hour').scrollTop; 
+	if (hourTop>prevHourTop) {
+		prevHourTop = hourTop;
+		return false;
+	} else {
+		prevHourTop = hourTop;
+		return true;
+	}
+}
+
+function minuteScrollUp() {
+	let minuteTop = get('time-setter-minute').scrollTop; 
+	if (minuteTop>prevHourTop) {
+		prevMinuteTop = minuteTop;
+		return false;
+	} else {
+		prevMinuteTop = minuteTop;
+		return true;
+	}
+}
+
+function setTime(h, m) {
+	let hour = get('time-setter-hour');
+	let minute = get('time-setter-minute');
+	hour.onscroll = function() {};
+	minute.onscroll = function() {};
+
+	hour.scrollTo({top: (h+11)*112, behavior: 'smooth'});
+	minute.scrollTo({top: (m+60)*112, behavior: 'smooth'});
+	prevHourTop = hour.scrollTop;
+	prevMinuteTop = minute.scrollTop;
+	hour.onscroll = function() {scrollHour();};
+	minute.onscroll = function() {scrollMinute();};
+}
+
+function scrollHour() {
 	clearTimeout(scrollTimer);
 	let ele = get('time-setter-hour');
+	let b = ele.scrollTop;
+
+	get('check-block').style.opacity = 0;
+
+	if (hourScrollUp()) {
+		if (b<112*13) {
+			let p = get('time-parent-hour');
+			p.insertBefore(p.lastChild, p.firstChild);
+		}
+	} else {
+		if (b>112*23) {
+			let p = get('time-parent-hour');
+			p.appendChild(p.firstChild);
+		}
+	}
+
 	scrollTimer = setTimeout(function() {
-		let b = ele.scrollTop;
 		let hour = Math.floor((b+56)/112);
 		ele.scrollTo({top: hour*112, behavior: 'smooth'});
-		// alert(hour*112);
-		// alert(ele.getBoundingClientRect()['y']);
+		get('check-block').style.opacity = 1;
 	}, 300);
 }
 
-function setMinute() {
+function scrollMinute() {
 	// scrollTimer = setTime
 	clearTimeout(scrollTimer);
 	let ele = get('time-setter-minute');
+	let b = ele.scrollTop;
+	if (minuteScrollUp()) {
+		if (b<112*61) {
+			let p = get('time-parent-minute');
+			p.insertBefore(p.lastChild, p.firstChild);
+		}
+	} else {
+		if (b>112*121) {
+			let p = get('time-parent-minute');
+			p.appendChild(p.firstChild);
+		}
+	}
+
 	scrollTimer = setTimeout(function() {
-		let b = ele.scrollTop;
-		let hour = Math.floor((b+56)/112);
-		ele.scrollTo({top: hour*112, behavior: 'smooth'});
+		let minute = Math.floor((b+56)/112);
+		ele.scrollTo({top: minute*112, behavior: 'smooth'});
 	}, 300);
 }
 
@@ -876,6 +940,36 @@ function getInfo() {
 function setTimer() {
 	hideChat();
 	// update the timer on the backend
+}
+
+function downloadBox(link) {
+	let box = get('downloadBox');
+	if (box.classList.contains('hide')) {
+		showDownloadBox(link);
+		downloadData();
+	}
+	else
+		hideDownloadBox();
+}
+
+function showDownloadBox(link) {
+	show(get('downloadBox'));
+}
+
+function hideDownloadBox() {
+	hide(get('downloadBox'));
+}
+
+function downloadLink(link) {
+	get('download-link').innerHTML = link;
+	get('download-link-clipboard').value = link;
+}
+
+function copyLink() {
+	var copyText = get("download-link-clipboard");
+	copyText.select();
+	copyText.setSelectionRange(0, 99999); /*For mobile devices*/
+	document.execCommand("copy");
 }
 
 

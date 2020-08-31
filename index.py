@@ -10,7 +10,7 @@ user = UserInfo()
 
 app = Flask(__name__)
 
-developing = False
+developing = True
 
 @app.route('/draw')
 def drawingBoard():

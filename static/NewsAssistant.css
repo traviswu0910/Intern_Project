@@ -1,10 +1,11 @@
 :root {
 	--chatbox-border: 2px;
-	--chatbox-width: 300px;
-	--chatbox-height: 200px;
+	--chatbox-width: 400px;
+	--chatbox-height: 225px;
 	--chatbox-color: rgb(252, 242, 216);
 	--vector-height: 40px;
 	--timer-check-height: 40px;
+	--time-height: 130px;
 }
 
 @font-face {
@@ -547,6 +548,7 @@ textarea.notes {
 	overflow: hidden;
 	-webkit-transition: all 1s ease-in-out;
 	transition: all 10s ease-in-out;
+	box-shadow: 5px 7px rgba(0, 0, 0, 0.5);
 }
 
 .chatbox-fore {
@@ -581,24 +583,24 @@ textarea.notes {
 
 .timer-page {
 	position: relative;
-	width: var(--chatbox-width);
-	height: 100%;
 	display: inline-block;
 	margin: 0;
 }
 
 #timer-first-page {
+	width: calc(var(--chatbox-width) * 0.75);
+	height: 100%;
 	background-color: transparent;
 	text-align: center;
+	top: calc(0px - var(--chatbox-height) + var(--chatbox-border) * 2);
+	float: right;
 }
 
 #timer-second-page {
-	left: var(--chatbox-width);
-	top: calc(0px - var(--chatbox-height) + var(--chatbox-border) * 2);
+	z-index: 10;
+	width: calc(var(--chatbox-width) * 0.25);
+	height: 100%;
 	background-color: transparent;
-	/*display: flex;
-	justify-content:center;
-	align-items:center;*/
 }
 
 #day-selector {
@@ -610,11 +612,11 @@ textarea.notes {
 	margin-left: auto;
 	margin-right: auto;
 	border-bottom: solid 3px grey;
-	cursor: pointer;
+	/*cursor: pointer;*/
 }
 
 #day-selector-label {
-	cursor: pointer;
+	/*cursor: pointer;*/
 	width: 100%;
 	color: black;
 	font-weight: 800;
@@ -635,6 +637,8 @@ textarea.notes {
 }
 
 #time-setter {
+	/*background-color: red;*/
+	/*margin-top: -10px;*/
 	width: 100%;
 	height: calc(100% - 50px - var(--timer-check-height));
 	display: flex;
@@ -642,14 +646,30 @@ textarea.notes {
 	align-items:center;
 }
 
+#time-setter:after {
+	content: "";
+	position: absolute;
+	z-index: 1;
+	left: 0;
+	bottom: calc(var(--timer-check-height) + 10px);
+	pointer-events: none;
+	background-image: linear-gradient(to bottom, rgba(252, 242, 216, 1), rgba(252, 242, 216, 0) 30%, rgba(252, 242, 216, 0) 70%, rgba(252,242,216, 1) 100%);
+	width: 100%;
+	height: var(--time-height);
+}
+
 #check-block {
+	z-index: 10;
 	height: var(--timer-check-height);
-	width: var(--chatbox-width);
+	width: calc(var(--chatbox-width) * 0.75);
 	display: flex;
+	margin-top: -20px;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
 	cursor: pointer;
+	-webkit-transition: opacity .5s ease-in-out;
+	transition: opacity .5s ease-in-out;
 	/*transform: translate();*/
 }
 
@@ -679,18 +699,11 @@ textarea.notes {
 	transform: scale(1.5);
 }
 
-.time-setter-punctuation {
-	float: left;
-	font-size: 80px;
-}
-
 .time-setter-time {
 	float: left;
 	font-size: 75px;
-	height: 112px;
+	height: var(--time-height);
 	width: 95px;
-	-ms-overflow-style: none;
-	scrollbar-width: none;
 }
 
 .time-setter-time::-webkit-scrollbar {
@@ -703,12 +716,10 @@ textarea.notes {
 }
 
 #time-setter-hour {
-	transform: translate(0, 10px);
 	overflow: auto;
 }
 
 #time-setter-minute {
-	transform: translate(0, 10px);
 	overflow: auto;
 }
 
@@ -726,20 +737,23 @@ textarea.notes {
 
 .time-punctuation {
 	/*font-family: scribbleFont;*/
-	transform: translate(0, 10px);
-	font-size: 70px;
-	height: 120px;
+	font-size: 75px;
+	height: var(--time-height);
 }
 
 #time-setter-ap {
 	font-size: 15px;
-	transform: translate(5px, 22px);
+	transform: translate(0px, 10px);
 }
 
 #day-list {
 	width: 100%;
-	height: calc(100% - var(--vector-height));
+	height: 100%;
 	overflow: auto;
+}
+
+#day-list::-webkit-scrollbar {
+	display: none;
 }
 
 .day-option {

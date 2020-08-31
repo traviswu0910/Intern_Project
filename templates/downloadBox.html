@@ -1,7 +1,14 @@
 <!-- downloadBox.html -->
 
-<div id="downloadBox">
+<div id="downloadBox" class="hide">
 	<div id="downloadBox-fore">
+		<div id="download-link-block">
+			<p id="download-link"></p>
+			<input id="download-link-clipboard" class="hide" type="text">
+		</div>
+		<div id="copy-button">
+			<img id="copy-icon" src="/static/img/copy.png" onclick="copyLink()">
+		</div>
 	</div>
 	<div id="downloadBox-back">
 	</div>
