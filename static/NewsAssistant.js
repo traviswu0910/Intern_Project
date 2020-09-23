@@ -466,9 +466,9 @@ function showNote(i, j) {
 }
 
 function updateNote(ele, i, news) {
-	if (ele.value!='') {
-		userNote(news, i, ele.value);
-	}
+	// if (ele.value!='') {
+	// 	userNote(news, i, ele.value);
+	// }
 }
 
 function uploadPortfolio() {
@@ -946,7 +946,7 @@ function downloadBox(link) {
 	let box = get('downloadBox');
 	if (box.classList.contains('hide')) {
 		showDownloadBox(link);
-		downloadData();
+		downloadData(); 
 	}
 	else
 		hideDownloadBox();
